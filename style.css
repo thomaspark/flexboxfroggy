@@ -36,6 +36,7 @@ code {
   font-family: 'Source Code Pro', monospace;
   font-weight: 900;
   color: rgba(255, 255, 255, 0.8);
+  white-space: nowrap;
 }
 
 li {
