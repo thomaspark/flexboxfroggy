@@ -129,7 +129,6 @@ var game = {
 
           if ($('.tooltip').length === 0) {
             var tooltip = $('<div class="tooltip"></div>').html(docs[text]);
-            console.log(code.offset);
             var tooltipX = code.offset().left;
             var tooltipY = code.offset().top + code.height() + 13;
 
