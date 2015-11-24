@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  background-color: #43A047;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'PT Sans', sans-serif;
+}
+
+section {
+  width: 50%;
+  min-height: 100%;
+}
+
+h1 {
+  margin: 0 0 0.5em;
+  text-transform: uppercase;
+  font-family: 'Fredoka One', cursive;
+  font-size: 28px;
+}
+
+pre {
+  margin: 0;
+}
+
+code {
+  padding: 0 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+li {
+  line-height: 1.5;
+}
+
+#credits {
+  width: 100%;
+  position: absolute;
+  bottom: 2em;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#credits a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+#credits a:hover {
+  color: #fff;
+}
+
+#sidebar {
+  position: relative;
+  padding: 2em 2em 6em;
+  background-color: #43A047;
+  font-size: 17px;
+}
+
+#editor {
+  position: relative;
+}
+
+#editor,
+pre {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #aaa;
+}
+
+#css {
+  height: 260px;
+  position: relative;
+  padding: 10px 10px 10px 40px;
+  background-color: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.line-numbers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 6px;
+  text-align: right;
+  background-color: #999;
+  color: #D5D5D5;
+}
+
+#code {
+  display: block;
+  width: calc(100% - 16px);
+  height: 24px;
+  margin-left: 16px;
+  border: none;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+}
+
+#level-counter {
+  float: right;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.arrow {
+  display: inline-block;
+  font-family: 'Comic Sans MS';
+  padding: 0.25em 0.4em 0.2em;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.arrow.left {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.arrow.right {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  background-color: #D34826;
+  border-radius: 4px;
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button:hover {
+  background-color: #AA2A12;
+}
+
+#submit {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+
+#board {
+  position: relative;
+  width: 50vw;
+  height: 50vw;
+  min-width: 300px;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+#pond,
+#background {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+}
+
+#background {
+  z-index: 10;
+  border-radius: 0 0 0 10px;
+  background-color: #1F5768;
+}
+
+#pond {
+  z-index: 20;
+}
+
+.lilypad,
+.frog {
+  position: relative;
+  width: 20%;
+  height: 20%;
+  overflow: hidden;
+}
+
+.frog.bounceOutUp {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.lilypad .bg,
+.frog .bg {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.frog .bg {
+  background-size: 60%;
+}
+
+.lilypad.green .bg {
+  background-image: url("images/lilypad-green.png");
+}
+
+.lilypad.red .bg {
+  background-image: url("images/lilypad-red.png");
+}
+
+.lilypad.yellow .bg {
+  background-image: url("images/lilypad-yellow.png");
+}
+
+.frog.green .bg {
+  background-image: url("images/frog-green.png");
+}
+
+.frog.red .bg {
+  background-image: url("images/frog-red.png");
+}
+
+.frog.yellow .bg {
+  background-image: url("images/frog-yellow.png");
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
