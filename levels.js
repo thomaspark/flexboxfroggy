@@ -1,7 +1,7 @@
 var levels = [
   {
     name: 'justify-content 1',
-    instructions: 'Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code! Guide this frog get to its lilypad by using the <code>justify-content</code> property, which aligns items horizontally and accepts the following values:<ul><li><code>flex-start</code>: Items align to the left side of the container.</li><li><code>flex-end</code>: Items align to the right side of the container.</li><li><code>center</code>: Items align at the center of the container.</li><li><code>space-between</code>: Items display with equal spacing between them.</li><li><code>space-around</code>: Items display with equal spacing around them.</li></ul><p>For example, <code>justify-content: center;</code> will center the frog.</p>',
+    instructions: 'Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code! Guide this frog get to the lilypad on the right by using the <code>justify-content</code> property, which aligns items horizontally and accepts the following values:<ul><li><code>flex-start</code>: Items align to the left side of the container.</li><li><code>flex-end</code>: Items align to the right side of the container.</li><li><code>center</code>: Items align at the center of the container.</li><li><code>space-between</code>: Items display with equal spacing between them.</li><li><code>space-around</code>: Items display with equal spacing around them.</li></ul><p>For example, <code>justify-content: center;</code> will center the frog.</p>',
     board: 'g',
     style: {'justify-content': 'flex-end'},
     before: "#pond {\n  display: flex;\n",
@@ -105,7 +105,7 @@ var levels = [
   },
   {
     name: 'order 1',
-    instructions: 'Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the <code>order</code> property to individual items. This property accepts positive and negative integer values. Items have a default value of 0.<p>Use the <code>order</code> property to reorder the frogs according to their lilypads.',
+    instructions: 'Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the <code>order</code> property to individual items. By default, items have a value of 0, but we can use this property to set it to a positive or negative integer value. <p>Use the <code>order</code> property to reorder the frogs according to their lilypads.',
     board: 'gyr',
     selector: '> :nth-child(2)',
     classes: {'#pond, #background': 'wrap'}, 
@@ -125,7 +125,7 @@ var levels = [
   },
   {
     name: 'align-self 1',
-    instructions: 'Another property you can apply to individual items is <code>align-self</code>. This property accepts the same values as <code>align-items</code> and overrides the container value.',
+    instructions: 'Another property you can apply to individual items is <code>align-self</code>. This property accepts the same values as <code>align-items</code> and its value for the specific item.',
     board: 'ggygg',
     selector: '> :nth-child(3)',
     style: {'align-self': 'flex-end'},
@@ -159,7 +159,7 @@ var levels = [
   },
   {
     name: 'flex-flow 1',
-    instructions: 'The two properties <code>flex-direction</code> and <code>flex-wrap</code> are used so often together that the shorthand property <code>flex-flow</code> was created to combine them. This shorthand property accepts the value of <code>flex-direction</code>, followed by a space, then the value of <code>flex-wrap</code>.<p>For example, you can use <code>flex-flow: row wrap</code> to set rows and wrap them.</p><p>Try using <code>flex-flow</code> to repeat the previous level.</p>',
+    instructions: 'The two properties <code>flex-direction</code> and <code>flex-wrap</code> are used so often together that the shorthand property <code>flex-flow</code> was created to combine them. This shorthand property accepts the value of of the two properties separated by a space.<p>For example, you can use <code>flex-flow: row wrap</code> to set rows and wrap them.</p><p>Try using <code>flex-flow</code> to repeat the previous level.</p>',
     board: 'gggggrrrrryyyyy',
     style: {'flex-flow': 'column wrap'},
     before: "#pond {\n  display: flex;\n",
