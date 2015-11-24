@@ -65,7 +65,35 @@ li {
   position: relative;
   padding: 2em 2em 6em;
   background-color: #43A047;
-  font-size: 17px;
+  font-size: 16px;
+}
+
+.help {
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.tooltip {
+  position: absolute;
+  max-width: 225px;
+  padding: 0 1em 1em;
+  background-color: #2c3e50;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  z-index: 300;
+}
+
+.tooltip:after {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  width: 0; 
+  height: 0; 
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #2c3e50;
 }
 
 #editor {

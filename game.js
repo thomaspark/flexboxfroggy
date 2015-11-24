@@ -75,6 +75,8 @@ var game = {
     $('#level-counter .current').text(this.level + 1);
     $('#instructions').html(level.instructions);
 
+    this.loadDocs();
+
     $('#before').text(level.before);
     $('#after').text(level.after);
 
@@ -113,6 +115,31 @@ var game = {
 
     var selector = level.selector || '';
     $('#background ' + selector).css(level.style);
+  },
+
+  loadDocs: function() {
+    $('#instructions code').each(function() {
+      var code = $(this);
+      var text = code.text();
+
+      if (docs.hasOwnProperty(text)) {
+        code.addClass('help');
+
+        code.on('mouseenter', function(e) {
+
+          if ($('.tooltip').length === 0) {
+            var tooltip = $('<div class="tooltip"></div>').html(docs[text]);
+            console.log(code.offset);
+            var tooltipX = code.offset().left;
+            var tooltipY = code.offset().top + code.height() + 13;
+
+            tooltip.css({top: tooltipY, left: tooltipX}).appendTo($('body'));
+          }
+        }).on('mouseleave', function() {
+          $('.tooltip').remove();
+        });
+      }
+    });
   },
 
   check: function(level) {
