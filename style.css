@@ -52,12 +52,11 @@ li {
   color: rgba(255, 255, 255, 0.4);
 }
 
-#credits a {
+a {
   color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
 }
 
-#credits a:hover {
+a:hover {
   color: #fff;
 }
 
@@ -94,6 +93,19 @@ li {
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 12px solid #2c3e50;
+}
+
+#share {
+  display: none;
+}
+
+.social {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.fb-like {
+  vertical-align: top;
 }
 
 #editor {
@@ -243,6 +255,27 @@ pre {
   -moz-animation-delay: 1s;
   -ms-animation-delay: 1s;
   animation-delay: 1s;
+}
+
+.frog .bg.bounce {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -ms-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.frog.yellow .bg.bounce {
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -ms-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+.frog.red .bg.bounce {
+  -webkit-animation-delay: .6s;
+  -moz-animation-delay: .6s;
+  -ms-animation-delay: .6s;
+  animation-delay: .6s;
 }
 
 .lilypad .bg,

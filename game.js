@@ -3,6 +3,8 @@ var game = {
 
   start: function() {
     $('#level-counter .total').text(levels.length);
+    $('#editor').show();
+    $('#share').hide();
 
     $('#submit').on('click', function() {
       var level = levels[game.level];
@@ -38,6 +40,9 @@ var game = {
     });
 
     $('.arrow').on('click', function() {
+      $('#editor').show();
+      $('#share').hide();
+
       $('#code').focus();
     });
 
@@ -206,7 +211,21 @@ var game = {
   },
 
   win: function() {
-    $('#instructions').text('You win! Thanks to your mastery of flexbox, you were able to bring all of the frogs to safety.');
+    var level =   {
+        name: 'win',
+        instructions: '<p>You win! Thanks to your mastery of flexbox, you were able to help all of the frogs to their lilypads. Just look how hoppy they are!</p>',
+        board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
+        classes: {'#pond, #background': 'wrap'},
+        style: {},
+        before: "#pond {\n  display: flex;\n",
+        after: "}",
+      };
+
+    this.loadLevel(level);
+
+    $('#editor').hide();
+    $('#share').show();
+    $('.frog .bg').removeClass('pulse').addClass('bounce');
   },
 
   transform: function() {
