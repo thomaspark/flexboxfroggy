@@ -179,7 +179,7 @@ pre {
 .button {
   display: inline-block;
   padding: 0.4em 0.8em;
-  background-color: #D34826;
+  background-color: #D11606;
   border-radius: 4px;
   font-family: 'PT Sans', sans-serif;
   color: #fff;
@@ -191,7 +191,7 @@ pre {
 }
 
 .button:hover {
-  background-color: #AA2A12;
+  background-color: #F12D22;
 }
 
 #submit {
