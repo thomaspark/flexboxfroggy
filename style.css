@@ -151,6 +151,12 @@ pre {
   user-select: none;
 }
 
+.level {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
 .arrow {
   display: inline-block;
   font-family: 'Comic Sans MS';
