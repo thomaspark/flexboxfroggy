@@ -164,16 +164,16 @@ pre {
   cursor: pointer;
 }
 
-.arrow:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
 .arrow.left {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .arrow.right {
   border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.arrow.disabled {
+  opacity: 0.5;
 }
 
 .button {

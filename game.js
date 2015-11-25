@@ -74,11 +74,20 @@ var game = {
 
     $('#level-counter .current').text(this.level + 1);
     $('#instructions').html(level.instructions);
-
-    this.loadDocs();
-
     $('#before').text(level.before);
     $('#after').text(level.after);
+
+    $('.arrow.disabled').removeClass('disabled');
+
+    if (this.level === 0) {
+      $('.arrow.left').addClass('disabled');
+    }
+
+    if (this.level === levels.length - 1) {
+      $('.arrow.right').addClass('disabled');
+    }
+
+    this.loadDocs();
 
     var lines = Object.keys(level.style).length;
     $('#code').height(20 * lines).data("lines", lines);
