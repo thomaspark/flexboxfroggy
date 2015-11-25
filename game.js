@@ -1,5 +1,6 @@
 var game = {
-  level: parseInt(localStorage.level, 10) || 0,
+  level: parseInt(localStorage.level, 10) - 1 || 0,
+  answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
 
   start: function() {
     $('#level-counter .total').text(levels.length);
@@ -12,6 +13,8 @@ var game = {
       var selector = level.selector || '';
       $('#pond ' +  selector).attr('style', code);
       $('#code').focus();
+
+      game.saveAnswer();
       game.check(level);
     });
 
@@ -44,38 +47,45 @@ var game = {
       $('#share').hide();
 
       $('#code').focus();
+      game.saveAnswer();
     });
 
     $('.arrow.left').on('click', function() {
       if (game.level >= 1) {
-        game.level--;
-      } else {
-        game.level = 0;
+        game.prev();
       }
-
-      game.loadLevel(game.level);
     });
 
     $('.arrow.right').on('click', function() {
       if (game.level < (levels.length - 1)) {
-        game.level++;
-      } else {
-        game.level = levels.length - 1;
+        game.next();
       }
-
-      game.loadLevel(game.level);
     });
 
-    this.loadLevel(this.level);
+    game.next();
+  },
+
+  prev: function() {
+    this.level--;
+
+    var levelData = levels[this.level];
+    localStorage.setItem('level', this.level);
+    this.loadLevel(levelData);
+  },
+
+  next: function() {
+    this.level++;
+
+    var levelData = levels[this.level];
+    localStorage.setItem('level', this.level);
+    this.loadLevel(levelData);
   },
 
   loadLevel: function(level) {
-    level = levels[level] || levels[this.level];
-
-    localStorage.setItem('level', this.level);
-
     $('#background, #pond').removeClass('wrap').attr('style', '').empty();
-    $('#code').val('');
+
+    var answer = game.answers[level.name];
+    $('#code').val(answer);
 
     $('#level-counter .current').text(this.level + 1);
     $('#instructions').html(level.instructions);
@@ -184,14 +194,16 @@ var game = {
       });
 
       if (game.level >= levels.length - 1) {
-        game.win();
-      } else { 
-        game.level++;
-
-          $('.frog').addClass('animated bounceOutUp');
+        $('.frog').addClass('animated bounceOutUp');
 
         setTimeout(function() {
-          game.loadLevel();
+          game.win();
+        }, 2500);
+      } else {
+        $('.frog').addClass('animated bounceOutUp');
+
+        setTimeout(function() {
+          game.next();
         }, 2500);
       }
     } else {
@@ -204,6 +216,12 @@ var game = {
 
       this.tryagain();
     }
+  },
+
+  saveAnswer: function() {
+    var level = levels[this.level];
+    game.answers[level.name] = $('#code').val();
+    localStorage.setItem('answers', JSON.stringify(game.answers));
   },
 
   tryagain: function() {
