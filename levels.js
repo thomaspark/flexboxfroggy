@@ -136,7 +136,7 @@ var levels = [
     name: 'align-self 2',
     instructions: 'Combine <code>order</code> with <code>align-self</code> to help the frogs to their destinations.',
     board: 'ygygg',
-    selector: '> .blue',
+    selector: '> .yellow',
     style: {'align-self': 'flex-end', 'order': '2'},
     before: "#pond {\n  display: flex;\n  align-items: flex-start\n}\n\n.yellow {\n",
     after: "}",
