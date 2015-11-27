@@ -62,6 +62,10 @@ var game = {
       }
     });
 
+    $(window).on('beforeunload', function() {
+      game.saveAnswer();
+    });
+
     game.next();
   },
 
