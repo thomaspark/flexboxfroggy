@@ -1,6 +1,7 @@
 var game = {
-  level: parseInt(localStorage.level, 10) - 1 || 0,
+  level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
+  solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
 
   start: function() {
     $('#level-counter .total').text(levels.length);
@@ -42,38 +43,34 @@ var game = {
       $(this).removeClass();
     });
 
-    $('.arrow').on('click', function() {
-      $('#editor').show();
-      $('#share').hide();
+    $('#levels').on('click', '.reset', function() {
+      var r = confirm('Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.');
 
-      $('#code').focus();
-      game.saveAnswer();
-    });
+      if (r) {
+        game.level = 0;
+        game.answers = {};
+        game.solved = [];
+        game.loadLevel(levels[0]);
 
-    $('.arrow.left').on('click', function() {
-      if (game.level >= 1) {
-        game.prev();
-      }
-    });
-
-    $('.arrow.right').on('click', function() {
-      if (game.level < (levels.length - 1)) {
-        game.next();
+        $('.level-marker').removeClass('solved');
       }
     });
 
     $(window).on('beforeunload', function() {
       game.saveAnswer();
+      localStorage.setItem('level', game.level);
+      localStorage.setItem('answers', JSON.stringify(game.answers));
+      localStorage.setItem('solved', JSON.stringify(game.solved));
     });
 
-    game.next();
+    this.loadMenu();
+    game.loadLevel(levels[game.level]);
   },
 
   prev: function() {
     this.level--;
 
     var levelData = levels[this.level];
-    localStorage.setItem('level', this.level);
     this.loadLevel(levelData);
   },
 
@@ -81,15 +78,59 @@ var game = {
     this.level++;
 
     var levelData = levels[this.level];
-    localStorage.setItem('level', this.level);
     this.loadLevel(levelData);
   },
 
+  loadMenu: function() {
+    levels.forEach(function(level, i) {
+      var levelMarker = $('<span/>').addClass('level-marker').attr('data-level', i).text(i+1);
+
+      if ($.inArray(level.name, game.solved) !== -1) {
+        levelMarker.addClass('solved');
+      }
+
+      levelMarker.appendTo('#levels');
+    });
+
+    var reset = $('<div/>').addClass('reset').text('Reset');
+    $('#levels').append(reset);
+
+    $('.level-marker').on('click', function() {
+      game.saveAnswer();
+
+      var level = $(this).attr('data-level');
+      game.level = parseInt(level, 10);
+      game.loadLevel(levels[level]);
+    });
+
+    $('#level-indicator').on('click', function() {
+      $('#levels').toggleClass('show');
+    });
+
+    $('.arrow.left').on('click', function() {
+      if (game.level >= 1) {
+        game.saveAnswer();
+        game.prev();
+      }
+    });
+
+    $('.arrow.right').on('click', function() {
+      if (game.level < (levels.length - 1)) {
+        game.saveAnswer();
+        game.next();
+      }
+    });
+  },
+
   loadLevel: function(level) {
+    $('#editor').show();
+    $('#share').hide();
     $('#background, #pond').removeClass('wrap').attr('style', '').empty();
+    $('#levels').removeClass('show');
+    $('.level-marker').removeClass('current').eq(this.level).addClass('current');
 
     var answer = game.answers[level.name];
-    $('#code').val(answer);
+    $('#code').val(answer).focus();
 
     $('#level-counter .current').text(this.level + 1);
     $('#instructions').html(level.instructions);
@@ -155,15 +196,15 @@ var game = {
 
         code.on('mouseenter', function(e) {
 
-          if ($('.tooltip').length === 0) {
+          if ($('#instructions .tooltip').length === 0) {
             var tooltip = $('<div class="tooltip"></div>').html(docs[text]);
             var tooltipX = code.offset().left;
             var tooltipY = code.offset().top + code.height() + 13;
 
-            tooltip.css({top: tooltipY, left: tooltipX}).appendTo($('body'));
+            tooltip.css({top: tooltipY, left: tooltipX}).appendTo($('#instructions'));
           }
         }).on('mouseleave', function() {
-          $('.tooltip').remove();
+          $('#instructions .tooltip').remove();
         });
       }
     });
@@ -197,19 +238,23 @@ var game = {
         eventLabel: $('#code').val()
       });
 
-      if (game.level >= levels.length - 1) {
-        $('.frog').addClass('animated bounceOutUp');
+      $('[data-level=' + game.level + ']').addClass('solved');
 
-        setTimeout(function() {
-          game.win();
-        }, 2500);
-      } else {
-        $('.frog').addClass('animated bounceOutUp');
-
-        setTimeout(function() {
-          game.next();
-        }, 2500);
+      if ($.inArray(level.name, game.solved) === -1) {
+        game.solved.push(level.name);
       }
+
+      $('.frog').addClass('animated bounceOutUp');
+
+      setTimeout(function() {
+        if (game.level >= levels.length - 1) {
+          game.win();
+        } else {
+          game.next();
+        }
+      }, 2500);
+
+      
     } else {
       ga('send', {
         hitType: 'event',
@@ -225,7 +270,6 @@ var game = {
   saveAnswer: function() {
     var level = levels[this.level];
     game.answers[level.name] = $('#code').val();
-    localStorage.setItem('answers', JSON.stringify(game.answers));
   },
 
   tryagain: function() {
@@ -243,9 +287,12 @@ var game = {
         after: "}",
       };
 
+    var solution = $('#code').val();
+
     this.loadLevel(level);
 
     $('#editor').hide();
+    $('#code').val(solution);
     $('#share').show();
     $('.frog .bg').removeClass('pulse').addClass('bounce');
   },

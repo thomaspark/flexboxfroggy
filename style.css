@@ -154,6 +154,7 @@ pre {
 
 #level-counter {
   float: right;
+  position: relative;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 4px;
@@ -164,10 +165,70 @@ pre {
   user-select: none;
 }
 
-.level {
+#levels {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 30px;
+  right: 0;
+  max-width: none;
+  padding-top: 1em;
+  margin-top: 12px;
+}
+
+#levels.show {
+  display: flex;
+}
+
+#levels:after {
+  left: calc(50% - 12px);
+}
+
+.level-marker {
+  float: left;
   display: inline-block;
-  width: 100px;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  line-height: 26px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid transparent;
+  border-radius: 50%;
   text-align: center;
+  cursor: pointer;
+}
+
+.level-marker.current,
+.level-marker:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.level-marker.solved {
+  background-color: #228B24;
+}
+
+#level-indicator,
+.arrow {
+  float: left;
+  height: 30px;
+}
+
+#level-indicator {
+  display: inline-block;
+  width: 110px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#level-indicator:hover,
+.arrow:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.reset {
+  margin-top: 1em;
+  cursor: pointer;
 }
 
 .arrow {
@@ -178,11 +239,16 @@ pre {
 }
 
 .arrow.left {
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .arrow.right {
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.arrow.left:hover,
+.arrow.right:hover {
+  border-color: transparent;
 }
 
 .arrow.disabled {

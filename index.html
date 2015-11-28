@@ -16,7 +16,12 @@
   <body>
     <section id="sidebar">
       <div>
-        <div id="level-counter"><span class="arrow left">◀</span> <span class="level">Level <span class="current">1</span> of <span class="total">1</span></span> <span class="arrow right">▶</span></div>
+        <div id="level-counter">
+          <span class="arrow left">◀</span>
+          <span id="level-indicator">Level <span class="current">1</span> of <span class="total">1</span></span>
+          <span class="arrow right">▶</span>
+          <div id="levels" class="tooltip"></div>
+        </div>
         <h1>Flexbox Froggy</h1>
         <p id="instructions"></p>
         <p id="docs"></p>
