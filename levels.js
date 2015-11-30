@@ -159,7 +159,7 @@ var levels = [
   },
   {
     name: 'flex-flow 1',
-    instructions: 'The two properties <code>flex-direction</code> and <code>flex-wrap</code> are used so often together that the shorthand property <code>flex-flow</code> was created to combine them. This shorthand property accepts the value of of the two properties separated by a space.<p>For example, you can use <code>flex-flow: row wrap</code> to set rows and wrap them.</p><p>Try using <code>flex-flow</code> to repeat the previous level.</p>',
+    instructions: 'The two properties <code>flex-direction</code> and <code>flex-wrap</code> are used so often together that the shorthand property <code>flex-flow</code> was created to combine them. This shorthand property accepts the value of one of the two properties separated by a space.<p>For example, you can use <code>flex-flow: row wrap</code> to set rows and wrap them.</p><p>Try using <code>flex-flow</code> to repeat the previous level.</p>',
     board: 'gggggrrrrryyyyy',
     style: {'flex-flow': 'column wrap'},
     before: "#pond {\n  display: flex;\n",
