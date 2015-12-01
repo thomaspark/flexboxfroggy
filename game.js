@@ -21,6 +21,12 @@ var game = {
 
     $('#code').on('keydown', function(e) {
       if (e.keyCode === 13) {
+        if (e.ctrlKey || e.metaKey) {
+          e.preventDefault();
+          $('#submit').click();
+          return
+        }
+
         var max = $(this).data('lines');
         var code = $(this).val();
         var trim = code.trim();
