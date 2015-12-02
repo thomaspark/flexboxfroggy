@@ -129,7 +129,7 @@ var levels = [
     board: 'ggygg',
     selector: '> :nth-child(3)',
     style: {'align-self': 'flex-end'},
-    before: "#pond {\n  display: flex;\n  align-items: flex-start\n}\n\n.yellow {\n",
+    before: "#pond {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
     after: "}",
   },
   {
@@ -138,7 +138,7 @@ var levels = [
     board: 'ygygg',
     selector: '> .yellow',
     style: {'align-self': 'flex-end', 'order': '2'},
-    before: "#pond {\n  display: flex;\n  align-items: flex-start\n}\n\n.yellow {\n",
+    before: "#pond {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
     after: "}",
   },
   {
@@ -171,7 +171,7 @@ var levels = [
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'}, 
     style: {'align-content': 'flex-start'},
-    before: "#pond {\n  display: flex;\n  flex-wrap: wrap\n",
+    before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}",
   },
   {
@@ -180,7 +180,7 @@ var levels = [
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'}, 
     style: {'align-content': 'flex-end'},
-    before: "#pond {\n  display: flex;\n  flex-wrap: wrap\n",
+    before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}",
   },
   {
@@ -189,7 +189,7 @@ var levels = [
     board: 'rgggyrgggyrgggy',
     classes: {'#pond, #background': 'wrap'}, 
     style: {'flex-direction': 'column-reverse', 'align-content': 'center'},
-    before: "#pond {\n  display: flex;\n  flex-wrap: wrap\n",
+    before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}",
   },
   {
