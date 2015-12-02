@@ -24,7 +24,7 @@ var game = {
         if (e.ctrlKey || e.metaKey) {
           e.preventDefault();
           $('#submit').click();
-          return
+          return;
         }
 
         var max = $(this).data('lines');
@@ -114,14 +114,14 @@ var game = {
     });
 
     $('.arrow.left').on('click', function() {
-      if (game.level >= 1) {
+      if (!$(this).hasClass('disabled')) {
         game.saveAnswer();
         game.prev();
       }
     });
 
     $('.arrow.right').on('click', function() {
-      if (game.level < (levels.length - 1)) {
+      if (!$(this).hasClass('disabled')) {
         game.saveAnswer();
         game.next();
       }
@@ -244,13 +244,13 @@ var game = {
         eventLabel: $('#code').val()
       });
 
-      $('[data-level=' + game.level + ']').addClass('solved');
-
       if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
       }
 
+      $('[data-level=' + game.level + ']').addClass('solved');
       $('.frog').addClass('animated bounceOutUp');
+      $('.arrow').addClass('disabled');
 
       setTimeout(function() {
         if (game.level >= levels.length - 1) {

@@ -222,7 +222,7 @@ pre {
 }
 
 #level-indicator:hover,
-.arrow:hover {
+.arrow:not(.disabled):hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -246,8 +246,8 @@ pre {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.arrow.left:hover,
-.arrow.right:hover {
+.arrow.left:not(.disabled):hover,
+.arrow.right:not(.disabled):hover {
   border-color: transparent;
 }
 
