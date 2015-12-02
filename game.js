@@ -222,13 +222,21 @@ var game = {
     var correct = true;
 
     $('.frog').each(function() {
-      var key = JSON.stringify($(this).position());
+      var position = $(this).position();
+      position.top = Math.floor(position.top);
+      position.left = Math.floor(position.left);
+
+      var key = JSON.stringify(position);
       var val = $(this).data('color');
       frogs[key] = val;
     });
 
     $('.lilypad').each(function() {
-      var key = JSON.stringify($(this).position());
+      var position = $(this).position();
+      position.top = Math.floor(position.top);
+      position.left = Math.floor(position.left);
+
+      var key = JSON.stringify(position);
       var val = $(this).data('color');
 
       if (!(key in frogs) || frogs[key] !== val) {
