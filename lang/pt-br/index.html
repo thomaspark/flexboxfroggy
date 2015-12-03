@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox Froggy - Um jogo para aprender CSS flexbox</title>
+    <meta property="og:url"           content="http://flexboxfroggy.com">
+    <meta property="og:type"          content="website">
+    <meta property="og:title"         content="Flexbox Froggy">
+    <meta property="og:description"   content="A game for learning CSS flexbox">
+    <meta property="og:image"         content="http://flexboxfroggy.com/images/screenshot.png">
+    <meta property="fb:app_id"        content="916849395036923">
+    <meta name="twitter:url"          content="http://flexboxfroggy.com">
+    <meta name="twitter:title"        content="Flexbox Froggy">
+    <meta name="twitter:description"  content="A game for learning CSS flexbox">
+    <meta name="twitter:image"        content="http://flexboxfroggy.com/images/screenshot.png">
+    <link rel="stylesheet" href="../../node_modules/animate.css/animate.min.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans|Fredoka+One|Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../css/style.css">
+  </head>
+  <body>
+    <section id="sidebar">
+      <div>
+        <div id="level-counter">
+          <span class="arrow left">◀</span>
+          <span id="level-indicator">Nível <span class="current">1</span> de <span class="total">1</span></span>
+          <span class="arrow right">▶</span>
+          <div id="levels" class="tooltip"></div>
+        </div>
+        <h1>Flexbox Froggy</h1>
+        <p id="instructions"></p>
+        <p id="docs"></p>
+      </div>
+      <div id="editor">
+        <div id="css">
+          <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</div>
+          <pre id="before"></pre>
+          <textarea id="code" autofocus></textarea>
+          <pre id="after"></pre>
+        </div>
+        <div id="next" class="button">Próximo</div>
+      </div>
+      <div id="share">
+        <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="thomashpark">Tweet</a>
+        <a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>
+        <span class="fb-like" data-href="https://flexboxfroggy.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
+      </div>
+      <div id="credits">
+        <p>Flexbox Froggy foi criado por <a href="http://thomaspark.co">Thomas Park</a></p>
+        <p><a href="http://github.com/thomaspark/flexboxfroggy/">GitHub</a> • <a href="https://twitter.com/thomashpark">Twitter</a></p>
+      </div>
+    </section>
+    <section id="view">
+      <div id="board">
+        <div id="pond">
+        </div>
+        <div id="background">
+        </div>
+      </div>
+    </section>
+    <script>
+      var lang = 'pt-br';
+    </script>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../js/levels.js"></script>
+    <script src="../../js/docs.js"></script>
+    <script src="../../js/game.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-23019901-13', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=916849395036923";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  </body>
+</html>
