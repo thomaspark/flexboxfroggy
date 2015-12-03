@@ -1,3 +1,5 @@
+var lang = lang || 'en';
+
 var game = {
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
@@ -153,10 +155,20 @@ var game = {
     $('#levels').removeClass('show');
     $('.level-marker').removeClass('current').eq(this.level).addClass('current');
     $('#level-counter .current').text(this.level + 1);
-    $('#instructions').html(level.instructions);
     $('#before').text(level.before);
     $('#after').text(level.after);
     $('#next').addClass('disabled');
+
+    var instructions;
+
+    if (lang in level.instructions) {
+      instructions = level.instructions[lang];
+    } else {
+      instructions = level.instructions.en;
+    }
+
+    $('#instructions').html(instructions);
+
     $('.arrow.disabled').removeClass('disabled');
 
     if (this.level === 0) {
@@ -217,17 +229,21 @@ var game = {
       var code = $(this);
       var text = code.text();
 
-      if (docs.hasOwnProperty(text)) {
+      if (text in docs) {
         code.addClass('help');
-
         code.on('mouseenter', function(e) {
-
           if ($('#instructions .tooltip').length === 0) {
-            var tooltip = $('<div class="tooltip"></div>').html(docs[text]);
+            var html;
+
+            if (lang in docs[text]) {
+              html = docs[text][lang];
+            } else {
+              html = docs[text].en;
+            }
+
             var tooltipX = code.offset().left;
             var tooltipY = code.offset().top + code.height() + 13;
-
-            tooltip.css({top: tooltipY, left: tooltipX}).appendTo($('#instructions'));
+            $('<div class="tooltip"></div>').html(html).css({top: tooltipY, left: tooltipX}).appendTo($('#instructions'));
           }
         }).on('mouseleave', function() {
           $('#instructions .tooltip').remove();
@@ -314,19 +330,9 @@ var game = {
   },
 
   win: function() {
-    var level =   {
-        name: 'win',
-        instructions: '<p>You win! Thanks to your mastery of flexbox, you were able to help all of the frogs to their lilypads. Just look how hoppy they are!</p>',
-        board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
-        classes: {'#pond, #background': 'wrap'},
-        style: {},
-        before: "#pond {\n  display: flex;\n",
-        after: "}",
-      };
-
     var solution = $('#code').val();
 
-    this.loadLevel(level);
+    this.loadLevel(levelWin);
 
     $('#editor').hide();
     $('#code').val(solution);

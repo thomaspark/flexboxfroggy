@@ -112,7 +112,8 @@ var levels = [
   {
     name: 'flex-direction 5',
     instructions: {
-      'en': '<p>Help the frogs find their lilypads using <code>flex-direction</code> and <code>justify-content</code>.</p>'
+      'en': '<p>Help the frogs find their lilypads using <code>flex-direction</code> and <code>justify-content</code>.</p>',
+      'es': '<p>Ayuda a las ranas encuentran sus hojas de nenúfar usando <code>flex-direction</code> y <code>justify-content</code>.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'column-reverse', 'justify-content': 'space-between'},
@@ -249,3 +250,15 @@ var levels = [
     after: "}",
   }
 ];
+
+var levelWin = {
+  name: 'win',
+  instructions: {
+    'en': '<p>You win! Thanks to your mastery of flexbox, you were able to help all of the frogs to their lilypads. Just look how hoppy they are!</p><p>If you found this ribbeting, check out my other projects on my <a href="http://thomaspark.co">blog</a> or <a href="http://twitter.com/thomashpark">Twitter</a>, and be sure to share Flexbox Froggy with your friends!</p>'
+  },
+  board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
+  classes: {'#pond, #background': 'wrap'},
+  style: {},
+  before: "#pond {\n  display: flex;\n",
+  after: "}",
+};
