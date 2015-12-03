@@ -8,22 +8,36 @@ var game = {
     $('#editor').show();
     $('#share').hide();
 
-    $('#submit').on('click', function() {
-      var level = levels[game.level];
-      var code = $('#code').val();
-      var selector = level.selector || '';
-      $('#pond ' +  selector).attr('style', code);
+    $('#next').on('click', function() {
       $('#code').focus();
 
-      game.saveAnswer();
-      game.check(level);
+      if ($(this).hasClass('disabled')) {
+        if (!$('.frog').hasClass('animated')) {
+          game.tryagain();
+        }
+
+        return;
+      }
+
+      $('.frog').addClass('animated bounceOutUp');
+      $('.arrow, #next').addClass('disabled');
+
+      setTimeout(function() {
+        if (game.level >= levels.length - 1) {
+          game.win();
+        } else {
+          game.next();
+        }
+      }, 2000);
     });
 
     $('#code').on('keydown', function(e) {
       if (e.keyCode === 13) {
+
         if (e.ctrlKey || e.metaKey) {
           e.preventDefault();
-          $('#submit').click();
+          game.check();
+          $('#next').click();
           return;
         }
 
@@ -37,13 +51,13 @@ var game = {
 
           if (codeLength === trimLength) {
             e.preventDefault();
-            $('#submit').click();
+            $('#next').click();
           } else {
             $('#code').focus().val('').val(trim);
           }
         }
       }
-    });
+    }).on('input', game.debounce(game.check, 500));
 
     $('#editor').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
       $(this).removeClass();
@@ -114,17 +128,21 @@ var game = {
     });
 
     $('.arrow.left').on('click', function() {
-      if (!$(this).hasClass('disabled')) {
-        game.saveAnswer();
-        game.prev();
+      if ($(this).hasClass('disabled')) {
+        return;
       }
+
+      game.saveAnswer();
+      game.prev();
     });
 
     $('.arrow.right').on('click', function() {
-      if (!$(this).hasClass('disabled')) {
-        game.saveAnswer();
-        game.next();
+      if ($(this).hasClass('disabled')) {
+        return;
       }
+
+      game.saveAnswer();
+      game.next();
     });
   },
 
@@ -134,15 +152,11 @@ var game = {
     $('#background, #pond').removeClass('wrap').attr('style', '').empty();
     $('#levels').removeClass('show');
     $('.level-marker').removeClass('current').eq(this.level).addClass('current');
-
-    var answer = game.answers[level.name];
-    $('#code').val(answer).focus();
-
     $('#level-counter .current').text(this.level + 1);
     $('#instructions').html(level.instructions);
     $('#before').text(level.before);
     $('#after').text(level.after);
-
+    $('#next').addClass('disabled');
     $('.arrow.disabled').removeClass('disabled');
 
     if (this.level === 0) {
@@ -152,6 +166,9 @@ var game = {
     if (this.level === levels.length - 1) {
       $('.arrow.right').addClass('disabled');
     }
+
+    var answer = game.answers[level.name];
+    $('#code').val(answer).focus();
 
     this.loadDocs();
 
@@ -190,6 +207,9 @@ var game = {
 
     var selector = level.selector || '';
     $('#background ' + selector).css(level.style);
+
+    game.applyStyles();
+    game.check();
   },
 
   loadDocs: function() {
@@ -216,7 +236,21 @@ var game = {
     });
   },
 
+  applyStyles: function() {
+    var level = levels[game.level];
+    var code = $('#code').val();
+    var selector = level.selector || '';
+    $('#pond ' +  selector).attr('style', code);
+    game.saveAnswer();
+  },
+
   check: function(level) {
+    if (typeof level === 'undefined') {
+      level = levels[game.level];
+    }
+
+    game.applyStyles();
+
     var lilypads = {};
     var frogs = {};
     var correct = true;
@@ -257,18 +291,7 @@ var game = {
       }
 
       $('[data-level=' + game.level + ']').addClass('solved');
-      $('.frog').addClass('animated bounceOutUp');
-      $('.arrow').addClass('disabled');
-
-      setTimeout(function() {
-        if (game.level >= levels.length - 1) {
-          game.win();
-        } else {
-          game.next();
-        }
-      }, 2500);
-
-      
+      $('#next').removeClass('disabled');
     } else {
       ga('send', {
         hitType: 'event',
@@ -277,7 +300,7 @@ var game = {
         eventLabel: $('#code').val()
       });
 
-      this.tryagain();
+      $('#next').addClass('disabled');
     }
   },
 
@@ -316,6 +339,21 @@ var game = {
     var rotate = 360 * Math.random();
 
     return {'transform': 'scale(' + scale + ') rotate(' + rotate + 'deg)'};
+  },
+
+  debounce: function(func, wait, immediate) {
+    var timeout;
+    return function() {
+      var context = this, args = arguments;
+      var later = function() {
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      };
+      var callNow = immediate && !timeout;
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
   }
 };
 

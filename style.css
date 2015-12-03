@@ -269,14 +269,18 @@ pre {
   user-select: none;
 }
 
-.button:hover {
+.button:not(.disabled):hover {
   background-color: #F12D22;
 }
 
-#submit {
+#next {
   position: absolute;
   right: 1em;
   bottom: 1em;
+}
+
+#next.disabled {
+  opacity: 0.5;
 }
 
 #board {
@@ -318,10 +322,10 @@ pre {
 }
 
 .frog.bounceOutUp {
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -ms-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: .6s;
+  -moz-animation-delay: .6s;
+  -ms-animation-delay: .6s;
+  animation-delay: .6s;
 }
 
 .frog .bg.bounce {
