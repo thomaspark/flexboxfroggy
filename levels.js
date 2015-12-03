@@ -194,7 +194,7 @@ var levels = [
   },
   {
     name: 'align-content 4',
-    instructions: 'Bring the frogs home one last time by using all of the CSS properties you learned about.',
+    instructions: 'Bring the frogs home one last time by using the CSS properties you\'ve learned:<ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
     board: 'rggggyy',
     style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
     before: "#pond {\n  display: flex;\n",
