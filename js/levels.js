@@ -62,7 +62,7 @@ var levels = [
     board: 'gyr',
     style: {'align-items': 'flex-end'},
     before: "#pond {\n  display: flex;\n",
-    after: "}",
+    after: "}"
   },
   {
     name: 'align-items 2',
