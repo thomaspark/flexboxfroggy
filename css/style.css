@@ -147,6 +147,7 @@ pre {
   font-size: 16px;
   outline: none;
   resize: none;
+  overflow: auto;
 }
 
 #level-counter {
