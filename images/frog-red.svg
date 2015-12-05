@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="210px" height="158px" viewBox="0 0 210 210" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>frog-red</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" transform="translate(0, 26)">
+        <g id="frog-red" sketch:type="MSLayerGroup" transform="translate(-13.000000, 0.000000)">
+            <circle id="Oval-29" fill="#F66A68" sketch:type="MSShapeGroup" cx="73" cy="24" r="24"></circle>
+            <circle id="Oval-29" fill="#F66A68" sketch:type="MSShapeGroup" cx="163" cy="24" r="24"></circle>
+            <g id="frog-green-+-Rectangle-30" transform="translate(0.000000, 54.000000)" sketch:type="MSShapeGroup" fill="#EE302D">
+                <ellipse id="frog-green" transform="translate(46.538193, 57.026578) rotate(-27.000000) translate(-46.538193, -57.026578) " cx="46.5381931" cy="57.0265777" rx="26.5" ry="50.5"></ellipse>
+                <rect id="Rectangle-30" x="13" y="89" width="56" height="15" rx="9"></rect>
+            </g>
+            <g id="frog-green-+-Rectangle-30" transform="translate(189.000000, 111.500000) scale(-1, 1) translate(-189.000000, -111.500000) translate(142.000000, 54.000000)" sketch:type="MSShapeGroup" fill="#EE302D">
+                <ellipse id="frog-green" transform="translate(46.538193, 57.026578) rotate(-27.000000) translate(-46.538193, -57.026578) " cx="46.5381931" cy="57.0265777" rx="26.5" ry="50.5"></ellipse>
+                <rect id="Rectangle-30" x="13" y="89" width="56" height="15" rx="9"></rect>
+            </g>
+            <rect id="Rectangle-30" fill="#F66A68" sketch:type="MSShapeGroup" x="49" y="20" width="138" height="138" rx="9"></rect>
+            <circle id="Oval-37" stroke="#FFFFFF" stroke-width="5" fill="#000000" sketch:type="MSShapeGroup" cx="73" cy="24" r="12"></circle>
+            <circle id="Oval-37" stroke="#FFFFFF" stroke-width="5" fill="#000000" sketch:type="MSShapeGroup" cx="163" cy="24" r="12"></circle>
+            <rect id="Rectangle-33" fill="#FB9290" sketch:type="MSShapeGroup" x="62" y="72" width="110" height="70" rx="9"></rect>
+        </g>
+    </g>
+</svg>
