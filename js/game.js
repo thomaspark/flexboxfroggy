@@ -66,7 +66,15 @@ var game = {
     });
 
     $('#levels').on('click', '.reset', function() {
-      var r = confirm('Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.');
+      var warningReset;
+
+      if (lang in messages.warningReset) {
+        warningReset = messages.warningReset[lang];
+      } else {
+        warningReset = messages.warningReset.en;
+      }
+
+      var r = confirm(warningReset);
 
       if (r) {
         game.level = 0;
@@ -114,7 +122,15 @@ var game = {
       levelMarker.appendTo('#levels');
     });
 
-    var reset = $('<div/>').addClass('reset').text('Reset');
+    var labelReset;
+
+    if (lang in messages.labelReset) {
+      labelReset = messages.labelReset[lang];
+    } else {
+      labelReset = messages.labelReset.en;
+    }
+
+    var reset = $('<div/>').addClass('reset').text(labelReset);
     $('#levels').append(reset);
 
     $('.level-marker').on('click', function() {
