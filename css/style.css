@@ -361,27 +361,27 @@ pre {
 }
 
 .lilypad.green .bg {
-  background-image: url("../images/lilypad-green.png");
+  background-image: url("../images/lilypad-green.svg");
 }
 
 .lilypad.red .bg {
-  background-image: url("../images/lilypad-red.png");
+  background-image: url("../images/lilypad-red.svg");
 }
 
 .lilypad.yellow .bg {
-  background-image: url("../images/lilypad-yellow.png");
+  background-image: url("../images/lilypad-yellow.svg");
 }
 
 .frog.green .bg {
-  background-image: url("../images/frog-green.png");
+  background-image: url("../images/frog-green.svg");
 }
 
 .frog.red .bg {
-  background-image: url("../images/frog-red.png");
+  background-image: url("../images/frog-red.svg");
 }
 
 .frog.yellow .bg {
-  background-image: url("../images/frog-yellow.png");
+  background-image: url("../images/frog-yellow.svg");
 }
 
 .wrap {
