@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Flexbox Froggy - A game for learning CSS flexbox</title>
+    <title>Flexbox Froggy - آموزش سی اس اس فلکس باکس</title>
     <meta property="og:url"           content="http://flexboxfroggy.com">
     <meta property="og:type"          content="website">
     <meta property="og:title"         content="Flexbox Froggy">
@@ -13,22 +13,22 @@
     <meta name="twitter:title"        content="Flexbox Froggy">
     <meta name="twitter:description"  content="A game for learning CSS flexbox">
     <meta name="twitter:image"        content="http://flexboxfroggy.com/images/screenshot.png">
-    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="../../node_modules/animate.css/animate.min.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans|Fredoka+One|Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
   </head>
   <body>
     <section id="sidebar">
       <div>
         <div id="level-counter">
           <span class="arrow left">◀</span>
-          <span id="level-indicator">Level <span class="current">1</span> of <span class="total">1</span></span>
+          <span id="level-indicator" class="fa-font-yekan">مرحله <span class="current">1</span> از <span class="total">1</span></span>
           <span class="arrow right">▶</span>
           <div id="levels" class="tooltip"></div>
         </div>
         <h1>Flexbox Froggy</h1>
-        <p id="instructions"></p>
-        <p id="docs"></p>
+        <p id="instructions" class="fa-lang fa-font-yekan"></p>
+        <p id="docs" class="fa-lang fa-font-yekan"></p>
       </div>
       <div id="editor">
         <div id="css">
@@ -37,18 +37,14 @@
           <textarea id="code" autofocus></textarea>
           <pre id="after"></pre>
         </div>
-        <div id="next" class="button">Next</div>
+        <div id="next" class="button fa-font-sm">مرحله بعدی</div>
       </div>
       <div id="share">
-        <p class="social">
-          <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="thomashpark">Tweet</a>
-          <a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>
-          <span class="fb-like" data-href="http://flexboxfroggy.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
-        </p>
+        <a title="ارائه دهنده قالب وبسیات فاسی" href="http://themeyab.com/blog" class="twitter-share-button">ThemeYab.com/blog</a>
       </div>
       <div id="credits">
         <p>Flexbox Froggy is created by <a href="http://thomaspark.co">Thomas Park</a> • <a href="http://github.com/thomaspark/flexboxfroggy/">GitHub</a> • <a href="https://twitter.com/thomashpark">Twitter</a></p>
-        <p><a href="lang/es/">Español</a> • <a href="lang/fr/">Français</a> • <a href="lang/de/">Deutsch</a> • <a href="lang/pt-br/">Português</a> • <a href="lang/ir-fa/">persian</a>
+        <p>Persian Translate By <a href="http://alihaddadkar.ir">Ali Haddadkar</a> • <a href="http://github.com/alihaddadkar/flexboxfroggy/">GitHub</a> • <a href="https://twitter.com/ali_haddadkar">Twitter</a></p>
       </div>
     </section>
     <section id="view">
@@ -59,11 +55,14 @@
         </div>
       </div>
     </section>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="js/levels.js"></script>
-    <script src="js/docs.js"></script>
-    <script src="js/messages.js"></script>
-    <script src="js/game.js"></script>
+    <script>
+      var lang = 'ir-fa';
+    </script>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../js/levels.js"></script>
+    <script src="../../js/docs.js"></script>
+    <script src="../../js/messages.js"></script>
+    <script src="../../js/game.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
