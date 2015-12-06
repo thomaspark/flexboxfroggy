@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'yekan';
+  src: url("../fonts/Yekan.eot?#") format("eot"), url("../fonts/Yekan.woff") format("woff"), url("../fonts/Yekan.ttf") format("truetype"), url("../fonts/Yekan.svg") format("svg"); }
+
 * {
   box-sizing: border-box;
 }
@@ -42,7 +46,20 @@ code {
 li {
   line-height: 1.5;
 }
+.en-font{
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+}
+.fa-font-yekan{
+  font: 0.9rem yekan!important;
 
+} 
+.fa-font-sm{
+  font: 0.8rem yekan!important;
+}
+.fa-lang{
+  direction: rtl;
+}
 #credits {
   width: 100%;
   position: absolute;
@@ -147,7 +164,6 @@ pre {
   font-size: 16px;
   outline: none;
   resize: none;
-  overflow: auto;
 }
 
 #level-counter {
