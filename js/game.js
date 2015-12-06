@@ -66,14 +66,7 @@ var game = {
     });
 
     $('#levels').on('click', '.reset', function() {
-      var warningReset;
-
-      if (lang in messages.warningReset) {
-        warningReset = messages.warningReset[lang];
-      } else {
-        warningReset = messages.warningReset.en;
-      }
-
+      var warningReset = messages.warningReset[lang] || messages.warningReset.en;
       var r = confirm(warningReset);
 
       if (r) {
@@ -122,14 +115,7 @@ var game = {
       levelMarker.appendTo('#levels');
     });
 
-    var labelReset;
-
-    if (lang in messages.labelReset) {
-      labelReset = messages.labelReset[lang];
-    } else {
-      labelReset = messages.labelReset.en;
-    }
-
+    var labelReset = messages.labelReset[lang] || messages.labelReset.en;
     var reset = $('<div/>').addClass('reset').text(labelReset);
     $('#levels').append(reset);
 
@@ -175,14 +161,7 @@ var game = {
     $('#after').text(level.after);
     $('#next').addClass('disabled');
 
-    var instructions;
-
-    if (lang in level.instructions) {
-      instructions = level.instructions[lang];
-    } else {
-      instructions = level.instructions.en;
-    }
-
+    var instructions = level.instructions[lang] || level.instructions.en;
     $('#instructions').html(instructions);
 
     $('.arrow.disabled').removeClass('disabled');
@@ -249,14 +228,7 @@ var game = {
         code.addClass('help');
         code.on('mouseenter', function(e) {
           if ($('#instructions .tooltip').length === 0) {
-            var html;
-
-            if (lang in docs[text]) {
-              html = docs[text][lang];
-            } else {
-              html = docs[text].en;
-            }
-
+            var html = docs[text][lang] || docs[text].en;
             var tooltipX = code.offset().left;
             var tooltipY = code.offset().top + code.height() + 13;
             $('<div class="tooltip"></div>').html(html).css({top: tooltipY, left: tooltipX}).appendTo($('#instructions'));
