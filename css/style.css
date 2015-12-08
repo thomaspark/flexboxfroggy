@@ -6,6 +6,12 @@ html, body {
   min-height: 100%;
 }
 
+html[lang="fa"]{
+  font-family: 'tahoma' , sans-serif!important;
+}
+html[lang="fa"] #docs, #instructions, #credits{
+  direction: rtl;
+}
 body {
   display: flex;
   margin: 0;
@@ -395,3 +401,4 @@ html[lang="ru"] #level-indicator {
 .wrap {
   flex-wrap: wrap;
 }
+
