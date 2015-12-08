@@ -6,12 +6,14 @@ html, body {
   min-height: 100%;
 }
 
-html[lang="fa"]{
-  font-family: 'tahoma' , sans-serif!important;
-}
-html[lang="fa"] #docs, #instructions, #credits{
+html[lang="fa"] #docs,
+html[lang="fa"] #instructions,
+html[lang="fa"] #credits .translate,
+a[href="#fa"] {
   direction: rtl;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
+
 body {
   display: flex;
   margin: 0;

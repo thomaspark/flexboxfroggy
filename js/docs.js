@@ -24,7 +24,7 @@ var docs = {
     'es': '<p>Alinea un elemento flex a lo largo del eje transversal, anulando el valor de <code>align-items</code></p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'fr': '<p>Aligne un élément flex selon l\'axe transversal, outrepassant la valeur de <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'ru': '<p>Выравнивает flex-элемент вдоль пересекаемой оси, перекрывая значения свойства <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'fa': '<p>با استفاده از این خاصیت می‌توانید نحوه قرار گرفتن عمودی هر flex-item را مشخص کنید. مقادیر این خاصیت دقیقا همان مقادیر خاصیت align-items است. <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'fa': '<p>با استفاده از این خاصیت می‌توانید نحوه قرار گرفتن عمودی هر flex item را مشخص کنید. مقادیر این خاصیت دقیقا همان مقادیر خاصیت align-items است. <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -51,7 +51,7 @@ var docs = {
     'es': '<p>Especifica si los elementos flex son forzados a una sola línea o pueden ser envueltos en multiples líneas.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'fr': '<p>Spécifie si les éléments flex sont forcés à être sur une seule ligne ou peuvent être enveloppés sur plusieurs lignes.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'ru': '<p>Указывает, нужно ли чтоб элементы принудительно находились в одном ряду или автоматически переносились.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
-    'fa': '<p>در حالت عادی همه flex-item ها در یک خط قرار می‌گیرند. به کمک خاصیت flex-wrap شما می‌توانید مشخص کنید که flex-item ها در چندین خط قرار بگیرند.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
+    'fa': '<p>در حالت عادی همه flex item ها در یک خط قرار می‌گیرند. به کمک خاصیت flex-wrap شما می‌توانید مشخص کنید که flex item ها در چندین خط قرار بگیرند.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -60,7 +60,7 @@ var docs = {
     'es': '<p>Alinea los elementos flex a lo largo del eje principal.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'fr': '<p>Aligne les éléments flex selon l\'axe principal.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'ru': '<p>Выравнивает flex-элементы вдоль главной оси.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
-    'fa': '<p>با استفاده از این خاصیت می‌توانید نحوه چیدمان آیتم‌ها بر روی محور اصلی را تعیین کنید (به یاد داشته باشید همانطور که گفتیم اگر خاصیت flex-direction برابر column یا column-reverse باشد، محور اصلی عمودی خواهد بود) ..</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'fa': '<p>با استفاده از این خاصیت می‌توانید نحوه چیدمان آیتم‌ها بر روی محور اصلی را تعیین کنید (به یاد داشته باشید همانطور که گفتیم اگر خاصیت flex-direction برابر column یا column-reverse باشد، محور اصلی عمودی خواهد بود).</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt;</code>',
