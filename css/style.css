@@ -15,8 +15,11 @@ body {
 }
 
 section {
-  width: 50%;
   min-height: 100%;
+}
+
+#sidebar {
+  width: 50%;
 }
 
 h1 {
