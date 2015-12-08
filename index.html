@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Flexbox Froggy - A game for learning CSS flexbox</title>
@@ -22,9 +22,17 @@
       <div>
         <div id="level-counter">
           <span class="arrow left">◀</span>
-          <span id="level-indicator">Level <span class="current">1</span> of <span class="total">1</span></span>
+          <span id="level-indicator">
+            <span id="labelLevel" class="translate">Level</span>
+            <span class="current">1</span>
+            <span id="labelOf" class="translate">of</span>
+            <span class="total">1</span>
+          </span>
           <span class="arrow right">▶</span>
-          <div id="levels" class="tooltip"></div>
+          <div id="levelsWrapper" class="tooltip">
+            <div id="levels"></div>
+            <div id="labelReset" class="translate">Reset</div>
+          </div>
         </div>
         <h1>Flexbox Froggy</h1>
         <p id="instructions"></p>
@@ -37,7 +45,7 @@
           <textarea id="code" autofocus></textarea>
           <pre id="after"></pre>
         </div>
-        <div id="next" class="button">Next</div>
+        <div id="next" class="button translate">Next</div>
       </div>
       <div id="share">
         <p class="social">
@@ -47,8 +55,19 @@
         </p>
       </div>
       <div id="credits">
-        <p>Flexbox Froggy is created by <a href="http://thomaspark.co">Thomas Park</a> • <a href="http://github.com/thomaspark/flexboxfroggy/">GitHub</a> • <a href="https://twitter.com/thomashpark">Twitter</a></p>
-        <p><a href="lang/es/">Español</a> • <a href="lang/fr/">Français</a> • <a href="lang/de/">Deutsch</a> • <a href="lang/pt-br/">Português</a> • <a href="lang/ru/">Русский</a>
+        <p>
+          <span id="labelFooter" class="translate">Flexbox Froggy is created by</span>
+          <a href="http://thomaspark.co">Thomas Park</a> •
+          <a href="http://github.com/thomaspark/flexboxfroggy/">GitHub</a> •
+          <a href="https://twitter.com/thomashpark">Twitter</a>
+        </p>
+        <p class="languages">
+          <a href="#en">English</a> •
+          <a href="#es">Español</a> •
+          <a href="#fr">Français</a> •
+          <a href="#de">Deutsch</a> •
+          <a href="#pt-br">Português</a> •
+          <a href="#ru">Русский</a>
       </div>
     </section>
     <section id="view">

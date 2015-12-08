@@ -166,10 +166,8 @@ pre {
   user-select: none;
 }
 
-#levels {
+#levelsWrapper {
   display: none;
-  flex-wrap: wrap;
-  justify-content: center;
   top: 30px;
   right: 0;
   max-width: 180px;
@@ -177,12 +175,14 @@ pre {
   margin-top: 12px;
 }
 
-#levels.show {
-  display: flex;
+#levelsWrapper:after {
+  left: calc(50% - 12px);
 }
 
-#levels:after {
-  left: calc(50% - 12px);
+#levels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .level-marker {
@@ -231,8 +231,9 @@ html[lang="ru"] #level-indicator {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.reset {
+#labelReset {
   margin-top: 1em;
+  text-align: center;
   cursor: pointer;
 }
 

@@ -1,15 +1,22 @@
-var lang = lang || 'en';
-
 var game = {
+  language: window.location.hash.substring(1) || 'en',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
 
   start: function() {
+    game.translate();
+
     $('#level-counter .total').text(levels.length);
     $('#editor').show();
     $('#share').hide();
 
+    this.setHandlers();
+    this.loadMenu();
+    game.loadLevel(levels[game.level]);
+  },
+
+  setHandlers: function() {
     $('#next').on('click', function() {
       $('#code').focus();
 
@@ -65,8 +72,8 @@ var game = {
       $(this).removeClass();
     });
 
-    $('#levels').on('click', '.reset', function() {
-      var warningReset = messages.warningReset[lang] || messages.warningReset.en;
+    $('#labelReset').on('click', function() {
+      var warningReset = messages.warningReset[game.language] || messages.warningReset.en;
       var r = confirm(warningReset);
 
       if (r) {
@@ -84,10 +91,14 @@ var game = {
       localStorage.setItem('level', game.level);
       localStorage.setItem('answers', JSON.stringify(game.answers));
       localStorage.setItem('solved', JSON.stringify(game.solved));
-    });
+    }).on('hashchange', function() {
+      game.language = window.location.hash.substring(1) || 'en';
+      game.translate();
 
-    this.loadMenu();
-    game.loadLevel(levels[game.level]);
+      if (game.language === 'en') {
+        history.replaceState({}, document.title, './');
+      }
+    });
   },
 
   prev: function() {
@@ -115,10 +126,6 @@ var game = {
       levelMarker.appendTo('#levels');
     });
 
-    var labelReset = messages.labelReset[lang] || messages.labelReset.en;
-    var reset = $('<div/>').addClass('reset').text(labelReset);
-    $('#levels').append(reset);
-
     $('.level-marker').on('click', function() {
       game.saveAnswer();
 
@@ -128,7 +135,7 @@ var game = {
     });
 
     $('#level-indicator').on('click', function() {
-      $('#levels').toggleClass('show');
+      $('#levelsWrapper').toggle();
     });
 
     $('.arrow.left').on('click', function() {
@@ -154,14 +161,14 @@ var game = {
     $('#editor').show();
     $('#share').hide();
     $('#background, #pond').removeClass('wrap').attr('style', '').empty();
-    $('#levels').removeClass('show');
+    $('#levelsWrapper').hide();
     $('.level-marker').removeClass('current').eq(this.level).addClass('current');
     $('#level-counter .current').text(this.level + 1);
     $('#before').text(level.before);
     $('#after').text(level.after);
     $('#next').addClass('disabled');
 
-    var instructions = level.instructions[lang] || level.instructions.en;
+    var instructions = level.instructions[game.language] || level.instructions.en;
     $('#instructions').html(instructions);
 
     $('.arrow.disabled').removeClass('disabled');
@@ -228,7 +235,7 @@ var game = {
         code.addClass('help');
         code.on('mouseenter', function(e) {
           if ($('#instructions .tooltip').length === 0) {
-            var html = docs[text][lang] || docs[text].en;
+            var html = docs[text][game.language] || docs[text].en;
             var tooltipX = code.offset().left;
             var tooltipY = code.offset().top + code.height() + 13;
             $('<div class="tooltip"></div>').html(html).css({top: tooltipY, left: tooltipX}).appendTo($('#instructions'));
@@ -333,6 +340,23 @@ var game = {
     var rotate = 360 * Math.random();
 
     return {'transform': 'scale(' + scale + ') rotate(' + rotate + 'deg)'};
+  },
+
+  translate: function() {
+    document.title = messages.title[game.language] || messages.title.en;
+    $('html').attr('lang', game.language);
+
+    var level = levels[game.level];
+    var instructions = level.instructions[game.language] || level.instructions.en;
+    $('#instructions').html(instructions);
+    game.loadDocs();
+
+    $('.translate').each(function() {
+      var label = $(this).attr('id');
+      var text = messages[label][game.language] || messages[label].en;
+
+      $('#' + label).text(text);
+    });
   },
 
   debounce: function(func, wait, immediate) {
