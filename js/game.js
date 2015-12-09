@@ -255,7 +255,7 @@ var game = {
 
   applyStyles: function() {
     var level = levels[game.level];
-    var code = $('#code').val();
+    var code = $('#code').val().replace(/\n/g, ';');
     var selector = level.selector || '';
     $('#pond ' +  selector).attr('style', code);
     game.saveAnswer();
