@@ -42,7 +42,7 @@ var messages = {
     'pt-br': 'Flexbox Froggy - Um jogo para aprender CSS flexbox',
     'es': 'Flexbox Froggy - Un juego para aprender CSS flexbox',
     'ru': 'Flexbox Froggy - Игра для изучения CSS Flexbox',
-    'fa': 'قورباغه فلکس باکس - یک بازی جراب برای آموزش سی اس اس فلکس باکس'
+    'fa': 'قورباغه فلکس باکس - یک بازی جذاب برای آموزش سی اس اس فلکس باکس'
   },
   labelReset: {
     'en': 'Reset',
