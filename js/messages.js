@@ -7,7 +7,8 @@ var messages = {
     'es': 'Siguiente',
     'ru': 'Следующий',
     'fa': 'مرحله بعدی',
-    'zh-cn': '继续'
+    'zh-cn': '继续',
+    'tr': 'Sonraki'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -17,7 +18,8 @@ var messages = {
     'es': 'Flexbox Froggy es una creación de',
     'ru': 'Игра Flexbox Froggy создана',
     'fa': 'قورباغه فلکس باکس ساخته شده توسط',
-    'zh-cn': 'Flexbox Froggy的作者是'
+    'zh-cn': 'Flexbox Froggy的作者是',
+    'tr': 'Flexbox Froggy\'nin yaratıcısı:'
   },
   labelLevel: {
     'en': 'Level',
@@ -27,7 +29,8 @@ var messages = {
     'es': 'Nivel',
     'ru': 'Уровень',
     'fa': 'مرحله',
-    'en': 'Level'
+    'zh-cn': 'Level',
+    'tr': 'Seviye'
   },
   labelOf: {
     'en': 'of',
@@ -37,7 +40,8 @@ var messages = {
     'es': 'de',
     'ru': 'из',
     'fa': 'از',
-    'zh-cn': '/'
+    'zh-cn': '/',
+    'tr': '/'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -48,6 +52,7 @@ var messages = {
     'ru': 'Flexbox Froggy - Игра для изучения CSS Flexbox',
     'fa': 'قورباغه فلکس باکس - یک باز برای آموزش سی اس اس فبکس باکس',
     'zh-cn': 'Flexbox Froggy - 一个用来学CSS flexbox的游戏',
+    'tr': 'Flexbox Froggy - CSS flexbox için öğretici oyun'
   },
   labelReset: {
     'en': 'Reset',
@@ -58,6 +63,7 @@ var messages = {
     'ru': 'Сбросить',
     'fa': 'شروع مجدد',
     'zh-cn': '重置',
+    'tr': 'Baştan Başla'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -67,6 +73,7 @@ var messages = {
     'es': 'Estás seguro, ¿Quieres reiniciar el juego?\n\nTu progreso se perderá y serás enviado al inicio del juego.',
     'ru': 'Вы действительно хотите сбросить игру?\n\nВаш прогресс будет потерян и вы вернетесь к началу игры.',
     'fa': 'آیا از شروع مجدد بازی اطمینان دارید ?\n\nتمام مراحل ذخیره شده حذف خواهند شد.',
-    'zh-cn': '你确定要重置游戏吗?\n\n你保存了的进度将会丢失，而且你会回到游戏的最开始。'
+    'zh-cn': '你确定要重置游戏吗?\n\n你保存了的进度将会丢失，而且你会回到游戏的最开始。',
+    'tr': 'Oyuna baştan başlamak istediğinize emin misiniz? Kayıtlı bütün ilerlemeniz silinecek ve birinci seviyeye geri döneceksiniz.'
   }
 };
