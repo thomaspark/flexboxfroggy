@@ -57,6 +57,7 @@ li {
 #credits {
   width: 100%;
   position: absolute;
+  left: 0;
   bottom: 2em;
   text-align: center;
   font-size: 12px;
