@@ -10,6 +10,7 @@ var levels = [
       'ru': '<p>Добро пожаловать в Flexbox Froggy. Игра, в которой тебе нужно помочь лягушонку Фроги и его друзьям написанием CSS кода! Направь этого лягушонка на лилию справа используя свойство <code>justify-content</code>, которое выравнивает элементы горизонтально и принимает следующие значения:</p><ul><li><code>flex-start</code>: Элементы выравниваются по левой стороне контейнера.</li><li><code>flex-end</code>: Элементы выравниваются по правой стороне контейнера.</li><li><code>center</code>: Элементы выравниваются по центру контейнера.</li><li><code>space-between</code>: Элементы отображаются с одинаковыми отступами между ними.</li><li><code>space-around</code>: Элементы отображаются с одинаковыми отступами вокруг них.</li></ul><p>Например, <code>justify-content: flex-end;</code> сдвинет лягушонка вправо.</p>',
       'fa': '<p>به آموزش فکس باکس  خوش آمدید, این قورباغه به شما کمک میکنه که بهتر فلکس باکس رو درک کنید! با استفاده از خصوصیت <code>justify-content</code> می‌تونید نحوه چیدمان آیتم‌ها بر روی محور اصلی را تعیین کنید, این خصوصیت مقادیر زیر را می پذیرد:</p><ul><li><code>flex-start</code>: آیتم‌ها از ابتدای <span class="en-font"><span class="en-font">flex-line</span></span> ها چیده می‌شوند.</li><li><code>flex-end</code>:  آیتم‌ها از انتهای <span class="en-font">flex-line</span> ها چیده می‌شوند.</li><li><code>center</code>: آیتم‌ها از وسط <span class="en-font">flex-line</span> ها چیده می‌شوند.</li><li><code>space-between</code>: آیتم اول در ابتدا و آیتم آخر در انتهای <span class="en-font">flex-line</span> قرار می گیرند و بقیه آیتم ها در بین آنها با یک فاصله ی برابر قرار می‌گیرند.</li><li><code>space-around</code>: آیتم ها با فضای برابر در کنار یکدیگر قرار می‌گیرند.</li></ul><p> برای مثال , <bdi><code style="direction:ltr;">justify-content: flex-end;</code></bdi> قورباغه رو به سمت راست جا به جا میکنه',
       'zh-cn': '<p>欢迎来到Flexbox Froggy。在游戏中你会靠写CSS代码来帮助青蛙和他的朋友们！请用<code>justify-content</code>属性指引青蛙到右边的荷叶上。这个属性可以水平对齐元素，并且接受以下几个参数：</p><ul><li><code>flex-start</code>: 元素和容器的左端对齐。</li><li><code>flex-end</code>: 元素和容器的右端对齐。</li><li><code>center</code>: 元素在容器里居中。</li><li><code>space-between</code>:元素之间保持相等的距离。</li><li><code>space-around</code>:元素周围保持相等的距离。</li></ul><p>举个例子，<code>justify-content: flex-end;</code>会将青蛙移到右边</p>',
+      'tr': '<p>Flexbox Froggy\'ye, Froggy ve arkadaşlarına CSS kodu yazarak yardım edeceğiniz oyunumuza hoşgeldiniz! <code>justify-content</code> kuralını kullanarak bu kurbağayı sağ taraftaki nilüfer yaprağının üzerine zıplatın. Bu özellik öğeleri yatay olarak hizalar ve şu değerleri alır:</p><ul><li><code>flex-start</code>: Öğeleri flexbox container\'ın sol tarafına hizalar.</li><li><code>flex-end</code>: Öğeleri flexbox container\'ın sağ tarafına hizalar.</li><li><code>center</code>: Öğeleri flexbox container\'ın ortasına hizalar.</li><li><code>space-between</code>: Öğeler eşit aralıklarla yatay şekilde yayılır</li><li><code>space-around</code>: Öğeler etraflarında eşit aralıklar olacak şekilde yatay şekilde yayılır</li></ul><p>Örneğin, <code>justify-content: flex-end;</code> kurbağyı sağa taşır.</p>'
     },
     board: 'g',
     style: {'justify-content': 'flex-end'},
@@ -27,7 +28,7 @@ var levels = [
       'ru': '<p>Используй <code>justify-content</code> еще раз, чтоб помочь этим лягушатам попасть на их лилии. Помни, что это свойство CSS выравнивает элементы горизонтально и принимает следующие значения:</p><ul><li><code>flex-start</code>: Элементы выравниваются по левой стороне контейнера.</li><li><code>flex-end</code>: Элементы выравниваются по правой стороне контейнера.</li><li><code>center</code>: Элементы выравниваются по центру контейнера.</li><li><code>space-between</code>: Элементы отображаются с одинаковыми отступами между ними.</li><li><code>space-around</code>: Элементы отображаются с одинаковыми отступами вокруг них.</li></ul>',
       'fa': '<p>با استفاده از خصوصیت <code>justify-content</code> به این قورباغه ها کمک کنید تا روی نیلفرهای آبی قرار بگیرند. فراموش نکنید که این خاصیت در محور افقی کار میکند.</p><ul><li><code>flex-start</code>:  آیتم‌ها از ابتدای <span class="en-font">flex-line</span> ها چیده می‌شوند.</li><li><code>flex-end</code>: آیتم‌ها از انتهای <span class="en-font">flex-line</span> ها چیده می‌شوند.</li><li><code>center</code>: آیتم‌ها از وسط <span class="en-font">flex-line</span> ها چیده می‌شوند.</li><li><code>space-between</code>: آیتم اول در ابتدا و آیتم آخر در انتهای <span class="en-font">flex line</span> قرار می گیرند و بقیه آیتم ها در بین آنها با یک فاصله ی برابر قرار می‌گیرند. </li><li><code>space-around</code>: آیتم ها با فضای برابر در کنار یکدیگر قرار می‌گیرند.</li></ul>',
         'zh-cn': '<p>再用<code>justify-content</code>一次来帮助这些青蛙到他们的荷叶上。记住这个CSS属性能水平对齐元素，并接受这些参数：</p><ul><li><code>flex-start</code>: 元素和容器的左端对齐。</li><li><code>flex-end</code>: 元素和容器的右端对齐。</li><li><code>center</code>: 元素在容器里居中。</li><li><code>space-between</code>:元素之间保持相等的距离。</li><li><code>space-around</code>:元素周围保持相等的距离。</li>',
-
+      'tr': '<p>Tekrar <code>justify-content</code> kullanarak bu kurbağaları nilüfer yapraklarının üzerine çıkartın. Bu CSS kuralının öğeleri yatay olarak hizaladığını ve şu değerleri aldığını unutmayın:</p><ul><li><code>flex-start</code>: Öğeleri flexbox container\'ın sol tarafına hizalar.</li><li><code>flex-end</code>: Öğeleri flexbox container\'ın sağ tarafına hizalar.</li><li><code>center</code>: Öğeleri flexbox container\'ın ortasına hizalar.</li><li><code>space-between</code>: Öğeler eşit aralıklarla yatay şekilde yayılır</li><li><code>space-around</code>: Öğeler etraflarında eşit aralıklar olacak şekilde yatay şekilde yayılır</li></ul>'
     },
     board: 'gy',
     style: {'justify-content': 'center'},
@@ -45,6 +46,7 @@ var levels = [
       'ru': '<p>Помоги всем трем лягушатам найти их лилии, просто используя <code>justify-content</code>. В этот раз, у лилий много пространства вокруг.</p><p>Если ты чувствуешь, что забыл возможные значения свойства, ты можешь навести курсор на название свойства, чтоб посмотреть их. Попробуй навести курсор на <code>justify-content</code>.</p>',
       'fa': '<p>با استفاده از <code>justify-content</code> به این سه قورباغه کمک کنید تا نیلوفرهای آبی خود را پیدا کنند. حواستون به این نکته باشه که نیلوفرهای آبی با فاصبه برابر کنار هم قرار گرفتند.</p><p>اگر مقادیر این خاصیت را فراموش کردید, میتونید با قرار دادن ماوس روی خاصیت مقادیر را ببینید. <code>justify-content</code>.</p>',
       'zh-cn': '<p>仅靠<code>justify-content</code>来帮助全部三只青蛙找到他们的荷叶。这次荷叶周边都有很多的空地。</p><p>如果你忘了一个CSS属性可选的值的话，你可以将鼠标移到参数名上面来查看。试试将鼠标移到<code>justify-content</code>。</p>',
+      'tr': '<p><code>justify-content</code> kuralını kullanarak üç kurbağanın da kendi nilüfer yaprağını bulmasını sağlayın. Bu serfer, nilüfer yaprakları etrafında bolca boş alan var.</p><p> Olur da bir kuralın alabileceği değerleri unutursanız, o kuralın üzerine farenizi götürerek değerlerini görebilirsiniz. Farenizi <code>justify-content</code> üzerine götürmeyi deneyin.</p>'
     },
     board: 'gyr',
     style: {'justify-content': 'space-around'},
@@ -62,7 +64,7 @@ var levels = [
       'ru': '<p>Теперь лилии по краям уплыли к берегам, увеличив пространство между ними. Используй <code>justify-content</code>. В этот раз, у лилий одинаковое расстояние между ними.</p>',
       'fa': '<p>در حال حاضر نیلوفر های آبی به سمت لبه های ساحل حرکت کرده اند و فضای بین آنها افزایش پیدا کرده پس با استفاده از <code>justify-content</code> قورباغه ها رو کمک کنید. نیلوفرهای آبی دارای فضای مساوی هستن.</p>',
       'zh-cn': '<p>现在边上的荷叶都漂到了岸上，使得他们之间的间距变大了。使用<code>justify-content</code>。这次荷叶之间有相等的距离。</p>',
-
+      'tr': '<p>Şimdi, nilüfer yaprakları sürüklenerek kıyıya vurmuşlar. <code>justify-content</code> kuralını kullanın. Bu sefer, nilüfer yaprakları arasında eşit mesafe var.</p>'
     },
     board: 'gyr',
     style: {'justify-content': 'space-between'},
@@ -80,7 +82,7 @@ var levels = [
       'ru': '<p>Теперь используй <code>align-items</code> чтоб помочь лягушатам добратся к нижней части пруда. Это CSS свойство выравнивает элементы вертикально и принимает следующие значения:</p><ul><li><code>flex-start</code>: Элементы выравниваются по верхнему краю контейнера.</li><li><code>flex-end</code>: Элементы выравниваются по нижнему краю контейнера.</li><li><code>center</code>: Элементы выравниваются вертикально по центру контейнера.</li><li><code>baseline</code>: Элементы отображаются на базовой линии контейнера.</li><li><code>stretch</code>: Элементы растягиваются, чтоб заполнить контейнер.</li></ul>',
       'fa': '<p>در حال حاضر با استفاده از <code>align-items</code> به قورباغ ها کمک کنید تا به پایین برکه برسند.این خاصیت ایتم ها را در محور عمودی تراز بندی می کند و مقادیر آن عبارتند از :</p><ul><li><code>flex-start</code>: آیتم‌ها از نقطه ابتدایی محور عمودی چیده می‌شوند.</li><li><code>flex-end</code>: آیتم‌ها از نقطه انتهایی محور عمودی چیده می‌شوند.</li><li><code>center</code>: آیتم‌ها در وسط محور عمودی چیده می‌شوند.</li><li><code>baseline</code>: آیتم ها بر اساس <span class="en-font">Baseline</span>شان هم‌تراز می‌شوند</li><li><code>stretch</code>: در صورتی که ارتفاع آیتم‌ها مشخص نشده باشد، آیتم ها کشیده میشوند و Flex line را پر میکنند.</li></ul>',
       'zh-cn': '<p>现在用<code>align-items</code>来帮助青蛙们到池塘的底部。这个CSS属性纵向对齐元素并且可选以下几个值：</p><ul><li><code>flex-start</code>: 元素与容器的顶部对齐。</li><li><code>flex-end</code>: 元素与容器的底部对齐。</li><li><code>center</code>: 元素纵向居中。</li><li><code>baseline</code>: 元素在容器的基线位置显示。</li><li><code>stretch</code>: 元素被拉伸以填满整个容器。</li></ul>',
-
+      'tr': '<p>Şimdi, <code>align-items</code> kuralını kullanarak kurbağaların gölün aşağısına gitmesine yardımcı olun. Bu CSS kuralı öğeleri dikey olarak hizalar ve şu değerleri alır:</p><ul><li><code>flex-start</code>: Öğeleri flexbox container\'ın tepesine hizalar</li><li><code>flex-end</code>: Öğeleri flexbox container\'ın aşağısına hizalar</li><li><code>center</code>: Öğeleri flexbox container\'ın dikey ortasına hizalar</li><li><code>baseline</code>: Öğeleri flexbox container\'ın yazı referans çizgisine(baseline) hizalar</li><li><code>stretch</code>: Öğeler flexbox container boyunca uzarlar</li></ul>'
     },
     board: 'gyr',
     style: {'align-items': 'flex-end'},
@@ -98,7 +100,7 @@ var levels = [
       'ru': '<p>Направь лягушонка в центр пруда, используя <code>justify-content</code> и <code>align-items</code> вместе.</p>',
       'fa': '<p>قورباغه را به وسط برکه هدایت کنید برای این کار از ترکیب خاصیت های <code>justify-content</code> و <code>align-items</code> استفاده کنید.</p>',
       'zh-cn': '<p>使用<code>justify-content</code>和<code>align-items</code>的组合来指引青蛙们到池塘中央。</p>',
-
+      'tr': '<p>Kurbağayı <code>justify-content</code> ve <code>align-items</code> kurallarını kullanarak gölün ortasına yönlendirin.</p>'
     },
     board: 'g',
     style: {'justify-content': 'center', 'align-items': 'center'},
@@ -116,6 +118,7 @@ var levels = [
       'ru': '<p>Лягушатам снова нужно пересечь пруд. В этот раз к лилиям, с достаточно большим пространством вокруг них. Используй комбинацию <code>justify-content</code> и <code>align-items</code>.</p>',
       'fa': '<p>قروباغه ها نیاز دارند که به انتهای برکه برسند, دقت داشته باشید که فضای خالی اطراف نیلوفر های آبی وجود دارد. برای این کار از خاصیت های <code>justify-content</code> و <code>align-items</code> استفاده کنید.</p>',
        'zh-cn': '<p>这些青蛙又需要穿过池塘了。这次有些荷叶周围有充足的距离。用<code>justify-content</code>和<code>align-items</code>的组合。</p>',
+      'tr': '<p>Kurbağaların, bu serfer etraflarında bolca boş alan olan nilüfer yapraklarına ulaşmaları için tekrar gölü geçmeleri gerekiyor. <code>justify-content</code> ve <code>align-items</code> kombinasyonunu kullanın.</p>'
     },
     board: 'gyr',
     style: {'justify-content': 'space-around', 'align-items': 'flex-end'},
@@ -133,6 +136,7 @@ var levels = [
       'ru': '<p>Лягушатам нужно выстроится в порядке их лилий, используя <code>flex-direction</code>. Это CSS свойство задает направление, в котором будут расположены элементы в контейнере и принимает следующие значения:</p><ul><li><code>row</code>: Элементы размещаются по направлению текста.</li><li><code>row-reverse</code>: Элементы отображаются в обратном порядке к направлению текста.</li><li><code>column</code>: Элементы распологаются сверху вниз.</li><li><code>column-reverse</code>: Элементы распологаются снизу вверх.</li></ul>',
       'fa': '<p>قورباه ها نیاز دارند که روی نیلوفرهای آبی خود قرار بگیرند پس با استفاده از <code>flex-direction</code> این کار را انجام دهید. این خاصیت جهت ایتم ها را تعیین می کند و مقادیر زیر را می پذیرد:</p><ul><li><code>row</code>: این مقدار برای چیدمان افقی آیتم ها به کار میرود.</li><li><code>row-reverse</code>: این خاصیت مانند خاصیت قبل است با این تفاوت که مکان آیتم ها برعکس می شود.</li><li><code>column</code>: این مقدار برای چیدمان عمودی آیتم ها به کار میرود.</li><li><code>column-reverse</code>: این خاصیت مانند خاصیت قبل است با این تفاوت که مکان آیتم ها برعکس می شود.</li></ul>',
       'zh-cn': '<p>青蛙们需要和他们的荷叶保持对应的顺序。我们可以用<code>flex-direction</code>属性。这个CSS属性定义了元素在容器里摆放的方向，并且接受这些值：</p><ul><li><code>行</code>: 元素摆放的方向和文字方向一致。</li><li><code>row-reverse</code>: 元素摆放的方向和文字方向相反。</li><li><code>column</code>: 元素从上放到下。</li><li><code>column-reverse</code>: 元素从下放到上。</li></ul>',
+      'tr': '<p>Kurbağalar, kendi nilüfer yaprakları ile aynı sırada olmalılar. <code>flex-direction</code> kuralını kullanın. Bu CSS kuralı öğelerin hangi yönde yerleştireleceğini belirler ve şu değerleri alır:</p><ul><li><code>row</code>: Öğeler yazı yönü ile aynı yönde yerleştirilir.</li><li><code>row-reverse</code>: Öğeler yazı yönünün tersi yönünde yerleştirilir.</li><li><code>column</code>: Öğeler yukarıdan aşağıya doğru yerleştirilir.</li><li><code>column-reverse</code>: Öğeler aşağıdan yukarıya doğru yerleştirilir.</li></ul>'
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse'},
@@ -150,6 +154,7 @@ var levels = [
       'ru': '<p>Помоги лягушатам расположиться на своих лилиях используя <code>flex-direction</code>. Это CSS свойство задает направление, в котором будут расположены элементы в контейнере и принимает следующие значения:</p><ul><li><code>row</code>: Элементы размещаются по направлению текста.</li><li><code>row-reverse</code>: Элементы отображаются в обратном порядке к направлению текста.</li><li><code>column</code>: Элементы распологаются сверху вниз.</li><li><code>column-reverse</code>: Элементы распологаются снизу вверх.</li></ul>',
       'fa': '<p>به قورباغه ها کمک کنید تا به صورت ستونی روی نیلوفرهای آبی قرار می گیرند با استفاده از <code>flex-direction</code> این کار را انجام دهید. این خاصیت جهت قرار گیری آیتم ها را مشخص می کند, مقادیر این خاصیت عبارتند از :</p><ul><li><code>row</code>: این مقدار برای چیدمان افقی آیتم ها به کار میرود.</li><li><code>row-reverse</code>: این خاصیت مانند خاصیت قبل است با این تفاوت که مکان آیتم ها برعکس می شود.</li><li><code>column</code>: این مقدار برای چیدمان عمودی آیتم ها به کار میرود.</li><li><code>column-reverse</code>: این خاصیت مانند خاصیت قبل است با این تفاوت که مکان آیتم ها برعکس می شود.</li></ul>',
        'zh-cn': '<p>使用<code>flex-direction</code>属性，帮助青蛙们找到它们该去的列。这个CSS属性定义了元素在容器里摆放的方向，并且接受这些值：</p><ul><li><code>行</code>: 元素摆放的方向和文字方向一致。</li><li><code>row-reverse</code>: 元素摆放的方向和文字方向相反。</li><li><code>column</code>: 元素从上放到下。</li><li><code>column-reverse</code>: 元素从下放到上。</li></ul>',
+      'tr': '<p><code>flex-direction</code> kuralını kullanarak, kurbağaların kendi nilüfer yapraklarını bulmasına yardımcı olun. Bu CSS kuralı öğelerin hangi yönde yerleştireleceğini belirler ve şu değerleri alır:</p><ul><li><code>row</code>: Öğeler yazı yönü ile aynı yönde yerleştirilir.</li><li><code>row-reverse</code>: Öğeler yazı yönünün tersi yönünde yerleştirilir.</li><li><code>column</code>: Öğeler yukarıdan aşağıya doğru yerleştirilir.</li><li><code>column-reverse</code>: Öğeler aşağıdan yukarıya doğru yerleştirilir.</li></ul>'
     },
     board: 'gyr',
     style: {'flex-direction': 'column'},
@@ -167,6 +172,7 @@ var levels = [
       'ru': '<p>Помоги лягушатам попасть на свои лилии. Хоть и кажется, что они почти на своих местах, все же придется применить и <code>flex-direction</code> и <code>justify-content</code>, чтоб поместить их на свои лилии.</p><p>Заметь, что когда ты устанавливаешь направление в обратном порядке для ряда или колонки, начало (start) и конец (end) тоже меняются местами.</p>',
       'fa': '<p>به قورباغه ها کمک کنید تا نیلوفرهای آبی خود را پیدا کنند. برای این کار از خاصیت های <code>flex-direction</code> و <code>justify-content</code> استفاده کنید.</p><p>توجه داشته باشید وقتی که <span class="en-font">flex-direction</span> مقادیر <span class="en-font">row-reverse</span> یا <span class="en-font">column-reverse</span> داشته باشد شروع و پایان معکوس می شود. </p>',
       'zh-cn': '<p>帮助青蛙们回到它们的荷叶上。尽管它们看上去离的很近，需要用<code>flex-direction</code>和<code>justify-content</code>来帮它们到那里。</p><p>注意当你调转行或列的方向后，flex-start和flex-end对应的方向也被调转了。</p>',
+      'tr': '<p>Kurbağaların kendi nilüfer yapraklarını bulmalarına yardımcı olun. Yakında görünseler de, <code>flex-direction</code> ve <code>justify-content</code> kurallarını kullanarak onları yerlerine götürebilirsiniz.</p><p>Yerleştirme yönünü değiştirdiğini row-reverse ya da column-reverse yaptığınız zaman, başlangıç ve bitiş referanslarının da değiştiğini unutmayın.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
@@ -184,6 +190,7 @@ var levels = [
       'ru': '<p>Помоги лягушатам найти их лилии с помощью <code>flex-direction</code> и <code>justify-content</code>.</p><p>Заметь, когда в качестве направления выбрана колонка, то <code>justify-content</code> влияет на вертикальное выравнивание, а <code>align-items</code> на горизонтальное.</p>',
       'fa': '<p> به قورباغه ها کمک کنید تا بخ نیلوفرهای آبی خود برسند برای این کار از خاصیت های <code>flex-direction</code> و <code>justify-content</code> استفاده کنید.</p><p>توجه داشته باشید وقتی <span class="en-font">flex-direction</span> مقدار <span class="en-font">column</span> داشته باشد, محور <code>justify-content</code> عمودی و <code>align-items</code> افقی می شود.</p>',
       'zh-cn': '<p>用<code>flex-direction</code>和<code>justify-content</code>来帮助青蛙找到他们的方向</p><p>注意当flex以列为方向时，<code>justify-content</code>控制纵向对齐，<code>align-items</code>控制横向对齐。</p>',
+      'tr': '<p><code>flex-direction</code> ve <code>justify-content</code> kurallarını kullanarak kurbağaların kendi nilüfer yapraklarını bulmalarına yardımcı olun.</p><p>flex direction kuralı column değerini aldığında, <code>justify-content</code> kuralı dikeyde ve <code>align-items</code> kuralı yatayda çalışır, unutmayın.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'column', 'justify-content': 'flex-end'},
@@ -201,6 +208,7 @@ var levels = [
       'ru': '<p>Помоги лягушатам найти их лилии с помощью <code>flex-direction</code> и <code>justify-content</code>.</p>',
       'fa': '<p>به قورباغه ها کمک کنید تا نیلوفرهای آبی خود را پیدا کنند. با استفاده از <code>flex-direction</code> و <code>justify-content</code> این کار را انجام دهید.</p>',
       'zh-cn': '<p>用<code>flex-direction</code>和<code>justify-content</code>来帮助青蛙回到他们的荷叶上。</p>',
+      'tr': '<p><code>flex-direction</code> ve <code>justify-content</code> kurallarını kullanarak kurbağaların kendi nilüfer yapraklarını bulmalarına yardımcı olun.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'column-reverse', 'justify-content': 'space-between'},
@@ -218,6 +226,7 @@ var levels = [
       'ru': '<p>Помоги лягушатам найти их лилии с помощью <code>flex-direction</code>, <code>justify-content</code> и <code>align-items</code>.</p>',
       'fa': '<p>به قورباغه ها کمک کنید با استفاده از خاصیت های <code>flex-direction</code>, <code>justify-content</code> و <code>align-items</code> این کار را انجام دهید.</p>',
       'zh-cn': '<p>用<code>flex-direction</code>，<code>justify-content</code>，以及，<code>align-items</code>来帮助青蛙回到他们的荷叶上。</p>',
+      'tr': '<p><code>flex-direction</code>, <code>justify-content</code> ve <code>align-items</code> kurallarını kullanarak kurbağaların kendi nilüfer yapraklarını bulmalarına yardımcı olun.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
@@ -235,6 +244,7 @@ var levels = [
       'ru': '<p>Иногда изменения порядка отображения элементов в контейнере недостаточно. В таких случаях мы можем применить свойство <code>order</code> для конкретных элементов. По умолчанию, значение этого свойства у элементов равно 0, но мы можем задать положительное или отрицательное целое число этому свойству.</p><p>Используй свойство <code>order</code>, чтоб разместить лягушат на своих лилиях.</p>',
       'fa': '<p>گاهی اوقات ما نیاز داریم فقط ایتم ها را جابه جا کنیم. برای این کار خاصیت <code>order</code> استافده می کنیم. به صورت پیشفرض آیتم ها مقدار <span class="en-font">0</span> دارند, اما با استفاده از این خاصیت شما می توانید مقدار مثبت و منفی برای آیتم ها تعیین کنید. <p>با استفاده از خاصیت <code>order</code> می توانید ترتیب نشستن قورباغه ها روی نیلوفرهای آبی خود را تعیین کنید.</p>',
       'zh-cn': '<p>有时候仅仅调转行或列的方向是不够的。在这些情况，我们可以设置单个元素的<code>order</code>属性。元素的属性默认值为0，但是我们设置这个属性为正数或负数。</p><p>用<code>order</code>来调整青蛙的顺序。</p>',
+      'tr': '<p>Bazen row ya da column yerleşimini tersine çevirmek yeterli olmaz. Bu gibi durumlarda <code>order</code> kuralı ile öğeleri tek tek sıralandırabiliriz. Öğelerin başlangıç sıra değeri 0\'dır, ama biz bu değeri pozitif ya da negatif bir değere eşitleyebiliriz.</p><p><code>order</code> kuralını kullanarak kurbağaları nilüfer yapraklarına göre sıralayın.</p>'
     },
     board: 'gyr',
     selector: '> :nth-child(2)',
@@ -254,7 +264,7 @@ var levels = [
       'ru': '<p>Используй свойство <code>order</code>, чтоб отправить красного лягушонка на его лилию.</p>',
       'fa': '<p>با استفاده از خاصیت <code>order</code> قورباغه قرمز را به نیلوفر آبی خود بفرستید.</p>',
       'zh-cn': '<p>用<code>order</code>属性来把红青蛙送回它的荷叶去。</p>',
-
+      'tr': '<p><code>order</code> kuralını kullanarak kırmızı kurbağayı kendi nilüfer yaprağına gönderin.</p>'
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
@@ -274,6 +284,7 @@ var levels = [
       'ru': '<p>Еще одно свойство, которое ты можешь применить к определенному элементу это <code>align-self</code>. Это свойство принимает те же значения, что и <code>align-items</code>.</p>',
       'fa': '<p>خاصیت دیگری وجود دارد که به شما امکان تراز بندی فردی (یک ایتم) را می دهد، این خاصت <code>align-self</code> نام دارد. مقادیر این خاصیت دقیقا هما مقادیر خاصیت <code>align-items</code> است.</p>',
       'zh-cn': '<p>另一个你可以使用的控制单个元素的属性是<code>align-self</code>。这个属性接受和<code>align-items</code>一样的那些值。</p>',
+      'tr': '<p>Öğe başına uygulayabileceğiniz bir başka kural ise <code>align-self</code>\'tir. Bu kural <code>align-items</code> kuralı ile aynı değerleri alır ve bu değeri o öğe için uygular.</p>'
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
@@ -292,6 +303,7 @@ var levels = [
       'ru': '<p>Используй <code>order</code> и <code>align-self</code> вместе, чтоб помочь лягушатам добраться к своим целям.</p>',
       'fa': '<p>با استفاده از خاصیت های <code>order</code> و <code>align-self</code> به قورباغه ها کمک کنید به نیلوفر آبی خود برسند.</p>',
       'zh-cn': '<p>用<code>order</code>和<code>align-self</code>的组合来帮助青蛙们到他们的目的地。</p>',
+      'tr': '<p><code>order</code> kuralını <code>align-self</code> kuralı ile birleştirerek kurbağaları varacakları yere gitmelerine yardımcı olun</p>'
     },
     board: 'ygygg',
     selector: '> .yellow',
@@ -310,7 +322,7 @@ var levels = [
       'ru': '<p>О нет! Лягушат сплющило на одном ряду лилий. Раздвинь их с помощью свойства <code>flex-wrap</code>, которое принимает следующие значения:</p><ul><li><code>nowrap</code>: Размеры элементов устанавливаются автоматически, чтоб они поместились в один ряд.</li><li><code>wrap</code>: Элементы автоматически переносятся на новую строку.</li><li><code>wrap-reverse</code>: Элементы автоматически переносятся на новую строку, но строки расположены в обратном порядке.</li></ul>',
       'fa': '<p>همه قورباغه ها بر روی یک سطر از نیلوفر های آبی به صورت فشرده نشسته اند . با استفاده از خاصیت <code>flex-wrap</code> با آنها کمک کنید, این خاصیت مقادیر ریر را می پذیرد:</p><ul><li><code>nowrap</code>:  این مقدار پیشفرض است و تمامی آیتم ها در یک خط و در کنار هم قرار می‌گیرند.</li><li><code>wrap</code>:  با استفاده از این مقدار آیتم ها در چند خط قرار میگیرند.</li><li><code>wrap-reverse</code>: ین مقدار شبیه به wrap است اما به جای اینکه چیدمان آیتم ها از بالا به پایین باشد از پایین به بالا است.</li></ul>',
       'zh-cn': '<p>哦不！这些青蛙都挤到一行了。用<code>flex-wrap</code>属性把他们分散看。这个属性接受这些值：</p><ul><li><code>nowrap</code>: 所有的元素都在一行。</li><li><code>wrap</code>: 元素自动换成多行。</li><li><code>wrap-reverse</code>: 元素自动换成逆序的多行</li></ul>',
-
+      'tr': '<p>Olamaz! Tüm kurbağalar tek sıra nilüfer yapraklarına sıkıştılar. <code>flex-wrap</code> kuralını kullanarak onları dağıtın. Bu kural şu değerleri alır:</p><ul><li><code>nowrap</code>: Tüm öğeler tek satıra sığar.</li><li><code>wrap</code>: Öğeler satırlara bölünür.</li><li><code>wrap-reverse</code>: Öğeler satırlara ters sırada bölünür.</li></ul>'
     },
     board: 'ygggggr',
     style: {'flex-wrap': 'wrap'},
@@ -327,7 +339,8 @@ var levels = [
       'fr': '<p>Aidez cette armée de grenouille à former trois belles colonnes en utilisant une combinaison de <code>flex-direction</code> et <code>flex-wrap</code>.</p>',
       'ru': '<p>Помоги этой армии лягушат выстроится в три колонки с помощью комбинации <code>flex-direction</code> и <code>flex-wrap</code>.</p>',
       'fa': '<p>به ارتش قورباغه ها کمک کنید تا به صورت منظم در ستون های خود قرار بگیرند با استفاده از خاصیت های <code>flex-direction</code> و <code>flex-wrap</code> این کار را انجام دهید.</p>',
-      'zh-cn': '<p>帮这些青蛙们排成整齐的散列。使用<code>flex-direction</code>和<code>flex-wrap</code>的组合。</p>'
+      'zh-cn': '<p>帮这些青蛙们排成整齐的散列。使用<code>flex-direction</code>和<code>flex-wrap</code>的组合。</p>',
+      'tr': '<p><code>flex-direction</code> ve <code>flex-wrap</code> kombinasyonunu kullanarak bu kurbağa ordusunun üçlü sıralı düzene girmesine yardımcı olun.</p>'
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-direction': 'column', 'flex-wrap': 'wrap'},
@@ -344,7 +357,8 @@ var levels = [
       'fr': '<p>Les deux propriétés <code>flex-direction</code> et <code>flex-wrap</code> sont utilisées tellement souvent ensembles que le raccourci <code>flex-flow</code> a été créé pour les combiner. Ce raccourci accepte les valeurs des deux propriétés séparées par un espace.</p><p>Par exemple, vous pouvez utiliser <code>flex-flow: row wrap</code> pour configurer les colonnes et les faire s\'envelopper.</p><p>Essayez d\'utiliser <code>flex-flow</code> pour répéter le niveau précédent.</p>',
       'ru': '<p>Два свойства <code>flex-direction</code> и <code>flex-wrap</code> используются так часто вместе, что было создано свойство <code>flex-flow</code> для их комбинирования. Это свойство принимает значения двух этих свойств, разделеные пробелом.</p><p>Например, ты можешь использовать <code>flex-flow: row wrap</code>, чтоб элементы располагались в ряд и автоматически переносились на новую строку.</p><p>Попробуй использовать <code>flex-flow</code>, чтоб повторить предыдущий уровень.</p>',
       'fa': '<p>مطمئنا با قابیل مختصر نویسی در <span class="en-font">css</span> آشنا هستید شما می تواندی خاصیت های <code>flex-direction</code> و <code>flex-wrap</code> را در خاصیت <code>flex-flow</code> بنویسید.</p><p>برای مثال, شما می توانید برای این خاصیت به این صورت <code>flex-flow: row wrap</code> مقدار دهید.</p><p>دوباره برای مرحله قبل از خاصیت <code>flex-flow</code> استفاده کنید.</p>',
-      'zh-cn': '<p><code>flex-direction</code>和<code>flex-wrap</code>两个属性经常会一起使用。所以有缩写属性<code>flex-flow</code>。这个缩写属性接受两个属性的值，两个值中间以空格隔开。</p><p>举个例子，你可以用<code>flex-flow: row wrap</code>。</p><p>试着用<code>flex-flow</code>来重复上一关的任务</p>'
+      'zh-cn': '<p><code>flex-direction</code>和<code>flex-wrap</code>两个属性经常会一起使用。所以有缩写属性<code>flex-flow</code>。这个缩写属性接受两个属性的值，两个值中间以空格隔开。</p><p>举个例子，你可以用<code>flex-flow: row wrap</code>。</p><p>试着用<code>flex-flow</code>来重复上一关的任务</p>',
+      'tr': '<p><code>flex-direction</code> ve <code>flex-wrap</code> kuralları, <code>flex-flow</code> kısa yazım kuralı ile birlikte yazılabilirler. Bu kısa yazım kuralı, iki kuralın değerlerini aralarında boşluk ile birlikte alır.</p><p>Örneğin, <code>flex-flow: row wrap</code> kuralı ile row ve wrap değerlerini aynı anda verebilirsiniz.</p><p><code>flex-flow</code> kuralını kullanarak bir önceki seviyeyi tekrar edin.</p>'
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-flow': 'column wrap'},
@@ -362,6 +376,7 @@ var levels = [
       'ru': '<p>Лягушат раскидало по всему пруду, но лилии сгруппированы в верхней части. Ты можешь использовать <code>align-content</code>, чтоб указать, как несколько рядов, должны отделятся друг от друга. Данное свойство принимает следующие значения:</p><ul><li><code>flex-start</code>: Ряды группируются в верхней части контейнера.</li><li><code>flex-end</code>: Ряды группируются в нижней части контейнера.</li><li><code>center</code>: Ряды группируются вертикально по центру контейнера.</li><li><code>space-between</code>: Ряды отображаются с одинаковыми расстояниями между ними.</li><li><code>space-around</code>: Ряды отображаются с одинаковыми расстояниями вокруг них.</li><li><code>stretch</code>: Ряды расстягиваются, чтоб заполнить контейнер равномерно.</li></ul><p>Это может запутатать, но <code>align-content</code> отвечает за расстоянием между рядами, пока <code>align-items</code> отвечает за то, как элементы в целом будут выровнены в контейнере. Когда только один ряд, <code>align-content</code> ни на что не влияет.</p>',
       'fa': '<p>قورباغه ها در سراسر برکه پخش شده اند, اما نیلوفر های آبی در بالای برکه هستند. شما با استفاده از <code>align-content</code> آن ها را به صورت ردیفی به بالا هدایت کنید. این خاصیت مقادیر زیر را می پذیرد:</p><ul><li><code>flex-start</code>: با این مقدار <span class="en-font">flex-line</span> ها در ابتدای <span class="en-font">flex-container</span> جمع می‌شوند.</li><li><code>flex-end</code>: با این مقدار <span class="en-font">flex-line</span> ها در انتهای <span class="en-font">flex-container</span> جمع می‌شوند.</li><li><code>center</code>: با این مقدار <span class="en-font">flex-line</span> ها در وسط <span class="en-font">flex-container</span> جمع میشوند.</li><li><code>space-between</code>: با این مقدار فضای خالی به طور مساوی بین <span class="en-font">flex line</span> ها توزیع میشود. خط اول در ابتدا و خط آخر در انتهای <span class="en-font">flex container</span> قرار می‌گیرند و بقیه خطوط در بین این ۲ خطر قرار می‌گیرند.</li><li><code>space-around</code>: فضای خالی به طور مساوی بین <span class="en-font">flex-line</span> ها تقسیم می‌شود.</li><li><code>stretch</code>:  با این مقدار <span class="en-font">flex-line</span> ها کشیده می‌شوند و فضای خالی را پر می کنند (این مقدار پیشفرض است).</li></ul>',
       'zh-cn': '<p>青蛙们在池塘里到处都是，然而荷叶都在顶部。你可以使用<code>align-content</code>来决定行与行之间隔多远。这个属性接受这些值：</p><ul><li><code>flex-start</code>: 多行都集中在顶部。</li><li><code>flex-end</code>: 多行都集中在底部。</li><li><code>center</code>: 多行居中。</li><li><code>space-between</code>: 行与行之间保持相等距离。</li><li><code>space-around</code>: 每行的周围保持相等距离。</li><li><code>stretch</code>: 每一行都被拉伸以填满容器。</li></ul><p>这可能有些容易混淆，但<code>align-content</code>决定行之间的间隔，而<code>align-items</code>决定元素整体在容器的什么围着。只有一行的时候<code>align-content</code>没有任何效果。</p>',
+      'tr': '<p>Kurbağalar göle dağılmışlar ama nilüfer yaprakları tepede toplanmışlar. <code>align-content</code> kuralı ile satırları birbirinden ayırabilirsiniz. Bu kural şu değerleri alır:</p><ul><li><code>flex-start</code>: Satırlar flex container\'ın tepesinde toplanır.</li><li><code>flex-end</code>: Satırlar flex container\'ın aşağısında toplanır.</li><li><code>center</code>: Satırlar flex container\'ın dikey ortasında toplanır.</li><li><code>space-between</code>: Satırlar aralarında eşit boşluk kalacak şekilde yayılırlar.</li><li><code>space-around</code>: Satırlar etraflarında eşit boşluk kalacak şekilde yayılırlar.</li><li><code>stretch</code>: Satırlar flex container\'ı kaplamak için uzarlar.</li></ul><p>Bu kafa karıştırıcı olabilir, ama <code>align-content</code> satırlar için aralıkları belirlerken, <code>align-items</code> öğlerin flex container içerisinde beraberce nasıl hizalanacağını belirler. Eğer tek satır varsa, <code>align-content</code> kuralının bir etkisi yoktur.</p>'
     },
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'},
@@ -379,7 +394,8 @@ var levels = [
       'fr': '<p>Maintenant, le courant a amassé tous les nénuphars dans le bas de l\'étang. Utilisez <code>align-content</code> pour guider les grenouilles vers le bas.</p>',
       'ru': '<p>Теперь течение сгруппировало лилии в нижней части. Используй <code>align-content</code>, чтоб направить лягушат туда.</p>',
       'fa': '<p>در حال حاضر نیلوفر های آبی به پایین برکه حرکت کرده اند. با استفاده از <code>align-content</code> قورباغه ها را هدایت کنید.</p>',
-      'zh-cn': '<p>现在水流把荷叶都推到底部了。用<code>align-content</code>来指引青蛙到那里。</p>'
+      'zh-cn': '<p>现在水流把荷叶都推到底部了。用<code>align-content</code>来指引青蛙到那里。</p>',
+      'tr': '<p>Bu gölde nilüfer yaprakları aşağıda toplanmışlar. <code>align-content</code>kuralını kullanarak kurbağaları oraya yönlendirin.</p>'
     },
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'},
@@ -397,7 +413,8 @@ var levels = [
       'fr': '<p>Les grenouilles ont fait la fête, mais elles doivent maintenant retourner à la maison. Utilisez une combinaison de <code>flex-direction</code> et <code>align-content</code> pour les ramener à leurs nénuphars.</p>',
       'ru': '<p>Лягушата были на вечеринке, но уже пора возвращаться домой. Используй комбинацию <code>flex-direction</code> и <code>align-content</code>, чтоб отправить их к своим лилиям.</p>',
       'fa': '<p>قورباغه ها یک مهمونی داشتند, اما الان دیگه زمان رفتن به خانه است. با استفاده از خاصیت های <code>flex-direction</code> و <code>align-content</code> کمک کنید به نیلوفر های آبی خود برسند.</p>',
-      'zh-cn': '<p>青蛙们开完了派对，现在该回家了。用<code>flex-direction</code>和<code>align-content</code>的组合来把他们带回各自的家</p>'
+      'zh-cn': '<p>青蛙们开完了派对，现在该回家了。用<code>flex-direction</code>和<code>align-content</code>的组合来把他们带回各自的家</p>',
+      'tr': '<p>Kurbağalar partideler, ama eve dönme vakti geldi. <code>flex-direction</code> ve <code>align-content</code> kombinasyonunu kullanarak kurbağaları kendi nilüfer yapraklarına götürün.</p>'
     },
     board: 'rgggyrgggyrgggy',
     classes: {'#pond, #background': 'wrap'},
@@ -408,7 +425,7 @@ var levels = [
   {
     name: 'align-content 4',
     instructions: {
-      'zh-cn': '<p>Bring the frogs home one last time by using the CSS properties you\'ve learned:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
+      'en': '<p>Bring the frogs home one last time by using the CSS properties you\'ve learned:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
       'de': '<p>Bringe die Fr&ouml;sche ein letztes Mal mit allen gelernten CSS-Eigenschaften nach Hause:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
       'pt-br': '<p>Leve os sapos para casa uma última vez utilizando as propriedades CSS que você aprendeu:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
       'es': '<p>Traiga a las ranas a su casa una vez más usando las propiedades CSS que aprendiste:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
@@ -416,6 +433,7 @@ var levels = [
       'ru': '<p>Доставь лягушат по домам в последний раз, используя CSS свойства, которые ты выучил:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
       'fa': '<p>برای آخرین بار با استفاده از <span class="en-font">Css</span> به قورباغه ها کمک کنید تا به مقصد خود برسند. برای انجام این کار از خاصیت های زیر استفاده کنید :</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
       'zh-cn': '<p>用这些你所学的CSS属性，最后一次把青蛙们带回家:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
+      'tr': '<p>Öğrendiğiniz tüm CSS kurallarını kullanarak kurbağaları son kez evlerine götürün:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>'
     },
     board: 'rggggyy',
     style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
@@ -435,6 +453,7 @@ var levelWin = {
     'ru': '<p>Ты выиграл! Благодарим тебя за мастерство flexbox, ты смог помочь всем лягушатам добраться до их лилий. Просто взгляни, как они счастливы!</p><p>Если тебе понравилось, зацени мои другие проекты в моем <a href="http://thomaspark.co">блоге</a> или <a href="http://twitter.com/thomashpark">твитере</a>, и не забудь поделится этой игрой со своими друзьями!</p>',
     'fa': '<p>شما برنده شدید! به همه قورباغه ها کمک کردید تا به نیلوفر های آبی خود برسند. آن ها خیلی خوشحال هستن و از شما تشکر می کنن!</p><p>برای مشاهده پروژه های دیگر از طریق <a href="http://thomaspark.co">وبلاگ</a> یا <a href="http://twitter.com/thomashpark">تویتتر</a> مرا دنبال کنید, و حتما بازی آموزش فلکس باکس توسط قورباغه را با دوستان خود به اشتراک بگذارید !</p>',
     'zh-cn': '<p>你赢了!正因为你对flexbox的了解，你帮助所有的青蛙回到了他们的荷叶上！看看他们跳的多开心！</p><p>如果你觉得这个网站很有趣，也来看看我<a href="http://thomaspark.co">博客</a>或<a href="http://twitter.com/thomashpark">Twitter</a>上的其他项目，而且记得和朋友分享Flexbox Froggy哦!</p>',
+    'tr': '<p>Kazandınız! Flexbox ustalığınız sayesinde bütün kurbağaları nilüfer yapraklarına götürebildik. Bakın, nekadar da mutlular!</p><p>Eğer bunu beğendiyseniz, diğer projelerime <a href="http://thomaspark.co">blog</a> ya da <a href="http://twitter.com/thomashpark">Twitter</a> adreslerinden göz gezdirin, ve Flexbox Froggy oyununu arkadaşlarınızla paylaşın!</p>'
   },
   board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
   classes: {'#pond, #background': 'wrap'},
