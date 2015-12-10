@@ -50,7 +50,7 @@ var messages = {
     'pt-br': 'Flexbox Froggy - Um jogo para aprender CSS flexbox',
     'es': 'Flexbox Froggy - Un juego para aprender CSS flexbox',
     'ru': 'Flexbox Froggy - Игра для изучения CSS Flexbox',
-    'fa': 'قورباغه فلکس باکس - یک باز برای آموزش سی اس اس فبکس باکس',
+    'fa': 'قورباغه فلکس باکس - یک بازی جذاب برای آموزش سی اس اس فلکس باکس',
     'zh-cn': 'Flexbox Froggy - 一个用来学CSS flexbox的游戏',
     'tr': 'Flexbox Froggy - CSS flexbox için öğretici oyun'
   },
