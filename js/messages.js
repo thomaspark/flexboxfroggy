@@ -6,7 +6,8 @@ var messages = {
     'pt-br': 'Próximo',
     'es': 'Siguiente',
     'ru': 'Следующий',
-    'fa': 'مرحله بعدی'
+    'fa': 'مرحله بعدی',
+    'zh-cn': '继续'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -16,6 +17,7 @@ var messages = {
     'es': 'Flexbox Froggy es una creación de',
     'ru': 'Игра Flexbox Froggy создана',
     'fa': 'قورباغه فلکس باکس ساخته شده توسط',
+    'zh-cn': 'Flexbox Froggy的作者是'
   },
   labelLevel: {
     'en': 'Level',
@@ -24,7 +26,8 @@ var messages = {
     'pt-br': 'Nível',
     'es': 'Nivel',
     'ru': 'Уровень',
-    'fa': 'مرحله'
+    'fa': 'مرحله',
+    'en': 'Level'
   },
   labelOf: {
     'en': 'of',
@@ -33,7 +36,8 @@ var messages = {
     'pt-br': 'de',
     'es': 'de',
     'ru': 'из',
-    'fa': 'از'
+    'fa': 'از',
+    'zh-cn': '/'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -42,7 +46,8 @@ var messages = {
     'pt-br': 'Flexbox Froggy - Um jogo para aprender CSS flexbox',
     'es': 'Flexbox Froggy - Un juego para aprender CSS flexbox',
     'ru': 'Flexbox Froggy - Игра для изучения CSS Flexbox',
-    'fa': 'قورباغه فلکس باکس - یک باز برای آموزش سی اس اس فبکس باکس'
+    'fa': 'قورباغه فلکس باکس - یک باز برای آموزش سی اس اس فبکس باکس',
+    'zh-cn': 'Flexbox Froggy - 一个用来学CSS flexbox的游戏',
   },
   labelReset: {
     'en': 'Reset',
@@ -51,7 +56,8 @@ var messages = {
     'pt-br': 'Reinicializar',
     'es': 'Reiniciar',
     'ru': 'Сбросить',
-    'fa': 'شروع مجدد'
+    'fa': 'شروع مجدد',
+    'zh-cn': '重置',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -60,6 +66,7 @@ var messages = {
     'pt-br': 'Você tem certeza que quer reinicializar o jogo?\n\nSeu progresso salvo será perdido e você voltará ao começo do jogo.',
     'es': 'Estás seguro, ¿Quieres reiniciar el juego?\n\nTu progreso se perderá y serás enviado al inicio del juego.',
     'ru': 'Вы действительно хотите сбросить игру?\n\nВаш прогресс будет потерян и вы вернетесь к началу игры.',
-    'fa': 'آیا از شروع مجدد بازی اطمینان دارید ?\n\nتمام مراحل ذخیره شده حذف خواهند شد.'
+    'fa': 'آیا از شروع مجدد بازی اطمینان دارید ?\n\nتمام مراحل ذخیره شده حذف خواهند شد.',
+    'zh-cn': '你确定要重置游戏吗?\n\n你保存了的进度将会丢失，而且你会回到游戏的最开始。'
   }
 };
