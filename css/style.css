@@ -28,6 +28,11 @@ section {
 
 #sidebar {
   width: 50%;
+  min-width: 300px;
+  position: relative;
+  padding: 2em 2em 8em;
+  background-color: #43A047;
+  font-size: 15px;
 }
 
 h1 {
@@ -59,6 +64,7 @@ li {
   position: absolute;
   left: 0;
   bottom: 2em;
+  padding: 0 2em;
   text-align: center;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.4);
@@ -70,13 +76,6 @@ a {
 
 a:hover {
   color: #fff;
-}
-
-#sidebar {
-  position: relative;
-  padding: 2em 2em 6em;
-  background-color: #43A047;
-  font-size: 16px;
 }
 
 .help {
