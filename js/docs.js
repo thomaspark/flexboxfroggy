@@ -8,7 +8,8 @@ var docs = {
     'ru': '<p>Выравнивает ряды flex-контейнера внутри него (работает только, если элементы расположены больше чем в один ряд).</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'fa': '<p>فرض کنید که ارتفاع flex-container بیشتر از فضایی است که flex-lineها گرفته اند و اصطلاحا مقداری فضای خالی در flex-container وجود دارد. به کمک خاصیت align-content شما می‌توانید محل قرارگیری این flex-line ها را مشخص کنید که از نظر محور عمودی در کجا قرار گیرند.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'zh-cn': '<p>当交叉轴有多余空间时，对齐容器内的轴线。</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
-    'tr': '<p>Eğer cross-axis\'de fazladan alan varsa, flex container satırlarını flex container\'ın içinde hizalar.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
+    'tr': '<p>Eğer cross-axis\'de fazladan alan varsa, flex container satırlarını flex container\'ın içinde hizalar.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'it': '<p>Allinea le linee all\'interno di un contenitore flex se c\'è extra spazio verticale</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -19,7 +20,8 @@ var docs = {
     'ru': '<p>Выравнивает flex-элементы вдоль пересекаемой оси.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'fa': '<p>این خاصیت نحوه چینش Flex itemها را در محور Cross مشخص می کند. این خاصیت مانند justify-content  است تنها تفاوت آنها در مقادیرشان است.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'zh-cn': '<p>在交叉轴上对齐多个元素</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'tr': '<p>Flex öğelerini cross-axis boyunca hizalar.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'tr': '<p>Flex öğelerini cross-axis boyunca hizalar.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'it': '<p>Allinea elementi flex lungo l\'asse verticale</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -30,7 +32,8 @@ var docs = {
     'ru': '<p>Выравнивает flex-элемент вдоль пересекаемой оси, перекрывая значения свойства <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'fa': '<p>با استفاده از این خاصیت می‌توانید نحوه قرار گرفتن عمودی هر flex item را مشخص کنید. مقادیر این خاصیت دقیقا همان مقادیر خاصیت align-items است. <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'zh-cn': '<p>在交叉轴上对齐一个元素，覆盖<code>align-items</code>所设定的值.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'tr': '<p><code>align-items</code>\'ın değerini ezerek, sadece bu öğeyi cross-axis boyunca hizalar</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'tr': '<p><code>align-items</code>\'ın değerini ezerek, sadece bu öğeyi cross-axis boyunca hizalar</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'it': '<p>Allinea un elemento flex lungo l\'asse verticale, sovrascrive il valore di <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -41,7 +44,9 @@ var docs = {
     'ru': '<p>Задает направление основной оси.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'fa': '<p>جهت آیتم ها را مشخص می کند.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'zh-cn': '<p>定义主轴的方向。</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
-    'tr': '<p>main axis\'in yönünü belirler.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
+    'tr': '<p>main axis\'in yönünü belirler.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'it': '<p>Definisce la direzione dell\'asse principale</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
+
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -52,7 +57,8 @@ var docs = {
     'ru': '<p>Свойство для быстрой записи <code>flex-direction</code> и <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'fa': '<p>اکنون به کمک flex-flow شما می‌توانید مقادیری که برای <code>flex-direction</code> و <code>flex-wrap</code> در نظر دارید را در یک خاصیت بنویسید.</p>',
     'zh-cn': '<p><code>flex-direction</code>和<code>flex-wrap</code>的缩写性质.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
-    'tr': '<p><code>flex-direction</code> ve <code>flex-wrap</code> için kısa yazım özelliği.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
+    'tr': '<p><code>flex-direction</code> ve <code>flex-wrap</code> için kısa yazım özelliği.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'it': '<p>Scorciatoia per le proprieta\' <code>flex-direction</code> e <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -63,7 +69,8 @@ var docs = {
     'ru': '<p>Указывает, нужно ли чтоб элементы принудительно находились в одном ряду или автоматически переносились.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'fa': '<p>در حالت عادی همه flex item ها در یک خط قرار می‌گیرند. به کمک خاصیت flex-wrap شما می‌توانید مشخص کنید که flex item ها در چندین خط قرار بگیرند.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'zh-cn': '<p>定义flex元素必须在单行或自动换行成多行。</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
-    'tr': '<p>Flex öğelerin tek satıra sığmasını ya da çoklu satırlara bölünmesini belirler.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
+    'tr': '<p>Flex öğelerin tek satıra sığmasını ya da çoklu satırlara bölünmesini belirler.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'it': '<p>Specifica se gli elementi flex vengono forzati su una singola linea oppure possono occupare piu\' linee</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -74,7 +81,8 @@ var docs = {
     'ru': '<p>Выравнивает flex-элементы вдоль главной оси.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'fa': '<p>با استفاده از این خاصیت می‌توانید نحوه چیدمان آیتم‌ها بر روی محور اصلی را تعیین کنید (به یاد داشته باشید همانطور که گفتیم اگر خاصیت flex-direction برابر column یا column-reverse باشد، محور اصلی عمودی خواهد بود).</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'zh-cn': '<p>将flex元素和主轴对齐。</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
-    'tr': '<p>Flex öğeleri main axis boyunca hizalar.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
+    'tr': '<p>Flex öğeleri main axis boyunca hizalar.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'it': '<p>Allinea elementi flex lungo l\'asse principale.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt;</code>',
@@ -85,6 +93,7 @@ var docs = {
     'ru': '<p>Указывает порядок flex-элемента.</p><code>&lt;integer&gt;</code>',
     'fa': '<p>به کمک خاصیت order شما می‌توانید ترتیب چینش Flex itemها را مشخص کنید. مقادیر این خاصیت اعداد می‌باشند و هرچه عدد کوچکتر باشد اولویت آیتم بالاتر خواهد بود..</p><code>&lt;integer&gt;</code>',
     'zh-cn': '<p>决定flex元素的顺序.</p><code>&lt;integer&gt;</code>',
-    'tr': '<p>Flex öğenin sırasını belirler.</p><code>&lt;integer&gt;</code>'
+    'tr': '<p>Flex öğenin sırasını belirler.</p><code>&lt;integer&gt;</code>',
+    'it': '<p>Specifica l\'ordine degli elementi flex</p><code>&lt;integer&gt;</code>'
   }
 };
