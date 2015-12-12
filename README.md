@@ -19,12 +19,15 @@ Thomas Park
 
 My gratitude to these contributors for localizing Flexbox Froggy. This is what open source is all about.
 
+* Chinese by [Tim Guo](https://github.com/timguoqk)
 * Farsi by [Ali Haddad](https://github.com/alihaddadkar)
 * French by [Karl Thibault](https://github.com/Notuom)
 * German by [Thorsten Frommen](https://github.com/tfrommen)
+* Italian by [Matteo Bandiera](https://github.com/matteobandiera)
 * Portuguese by [Marcus Tenório](https://github.com/mvtenorio)
 * Russian by [Artyom Vozhzhov](https://github.com/artem328)
 * Spanish by [Manuel González](https://github.com/manuelitox)
+* Turkish by [Uğur Korfalı](https://github.com/kel-sakal-biyik)
 
 Don't see your language on the list? Contribute a translation! Fork the [repo](https://github.com/thomaspark/flexboxfroggy/), add your translations, and submit a pull request.
 
