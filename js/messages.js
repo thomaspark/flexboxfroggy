@@ -9,7 +9,8 @@ var messages = {
     'fa': 'مرحله بعدی',
     'zh-cn': '继续',
     'tr': 'Sonraki',
-    'it': 'Prossima'
+    'it': 'Prossima',
+    'ko': '다음'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -21,7 +22,8 @@ var messages = {
     'fa': 'قورباغه فلکس باکس ساخته شده توسط',
     'zh-cn': 'Flexbox Froggy的作者是',
     'tr': 'Flexbox Froggy\'nin yaratıcısı:',
-    'it': 'Flexbox Froggy e\' stato creato da'
+    'it': 'Flexbox Froggy e\' stato creato da',
+    'ko': 'Flexbox Froggy는 다음에 의해 개발되었습니다'
   },
   labelLevel: {
     'en': 'Level',
@@ -33,7 +35,8 @@ var messages = {
     'fa': 'مرحله',
     'zh-cn': 'Level',
     'tr': 'Seviye',
-    'it': 'Livello'
+    'it': 'Livello',
+    'ko': '단계'
   },
   labelOf: {
     'en': 'of',
@@ -45,7 +48,8 @@ var messages = {
     'fa': 'از',
     'zh-cn': '/',
     'tr': '/',
-    'it': 'di'
+    'it': 'di',
+    'ko': 'of'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -57,7 +61,9 @@ var messages = {
     'fa': 'قورباغه فلکس باکس - یک بازی جذاب برای آموزش سی اس اس فلکس باکس',
     'zh-cn': 'Flexbox Froggy - 一个用来学CSS flexbox的游戏',
     'tr': 'Flexbox Froggy - CSS flexbox için öğretici oyun',
-    'it': 'Flexbox Froggy - Un gioco per imparare CSS flexbox'
+    'it': 'Flexbox Froggy - Un gioco per imparare CSS flexbox',
+    'fa': 'قورباغه فلکس باکس - یک باز برای آموزش سی اس اس فبکس باکس',
+    'ko': 'Flexbox Froggy - CSS flexbox 속성 배우기 게임'
   },
   labelReset: {
     'en': 'Reset',
@@ -69,7 +75,8 @@ var messages = {
     'fa': 'شروع مجدد',
     'zh-cn': '重置',
     'tr': 'Baştan Başla',
-    'it': 'Annulla'
+    'it': 'Annulla',
+    'ko': '재시작'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -81,6 +88,7 @@ var messages = {
     'fa': 'آیا از شروع مجدد بازی اطمینان دارید ?\n\nتمام مراحل ذخیره شده حذف خواهند شد.',
     'zh-cn': '你确定要重置游戏吗?\n\n你保存了的进度将会丢失，而且你会回到游戏的最开始。',
     'tr': 'Oyuna baştan başlamak istediğinize emin misiniz? Kayıtlı bütün ilerlemeniz silinecek ve birinci seviyeye geri döneceksiniz.',
-    'it': 'Sei sicuro di voler annullare il gioco?\n\nI tuoi salvataggi verranno persi e dovrai ricominciare il gioco dall\'inizio.'
+    'it': 'Sei sicuro di voler annullare il gioco?\n\nI tuoi salvataggi verranno persi e dovrai ricominciare il gioco dall\'inizio.',
+    'ko': '게임을 다시 시작하시겠습니까? 지금까지의 진도는 사라지고 게임의 처음으로 돌아갈 것입니다.'
   }
 };
