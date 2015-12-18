@@ -29,6 +29,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Russian by [Artyom Vozhzhov](https://github.com/artem328)
 * Spanish by [Manuel González](https://github.com/manuelitox)
 * Turkish by [Uğur Korfalı](https://github.com/kel-sakal-biyik)
+* Lithuanian by [Justas Maziliauskas](https://github.com/justutiz)
 
 Don't see your language on the list? Contribute a translation! Fork the [repo](https://github.com/thomaspark/flexboxfroggy/), add your translations, and submit a pull request.
 

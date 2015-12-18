@@ -10,7 +10,8 @@ var docs = {
     'zh-cn': '<p>当交叉轴有多余空间时，对齐容器内的轴线。</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'tr': '<p>Eğer cross-axis\'de fazladan alan varsa, flex container satırlarını flex container\'ın içinde hizalar.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'it': '<p>Allinea le linee all\'interno di un contenitore flex se c\'è extra spazio verticale</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
-    'ko': '<p>세로선 상에 여분의 공간이 있는 경우 Flex 컨테이너 사이의 간격을 조절합니다.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
+    'ko': '<p>세로선 상에 여분의 공간이 있는 경우 Flex 컨테이너 사이의 간격을 조절합니다.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'lt': '<p>Lygiuoja elastiško supančio elemento eilutes, kai kertančios ašies atžvilgiu yra laisvos vietos.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -23,7 +24,8 @@ var docs = {
     'zh-cn': '<p>在交叉轴上对齐多个元素</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'tr': '<p>Flex öğelerini cross-axis boyunca hizalar.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'it': '<p>Allinea elementi flex lungo l\'asse verticale</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'ko': '<p>Flex 요소를 세로선 상에서 정렬합니다.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'ko': '<p>Flex 요소를 세로선 상에서 정렬합니다.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'lt': '<p>Lygiuoja elastiškus elementus palei kertančią ašį.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -36,7 +38,8 @@ var docs = {
     'zh-cn': '<p>在交叉轴上对齐一个元素，覆盖<code>align-items</code>所设定的值.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'tr': '<p><code>align-items</code>\'ın değerini ezerek, sadece bu öğeyi cross-axis boyunca hizalar</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'it': '<p>Allinea un elemento flex lungo l\'asse verticale, sovrascrive il valore di <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'ko': '<p>지정된 <code>align-items</code> 값을 무시하고 Flex 요소를 세로선 상에서 정렬합니다.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'ko': '<p>지정된 <code>align-items</code> 값을 무시하고 Flex 요소를 세로선 상에서 정렬합니다.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'en': '<p>Lygiuoja elastišką elementą palei kertančią ašį nepaisant <code>align-items</code> reikšmės.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -49,7 +52,8 @@ var docs = {
     'zh-cn': '<p>定义主轴的方向。</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'tr': '<p>main axis\'in yönünü belirler.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'it': '<p>Definisce la direzione dell\'asse principale</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
-    'ko': '<p>정렬할 방향을 지정합니다.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
+    'ko': '<p>정렬할 방향을 지정합니다.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'lt': '<p>Nustato pagrindinės ašies kryptį.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -62,7 +66,8 @@ var docs = {
     'zh-cn': '<p><code>flex-direction</code>和<code>flex-wrap</code>的缩写性质.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'tr': '<p><code>flex-direction</code> ve <code>flex-wrap</code> için kısa yazım özelliği.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'it': '<p>Scorciatoia per le proprieta\' <code>flex-direction</code> e <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
-    'ko': '<p>다음의 속성들을 간략히 한 속성입니다: <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
+    'ko': '<p>다음의 속성들을 간략히 한 속성입니다: <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'lt': '<p>Sutrumpinta komanda atstojanti <code>flex-direction</code> ir <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -75,7 +80,8 @@ var docs = {
     'zh-cn': '<p>定义flex元素必须在单行或自动换行成多行。</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'tr': '<p>Flex öğelerin tek satıra sığmasını ya da çoklu satırlara bölünmesini belirler.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'it': '<p>Specifica se gli elementi flex vengono forzati su una singola linea oppure possono occupare piu\' linee</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
-    'ko': '<p>Flex 요소들을 한 줄 또는 여러 줄에 걸쳐 정렬합니다.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
+    'ko': '<p>Flex 요소들을 한 줄 또는 여러 줄에 걸쳐 정렬합니다.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'lt': '<p>Nusako ar elastiški elementai turi būti sutalpinti vienoje eilutėje, ar gali būti paskirstyti per kelias eilutes.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -88,7 +94,8 @@ var docs = {
     'zh-cn': '<p>将flex元素和主轴对齐。</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'tr': '<p>Flex öğeleri main axis boyunca hizalar.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'it': '<p>Allinea elementi flex lungo l\'asse principale.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
-    'ko': '<p>Flex 요소들을 가로선 상에서 정렬합니다.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
+    'ko': '<p>Flex 요소들을 가로선 상에서 정렬합니다.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'lt': '<p>Lygiuoja elastiškus elementus palei pagrindinę ašį.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt;</code>',
@@ -101,6 +108,7 @@ var docs = {
     'zh-cn': '<p>决定flex元素的顺序.</p><code>&lt;integer&gt;</code>',
     'tr': '<p>Flex öğenin sırasını belirler.</p><code>&lt;integer&gt;</code>',
     'it': '<p>Specifica l\'ordine degli elementi flex</p><code>&lt;integer&gt;</code>',
-    'ko': '<p>Flex 요소의 순서를 지정합니다.</p><code>&lt;integer&gt;</code>'
+    'ko': '<p>Flex 요소의 순서를 지정합니다.</p><code>&lt;integer&gt;</code>',
+    'lt': '<p>Nusako elastiškų elementų eilės tvarką.</p><code>&lt;integer&gt;</code>'
   }
 };

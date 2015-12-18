@@ -10,7 +10,8 @@ var messages = {
     'zh-cn': '继续',
     'tr': 'Sonraki',
     'it': 'Prossima',
-    'ko': '다음'
+    'ko': '다음',
+    'lt': 'Sekantis'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -23,7 +24,8 @@ var messages = {
     'zh-cn': 'Flexbox Froggy的作者是',
     'tr': 'Flexbox Froggy\'nin yaratıcısı:',
     'it': 'Flexbox Froggy e\' stato creato da',
-    'ko': 'Flexbox Froggy는 다음에 의해 개발되었습니다'
+    'ko': 'Flexbox Froggy는 다음에 의해 개발되었습니다',
+    'lt': 'Flexbox Froggy kūrėjas'
   },
   labelLevel: {
     'en': 'Level',
@@ -36,7 +38,8 @@ var messages = {
     'zh-cn': 'Level',
     'tr': 'Seviye',
     'it': 'Livello',
-    'ko': '단계'
+    'ko': '단계',
+    'lt': 'Lygis'
   },
   labelOf: {
     'en': 'of',
@@ -49,7 +52,8 @@ var messages = {
     'zh-cn': '/',
     'tr': '/',
     'it': 'di',
-    'ko': 'of'
+    'ko': 'of',
+    'lt': 'iš'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -63,7 +67,8 @@ var messages = {
     'tr': 'Flexbox Froggy - CSS flexbox için öğretici oyun',
     'it': 'Flexbox Froggy - Un gioco per imparare CSS flexbox',
     'fa': 'قورباغه فلکس باکس - یک باز برای آموزش سی اس اس فبکس باکس',
-    'ko': 'Flexbox Froggy - CSS flexbox 속성 배우기 게임'
+    'ko': 'Flexbox Froggy - CSS flexbox 속성 배우기 게임',
+    'lt': 'Flexbox Froggy - Žaidimas padėsiantis perprasti CSS "flexbox" metodiką'
   },
   labelReset: {
     'en': 'Reset',
@@ -76,7 +81,8 @@ var messages = {
     'zh-cn': '重置',
     'tr': 'Baştan Başla',
     'it': 'Annulla',
-    'ko': '재시작'
+    'ko': '재시작',
+    'lt': 'Atstatyti'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -89,6 +95,7 @@ var messages = {
     'zh-cn': '你确定要重置游戏吗?\n\n你保存了的进度将会丢失，而且你会回到游戏的最开始。',
     'tr': 'Oyuna baştan başlamak istediğinize emin misiniz? Kayıtlı bütün ilerlemeniz silinecek ve birinci seviyeye geri döneceksiniz.',
     'it': 'Sei sicuro di voler annullare il gioco?\n\nI tuoi salvataggi verranno persi e dovrai ricominciare il gioco dall\'inizio.',
-    'ko': '게임을 다시 시작하시겠습니까? 지금까지의 진도는 사라지고 게임의 처음으로 돌아갈 것입니다.'
+    'ko': '게임을 다시 시작하시겠습니까? 지금까지의 진도는 사라지고 게임의 처음으로 돌아갈 것입니다.',
+    'lt': 'Ar esate įsitikinę, kad norite atstatyti žaidimą į pradinę būseną?\n\nJūsų pasiekimai bus anuliuoti ir būsite nukreipti į žaidimo pradžią.'
   }
 };
