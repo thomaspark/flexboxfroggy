@@ -166,8 +166,8 @@ pre {
 #levelsWrapper {
   display: none;
   top: 30px;
-  right: 0;
-  max-width: 180px;
+  right: 20px;
+  max-width: 160px;
   padding: 1em 0.5em;
   margin-top: 12px;
 }
@@ -213,15 +213,19 @@ pre {
 
 #level-indicator {
   display: inline-block;
-  width: 140px;
+  width: 144px;
   line-height: 30px;
   text-align: center;
   cursor: pointer;
 }
 
+#labelLevel {
+  margin-left: 5px;
+}
+
 .caret {
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 2px;
 }
 
 #level-indicator:hover,
