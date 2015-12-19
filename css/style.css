@@ -213,14 +213,15 @@ pre {
 
 #level-indicator {
   display: inline-block;
-  width: 110px;
+  width: 140px;
   line-height: 30px;
   text-align: center;
   cursor: pointer;
 }
 
-html[lang="ru"] #level-indicator {
-  width: 130px; /* Fix word wrapping bug for russian version */
+.caret {
+  display: inline-block;
+  margin-left: 5px;
 }
 
 #level-indicator:hover,
