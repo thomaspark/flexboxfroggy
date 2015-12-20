@@ -16,14 +16,11 @@ a[href="#fa"] {
 
 body {
   display: flex;
+  min-width: 600px;
   margin: 0;
   background-color: #43A047;
   color: rgba(255, 255, 255, 0.7);
   font-family: 'PT Sans', sans-serif;
-}
-
-section {
-  min-height: 100%;
 }
 
 #sidebar {
@@ -293,6 +290,7 @@ pre {
 
 #credits {
   width: 100%;
+  min-width: 300px;
   position: absolute;
   left: 0;
   bottom: 2em;
@@ -413,3 +411,30 @@ pre {
   flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 1000px)  {
+
+  body {
+    position: relative;
+  }
+
+  #sidebar {
+    position: static;
+    padding: 2em;
+  }
+
+  #credits {
+    width: 50%;
+    left: 50%;
+    top: 50vw;
+  }
+
+}
+
+@media only screen and (max-width: 600px)  {
+
+  #credits {
+    width: 50%;
+    left: 50%;
+    top: 300px;
+  }
+}
