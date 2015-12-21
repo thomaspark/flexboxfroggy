@@ -39,7 +39,7 @@ var docs = {
     'tr': '<p><code>align-items</code>\'ın değerini ezerek, sadece bu öğeyi cross-axis boyunca hizalar</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'it': '<p>Allinea un elemento flex lungo l\'asse verticale, sovrascrive il valore di <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'ko': '<p>지정된 <code>align-items</code> 값을 무시하고 Flex 요소를 세로선 상에서 정렬합니다.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'en': '<p>Lygiuoja elastišką elementą palei kertančią ašį nepaisant <code>align-items</code> reikšmės.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'lt': '<p>Lygiuoja elastišką elementą palei kertančią ašį nepaisant <code>align-items</code> reikšmės.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
