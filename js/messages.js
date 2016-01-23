@@ -12,7 +12,8 @@ var messages = {
     'it': 'Prossima',
     'ko': '다음',
     'lt': 'Sekantis',
-    'vi': 'Kế Tiếp'
+    'vi': 'Kế Tiếp',
+    'pl': 'Dalej'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -27,7 +28,8 @@ var messages = {
     'it': 'Flexbox Froggy e\' stato creato da',
     'ko': 'Flexbox Froggy는 다음에 의해 개발되었습니다',
     'lt': 'Flexbox Froggy kūrėjas',
-    'vi': 'Flexbox Froggy được tạo ra bởi'
+    'vi': 'Flexbox Froggy được tạo ra bởi',
+    'pl': 'Flexbox Froggy jest wytworem'
   },
   labelLevel: {
     'en': 'Level',
@@ -42,7 +44,8 @@ var messages = {
     'it': 'Livello',
     'ko': '단계',
     'lt': 'Lygis',
-    'vi': 'Cấp'
+    'vi': 'Cấp',
+    'pl': 'Poziom'
   },
   labelOf: {
     'en': 'of',
@@ -57,7 +60,8 @@ var messages = {
     'it': 'di',
     'ko': 'of',
     'lt': 'iš',
-    'vi': 'của'
+    'vi': 'của',
+    'pl': 'z'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -70,10 +74,10 @@ var messages = {
     'zh-cn': 'Flexbox Froggy - 一个用来学CSS flexbox的游戏',
     'tr': 'Flexbox Froggy - CSS flexbox için öğretici oyun',
     'it': 'Flexbox Froggy - Un gioco per imparare CSS flexbox',
-    'fa': 'قورباغه فلکس باکس - یک باز برای آموزش سی اس اس فبکس باکس',
     'ko': 'Flexbox Froggy - CSS flexbox 속성 배우기 게임',
     'lt': 'Flexbox Froggy - Žaidimas padėsiantis perprasti CSS "flexbox" metodiką',
-    'vi': 'Flexbox Froggy - Một trò chơi để học CSS flexbox'
+    'vi': 'Flexbox Froggy - Một trò chơi để học CSS flexbox',
+    'pl': 'Flexbox Froggy - gra, która nauczy cię posługiwania się "flexboxa"'
   },
   labelReset: {
     'en': 'Reset',
@@ -88,7 +92,8 @@ var messages = {
     'it': 'Annulla',
     'ko': '재시작',
     'lt': 'Atstatyti',
-    'vi': 'Thiết lập lại'
+    'vi': 'Thiết lập lại',
+    'pl': 'Uruchom ponownie'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -103,6 +108,7 @@ var messages = {
     'it': 'Sei sicuro di voler annullare il gioco?\n\nI tuoi salvataggi verranno persi e dovrai ricominciare il gioco dall\'inizio.',
     'ko': '게임을 다시 시작하시겠습니까? 지금까지의 진도는 사라지고 게임의 처음으로 돌아갈 것입니다.',
     'lt': 'Ar esate įsitikinę, kad norite atstatyti žaidimą į pradinę būseną?\n\nJūsų pasiekimai bus anuliuoti ir būsite nukreipti į žaidimo pradžią.',
-    'vi': 'Bạn có chắc chắn là bạn muốn thiết lập lại trò chơi không? Toàn bộ tiến trình của bạn sẽ bị mất và bạn sẽ được chuyển đến đầu của trò chơi.'
+    'vi': 'Bạn có chắc chắn là bạn muốn thiết lập lại trò chơi không? Toàn bộ tiến trình của bạn sẽ bị mất và bạn sẽ được chuyển đến đầu của trò chơi.',
+    'pl': 'Na pewno chcesz uruchomić grę ponownie?\n\n\Utracisz dotychczasowe postępy, a także powrócisz do początku gry.'
   }
 };
