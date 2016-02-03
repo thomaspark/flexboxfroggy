@@ -14,7 +14,7 @@ var docs = {
     'lt': '<p>Lygiuoja elastiško supančio elemento eilutes, kai kertančios ašies atžvilgiu yra laisvos vietos.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'vi': '<p>Sắp xếp các dòng trong hộp chứa khi có thêm không gian dọc theo trục ngang.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'pl': '<p>Wyrównuje wiersze wewnątrz kontenera z atrybutem flex w przypadku gdy na osiach poprzecznych jest dodatkowe miejsce.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
-    'cs': '<p>Určuje zarovnání řádků ve směru vedlejší osy, pokud je v kontejneru přebytek místa.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'cs': '<p>Určuje zarovnání řádků ve směru vedlejší osy, pokud je v kontejneru přebytek místa.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -31,7 +31,7 @@ var docs = {
     'lt': '<p>Lygiuoja elastiškus elementus palei kertančią ašį.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'vi': '<p>Sắp xếp các hạng mục flex dọc theo trục ngang.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'pl': '<p>Wyrównuje elementy z atrybutem flex wzdłuż osi poprzecznych.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'cs': '<p>Určuje zarovnání prvků podle vedlejší osy.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'cs': '<p>Určuje zarovnání prvků podle vedlejší osy.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -48,7 +48,7 @@ var docs = {
     'lt': '<p>Lygiuoja elastišką elementą palei kertančią ašį nepaisant <code>align-items</code> reikšmės.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'vi': '<p>Sắp xếp một hạng mục flex dọc theo trục ngang, ghi đè lên giá trị của <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'pl': '<p>Wyrównuje element z atrybutem flex wzdłuż osi poprzecznych nadpisując wartość właściwości <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'cs': '<p>Zarovnání prvku ve podle vedlejší osy, přebíjí hodnotu <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'cs': '<p>Zarovnání prvku ve podle vedlejší osy, přebíjí hodnotu <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
