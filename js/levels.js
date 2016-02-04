@@ -159,7 +159,8 @@ var levels = [
       'ko': '<p>개구리들이 연못을 다시 건너려고 하는데, 수련잎 주위에 간격이 있습니다. <code>justify-content</code>와 <code>align-items</code>를 함께 사용하세요.</p>',
       'lt': '<p>Varlytėms vėl reikia persikelti į kitą tvenkinio vietą, šį kartą ant lelijos lapų, aplink kuriuos yra pakankamai vietos. Naudokite <code>justify-content</code> ir <code>align-items</code> kombinaciją.</p>',
       'vi': '<p>Những chú ếch cần phải qua ao một lần nữa, lần này các chiếc lá súng có nhiều không gian xung quanh chúng. Kết hợp <code>justify-content</code> và <code>align-items</code>.</p>',
-      'pl': '<p>Żabki znowu muszą przejść na drugą stronę stawu. Tym razem muszą znaleźć się na listkach, które mają dużo miejca wokół siebie. Skorzystaj z kombinacji <code>justify-content</code> i <code>align-items</code>.</p>'
+      'pl': '<p>Żabki znowu muszą przejść na drugą stronę stawu. Tym razem muszą znaleźć się na listkach, które mają dużo miejca wokół siebie. Skorzystaj z kombinacji <code>justify-content</code> i <code>align-items</code>.</p>',
+      'cs': '<p>Žabky znovu potřebují na spodek rybníka, teď jsou však mezi lekníny velké mezery. Použijte kombinaci vlastností <code>justify-content</code> a <code>align-items</code>.</p>',
     },
     board: 'gyr',
     style: {'justify-content': 'space-around', 'align-items': 'flex-end'},
