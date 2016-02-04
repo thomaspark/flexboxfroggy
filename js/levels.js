@@ -255,7 +255,8 @@ var levels = [
       'ko': '<p>개구리들이 자기 색깔과 같은 수련잎 위로 이동할 수 있도록 도와주세요. <code>flex-direction</code>과 <code>justify-content</code>를 모두 사용해야 합니다.</p><p>Flex의 방향이 column일 경우 <code>justify-content</code>의 방향이 세로로, <code>align-items</code>의 뱡향이 가로로 바뀝니다.</p>',
       'lt': '<p>Naudodami <code>flex-direction</code> ir <code>justify-content</code> padėkite varlytėms rasti savo lelijos lapus.</p><p>Atkreipkite dėmesį, kad kai rikiavimo būdas yra stulpelis <code>justify-content</code> keičia elementų rikiavimą vertikaliai, o <code>align-items</code> horizontaliai.</p>',
       'vi': '<p>Giúp đỡ những chú ếch tìm thấy các chiếc lá súng của chúng bằng cách sử dụng <code>flex-direction</code> và <code>justify-content</code>.</p><p>Chú ý rằng khi hướng flex là hàng dọc, <code>justify-content</code> thay đổi thành chiều dọc và <code>align-items</code> to chiều ngang.</p>',
-      'pl': '<p>Pomóż żabkom dotrzeć do listków używając <code>flex-direction</code> i <code>justify-content</code>.</p><p>Zauważ, że w przypadku gdy <code>flex direction</code> ma wartość column to <code>justify-content</code> wyrównuje element pionowo, a <code>align-items</code> poziomo.</p>'
+      'pl': '<p>Pomóż żabkom dotrzeć do listków używając <code>flex-direction</code> i <code>justify-content</code>.</p><p>Zauważ, że w przypadku gdy <code>flex direction</code> ma wartość column to <code>justify-content</code> wyrównuje element pionowo, a <code>align-items</code> poziomo.</p>',
+      'cs': '<p>Pomozte žabkám najít své lekníny pomocí <code>flex-direction</code> a <code>justify-content</code>.</p><p>Všiměte si, že když je hlavní osa svislá, <code>justify-content</code> zarovnává prvky svisle a <code>align-items</code> vodorovně.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'column', 'justify-content': 'flex-end'},
@@ -278,7 +279,8 @@ var levels = [
       'ko': '<p><code>flex-direction</code>과 <code>justify-content</code>를 사용하여 개구리들이 자기 색깔과 같은 수련잎 위로 이동할 수 있도록 도와주세요.</p>',
       'lt': '<p>Padėkite varlytėms rasti savo lelijos lapus naudodami <code>flex-direction</code> ir <code>justify-content</code>.</p>',
       'vi': '<p>Giúp đỡ những chú ếch tìm lá súng của họ bằng cách sử dụng <code>flex-direction</code> và <code>justify-content</code>.</p>',
-      'pl': '<p>Pomóż żabkom dotrzeć do swoich listków używając <code>flex-direction</code> i <code>justify-content</code>.</p>'
+      'pl': '<p>Pomóż żabkom dotrzeć do swoich listków używając <code>flex-direction</code> i <code>justify-content</code>.</p>',
+      'cs': '<p>Pomozte žabkám najít své lekníny pomocí <code>flex-direction</code> a <code>justify-content</code>.</p>',
     },
     board: 'gyr',
     style: {'flex-direction': 'column-reverse', 'justify-content': 'space-between'},
@@ -301,7 +303,8 @@ var levels = [
       'ko': '<p><code>flex-direction</code>, <code>justify-content</code>, 그리고 <code>align-items</code>를 사용하여 개구리들이 자기 색깔과 같은 수련잎 위로 이동할 수 있도록 도와주세요.</p>',
       'lt': '<p>Padėkite varlytėms rasti savo lelijos lapus naudodami <code>flex-direction</code>, <code>justify-content</code>, ir <code>align-items</code>.</p>',
       'vi': '<p>Giúp đỡ những chú ếch tìm chiếc lá súng của họ bằng cách sử dụng <code>flex-direction</code>, <code>justify-content</code>, và <code>align-items</code>.</p>',
-      'pl': '<p>Pomóż żabkom dotrzeć do swoich listków przy pomocy <code>flex-direction</code>, <code>justify-content</code> i <code>align-items</code>.</p>'
+      'pl': '<p>Pomóż żabkom dotrzeć do swoich listków przy pomocy <code>flex-direction</code>, <code>justify-content</code> i <code>align-items</code>.</p>',
+      'cs': '<p>Pomozte žabkám na lekníny vlastnostmi <code>flex-direction</code>, <code>justify-content</code> a <code>align-items</code>.</p>',
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
