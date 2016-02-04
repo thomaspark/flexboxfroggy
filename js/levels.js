@@ -453,7 +453,8 @@ var levels = [
       'ko': '<p><code>flex-direction</code>과 <code>flex-wrap</code>을 사용하여 개구리들이 세 column에 정렬할 수 있도록 도와주세요.</p>',
       'lt': '<p>Padėkite šiai varlyčių armijai išsirikiuoti trimis tvarkingais stulpeliais naudodami <code>flex-direction</code> ir <code>flex-wrap</code> komandų kombinaciją.</p>',
       'vi': '<p>Giúp đội quân ếch xếp thành ba hàng trật tự bằng cách kết hợp <code>flex-direction</code> và <code>flex-wrap</code>.</p>',
-      'pl': '<p>Pomóż tej zgrai żabek utworzyć trzy uporządkowane kolumny używając własności <code>flex-direction</code> oraz <code>flex-wrap</code>.</p>'
+      'pl': '<p>Pomóż tej zgrai żabek utworzyć trzy uporządkowane kolumny używając własności <code>flex-direction</code> oraz <code>flex-wrap</code>.</p>',
+      'cs': '<p>Pomozte žabkám utvořiy tři zástupy pomocí <code>flex-direction</code> a <code>flex-wrap</code>.</p>',
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-direction': 'column', 'flex-wrap': 'wrap'},
@@ -476,7 +477,8 @@ var levels = [
       'ko': '<p><code>flex-direction</code>과 <code>flex-wrap</code>이 자주 같이 사용되기 때문에, <code>flex-flow</code>가 이를 대신할 수 있습니다. 이 속성은 공백문자를 이용하여 두 속성의 값들을 인자로 받습니다.</p><p>예를 들어, 요소들을 가로선 상의 여러줄에 걸쳐 정렬하기 위해 <code>flex-flow: row wrap</code>을 사용할 수 있습니다.</p><p><code>flex-flow</code>를 사용하여 이전 단계를 반복해보세요.</p>',
       'lt': '<p>Dvi komandos, <code>flex-direction</code> ir <code>flex-wrap</code>, kartu yra naudojamos taip dažnai, kad buvo sukurta sutrumpinta komanda <code>flex-flow</code>, kuri apjungė jas abi. Ši sutrumpinta komanda reaguoja į dvi atskirų komandų vertes atskirtas tarpu.</p><p>Pavyzdžiui, galite naudoti <code>flex-flow: row wrap</code>, kad nustatytumėte eilučių rikiavimo būdą ir talpintumėte elementus daugiau nei vienoje eilutėje.</p><p>Pabandykite naudoti <code>flex-flow</code>, kad pasiektumėte ankstesnio lygio rezultatą.</p>',
       'vi': '<p>Cả hai từ <code>flex-direction</code> và <code>flex-wrap</code> thường được sử dụng với nhau vì thế từ viết tắt <code>flex-flow</code> được tạo ra để kết hợp chúng. Từ viết tắt này chấp nhận giá trị của một trong hai thuộc tính ngăn cách bởi một không gian.</p><p>Ví dụ, bạn có thể sử dụng <code>flex-flow: row wrap</code> để thiết lập hàng ngang và quấn xung quanh chúng.</p><p>Thử sử dụng <code>flex-flow</code> để lặp lại cấp độ trước đó.</p>',
-      'pl': '<p>Jednoczesne zastosowanie własności <code>flex-direction</code> i <code>flex-wrap</code> występuje bardzo często, dlatego też utworzono własność skrótową <code>flex-flow</code>. Przyjmuje ona dwie wartości rozdzielone spacją.</p><p>Na przykład: wpisując <code>flex-flow: row wrap</code> uzyskamy efekt ułożenia elementów w wierszu i zawijanie ich do kolejnych linii w przypadku gdy któryś wystawałby poza kontener.</p><p>Spróbuj powtórzyć efekt z poprzedniego zadania przy pomocy <code>flex-flow</code>.</p>'
+      'pl': '<p>Jednoczesne zastosowanie własności <code>flex-direction</code> i <code>flex-wrap</code> występuje bardzo często, dlatego też utworzono własność skrótową <code>flex-flow</code>. Przyjmuje ona dwie wartości rozdzielone spacją.</p><p>Na przykład: wpisując <code>flex-flow: row wrap</code> uzyskamy efekt ułożenia elementów w wierszu i zawijanie ich do kolejnych linii w przypadku gdy któryś wystawałby poza kontener.</p><p>Spróbuj powtórzyć efekt z poprzedniego zadania przy pomocy <code>flex-flow</code>.</p>',
+      'en': '<p>Protože vlastnosti <code>flex-direction</code> a <code>flex-wrap</code> se často používají najednou, byla přidána vlastnost <code>flex-flow</code>, která je kombinuje. Tato vlastnost akceptuje hodnoty obou, oddělené mezerou.</p><p>Například můžete napsat <code>flex-flow: row wrap</code> pro zalamování ve sloupcích.</p><p>Zkuste nyní předchozí úkol vyřešit pomocí <code>flex-flow</code>.</p>',
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-flow': 'column wrap'},
