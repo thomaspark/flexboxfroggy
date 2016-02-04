@@ -88,7 +88,7 @@ var levels = [
       'lt': '<p>Dabar kraštiniai lelijos lapai nuplaukė arčiau krantų, taip padidindami tarpus tarp vienas kito. Naudokite <code>justify-content</code>. Šį kartą tarpai tarp lelijos lapų yra vienodi.</p>',
       'vi': '<p>Bây giờ những chiếc lá súng đã trôi dạt vào bờ, tạo thêm không gian giữa chúng. Sử dụng <code>justify-content</code>. Lần này, những chiếc lá súng có khoảng cách bằng nhau giữa chúng.</p>',
       'pl': '<p>Tym razem skrajne listki odpłynęły do krańców kontenera, zwiększając odstępy. Uzyj <code>justify-content</code>. Tym razem listki mają tę samą odległość między sobą.</p>',
-	  'cs': '<p>Teď lekníny na stranách odpluly ke břehu, zvětšíly se mezery. Použijte <code>justify-content</code>. Tentokrát jsou mezi lekníny rovnoměrné rozestupy.</p>'
+      'cs': '<p>Teď lekníny na stranách odpluly ke břehu, zvětšíly se mezery. Použijte <code>justify-content</code>. Tentokrát jsou mezi lekníny rovnoměrné rozestupy.</p>'
     },
     board: 'gyr',
     style: {'justify-content': 'space-between'},
@@ -136,7 +136,7 @@ var levels = [
       'lt': '<p>Padėkite varlytei nusigauti į vidurį tvenkinio naudodami <code>justify-content</code> ir <code>align-items</code> kombinaciją.</p>',
       'vi': '<p>Dẫn chú ếch đến trung tâm của ao bằng cách kết hợp <code>justify-content</code> và <code>align-items</code>.</p>',
       'pl': '<p>Zaprowadź żabkę na środek stawu przy pomocy <code>justify-content</code> i <code>align-items</code>.</p>',
-	  'cs': '<p>Dostaňte žabku doprostřed rybníka kombinací <code>justify-content</code> a <code>align-items</code>.</p>',
+      'cs': '<p>Dostaňte žabku doprostřed rybníka kombinací <code>justify-content</code> a <code>align-items</code>.</p>',
     },
     board: 'g',
     style: {'justify-content': 'center', 'align-items': 'center'},
@@ -208,7 +208,7 @@ var levels = [
       'lt': '<p>Naudodami <code>flex-direction</code> padėkite varlytėms rasti stulpelį, kuriame yra jų lelijos lapai. Ši CSS komanda nusako kryptį, pagal kurią elementai yra sudėliojami supančio elemento viduje ir reaguoja į šias vertes:</p><ul><li><code>row</code>: Elementai yra rikiuojami teksto skaitymo kryptimi.</li><li><code>row-reverse</code>: Elementai yra rikiuojami atvirkščiai teksto skaitymo krypties.</li><li><code>column</code>: Elementai yra rikiuojami iš viršaus į apačią.</li><li><code>column-reverse</code>: Elementai yra rikiuojami iš apačios į viršų.</li></ul>',
       'vi': '<p>Giúp đỡ những chú ếch tìm thấy các chiếc lá súng được sắp xếp theo hàng dọc sử dụng <code>flex-direction</code>. Từ CSS này xác định hướng hạng mục được đặt trong hộp chứa, và chấp nhận các giá trị sau:</p><ul><li><code>row</code>: Các hạng mục được đặt cùng hướng với hướng của từ trong văn bản.</li><li><code>row-reverse</code>: Các hạng mục được đặt ngược hướng với hướng của từ trong văn bản.</li><li><code>column</code>: Các hạng mục được đặt từ trên xuống dưới.</li><li><code>column-reverse</code>: Các hạng mục được đặt từ dưới lên trên.</li></ul>',
       'pl': '<p>Pomóż żabkom odnaleźć ich kolumny przy pomocy <code>flex-direction</code>. Ta właściwość określa kierunek w jakim elementy w kontenerze są ustawione. Przyjmuje wartości:</p><ul><li><code>row</code>: Elementy są rozmieszczone w kierunku tekstu.</li><li><code>row-reverse</code>: Elementy są rozmieszczone w kierunku przeciwnym do tekstu.</li><li><code>column</code>: Elementy są rozmieszczone od góry do dołu.</li><li><code>column-reverse</code>: Elementy są rozmieszczone od dołu do góry.</li></ul>',
-	  'cs': '<p>Pomozte žabkám dostat se na sloupec leknínů pomocí <code>flex-direction</code>.  Tato vlastnost určuje směr, kterým jsou prvky rozmístěny v kontejneru, a akceptuje následující hodnoty:</p><ul><li><code>row</code>: Řádky ve směru textu.</li><li><code>row-reverse</code>: Řádky proti směru textu.</li><li><code>column</code>: Sloupce shora dolů.</li><li><code>column-reverse</code>: Sloupce zdola nahoru.</li></ul>'
+      'cs': '<p>Pomozte žabkám dostat se na sloupec leknínů pomocí <code>flex-direction</code>.  Tato vlastnost určuje směr, kterým jsou prvky rozmístěny v kontejneru, a akceptuje následující hodnoty:</p><ul><li><code>row</code>: Řádky ve směru textu.</li><li><code>row-reverse</code>: Řádky proti směru textu.</li><li><code>column</code>: Sloupce shora dolů.</li><li><code>column-reverse</code>: Sloupce zdola nahoru.</li></ul>'
     },
     board: 'gyr',
     style: {'flex-direction': 'column'},
@@ -232,7 +232,7 @@ var levels = [
       'lt': '<p>Padekite varlytėms persikelti ant savo lelijos lapų. Nors jie ir yra arti, tačiau prireiks abiejų, <code>flex-direction</code> ir <code>justify-content</code> komandų, kad tai pasiektumėte.</p><p>Atkreipkite dėmesį, kad kai nustatote kryptį rikiuojančia atvirkščiai teksto skaitymo krypties arba iš apačios į viršų, elementų rikiavimo pradžia ir pabaiga taip pat apkeičiama pusėmis.</p>',
       'vi': '<p>Giúp đỡ những chú ếch tìm thấy các chiếc lá súng của chúng. Mặc dù các chiếc lá gần nhau, nhưng sẽ cần cả hai từ <code>flex-direction</code> và <code>justify-content</code> để đưa chúng đến nơi.</p><p>Chú ý rằng khi bạn thiết lập các chiều hướng của một hàng hoặc cột đảo ngược, điểm bắt đầu và kết thúc cũng được đảo ngược.</p>',
       'pl': '<p>Pomóż żabkom dotrzeć do swoich listków. Może i wydaje się, że są blisko ale potrzebne ci będą zarówno <code>flex-direction</code> jak i <code>justify-content</code>, aby wykonać to zadanie.</p><p>Zauważ, że ustawiając wartość z dopiskiem reverse, początek i koniec także się odwracają.</p>',
-	  'cs': '<p>Pomozte žabkám na své lekníny. Vypadá to snadně, ale budete potřebovat kombinaci <code>flex-direction</code> a <code>justify-content</code>.</p><p>Všiměte si, že když se otočí řádek, prohodí se i začátek a konec.</p>',
+      'cs': '<p>Pomozte žabkám na své lekníny. Vypadá to snadně, ale budete potřebovat kombinaci <code>flex-direction</code> a <code>justify-content</code>.</p><p>Všiměte si, že když se otočí řádek, prohodí se i začátek a konec.</p>',
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
@@ -327,7 +327,8 @@ var levels = [
       'ko': '<p>때때로 컨테이너의 row나 column의 순서를 역으로 바꾸는 것만으로는 충분하지 않습니다. 이러한 경우에는 <code>order</code> 속성을 각 요소에 적용할 수 있습니다. order의 기본 값은 0이며, 양수나 음수로 바꿀 수 있습니다.</p><p><code>order</code> 속성을 이용하여 개구리들의 순서를 수련잎의 순서에 맞게 바꿔주세요.</p>',
       'lt': '<p>Kartais sukeisti supančio elemento eilutes su stulpeliais vietomis negana. Tokiais atvejais galima pritaikyti komandą <code>order</code> pavieniams elementams. Pagal nutylėjimą elementų eilės tvarką nusakanti vertė yra 0, bet galima naudoti šią komandą, kad vertę prilygintume teigiamam arba neigiamam skaičiui.</p><p>Panaudokite komandą <code>order</code>, kad apkeistumėte varlytes vietomis, pagal jų lelijų lapus.</p>',
       'vi': '<p>Đôi khi đảo chiều của hộp chứa theo hàng ngang hay hàng dọc là không đủ. Trong những trường hợp này, chúng ta có thể áp dụng <code>order</code> cho từng hạng mục. Theo mặc định, các hạng mục có giá trị là 0, nhưng chúng ta có thể thay đổi nó với một giá trị số nguyên dương hoặc âm khác.</p><p>Sử dụng <code>order</code> để sắp xếp lại những chú ếch theo chiếc lá súng của chúng.</p>',
-      'pl': '<p>Czasami odwracanie wierszy i kolumn kontenera nie wystarcza. W takich przypadkach, możemy zastosować własność <code>order</code> do pojedynczego elementu. Domyślnie elementy mają wartość 0, ale przy pomocy tej własności możemy ustalić kolejność na dowolną dodatnią lub ujemną wartość.</p><p>Przy pomocy własności <code>order</code> zmień kolejność żabek tak, aby każda była na swoim listku.</p>'
+      'pl': '<p>Czasami odwracanie wierszy i kolumn kontenera nie wystarcza. W takich przypadkach, możemy zastosować własność <code>order</code> do pojedynczego elementu. Domyślnie elementy mają wartość 0, ale przy pomocy tej własności możemy ustalić kolejność na dowolną dodatnią lub ujemną wartość.</p><p>Przy pomocy własności <code>order</code> zmień kolejność żabek tak, aby każda była na swoim listku.</p>',
+      'cs': '<p>Samotná změna směru někdy nestačí. V těchto případech lze zvolit pořadí pomocí vlastnosti <code>order</code> jednotlivých prvků. Výchozí hodnota je 0, ale můžete použít libovolné kladné či záporné celé číslo.</p><p>Použijte vlastnost <code>order</code> tak, aby se žabky ocitly na správných leknínech.</p>',
     },
     board: 'gyr',
     selector: '> :nth-child(2)',
@@ -352,7 +353,8 @@ var levels = [
       'ko': '<p><code>order</code> 속성을 사용하여 빨간색 개구리를 빨간색 수련잎으로 보내주세요.</p>',
       'lt': '<p>Panaudokite komandą <code>order</code>, kad nukeltumėte raudoną varlytę ant jos lelijos lapo.</p>',
       'vi': '<p>Sử dụng <code>order</code> để đưa chú ếch màu đỏ đến với chiếc lá súng của mình.</p>',
-      'pl': '<p>Użyj własności <code>order</code>, aby posłać czerwoną żabkę na jej listek.</p>'
+      'pl': '<p>Użyj własności <code>order</code>, aby posłać czerwoną żabkę na jej listek.</p>',
+      'cs': '<p>Použijte vlastnost <code>order</code> tak, aby se červená žabka dostala na svůj leknín.</p>',
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
@@ -377,7 +379,8 @@ var levels = [
       'ko': '<p><code>align-self</code>는 개별 요소에 적용할 수 있는 또 다른 속성입니다. 이 속성은 <code>align-items</code>가 사용하는 값들을 인자로 받으며, 그 값들은 지정한 요소에만 적용됩니다.</p>',
       'lt': '<p>Kita komanda, kurią galima pritaikyti pavieniams elementams yra <code>align-self</code>. Ši komanda reaguoja į tas pačias vertes, kaip ir <code>align-items</code>.</p>',
       'vi': '<p>Một từ CSS khác mà bạn có thể áp dụng cho hạng mục flex riêng biệt là <code>align-self</code>. Từ CSS chấp nhận các giá trị tương tự như <code>align-items</code> và giá trị của nó đối với một hạng mục riêng biệt.</p>',
-      'pl': '<p>Następną własnością stosowaną wobec każdego elementu z osobna jest <code>align-self</code>. Przyjmuje ona wartości takie same jak <code>align-items</code>, ale ma zastosowanie tylko wobec konkretnego elementu.</p>'
+      'pl': '<p>Następną własnością stosowaną wobec każdego elementu z osobna jest <code>align-self</code>. Przyjmuje ona wartości takie same jak <code>align-items</code>, ale ma zastosowanie tylko wobec konkretnego elementu.</p>',
+      'cs': '<p>Další vlastností, kterou lze nastavit jednotlivým prvkům, je <code>align-self</code>. Tato vlastnost nabývá stejných hodnot jako <code>align-items</code>, ale ovlivňuje jen vybraný prvek.</p>'
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
