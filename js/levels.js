@@ -404,7 +404,8 @@ var levels = [
       'ko': '<p><code>order</code>와 <code>align-self</code>를 사용하여 개구리들을 자기 색깔과 같은 수련잎 위로 보내주세요.</p>',
       'lt': '<p>Panaudokite <code>order</code> ir <code>align-self</code> kombinaciją, kad padėtumėte varlytėms pasiekti savo lelijų lapus.</p>',
       'vi': '<p>Kết hợp <code>order</code> với <code>align-self</code> giúp các chú ếch đến đúng địa điểm của chúng.</p>',
-      'pl': '<p>Pomóż żabkom dotrzeć do listków przy pomocy kombinacji własności <code>order</code> i <code>align-self</code>.</p>'
+      'pl': '<p>Pomóż żabkom dotrzeć do listków przy pomocy kombinacji własności <code>order</code> i <code>align-self</code>.</p>',
+      'cs': '<p>Pomozte žabkám na lekníny kombinací vlastností <code>order</code> a <code>align-self</code>.</p>',
     },
     board: 'ygygg',
     selector: '> .yellow',
