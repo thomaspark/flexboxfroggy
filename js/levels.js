@@ -231,7 +231,8 @@ var levels = [
       'ko': '<p>개구리들이 자기 색깔과 같은 수련잎 위로 이동할 수 있도록 도와주세요. <code>flex-direction</code>과 <code>justify-content</code>를 모두 사용해야 합니다.</p><p> column-reverse 또는 row-reverse를 사용하면 요소들의 start와 end의 순서도 뒤바뀝니다.</p>',
       'lt': '<p>Padekite varlytėms persikelti ant savo lelijos lapų. Nors jie ir yra arti, tačiau prireiks abiejų, <code>flex-direction</code> ir <code>justify-content</code> komandų, kad tai pasiektumėte.</p><p>Atkreipkite dėmesį, kad kai nustatote kryptį rikiuojančia atvirkščiai teksto skaitymo krypties arba iš apačios į viršų, elementų rikiavimo pradžia ir pabaiga taip pat apkeičiama pusėmis.</p>',
       'vi': '<p>Giúp đỡ những chú ếch tìm thấy các chiếc lá súng của chúng. Mặc dù các chiếc lá gần nhau, nhưng sẽ cần cả hai từ <code>flex-direction</code> và <code>justify-content</code> để đưa chúng đến nơi.</p><p>Chú ý rằng khi bạn thiết lập các chiều hướng của một hàng hoặc cột đảo ngược, điểm bắt đầu và kết thúc cũng được đảo ngược.</p>',
-      'pl': '<p>Pomóż żabkom dotrzeć do swoich listków. Może i wydaje się, że są blisko ale potrzebne ci będą zarówno <code>flex-direction</code> jak i <code>justify-content</code>, aby wykonać to zadanie.</p><p>Zauważ, że ustawiając wartość z dopiskiem reverse, początek i koniec także się odwracają.</p>'
+      'pl': '<p>Pomóż żabkom dotrzeć do swoich listków. Może i wydaje się, że są blisko ale potrzebne ci będą zarówno <code>flex-direction</code> jak i <code>justify-content</code>, aby wykonać to zadanie.</p><p>Zauważ, że ustawiając wartość z dopiskiem reverse, początek i koniec także się odwracają.</p>',
+	  'cs': '<p>Pomozte žabkám na své lekníny. Vypadá to snadně, ale budete potřebovat kombinaci <code>flex-direction</code> a <code>justify-content</code>.</p><p>Všiměte si, že když se otočí řádek, prohodí se i začátek a konec.</p>',
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
