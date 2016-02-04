@@ -87,7 +87,8 @@ var levels = [
       'ko': '<p>수련잎이 연못가로 떠내려가면서 수련잎 사이의 간격이 넓어졌습니다. <code>justify-content</code>를 사용하세요. 이번에는 수련잎 사이에 동일한 간격이 있습니다.</p>',
       'lt': '<p>Dabar kraštiniai lelijos lapai nuplaukė arčiau krantų, taip padidindami tarpus tarp vienas kito. Naudokite <code>justify-content</code>. Šį kartą tarpai tarp lelijos lapų yra vienodi.</p>',
       'vi': '<p>Bây giờ những chiếc lá súng đã trôi dạt vào bờ, tạo thêm không gian giữa chúng. Sử dụng <code>justify-content</code>. Lần này, những chiếc lá súng có khoảng cách bằng nhau giữa chúng.</p>',
-      'pl': '<p>Tym razem skrajne listki odpłynęły do krańców kontenera, zwiększając odstępy. Uzyj <code>justify-content</code>. Tym razem listki mają tę samą odległość między sobą.</p>'
+      'pl': '<p>Tym razem skrajne listki odpłynęły do krańców kontenera, zwiększając odstępy. Uzyj <code>justify-content</code>. Tym razem listki mają tę samą odległość między sobą.</p>',
+	  'cs': '<p>Teď lekníny na stranách odpluly ke břehu, zvětšíly se mezery. Použijte <code>justify-content</code>. Tentokrát jsou mezi lekníny rovnoměrné rozestupy.</p>'
     },
     board: 'gyr',
     style: {'justify-content': 'space-between'},
@@ -110,7 +111,8 @@ var levels = [
       'ko': '<p>이제 <code>align-items</code>를 사용하여 개구리들이 연못의 아래쪽에 도착할 수 있도록 도와주세요. 이 CSS 속성은 다음의 값들을 인자로 받아 요소들을 세로선 상에서 정렬합니다:</p><ul><li><code>flex-start</code>: 요소들을 컨테이너의 꼭대기로 정렬합니다.</li><li><code>flex-end</code>: 요소들을 컨테이너의 바닥으로 정렬합니다.</li><li><code>center</code>: 요소들을 컨테이너의 세로선 상의 가운데로 정렬합니다.</li><li><code>baseline</code>: 요소들을 컨테이너의 시작 위치에 정렬합니다.</li><li><code>stretch</code>: 요소들을 컨테이너에 맞도록 늘립니다.</li></ul>',
       'lt': '<p>Dabar panaudokite <code>align-items</code>, kad padėtumėte varlytėms nusigauti į tvenkinio apačią. Ši CSS komanda lygiuoja elementus vertikaliai ir reguoja į šias vertes:</p><ul><li><code>flex-start</code>: Elementai lygiuojami supančio elemento viršuje.</li><li><code>flex-end</code>: Elementai lygiuojami supančio elemento apačioje.</li><li><code>center</code>: Elementai lygiuojami vertikaliai supančio elemento viduryje.</li><li><code>baseline</code>: Elementai atvaizduojami palei apatinę supančio elemento liniją.</li><li><code>stretch</code>: Elementai yra ištempiami, kad užpildytų supantį elementą.</li></ul>',
       'vi': '<p>Bây giờ sử dụng <code>align-items</code> để giúp những chú ếch đến đáy của ao. Từ CSS này sắp xếp những hạng mục flex theo chiều dọc và chấp nhận các giá trị sau:</p><ul><li><code>flex-start</code>: Các hạng mục sẽ được sắp xếp phía trên của hộp chứa.</li><li><code>flex-end</code>: Các hạng mục sẽ được sắp xếp phía dưới cùng của hộp chứa.</li><li><code>center</code>: Các hạng mục sẽ được sắp xếp ở giữa chính của hộp chứa.</li><li><code>baseline</code>: Các hạng mục sẽ được hiển thị ở đường cơ bản của hộp chứa.</li><li><code>stretch</code>: Các hạng mục sẽ được kéo dài để phù hợp với hộp chứa.</li></ul>',
-      'pl': '<p>A teraz przy pomocy <code>align-items</code> zaprowadź żabki na spód stawu. Ta właściwość CSS wyrównuje elementy w pionie i przyjmuje wartości:</p><ul><li><code>flex-start</code>: Elementy wyrównują się górnej krawędzi kontenera.</li><li><code>flex-end</code>: Elementy wyrównują się do dolnej krawędzi kontenera.</li><li><code>center</code>: Elementy zostaną wyśrodkowane w pionie.</li><li><code>baseline</code>: Elementy zostaną wyświetlone na lini odniesienia kontenera.</li><li><code>stretch</code>: Elementy zostaną powiększone tak, aby wypelnić kontener.</li></ul>'
+      'pl': '<p>A teraz przy pomocy <code>align-items</code> zaprowadź żabki na spód stawu. Ta właściwość CSS wyrównuje elementy w pionie i przyjmuje wartości:</p><ul><li><code>flex-start</code>: Elementy wyrównują się górnej krawędzi kontenera.</li><li><code>flex-end</code>: Elementy wyrównują się do dolnej krawędzi kontenera.</li><li><code>center</code>: Elementy zostaną wyśrodkowane w pionie.</li><li><code>baseline</code>: Elementy zostaną wyświetlone na lini odniesienia kontenera.</li><li><code>stretch</code>: Elementy zostaną powiększone tak, aby wypelnić kontener.</li></ul>',
+      'cs': '<p>Použijte <code>align-items</code> tak, aby se žabky dostaly na spodní stranu rybníka. Tato CSS vlastnost zarovnává prvky svisle a akceptuje následující hodnoty:</p><ul><li><code>flex-start</code>: Zarovná prvky nahoru.</li><li><code>flex-end</code>: Zarovná prvky dolů.</li><li><code>center</code>: Zarovná prvky na střed kontejneru.</li><li><code>baseline</code>: Zarovná prvky na účaří.</li><li><code>stretch</code>: Roztáhne prvky tak, aby vyplnily kontejner.</li></ul>',
     },
     board: 'gyr',
     style: {'align-items': 'flex-end'},
@@ -133,7 +135,8 @@ var levels = [
       'ko': '<p><code>justify-content</code>와 <code>align-items</code>를 함께 사용하여 개구리가 연못의 중앙으로 이동할 수 있도록 도와주세요.</p>',
       'lt': '<p>Padėkite varlytei nusigauti į vidurį tvenkinio naudodami <code>justify-content</code> ir <code>align-items</code> kombinaciją.</p>',
       'vi': '<p>Dẫn chú ếch đến trung tâm của ao bằng cách kết hợp <code>justify-content</code> và <code>align-items</code>.</p>',
-      'pl': '<p>Zaprowadź żabkę na środek stawu przy pomocy <code>justify-content</code> i <code>align-items</code>.</p>'
+      'pl': '<p>Zaprowadź żabkę na środek stawu przy pomocy <code>justify-content</code> i <code>align-items</code>.</p>',
+	  'cs': '<p>Dostaňte žabku doprostřed rybníka kombinací <code>justify-content</code> a <code>align-items</code>.</p>',
     },
     board: 'g',
     style: {'justify-content': 'center', 'align-items': 'center'},

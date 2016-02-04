@@ -31,7 +31,7 @@ var docs = {
     'lt': '<p>Lygiuoja elastiškus elementus palei kertančią ašį.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'vi': '<p>Sắp xếp các hạng mục flex dọc theo trục ngang.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'pl': '<p>Wyrównuje elementy z atrybutem flex wzdłuż osi poprzecznych.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'cs': '<p>Určuje zarovnání prvků podle vedlejší osy.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'cs': '<p>Určuje zarovnání prvků ve směru vedlejší osy.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',

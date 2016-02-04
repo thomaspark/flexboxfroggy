@@ -48,7 +48,7 @@ var messages = {
     'lt': 'Lygis',
     'vi': 'Cấp',
     'pl': 'Poziom',
-    'cs': 'Level'
+    'cs': 'Úroveň'
   },
   labelOf: {
     'en': 'of',
