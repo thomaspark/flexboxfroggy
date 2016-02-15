@@ -3,6 +3,7 @@ var game = {
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
+  user: localStorage.user || '',
 
   start: function() {
     game.translate();
@@ -10,6 +11,11 @@ var game = {
     $('#level-counter .total').text(levels.length);
     $('#editor').show();
     $('#share').hide();
+
+    if (!localStorage.user) {
+      game.user = '' + (new Date()).getTime() + Math.random().toString(36).slice(1);
+      localStorage.setItem('user', game.user);
+    }
 
     this.setHandlers();
     this.loadMenu();
