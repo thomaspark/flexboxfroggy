@@ -305,8 +305,6 @@ var game = {
       }
     });
 
-    console.log(game.changed);
-
     if (correct) {
       ga('send', {
         hitType: 'event',
