@@ -1,9 +1,12 @@
+var firebase = new Firebase('https://blinding-heat-5896.firebaseio.com/web/data');
+var analytics = firebase.child('analytics');
 var game = {
   language: window.location.hash.substring(1) || 'en',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
   user: localStorage.user || '',
+  changed: false,
 
   start: function() {
     game.translate();
@@ -72,7 +75,10 @@ var game = {
           }
         }
       }
-    }).on('input', game.debounce(game.check, 500));
+    }).on('input', game.debounce(game.check, 500))
+    .on('input', function() {
+      game.changed = true;
+    });
 
     $('#editor').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
       $(this).removeClass();
@@ -234,6 +240,7 @@ var game = {
     var selector = level.selector || '';
     $('#background ' + selector).css(level.style);
 
+    game.changed = false;
     game.applyStyles();
     game.check();
   },
@@ -266,14 +273,11 @@ var game = {
     $('#pond ' +  selector).attr('style', code);
     game.saveAnswer();
   },
-
-  check: function(level) {
-    if (typeof level === 'undefined') {
-      level = levels[game.level];
-    }
-
+  
+  check: function() {    
     game.applyStyles();
 
+    var level = levels[game.level];
     var lilypads = {};
     var frogs = {};
     var correct = true;
@@ -309,6 +313,15 @@ var game = {
         eventLabel: $('#code').val()
       });
 
+      analytics.push({
+        timeStamp: (new Date()).getTime(),
+        user: game.user,
+        levelName: level.name,
+        changed: game.changed,
+        input: $('#code').val(),
+        result: 'correct'
+      });
+            
       if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
       }
@@ -321,6 +334,15 @@ var game = {
         eventCategory: level.name,
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
+      });
+      
+      analytics.push({
+        timeStamp: (new Date()).getTime(),
+        user: game.user,
+        levelName: level.name,
+        changed: game.changed,
+        input: $('#code').val(),
+        result: 'incorrect'
       });
 
       $('#next').addClass('disabled');
