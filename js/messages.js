@@ -87,7 +87,7 @@ var messages = {
     'vi': 'Flexbox Froggy - Một trò chơi để học CSS flexbox',
     'pl': 'Flexbox Froggy - gra, która nauczy cię posługiwania się "flexboxa"',
     'cs': 'Flexbox Froggy - CSS flexbox hrou',
-    'en': 'Flexbox Froggy - CSS flexbox学習ゲーム',
+    'ja': 'Flexbox Froggy - CSS flexbox学習ゲーム',
   },
   labelReset: {
     'en': 'Reset',
@@ -123,6 +123,6 @@ var messages = {
     'vi': 'Bạn có chắc chắn là bạn muốn thiết lập lại trò chơi không? Toàn bộ tiến trình của bạn sẽ bị mất và bạn sẽ được chuyển đến đầu của trò chơi.',
     'pl': 'Na pewno chcesz uruchomić grę ponownie?\n\nUtracisz dotychczasowe postępy, a także powrócisz do początku gry.',
     'cs': 'Opravdu chcete restartovat hru?\n\nSoučasný postup bude smazán, začnete znovu od prvního levelu.',
-    'en': '本当にゲームをリセットしますか？\n\nここまで進めたゲームの情報は全て失われ、ゲームの最初へ移動します。',
+    'ja': '本当にゲームをリセットしますか？\n\nここまで進めたゲームの情報は全て失われ、ゲームの最初へ移動します。',
   }
 };
