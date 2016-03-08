@@ -14,7 +14,8 @@ var messages = {
     'lt': 'Sekantis',
     'vi': 'Kế Tiếp',
     'pl': 'Dalej',
-    'cs': 'Pokračovat'
+    'cs': 'Pokračovat',
+    'ja': undefined
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -31,7 +32,8 @@ var messages = {
     'lt': 'Flexbox Froggy kūrėjas',
     'vi': 'Flexbox Froggy được tạo ra bởi',
     'pl': 'Flexbox Froggy jest wytworem',
-    'cs': 'Flexbox Froggy vytvořil'
+    'cs': 'Flexbox Froggy vytvořil',
+    'ja': undefined
   },
   labelLevel: {
     'en': 'Level',
