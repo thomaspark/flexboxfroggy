@@ -15,7 +15,7 @@ var messages = {
     'vi': 'Kế Tiếp',
     'pl': 'Dalej',
     'cs': 'Pokračovat',
-    'ja': undefined
+    'ja': 'Next',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -33,7 +33,7 @@ var messages = {
     'vi': 'Flexbox Froggy được tạo ra bởi',
     'pl': 'Flexbox Froggy jest wytworem',
     'cs': 'Flexbox Froggy vytvořil',
-    'ja': undefined
+    'ja': 'Flexbox Froggy is created by',
   },
   labelLevel: {
     'en': 'Level',
