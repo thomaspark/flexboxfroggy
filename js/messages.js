@@ -15,7 +15,7 @@ var messages = {
     'vi': 'Kế Tiếp',
     'pl': 'Dalej',
     'cs': 'Pokračovat',
-    'ja': 'Next',
+    'ja': '次へ',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -51,7 +51,7 @@ var messages = {
     'vi': 'Cấp',
     'pl': 'Poziom',
     'cs': 'Úroveň',
-    'ja': 'Lv',
+    'ja': 'Lv.',
   },
   labelOf: {
     'en': 'of',
