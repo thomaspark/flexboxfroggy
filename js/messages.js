@@ -9,7 +9,7 @@ var messages = {
     'fa': 'مرحله بعدی',
     'zh-cn': '继续',
     'tr': 'Sonraki',
-    'it': 'Prossima'
+    'it': 'Prossimo'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
