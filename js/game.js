@@ -76,9 +76,9 @@ var game = {
         }
       }
     }).on('input', game.debounce(game.check, 500))
-    .on('input', function() {
-      game.changed = true;
-    });
+      .on('input', function() {
+        game.changed = true;
+      });
 
     $('#editor').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
       $(this).removeClass();
@@ -109,7 +109,7 @@ var game = {
 
       $('#tweet iframe').remove();
       var html = '<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="thomashpark">Tweet</a> ' +
-                 '<a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>';
+        '<a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>';
       $('#tweet').html(html);
       twttr.widgets.load();
 
@@ -135,7 +135,7 @@ var game = {
 
   loadMenu: function() {
     levels.forEach(function(level, i) {
-      var levelMarker = $('<span/>').addClass('level-marker').attr('data-level', i).text(i+1);
+      var levelMarker = $('<span/>').addClass('level-marker').attr('data-level', i).text(i + 1);
 
       if ($.inArray(level.name, game.solved) !== -1) {
         levelMarker.addClass('solved');
@@ -270,11 +270,11 @@ var game = {
     var level = levels[game.level];
     var code = $('#code').val();
     var selector = level.selector || '';
-    $('#pond ' +  selector).attr('style', code);
+    $('#pond ' + selector).attr('style', code);
     game.saveAnswer();
   },
-  
-  check: function() {    
+
+  check: function() {
     game.applyStyles();
 
     var level = levels[game.level];
@@ -321,7 +321,7 @@ var game = {
         input: $('#code').val(),
         result: 'correct'
       });
-            
+
       if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
       }
@@ -335,7 +335,7 @@ var game = {
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
       });
-      
+
       analytics.push({
         timeStamp: (new Date()).getTime(),
         user: game.user,
