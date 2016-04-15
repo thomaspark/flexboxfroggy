@@ -6,6 +6,9 @@ html, body {
   min-height: 100%;
 }
 
+
+
+
 html[lang="fa"] #docs,
 html[lang="fa"] #instructions,
 html[lang="fa"] #credits .translate,
@@ -25,11 +28,16 @@ body {
 
 #sidebar {
   width: 50%;
-  min-width: 300px;
-  position: relative;
-  padding: 2em 2em 8em;
-  background-color: #43A047;
-  font-size: 15px;
+      min-width: 300px;
+      position: relative;
+      padding: 2em 2em 8em;
+      background-color: #43A047;
+      font-size: 15px;
+}
+
+#view{
+  width: 50%;
+  height: 62%;
 }
 
 h1 {
@@ -85,8 +93,8 @@ a:hover {
   position: absolute;
   top: -12px;
   left: 12px;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 12px solid #2c3e50;
@@ -148,7 +156,7 @@ pre {
 }
 
 #level-counter {
-  float: right;
+  /* float: right; */
   position: relative;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.2);
@@ -298,15 +306,15 @@ button:not(.disabled):hover {
 }
 
 #credits {
-  width: 100%;
-  min-width: 300px;
-  position: absolute;
-  left: 0;
-  bottom: 2em;
-  padding: 0 2em;
-  text-align: center;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.4);
+  /* width: 100%; */
+  /* min-width: 300px; */
+  /* position: absolute; */
+  /* left: 0; */
+  /* bottom: 2em; */
+  /* padding: 0 2em; */
+  /* text-align: center; */
+  /* font-size: 12px; */
+  /* color: rgba(255, 255, 255, 0.4); */
 }
 
 .languages {
@@ -315,10 +323,10 @@ button:not(.disabled):hover {
 
 #board {
   position: relative;
-  width: 50vw;
-  height: 50vw;
+  width: 100%;
+  height: 100%;
   min-width: 300px;
-  min-height: 300px;
+  /* min-height: 300px; */
   overflow: hidden;
 }
 
@@ -420,21 +428,28 @@ button:not(.disabled):hover {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 1000px)  {
+@media only screen and (max-width: 900px)  {
 
   body {
     position: relative;
+    display: inline;
   }
 
   #sidebar {
     position: static;
-    padding: 2em;
+        padding: 3em;
+        /* display: flex; */
+        width: 100%;
   }
 
-  #credits {
-    width: 50%;
-    left: 50%;
-    top: 50vw;
+  #view {
+    width: 100%;
+  padding: 2em;
+  height: 62%;
+  }
+
+  #board {
+    border-radius: 3em;
   }
 
 }
@@ -442,8 +457,10 @@ button:not(.disabled):hover {
 @media only screen and (max-width: 600px)  {
 
   #credits {
-    width: 50%;
-    left: 50%;
-    top: 300px;
+    /* width: 50%; */
+    /* left: 50%; */
+    /* top: 300px; */
+    display: flex;
+    align-items: flex-end;
   }
 }

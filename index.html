@@ -1,63 +1,71 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<html lang="en"><head>
     <meta charset="utf-8">
     <title>Flexbox Froggy - A game for learning CSS flexbox</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:url"           content="http://flexboxfroggy.com">
-    <meta property="og:type"          content="website">
-    <meta property="og:title"         content="Flexbox Froggy">
-    <meta property="og:description"   content="A game for learning CSS flexbox">
-    <meta property="og:image"         content="http://flexboxfroggy.com/images/screenshot.png">
-    <meta property="fb:app_id"        content="916849395036923">
-    <meta name="twitter:url"          content="http://flexboxfroggy.com">
-    <meta name="twitter:title"        content="Flexbox Froggy">
-    <meta name="twitter:description"  content="A game for learning CSS flexbox">
-    <meta name="twitter:image"        content="http://flexboxfroggy.com/images/screenshot.png">
+    <meta property="og:url" content="http://flexboxfroggy.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Flexbox Froggy">
+    <meta property="og:description" content="A game for learning CSS flexbox">
+    <meta property="og:image" content="http://flexboxfroggy.com/images/screenshot.png">
+    <meta property="fb:app_id" content="916849395036923">
+    <meta name="twitter:url" content="http://flexboxfroggy.com">
+    <meta name="twitter:title" content="Flexbox Froggy">
+    <meta name="twitter:description" content="A game for learning CSS flexbox">
+    <meta name="twitter:image" content="http://flexboxfroggy.com/images/screenshot.png">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans|Fredoka+One|Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Fredoka+One|Source+Code+Pro" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="css/style.css">
-  </head>
+  <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.71000885400e222c3c0eec823f8f93f0.js"></script></head>
   <body>
-    <section id="sidebar">
+
+    <section class="" id="sidebar">
       <div>
         <div id="level-counter">
-          <span class="arrow left">◀</span>
+          <span class="arrow left disabled">◀</span>
           <span id="level-indicator">
             <span id="labelLevel" class="translate">Level</span>
             <span class="current">1</span>
             <span id="labelOf" class="translate">of</span>
-            <span class="total">1</span>
+            <span class="total">24</span>
             <span class="caret">▾</span>
           </span>
           <span class="arrow right">▶</span>
-          <div id="levelsWrapper" class="tooltip">
-            <div id="levels"></div>
+          <div id="levelsWrapper" class="tooltip" style="display: none;">
+            <div id="levels"><span class="level-marker current" data-level="0">1</span><span class="level-marker" data-level="1">2</span><span class="level-marker" data-level="2">3</span><span class="level-marker" data-level="3">4</span><span class="level-marker" data-level="4">5</span><span class="level-marker" data-level="5">6</span><span class="level-marker" data-level="6">7</span><span class="level-marker" data-level="7">8</span><span class="level-marker" data-level="8">9</span><span class="level-marker" data-level="9">10</span><span class="level-marker" data-level="10">11</span><span class="level-marker" data-level="11">12</span><span class="level-marker" data-level="12">13</span><span class="level-marker" data-level="13">14</span><span class="level-marker" data-level="14">15</span><span class="level-marker" data-level="15">16</span><span class="level-marker" data-level="16">17</span><span class="level-marker" data-level="17">18</span><span class="level-marker" data-level="18">19</span><span class="level-marker" data-level="19">20</span><span class="level-marker" data-level="20">21</span><span class="level-marker" data-level="21">22</span><span class="level-marker" data-level="22">23</span><span class="level-marker" data-level="23">24</span></div>
             <div id="labelReset" class="translate">Reset</div>
           </div>
         </div>
         <h1>Flexbox Froggy</h1>
-        <p id="instructions"></p>
+        <p id="instructions"><p>Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code! Guide this frog to the lilypad on the right by using the <code class="help">justify-content</code> property, which aligns items horizontally and accepts the following values:</p><ul><li><code>flex-start</code>: Items align to the left side of the container.</li><li><code>flex-end</code>: Items align to the right side of the container.</li><li><code>center</code>: Items align at the center of the container.</li><li><code>space-between</code>: Items display with equal spacing between them.</li><li><code>space-around</code>: Items display with equal spacing around them.</li></ul><p>For example, <code>justify-content: flex-end;</code> will move the frog to the right.</p></p>
         <p id="docs"></p>
       </div>
       <div id="editor">
         <div id="css">
           <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</div>
-          <pre id="before"></pre>
-          <textarea id="code" autofocus></textarea>
-          <pre id="after"></pre>
+          <pre id="before">#pond {
+  display: flex;
+</pre>
+          <textarea id="code" autofocus="" style="height: 24px;"></textarea>
+          <pre id="after">}</pre>
         </div>
-        <button id="next" class="translate">Next</button>
+        <button id="next" class="translate disabled">Next</button>
       </div>
-      <div id="share">
+      <div id="share" style="display: none;">
         <p class="social">
           <span id="tweet">
-            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="thomashpark">Tweet</a>
-            <a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>
+            <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.fd774b599f565016d763dd860cb31c79.en.html#dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=file%3A%2F%2F%2FUsers%2Feonlt-4%2FDesktop%2FRankill%2FRankillRepos%2Fflexboxfroggy%2Findex.html&amp;size=m&amp;text=Flexbox%20Froggy%20-%20A%20game%20for%20learning%20CSS%20flexbox&amp;time=1460650891544&amp;type=share&amp;url=http%3A%2F%2Fflexboxfroggy.com&amp;via=thomashpark" data-url="http://flexboxfroggy.com" style="position: static; visibility: visible; width: 61px; height: 20px;"></iframe>
+            <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.fd774b599f565016d763dd860cb31c79.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=thomashpark&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1460650891542" data-screen-name="thomashpark" style="position: static; visibility: visible; width: 144px; height: 20px;"></iframe>
           </span>
           <span class="fb-like" data-href="http://flexboxfroggy.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
         </p>
       </div>
+
+    </section>
+    <section class="" id="view">
+      <div id="board">
+        <div id="pond" style="" class=""><div class="frog green"><div class="bg animated pulse infinite"></div></div></div>
+        <div id="background" style="justify-content: flex-end;" class=""><div class="lilypad green"><div class="bg" style="transform: scale(0.941125) rotate(14.5603deg);"></div></div></div>
       <div id="credits">
         <p>
           <span id="labelFooter" class="translate">Flexbox Froggy is created by</span>
@@ -83,17 +91,10 @@
           <a href="#ko">한국어</a> •
           <a href="#vi">Tiếng Việt</a>
         </p>
-      </div>
+      </div></div>
     </section>
-    <section id="view">
-      <div id="board">
-        <div id="pond">
-        </div>
-        <div id="background">
-        </div>
-      </div>
-    </section>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5&amp;appId=916849395036923"></script><script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
     <script src="js/levels.js"></script>
     <script src="js/docs.js"></script>
@@ -118,5 +119,6 @@
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=916849395036923";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-  </body>
-</html>
+
+
+<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"></iframe></body></html>
