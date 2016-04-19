@@ -160,6 +160,14 @@ pre {
   line-height: 30px;
 }
 
+.noobmode {
+  background-color: #C4C403;
+}
+
+.noobmode:not(.disabled):hover {
+  background-color: #D6D604;
+}
+
 #level-counter {
   position: relative;
   display: inline-block;
