@@ -32,6 +32,10 @@ body {
   font-size: 15px;
 }
 
+#sidebar nav {
+  float: right;
+}
+
 h1 {
   margin: 0 0 0.5em;
   text-transform: uppercase;
@@ -85,8 +89,8 @@ a:hover {
   position: absolute;
   top: -12px;
   left: 12px;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 12px solid #2c3e50;
@@ -147,8 +151,16 @@ pre {
   overflow: auto;
 }
 
+#gamemode {
+  vertical-align: top;
+  margin-right: 5px;
+  padding: 0;
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+}
+
 #level-counter {
-  float: right;
   position: relative;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.2);
