@@ -32,7 +32,7 @@ var game = {
       } else {
         $(this).addClass('noobmode').html('Noob Mode');
       }
-      $('#instructions').slideToggle();
+      $('#instructions').slideToggle('fast');
     });
 
     $('#next').on('click', function() {

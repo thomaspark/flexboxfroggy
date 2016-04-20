@@ -107,6 +107,19 @@ a:hover {
   vertical-align: top;
 }
 
+#instructions {
+  margin: 0;
+}
+
+#instructions p:first-child {
+  margin-top: 0;
+}
+
+#instructions p:last-child,
+#instructions ul:last-child {
+  margin-bottom: 0;
+}
+
 #editor {
   position: relative;
 }
