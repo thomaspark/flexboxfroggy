@@ -16,6 +16,7 @@ var docs = {
     'pl': '<p>Wyrównuje wiersze wewnątrz kontenera z atrybutem flex w przypadku gdy na osiach poprzecznych jest dodatkowe miejsce.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'cs': '<p>Určuje zarovnání řádků ve směru vedlejší osy, pokud je v kontejneru přebytek místa.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'ja': '<p>直行軸 (cross axis) に余裕がある場合、コンテナー内の行を配置します。</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'hu': '<p>A flex konténer sorvonalait igazítja a flex konténeren belül, amennyiben van szabad tér a másodlagos kereszttengely mentén.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -34,6 +35,7 @@ var docs = {
     'pl': '<p>Wyrównuje elementy z atrybutem flex wzdłuż osi poprzecznych.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'cs': '<p>Určuje zarovnání všech prvků ve směru vedlejší osy.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'ja': '<p>アイテムを直行軸 (cross axis) に沿って配置します。</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'hu': '<p>A másodlagos kereszt-tengely mentén igazítja a flex elemeket.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -52,6 +54,7 @@ var docs = {
     'pl': '<p>Wyrównuje element z atrybutem flex wzdłuż osi poprzecznych nadpisując wartość właściwości <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'cs': '<p>Určuje zarovnání prvku ve podle vedlejší osy, přebíjí hodnotu <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'ja': '<p>アイテムを直行軸 (cross axis) に沿って配置します。<code>align-items</code>の値を上書きします。</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'hu': '<p>A másodlagos kereszttengely mentén igazít egy flex elemet, felülírva a <code>align-items</code>-ben megadott értéket.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -70,6 +73,7 @@ var docs = {
     'pl': '<p>Określa kierunek głównej osi.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'cs': '<p>Určuje směr hlavní osy.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'ja': '<p>主軸 (main axis) の方向を指定します。</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'hu': '<p>Definiálja az elsődleges főtengely irányát.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -88,6 +92,7 @@ var docs = {
     'pl': '<p>Skrócona wersja <code>flex-direction</code> i <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'cs': '<p>Zkrácená verze vlastností <code>flex-direction</code> a <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'ja': '<p><code>flex-direction</code>と<code>flex-wrap</code>のショートハンドプロパティーです。</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'hu': '<p>Rövidítésként szolgáló összevonása a <code>flex-direction</code> és a <code>flex-wrap</code> tulajdonságoknak.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -106,6 +111,7 @@ var docs = {
     'pl': '<p>Określa czy elementy z atrybutem flex muszą być ściśnięte w jednym wierszu czy mogą być rozproszone.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'cs': '<p>Určuje, zda budou prvky na jednom řádku, nebo se mohou rozdělit na více řádků.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'ja': '<p>アイテムを強制的に一行に並べるか、複数行へ折り返すかを指定します。</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'hu': '<p>Meghatározza, hogy a flex elemek egy sorba vannak kényszerítve vagy megtörhetnek több sorba.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -124,6 +130,7 @@ var docs = {
     'pl': '<p>Wyrównuje elementy z atrybutem flex wzdłuż głownej osi.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'cs': '<p>Zarovnává prvky ve směru hlavní osy.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'ja': '<p>アイテムを主軸 (main axis) に沿って配置します。</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'hu': '<p>Az elsődleges főtengely mentén igazítja a flex elemeket.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt;</code>',
@@ -142,5 +149,6 @@ var docs = {
     'pl': '<p>Określa kolejność elementów z atrybutem flex.</p><code>&lt;integer&gt;</code>',
     'cs': '<p>Určuje pořadí prvku v kontejneru.</p><code>&lt;integer&gt;</code>',
     'ja': '<p>アイテムの順序を指定します。</p><code>&lt;integer&gt;</code>',
+    'hu': '<p>Meghatározza a flex elem sorrendiségét.</p><code>&lt;integer&gt;</code>'
   }
 };

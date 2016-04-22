@@ -18,6 +18,7 @@ var levels = [
       'pl': '<p>Witaj w grze Flexbox Froggy. Grze, w której pomagasz żabce Froggy i jej przyjaciołom pisząc kod CSS! Doprowadź żabki do odpowiednich listków przy pomocy <code>justify-content</code>, właściwości która wyrównuje elementy w poziomie i przyjmuje wartości:</p><ul><li><code>flex-start</code>: Elementy wyrównują się do lewej strony kontenera.</li><li><code>flex-end</code>: Elementy wyrównują się do prawej strony kontenera.</li><li><code>center</code>: Elementy wyrównują się do środka kontenera.</li><li><code>space-between</code>: Elementy wyświetlają się na całej szerokości kontenera z równymi odstępami.</li><li><code>space-around</code>: Każdy z elementów wyświetla się z taką samą ilością przestrzeni wokół.</li></ul><p>Na przykład: <code>justify-content: flex-end;</code> przesunie żabę do prawej strony.</p>',
       'cs': '<p>Vítejte ve hře Flexbox Froggy, kde pomáháte žabce a jejím kamarádům psaním CSS stylů! Pomozte žabce dostat se na leknín vpravo vlastností <code>justify-content</code>, která zarovnává prvky vodorovně a nabývá následujících hodnot:</p><ul><li><code>flex-start</code>: Zarovnat prvky vlevo.</li><li><code>flex-end</code>: Zarovnat prvky vpravo.</li><li><code>center</code>: Zarovnat prvky na střed.</li><li><code>space-between</code>: Rozmístit rovnoměrné mezery mezi prvky.</li><li><code>space-around</code>: Rozmístit rovnoměrné mezery kolem prvků.</li></ul><p>Například styl <code>justify-content: flex-end;</code> posune žabku doprava.</p>',
       'ja': '<p>Flexbox Froggyへようこそ！　これはカエルたちを、CSSコードを書いて助けてあげるゲームです。<code>justify-content</code>を使って、このカエルを右の蓮の葉まで連れていってあげましょう。このプロパティはアイテムを水平方向に並べるものです。以下の値を取ります。</p><ul><li><code>flex-start</code>: アイテムはコンテナーの左側に並びます。</li><li><code>flex-end</code>: アイテムはコンテナーの右側に並びます。</li><li><code>center</code>: アイテムはコンテナーの中央に並びます。</li><li><code>space-between</code>: アイテムはその間に等しい間隔を空けて表示されます。</li><li><code>space-around</code>: アイテムはその周囲に等しい間隔を空けて表示されます。</li></ul><p>例えば、<code>justify-content: flex-end;</code>はカエルを右側へ動かします。</p>',
+      'hu': '<p>Üdvözlünk a Flexbox Froggy játékban, ahol segíthetsz Froggy-nak és barátainak egy kis CSS kód írásával! Vezesd ezt a békát a jobb oldali tündérrózsára a <code>justify-content</code> tulajdonság használatával, amely az elemek vízszintes igazítását teszi lehetővé a következő értékek segítségével:</p><ul><li><code>flex-start</code>: Az elemek a konténer bal oldalára igazodnak.</li><li><code>flex-end</code>: Az elemek a konténer jobb oldalára igazodnak.</li><li><code>center</code>: Az elemek a konténer közepére igazodnak.</li><li><code>space-between</code>: Az elemek úgy igazodnak, hogy köztük a hely egyenlő mértékben oszlik meg.</li><li><code>space-around</code>: Az elemek úgy igazodnak, hogy a körülöttük lévő hely egyenlő maradjon.</li></ul><p>Például a <code>justify-content: flex-end;</code> a békát a jobb oldalra mozgatja.</p>'
     },
     board: 'g',
     style: {'justify-content': 'flex-end'},
@@ -43,6 +44,7 @@ var levels = [
       'pl': '<p>Użyj <code>justify-content</code> ponownie, aby pomóc żabkom dotrzeć do swoich listków. Pamiętaj, że ta właściwość języka CSS wyrównuje elementy w poziomie i przyjmuje wartości:</p><ul><li><code>flex-start</code>: Elementy wyrównują się do lewej strony kontenera.</li><li><code>flex-end</code>: Elementy wyrównują się do prawej strony kontenera.</li><li><code>center</code>: Elementy wyrównują się do środka kontenera.</li><li><code>space-between</code>: Elementy wyświetlają się na całej szerokości kontenera z równymi odstępami.</li><li><code>space-around</code>: Każdy z elementów wyświetla się z taką samą ilością przestrzeni wokół.</li></ul>',
       'cs': '<p>Použijte teď <code>justify-content</code> tak, aby se žabky dostaly na své lekníny. Připomeňte si, že tato CSS vlastnost zarovnává prvky vodorovně a akceptuje následující hodnoty:</p><ul><li><code>flex-start</code>: Zarovnat prvky vlevo.</li><li><code>flex-end</code>: Zarovnat prvky vpravo.</li><li><code>center</code>: Zarovnat prvky na střed.</li><li><code>space-between</code>: Rozmístit rovnoměrné mezery mezi prvky.</li><li><code>space-around</code>: Rozmístit rovnoměrné mezery kolem prvků.</li></ul>',
       'ja': '<p>もう一度<code>justify-content</code>を使って、カエルたちを蓮の葉まで連れていきましょう。覚えていますか、このCSSプロパティはアイテムを水平に並べるもので、次の値を取ります。</p><ul><li><code>flex-start</code>: アイテムはコンテナーの左側に並びます。</li><li><code>flex-end</code>: アイテムはコンテナーの右側に並びます。</li><li><code>center</code>: アイテムはコンテナーの中央に並びます。</li><li><code>space-between</code>: アイテムはその間に等しい間隔を空けて表示されます。</li><li><code>space-around</code>: アイテムはその周囲に等しい間隔を空けて表示されます。</li></ul>',
+      'hu': '<p>Használd ismét a <code>justify-content</code> tulajdonságot, hogy a békákat a tündérrózsáikhoz segíthesd. Ne feledd, hogy ez a CSS tulajdonság az elemeket vízszintesen igazítja és a következő értékeket kaphatja: </p><ul><li><code>flex-start</code>: Az elemek a konténer bal oldalára igazodnak .</li><li><code>flex-end</code>: Az elemek a konténer jobb oldalára igazodnak.</li><li><code>center</code>: Az elemek a konténer közepére igazodnak.</li><li><code>space-between</code>: Az elemek úgy igazodnak, hogy köztük a hely egyenlő mértékben oszlik meg.</li><li><code>space-around</code>: Az elemek úgy igazodnak, hogy a körülöttük lévő hely egyenlő maradjon.</li></ul>'
     },
     board: 'gy',
     style: {'justify-content': 'center'},
@@ -68,6 +70,7 @@ var levels = [
       'pl': '<p>Pomóż wszystkim żabkom dotrzeć do ich listków przy pomocy tylko właściwości <code>justify-content</code>. Tym razem, listki mają dużo miejsca wokół.</p><p>Jeśli nie pamiętasz jakie wartości przyjmuje ta właściowość możesz najechać myszką na jej nazwę, aby je zobaczyć. Spróbuj przesunąć myszkę nad <code>justify-content</code>.</p>',
       'cs': '<p>Pomozte těmto třem žabkám na jejich lekníny vlastností <code>justify-content</code>. Tentokrát je mezi lekníny hodně místa.</p><p>Pokud zapomenete, jaké hodnoty lze pro kterou vlastnost použít, najeďte na ni myší. Zkuste najet na <code>justify-content</code>.</p>',
       'ja': '<p><code>justify-content</code>だけを使って三匹のカエルを全て蓮の葉に乗せてあげましょう。この蓮の葉は、それぞれの周囲にたくさんの隙間が空いています。</p><p>プロパティーが取り得る値を忘れてしまったら、プロパティー名にマウスカーソルを乗せると、それを見ることができます。試しにマウスカーソルを<code>justify-content</code>に乗せてみてください。</p>',
+      'hu': '<p>Segíts mindhárom békának megtalálni a saját tündérrózsáját pusztán a <code>justify-content</code> használatával. Ezúttal a tündérrózsák körül meglehetősen sok hely van.</p><p>Ha úgy érzed, elfelejtetted a lehetséges értékeket ehhez a tulajdonsághoz, vidd az egérkurzort a tulajdonság neve fölé, hogy láthasd őket. Próbáld ki a <code>justify-content</code>-en.</p>'
     },
     board: 'gyr',
     style: {'justify-content': 'space-around'},
@@ -93,6 +96,7 @@ var levels = [
       'pl': '<p>Tym razem skrajne listki odpłynęły do krańców kontenera, zwiększając odstępy. Uzyj <code>justify-content</code>. Tym razem listki mają tę samą odległość między sobą.</p>',
       'cs': '<p>Teď lekníny na stranách odpluly ke břehu, zvětšíly se mezery. Použijte <code>justify-content</code>. Tentokrát jsou mezi lekníny rovnoměrné rozestupy.</p>',
       'ja': '<p>蓮の葉は両岸まで流されてしまいました。間隔はさらに開いています。<code>justify-content</code>を使いましょう。蓮の葉は等間隔に並んでいます。</p>',
+      'hu': '<p>Mostanra a tündérrózsák kisodródtak a tópart felé, megnövelve ezáltal a közöttük tátongó űrt. Használd a <code>justify-content</code> tulajdonságot. Ezúttal a tündérrózsák között egyenlő mértékű szabad terület van.</p>'
     },
     board: 'gyr',
     style: {'justify-content': 'space-between'},
@@ -118,6 +122,7 @@ var levels = [
       'pl': '<p>A teraz przy pomocy <code>align-items</code> zaprowadź żabki na spód stawu. Ta właściwość CSS wyrównuje elementy w pionie i przyjmuje wartości:</p><ul><li><code>flex-start</code>: Elementy wyrównują się górnej krawędzi kontenera.</li><li><code>flex-end</code>: Elementy wyrównują się do dolnej krawędzi kontenera.</li><li><code>center</code>: Elementy zostaną wyśrodkowane w pionie.</li><li><code>baseline</code>: Elementy zostaną wyświetlone na lini odniesienia kontenera.</li><li><code>stretch</code>: Elementy zostaną powiększone tak, aby wypelnić kontener.</li></ul>',
       'cs': '<p>Použijte <code>align-items</code> tak, aby se žabky dostaly na spodní stranu rybníka. Tato CSS vlastnost zarovnává prvky svisle a nabývá hodnot:</p><ul><li><code>flex-start</code>: Zarovná prvky nahoru.</li><li><code>flex-end</code>: Zarovná prvky dolů.</li><li><code>center</code>: Zarovná prvky na střed kontejneru.</li><li><code>baseline</code>: Zarovná prvky na účaří.</li><li><code>stretch</code>: Roztáhne prvky tak, aby vyplnily kontejner.</li></ul>',
       'ja': '<p>今度は<code>align-items</code>を使って池の下のほうへカエルを連れていきましょう。このCSSプロパティーはアイテムを垂直に並べ、以下の値をとります。</p><ul><li><code>flex-start</code>: アイテムはコンテナーの上部に並びます。</li><li><code>flex-end</code>: アイテムはコンテナーの下部に並びます。</li><li><code>center</code>: アイテムはコンテナーの垂直方向中央に並びます。</li><li><code>baseline</code>: アイテムはコンテナーのベースラインに表示されます。</li><li><code>stretch</code>: アイテムはコンテナーの大きさに合うよう広がります。</li></ul>',
+      'hu': '<p>Most használd az <code>align-items</code> tulajdonságot, ezzel hozzásegítve a békákat ahhoz, hogy a tavacska aljához jussanak. Ez a CSS tulajdonság az elemeket függőlegesen igazítja és a következő értékeket kaphatja: </p><ul><li><code>flex-start</code>: Az elemek a konténer tetejére igazodnak.</li><li><code>flex-end</code>: Az elemek a konténer aljára igazodnak.</li><li><code>center</code>: Az elemek a konténeren belül függőlegesen középre igazodnak.</li><li><code>baseline</code>: Az elemek a konténerben a szöveg alapvonalához igazodnak.</li><li><code>stretch</code>: Az elemek széthúzódnak, kifeszülnek, hogy kitöltsék a konténert.</li></ul>'
     },
     board: 'gyr',
     style: {'align-items': 'flex-end'},
@@ -143,6 +148,7 @@ var levels = [
       'pl': '<p>Zaprowadź żabkę na środek stawu przy pomocy <code>justify-content</code> i <code>align-items</code>.</p>',
       'cs': '<p>Dostaňte žabku doprostřed rybníka kombinací <code>justify-content</code> a <code>align-items</code>.</p>',
       'ja': '<code>justify-content</code>と<code>align-items</code>の組み合わせを使って、カエルを池の中央へ連れていきましょう。',
+      'hu': '<p>Vezesd a békát a tavacska közepére, kombináld a <code>justify-content</code> és az <code>align-items</code> tulajdonságokat.</p>'
     },
     board: 'g',
     style: {'justify-content': 'center', 'align-items': 'center'},
@@ -168,6 +174,7 @@ var levels = [
       'pl': '<p>Żabki znowu muszą przejść na drugą stronę stawu. Tym razem muszą znaleźć się na listkach, które mają dużo miejca wokół siebie. Skorzystaj z kombinacji <code>justify-content</code> i <code>align-items</code>.</p>',
       'cs': '<p>Žabky znovu potřebují na spodek rybníka, teď jsou však mezi lekníny velké mezery. Použijte kombinaci vlastností <code>justify-content</code> a <code>align-items</code>.</p>',
       'ja': '<p>再びカエルが池を渡ろうとしています。今度の蓮の葉はずいぶん間隔が空いているようですね。<code>justify-content</code>と<code>align-items</code>の組み合わせを使いましょう。</p>',
+      'hu': '<p>A békáknak ismét át kell szelniük a tavat, ezúttal néhány tündérrózsáért, melyek között meglehetősen sok az üres tér. Használd a <code>justify-content</code> és az <code>align-items</code> kombinációját.</p>'
     },
     board: 'gyr',
     style: {'justify-content': 'space-around', 'align-items': 'flex-end'},
@@ -193,6 +200,7 @@ var levels = [
       'pl': '<p>Żabki muszą znaleźć się w tej samej kolejności co ich listki, pomoże im w tym właściwość <code>flex-direction</code>. Określa ona kierunek w jakim elementy są rozmieszczone w kontenerze i przyjmuje wartości:</p><ul><li><code>row</code>: Elementy zostaną rozmieszczone tak jak tekst.</li><li><code>row-reverse</code>: Elementy zostaną rozmieszczone odwrotnie do kierunku tekstu.</li><li><code>column</code>: Elementy zostaną rozmieszczone od góry do dołu.</li><li><code>column-reverse</code>: Elementy zostaną rozmieszczone od dołu do góry.</li></ul>',
       'cs': '<p>Žabky se potřebují dostat na lekníny své barvy, pomůže jim vlastnost <code>flex-direction</code>. Tato vlastnost určuje směr, kterým jsou prvky rozmístěny v kontejneru, a akceptuje následující hodnoty:</p><ul><li><code>row</code>: Řádky ve směru textu.</li><li><code>row-reverse</code>: Řádky proti směru textu.</li><li><code>column</code>: Sloupce shora dolů.</li><li><code>column-reverse</code>: Sloupce zdola nahoru.</li></ul>',
       'ja': '<p><code>flex-direction</code>を使って、カエルたちをそれぞれの蓮の葉に乗せましょう。このCSSプロパティーはコンテナー内でアイテムが配置される方向を決定します。また以下の値を取ります。</p><ul><li><code>row</code>: アイテムは文章と同じ方向に配置されます。</li><li><code>row-reverse</code>: アイテムは文章と逆の方向に配置されます。</li><li><code>column</code>: アイテムは上から下に向かって配置されます。</li><li><code>column-reverse</code>: アイテムは下から上に向かって配置されます。</li></ul>',
+      'hu': '<p>A békáknak ugyanolyan sorrendbe kell rendeződniük, mint a tündérrózsáik, méghozzá a <code>flex-direction</code> tulajdonság használatával. Ez a CSS tulajdonság definiálja az irányzékot, amely mentén az elemek a konténerbe vannak helyezve, a következő értékek segítségével:</p><ul><li><code>row</code>: Az elemek a szöveg irányával megegyezően helyezkednek el.</li><li><code>row-reverse</code>: Az elemek a szöveg irányával ellentétes sorrendben helyezkednek el.</li><li><code>column</code>: Az elemek fentről lefelé rendeződnek.</li><li><code>column-reverse</code>: Az elemek lentről felfelé rendeződnek.</li></ul>'
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse'},
@@ -218,6 +226,7 @@ var levels = [
       'pl': '<p>Pomóż żabkom odnaleźć ich kolumny przy pomocy <code>flex-direction</code>. Ta właściwość określa kierunek w jakim elementy w kontenerze są ustawione. Przyjmuje wartości:</p><ul><li><code>row</code>: Elementy są rozmieszczone w kierunku tekstu.</li><li><code>row-reverse</code>: Elementy są rozmieszczone w kierunku przeciwnym do tekstu.</li><li><code>column</code>: Elementy są rozmieszczone od góry do dołu.</li><li><code>column-reverse</code>: Elementy są rozmieszczone od dołu do góry.</li></ul>',
       'cs': '<p>Pomozte žabkám dostat se na sloupec leknínů pomocí <code>flex-direction</code>.  Tato vlastnost určuje směr, kterým jsou prvky rozmístěny v kontejneru, a akceptuje následující hodnoty:</p><ul><li><code>row</code>: Řádky ve směru textu.</li><li><code>row-reverse</code>: Řádky proti směru textu.</li><li><code>column</code>: Sloupce shora dolů.</li><li><code>column-reverse</code>: Sloupce zdola nahoru.</li></ul>',
       'ja': '<p><code>flex-direction</code>を使って、カエルたちが自分の蓮の葉を見つけるのを助けてあげましょう。このCSSプロパティーはコンテナー内でアイテムが配置される方向を決定します。また以下の値を取ります。</p><ul><li><code>row</code>: アイテムは文章と同じ方向に配置されます。</li><li><code>row-reverse</code>: アイテムは文章と逆の方向に配置されます。</li><li><code>column</code>: アイテムは上から下に向かって配置されます。</li><li><code>column-reverse</code>: アイテムは下から上に向かって配置されます。</li></ul>',
+      'hu': '<p>Segíts a békáknak megtalálni a tündérrózsáikat a <code>flex-direction</code> használatával. Ez a CSS tulajdonság definiálja az irányzékot, amely mentén az elemek a konténerbe vannak helyezve, a következő értékek segítségével:</p><ul><li><code>row</code>: Az elemek a szöveg irányával megegyezően helyezkednek el.</li><li><code>row-reverse</code>: Az elemek a szöveg irányával ellentétes sorrendben helyezkednek el.</li><li><code>column</code>: Az elemek fentről lefelé rendeződnek.</li><li><code>column-reverse</code>: Az elemek lentről felfelé rendeződnek.</li></ul>'
     },
     board: 'gyr',
     style: {'flex-direction': 'column'},
@@ -243,6 +252,7 @@ var levels = [
       'pl': '<p>Pomóż żabkom dotrzeć do swoich listków. Może i wydaje się, że są blisko ale potrzebne ci będą zarówno <code>flex-direction</code> jak i <code>justify-content</code>, aby wykonać to zadanie.</p><p>Zauważ, że ustawiając wartość z dopiskiem reverse, początek i koniec także się odwracają.</p>',
       'cs': '<p>Pomozte žabkám na své lekníny. Vypadá to snadně, ale budete potřebovat kombinaci <code>flex-direction</code> a <code>justify-content</code>.</p><p>Všiměte si, že když se otočí řádek, prohodí se i začátek a konec.</p>',
       'ja': '<p>カエルたちがそれぞれの蓮の葉に乗るのを助けてあげましょう。もうほとんど乗っているようにも見えますが、ちゃんと乗せるには<code>flex-direction</code>と<code>justify-content</code>の両方を使う必要があります。</p><p>方向としてrow-reverseやcolumnを指定した場合、始点と終点もまた逆になることに気を付けてください。</p>',
+      'hu': '<p>Segíts a békáknak megtalálni saját tündérrózsáikat. Bár úgy tűnik, egész közel járunk, mégis szükség lesz mind a <code>flex-direction</code>, mind pedig a <code>justify-content</code> tulajdonságra, hogy odajuttassuk őket.</p><p>Vedd figyelembe, hogy ha az irányzékot ellentétesre (reversed) állítod, a \'start\' és az \'end\' értékek jelentése is megcserélődik.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
@@ -268,6 +278,7 @@ var levels = [
       'pl': '<p>Pomóż żabkom dotrzeć do listków używając <code>flex-direction</code> i <code>justify-content</code>.</p><p>Zauważ, że w przypadku gdy <code>flex direction</code> ma wartość column to <code>justify-content</code> wyrównuje element pionowo, a <code>align-items</code> poziomo.</p>',
       'cs': '<p>Pomozte žabkám najít své lekníny pomocí <code>flex-direction</code> a <code>justify-content</code>.</p><p>Všiměte si, že když je hlavní osa svislá, <code>justify-content</code> zarovnává prvky svisle a <code>align-items</code> vodorovně.</p>',
       'ja': '<p><code>flex-direction</code>と<code>justify-content</code>を使って、カエルたちがそれぞれの蓮の葉を見つけるのを助けてあげてください。</p><p>flexの方向がcolumnのとき、<code>justify-content</code>は垂直方向の、<code>align-items</code>は水平方向の並び方を変えるようになることに気を付けてください。</p>',
+      'hu': '<p>Segíts a békáknak megtalálni a tündérrózsáikat a <code>flex-direction</code> és a <code>justify-content</code> használatával.</p><p>Vedd figyelembe, hogy ha a flex direction értéke column (oszlopos), akkor a <code>justify-content</code> már a függőleges, míg az <code>align-items</code> a vízszintes elrendezésre vonatkozik.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'column', 'justify-content': 'flex-end'},
@@ -293,6 +304,7 @@ var levels = [
       'pl': '<p>Pomóż żabkom dotrzeć do swoich listków używając <code>flex-direction</code> i <code>justify-content</code>.</p>',
       'cs': '<p>Pomozte žabkám najít své lekníny pomocí <code>flex-direction</code> a <code>justify-content</code>.</p>',
       'ja': '<p><code>flex-direction</code>と<code>justify-content</code>を使って、カエルたちがそれぞれの蓮の葉を見つけるのを助けてあげてください。</p>',
+      'hu': '<p>Segíts a békáknak megtalálni a tündérrózsáikat a <code>flex-direction</code> és a <code>justify-content</code> használatával.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'column-reverse', 'justify-content': 'space-between'},
@@ -318,6 +330,7 @@ var levels = [
       'pl': '<p>Pomóż żabkom dotrzeć do swoich listków przy pomocy <code>flex-direction</code>, <code>justify-content</code> i <code>align-items</code>.</p>',
       'cs': '<p>Pomozte žabkám na lekníny vlastnostmi <code>flex-direction</code>, <code>justify-content</code> a <code>align-items</code>.</p>',
       'ja': '<p><code>flex-direction</code>と<code>justify-content</code>、<code>align-items</code>を使って、カエルたちがそれぞれの蓮の葉を見つけるのを助けてあげてください。</p>',
+      'hu': '<p>Segíts a békáknak megtalálni a tündérrózsáikat a <code>flex-direction</code>, a <code>justify-content</code>, és az <code>align-items</code> használatával.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
@@ -343,6 +356,7 @@ var levels = [
       'pl': '<p>Czasami odwracanie wierszy i kolumn kontenera nie wystarcza. W takich przypadkach, możemy zastosować własność <code>order</code> do pojedynczego elementu. Domyślnie elementy mają wartość 0, ale przy pomocy tej własności możemy ustalić kolejność na dowolną dodatnią lub ujemną wartość.</p><p>Przy pomocy własności <code>order</code> zmień kolejność żabek tak, aby każda była na swoim listku.</p>',
       'cs': '<p>Samotná změna směru někdy nestačí. V těchto případech lze zvolit pořadí pomocí vlastnosti <code>order</code> jednotlivých prvků. Výchozí hodnota je 0, ale můžete použít libovolné kladné či záporné celé číslo.</p><p>Použijte vlastnost <code>order</code> tak, aby se žabky ocitly na správných leknínech.</p>',
       'ja': '<p>コンテナーの行や列の順序を逆にするだけでは足りないこともままあります。そういった場合、個別のアイテムに<code>order</code>プロパティーを適用することができます。アイテムはデフォルトでは0の値を取りますが、正や負の整数値を設定することもできます。</p><p><code>order</code>プロパティーを使って、蓮の葉に合うようカエルたちを並び替えてください。</p>',
+      'hu': '<p>Időnként a sorok vagy az oszlopok irányának megfordítása nem elégséges. Ilyen esetekben alkalmazhatjuk az <code>order</code> tulajdonságot az egyes elemekre. Alapértelmezettként az elemek a 0 értéket kapják, de lehetőségünk van negatív vagy pozitív egész számot megadni értékként.</p><p>Használd az <code>order</code> tulajdonságot, hogy átrendezd a békákat a tündérrózsáiknak megfelelően.</p>'
     },
     board: 'gyr',
     selector: '> :nth-child(2)',
@@ -370,6 +384,7 @@ var levels = [
       'pl': '<p>Użyj własności <code>order</code>, aby posłać czerwoną żabkę na jej listek.</p>',
       'cs': '<p>Použijte vlastnost <code>order</code> tak, aby se červená žabka dostala na svůj leknín.</p>',
       'ja': '<p><code>order</code>プロパティーを使って、赤いカエルを彼の蓮の葉へ送ってください。</p>',
+      'en': '<p>Használd az <code>order</code> tualjdonságot hogy a vörös békát a tündérrózsájához küldhesd.</p>'
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
@@ -397,6 +412,7 @@ var levels = [
       'pl': '<p>Następną własnością stosowaną wobec każdego elementu z osobna jest <code>align-self</code>. Przyjmuje ona wartości takie same jak <code>align-items</code>, ale ma zastosowanie tylko wobec konkretnego elementu.</p>',
       'cs': '<p>Další vlastností, kterou lze nastavit jednotlivým prvkům, je <code>align-self</code>. Tato vlastnost nabývá stejných hodnot jako <code>align-items</code>, ale ovlivňuje jen vybraný prvek.</p>',
       'ja': '<p>他にも、個別のアイテムへ設定できるプロパティーとして<code>align-self</code>があります。このプロパティーは<code>align-items</code>と同じ値を受け付け、指定のアイテムの状態だけを変更します。</p>',
+      'en': '<p>Egy másik, szintén az egyes elemekre alkalmazható tulajdonság az <code>align-self</code>. Ez a tulajdonság ugyanazon értékeket veheti fel, mint az <code>align-items</code> és a beállított érték az adott elemre specifikus lesz.</p>'
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
@@ -423,6 +439,7 @@ var levels = [
       'pl': '<p>Pomóż żabkom dotrzeć do listków przy pomocy kombinacji własności <code>order</code> i <code>align-self</code>.</p>',
       'cs': '<p>Pomozte žabkám na lekníny kombinací vlastností <code>order</code> a <code>align-self</code>.</p>',
       'ja': '<p><code>order</code>を<code>align-self</code>を組み合わせて、カエルたちを目的地へ連れて行ってあげましょう。</p>',
+      'hu': '<p>Ötvözd az <code>order</code> és az <code>align-self</code> tulajdonságok erejét, hogy a békák elérjék úticéljukat.</p>'
     },
     board: 'ygygg',
     selector: '> .yellow',
@@ -449,6 +466,7 @@ var levels = [
       'pl': '<p>O, nie! Żabki są ściśnięte w jednym wierszu. Rozprosz je przy pomocy własności <code>flex-wrap</code>, która przyjmue wartości:</p><ul><li><code>nowrap</code>: Każdy element dopasowuje się do pojedynczego wiersza.</li><li><code>wrap</code>: Elementy wystające przechodzą do kolejnych linii.</li><li><code>wrap-reverse</code>: Elementy wystające do kolejnych linii w odwrotnej kolejności.</li></ul>',
       'cs': '<p>Ale ne! Všechny žabky se tísní na jednom řádku. Rozprostřete je vlastností <code>flex-wrap</code>, která nabývá následujících hodnot:</p><ul><li><code>nowrap</code>: Všechny prvky na jednen řádek.</li><li><code>wrap</code>: Umožňuje zalomení na více řádků.</li><li><code>wrap-reverse</code>: Umožňuje zalomení, ale v opačném směru.</li></ul>',
       'ja': '<p>おやおや、カエルたちが一列の蓮の葉の上で窮屈そうにしていますね。<code>flex-wrap</code>プロパティーを使って、彼らを広げてあげてください。このプロパティーは以下の値を取ります。</p><ul><li><code>nowrap</code>: 全てのアイテムは、ひとつの行にフィットします。</li><li><code>wrap</code>: アイテムは他の行へ折り返します。</li><li><code>wrap-reverse</code>: アイテムは逆順になって他の行へ折り返します。</li></ul>',
+      'hu': '<p>Jajj, ne! A békák mind rápréselődtek egyetlen sor tündérrózsára. Oszlasd el őket a <code>flex-wrap</code> tulajdonság használatával, amely a következő értékeket veheti fel:</p><ul><li><code>nowrap</code>: Minden elem egyetlen sorba tömörödik.</li><li><code>wrap</code>: Az elemek további sorokba törnek.</li><li><code>wrap-reverse</code>: Az elemek további sorokba törnek fordított irányban.</li></ul>'
     },
     board: 'ygggggr',
     style: {'flex-wrap': 'wrap'},
@@ -474,6 +492,7 @@ var levels = [
       'pl': '<p>Pomóż tej zgrai żabek utworzyć trzy uporządkowane kolumny używając własności <code>flex-direction</code> oraz <code>flex-wrap</code>.</p>',
       'cs': '<p>Pomozte žabkám utvořiy tři zástupy pomocí <code>flex-direction</code> a <code>flex-wrap</code>.</p>',
       'ja': '<p><code>flex-direction</code>と<code>flex-wrap</code>を使って、このカエルの大群がきちんと三列に並ぶようにしてあげてください。</p>',
+      'hu': '<p>Segíts ezt a békahadsereget, hogy három szabályos oszlop alakzatba rendeződjenek a <code>flex-direction</code> és a <code>flex-wrap</code> használatának ötvözésével.</p>'
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-direction': 'column', 'flex-wrap': 'wrap'},
@@ -499,6 +518,7 @@ var levels = [
       'pl': '<p>Jednoczesne zastosowanie własności <code>flex-direction</code> i <code>flex-wrap</code> występuje bardzo często, dlatego też utworzono własność skrótową <code>flex-flow</code>. Przyjmuje ona dwie wartości rozdzielone spacją.</p><p>Na przykład: wpisując <code>flex-flow: row wrap</code> uzyskamy efekt ułożenia elementów w wierszu i zawijanie ich do kolejnych linii w przypadku gdy któryś wystawałby poza kontener.</p><p>Spróbuj powtórzyć efekt z poprzedniego zadania przy pomocy <code>flex-flow</code>.</p>',
       'cs': '<p>Protože vlastnosti <code>flex-direction</code> a <code>flex-wrap</code> se často používají najednou, byla přidána vlastnost <code>flex-flow</code>, která je kombinuje. Tato vlastnost akceptuje hodnoty obou, oddělené mezerou.</p><p>Například můžete napsat <code>flex-flow: row wrap</code> pro zalamování ve sloupcích.</p><p>Zkuste nyní předchozí úkol vyřešit pomocí <code>flex-flow</code>.</p>',
       'ja': '<p><code>flex-direction</code>と<code>flex-wrap</code>の二つのプロパティーはよく一緒に使われます。そこで、これらを統合するショートハンドプロパティー<code>flex-flow</code>が作られました。このショートハンドプロパティーは空白文字で分割した二つのプロパティーの値を受け付けます。</p><p>例えば、<code>flex-flow: row wrap</code>とすることで、並び方と折り返し方を指定することができます。</p><p>試しに、<code>flex-flow</code>を使ってさっきの問題をやり直してみましょう。</p>',
+      'hu': '<p>A <code>flex-direction</code> és a <code>flex-wrap</code> tulajdonságok olyan gyakran használatosak együtt, hogy létrejött a rövidítésükként és ötvözésükként szolgáló <code>flex-flow</code> tulajdonság. Ez az egyszerűsített tulajdonság a két másik tulajdonság értékei közül kaphat értékeket, melyeket egymástól space (szóköz) választ el.</p><p>Például használhatod a <code>flex-flow: row wrap</code> kódot, hogy betördelt sorokat kapj.</p><p>Próbáld ki a <code>flex-flow</code> használatát az előző feladvány megoldására.</p>'
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-flow': 'column wrap'},
@@ -524,6 +544,7 @@ var levels = [
       'pl': '<p>Żabki rozproszyły się po całym stawie ale listki upchnęły się u góry. Własność <code>align-content</code> pomoże ci ustalić odległość wierszy kontenera od siebie. Własność ta przyjmuje takie wartości:</p><ul><li><code>flex-start</code>: Wiersze upychają u góry kontenera.</li><li><code>flex-end</code>: Wiersze upychają się w dolnej części kontenera.</li><li><code>center</code>: Wiersze upychane są pośrodku kontenera.</li><li><code>space-between</code>: Wiersze wyświetlane są z równymi odstępami.</li><li><code>space-around</code>: Wiersze wyświetlane są z równymi odstępami dookoła.</li><li><code>stretch</code>: Wiersze rozszerzają się tak, aby dopasować się do kontenera.</li></ul><p>Może to być trochę pogmatwane ale <code>align-content</code> określa odstępy między wierszami podczas, gdy <code>align-items</code> określa jak elementy, jako całość, wyrównują się względem kontenera. W przypadku, gdy jest tylko jedna linia, <code>align-content</code> nie przynosi żadnego efektu.</p>',
       'cs': '<p>Žabky se rozprostřely přes celý rybník, ale lekníny jsou všechny nahoře. K nastavení rozmístění řádků v kontejneru slouží <code>align-content</code>. Tato vlastnost má následující hodnoty:</p><ul><li><code>flex-start</code>: Hromadí řádky na horní straně kontejneru.</li><li><code>flex-end</code>: Hromadí řádky na spodní straně kontejneru.</li><li><code>center</code>: Hromadí řádky na svislém středu kontejneru.</li><li><code>space-between</code>: Rozmístí rovnoměrné mezery mezi řádky.</li><li><code>space-around</code>: Rozmístí rovnoměrné mezery kolem řádků.</li><li><code>stretch</code>: Roztáhne řádky, aby vyplnily kontejner.</li></ul><p>Může to být trochu matoucí, ale <code>align-content</code> určuje mezery mezi řádky, zatímco <code>align-items</code> určuje, jak jsou prvky jako celek zarovnány v kontejneru. Pokud je v kontejneru jen jeden řádek, <code>align-content</code> se neuplatní.</p>',
       'ja': '<p>カエルたちが池いっぱいに広がっていますが、蓮の葉は上方に集まっています。複数の行が他の行とどう距離を取り広がるのかを指定するのに、<code>align-content</code>を使うことができます。このプロパティーは以下の値を取ります。</p><ul><li><code>flex-start</code>: 行はコンテナーの上側に詰められます。</li><li><code>flex-end</code>: 行はコンテナーの下側に詰められます。</li><li><code>center</code>: 行はコンテナーの中央に詰められます。</li><li><code>space-between</code>: 行はその間に等しい間隔を空けて表示されます。</li><li><code>space-around</code>: 行はその周囲に等しい間隔を空けて表示されます。</li><li><code>stretch</code>: 行はコンテナーに合うよう引き延ばされます。</li></ul><p>混乱したかもしれませんが、<code>align-content</code>は行間の余白を決めるもので、<code>align-items</code>はコンテナーに含まれるアイテム全体としての配置を決めるものです。一行だけの場合は<code>align-content</code>は何も効果がありません。</p>',
+      'hu': '<p>A békák szétszóródtak mindenfelé a tavon, míg a tündérrózsák a tó tetején gyülekeznek. Az <code>align-content</code> használatával beállíthatod, hogy több sor esetén a sorok milyen távolságokra legyenek egymástól. Ez a tulajdonság a következő értékeket veheti fel:</p><ul><li><code>flex-start</code>: A sorok a konténer tetejére rendeződnek.</li><li><code>flex-end</code>: A sorok a konténer aljához rendeződnek.</li><li><code>center</code>: A sorok a konténeren belül függőlegesen középre rendeződnek.</li><li><code>space-between</code>: A sorok közötti tér kiegyenlítetten oszlik el.</li><li><code>space-around</code>: A sorok körülötti tér egyenlően oszlik el.</li><li><code>stretch</code>: A sorok széthúzódnak, hogy kitöltsék a konténerüket.</li></ul><p>Talán kicsit megtévesztő, de az <code>align-content</code> a sorok közötti teret befolyásolja, míg az <code>align-items</code> meghatározza hogy az elemek összessége miképp igazodjon a konténeren belül. Amennyiben csak egyetlen sor van, az <code>align-content</code> nem fejt ki semmilyen hatást.</p>'
     },
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'},
@@ -550,6 +571,7 @@ var levels = [
       'pl': '<p>Tym razem listki odpłynęły na dół stawu. Przy pomocy <code>align-content</code> pomóż żabkom do nich dotrzeć.</p>',
       'cs': '<p>Teď proud zanesl lekníny dolů. Pomozte žabkám vlastností <code>align-content</code>.</p>',
       'ja': '<p>さて今回は蓮の葉は下へ詰められています。<code>align-content</code>を使って、カエルたちをそこまで導いてください。</p>',
+      'hu': '<p>Jelen esetben a tündérrózsák a tó alján csoportosulnak. Használd az <code>align-content</code> tulajdonságot, hogy a békákat odavezesd hozzájuk.</p>'
     },
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'},
@@ -576,6 +598,7 @@ var levels = [
       'pl': '<p>Żabki zrobiły sobie imprezkę, nadszedł jednak czas na powrót do domu. Przy pomocy własności <code>flex-direction</code> oraz <code>align-content</code> pomóż im dotrzeć do ich listków.</p>',
       'cs': '<p>Žabky oslavovaly, teď je však čas jít domů. Pomozte jim vlastnostmi <code>flex-direction</code> a <code>align-content</code>.</p>',
       'ja': '<p>カエルたちはパーティーを開いていましたが、もう家に帰る時間です。<code>flex-direction</code>と<code>align-content</code>の組み合わせを使って、彼らの蓮の葉まで連れて行ってあげましょう。</p>',
+      'hu': '<p>A békák jót buliztak, de ideje hazamenniük. Használd együttesen a <code>flex-direction</code> és az <code>align-content</code> tulajdonságokat, hogy visszajuttasd őket a saját tündérrózsáikra.</p>'
     },
     board: 'rgggyrgggyrgggy',
     classes: {'#pond, #background': 'wrap'},
@@ -602,6 +625,7 @@ var levels = [
       'pl': '<p>Zaprowadź żabki do domu ten ostatni raz używając własności CSS, które właśnie poznałeś:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
       'cs': '<p>Ještě jednou pomozte žabkám najít své lekníny CSS vlastnostmi, které jste se naučili:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
       'ja': '<p>これまでに習ったCSSプロパティーを使って、もう一度だけカエルたちを家まで連れていってあげてください。</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
+      'hu': '<p>Vidd haza a békákat még egyszer utoljára azon CSS tulajdonságok segítségével, amelyeket eddig tanultál:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>'
     },
     board: 'rggggyy',
     style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
@@ -629,6 +653,7 @@ var levelWin = {
     'pl': '<p>Wygrałeś! Dzięki twemu mistrzostwu w obsłudze flexboxa mogłeś pomóc wszystkim żabkom dotrzeć do swoich listków. Popatrz tylko jakie są szczęśliwe!</p><p>Jeśli spodobała ci się gra obczaj inne moje projekty na moim <a href="http://thomaspark.co">blogu</a> lub koncie <a href="http://twitter.com/thomashpark">Twittera</a>, a także podziel się Flexbox Froggy z przyjaciółmi!</p>',
     'cs': '<p>Vyhráli jste! Svým mistrovským použitím flexboxu jste pomohli všem žabkám najít své lekníny. Podívejte, jak jsou šťastné!</p><p>Jestli se vám hra líbila, podívejte se i na mé další projekty na mém <a href="http://thomaspark.co">blogu</a> nebo na <a href="http://twitter.com/thomashpark">Twitteru</a>, a podělte se o radost z Flexbox Froggy s kamarády!</p>',
     'ja': '<p>やりました！　flexboxを使いこなしてくれてありがとう。カエルたちをちゃんと蓮の葉まで連れて行ってくれました。ほら、すごく嬉しそうにしてますよ！</p><p>楽しんでくれたのなら、<a href="http://thomaspark.co">ブログ</a>や<a href="http://twitter.com/thomashpark">Twitter</a>で私の他のプロジェクトも探してみてください。Flexbox Froggyをお友達にシェアするのもお忘れなく！</p>',
+    'hu': '<p>Nyertél! A flexbox szakértelmednek köszönhetően minden békát sikeresen hazajuttattál a tündérrózsájára. Nézd csak, hogy ugrálnak örömükben!</p><p>Ha eljutottál eddig a brekegésig, nézz rá további munkáimra a <a href="http://thomaspark.co">blogomon</a> vagy a <a href="http://twitter.com/thomashpark">Twitteren</a>, és feltétlenül oszd meg a Flexbox Froggy-t a barátaiddal!</p>'
   },
   board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
   classes: {'#pond, #background': 'wrap'},
