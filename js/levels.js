@@ -384,7 +384,7 @@ var levels = [
       'pl': '<p>Użyj własności <code>order</code>, aby posłać czerwoną żabkę na jej listek.</p>',
       'cs': '<p>Použijte vlastnost <code>order</code> tak, aby se červená žabka dostala na svůj leknín.</p>',
       'ja': '<p><code>order</code>プロパティーを使って、赤いカエルを彼の蓮の葉へ送ってください。</p>',
-      'en': '<p>Használd az <code>order</code> tualjdonságot hogy a vörös békát a tündérrózsájához küldhesd.</p>'
+      'hu': '<p>Használd az <code>order</code> tualjdonságot hogy a vörös békát a tündérrózsájához küldhesd.</p>'
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
@@ -412,7 +412,7 @@ var levels = [
       'pl': '<p>Następną własnością stosowaną wobec każdego elementu z osobna jest <code>align-self</code>. Przyjmuje ona wartości takie same jak <code>align-items</code>, ale ma zastosowanie tylko wobec konkretnego elementu.</p>',
       'cs': '<p>Další vlastností, kterou lze nastavit jednotlivým prvkům, je <code>align-self</code>. Tato vlastnost nabývá stejných hodnot jako <code>align-items</code>, ale ovlivňuje jen vybraný prvek.</p>',
       'ja': '<p>他にも、個別のアイテムへ設定できるプロパティーとして<code>align-self</code>があります。このプロパティーは<code>align-items</code>と同じ値を受け付け、指定のアイテムの状態だけを変更します。</p>',
-      'en': '<p>Egy másik, szintén az egyes elemekre alkalmazható tulajdonság az <code>align-self</code>. Ez a tulajdonság ugyanazon értékeket veheti fel, mint az <code>align-items</code> és a beállított érték az adott elemre specifikus lesz.</p>'
+      'hu': '<p>Egy másik, szintén az egyes elemekre alkalmazható tulajdonság az <code>align-self</code>. Ez a tulajdonság ugyanazon értékeket veheti fel, mint az <code>align-items</code> és a beállított érték az adott elemre specifikus lesz.</p>'
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
