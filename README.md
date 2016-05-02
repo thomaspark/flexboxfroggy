@@ -19,7 +19,8 @@ Thomas Park
 
 My gratitude to these contributors for localizing Flexbox Froggy. This is what open source is all about.
 
-* Chinese by [Tim Guo](https://github.com/timguoqk)
+* Chinese Simplified by [Tim Guo](https://github.com/timguoqk)
+* Chinese Traditional by [sunsheeppoplar](https://github.com/sunsheeppoplar)
 * Czech by [Ondřej Hruška](https://github.com/MightyPork)
 * Farsi by [Ali Haddad](https://github.com/alihaddadkar)
 * French by [Karl Thibault](https://github.com/Notuom)
