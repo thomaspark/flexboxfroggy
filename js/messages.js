@@ -14,7 +14,9 @@ var messages = {
     'lt': 'Sekantis',
     'vi': 'Kế Tiếp',
     'pl': 'Dalej',
-    'cs': 'Pokračovat'
+    'cs': 'Pokračovat',
+    'ja': '次へ',
+    'eo': 'Sekva',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -31,7 +33,9 @@ var messages = {
     'lt': 'Flexbox Froggy kūrėjas',
     'vi': 'Flexbox Froggy được tạo ra bởi',
     'pl': 'Flexbox Froggy jest wytworem',
-    'cs': 'Flexbox Froggy vytvořil'
+    'cs': 'Flexbox Froggy vytvořil',
+    'ja': 'Flexbox Froggy is created by',
+    'eo': 'Flexbox Froggy far',
   },
   labelLevel: {
     'en': 'Level',
@@ -48,7 +52,9 @@ var messages = {
     'lt': 'Lygis',
     'vi': 'Cấp',
     'pl': 'Poziom',
-    'cs': 'Úroveň'
+    'cs': 'Úroveň',
+    'ja': 'Lv.',
+    'eo': 'Nivelo',
   },
   labelOf: {
     'en': 'of',
@@ -65,7 +71,9 @@ var messages = {
     'lt': 'iš',
     'vi': 'của',
     'pl': 'z',
-    'cs': 'z'
+    'cs': 'z',
+    'ja': '/',
+    'eo': 'de',
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -82,7 +90,9 @@ var messages = {
     'lt': 'Flexbox Froggy - Žaidimas padėsiantis perprasti CSS "flexbox" metodiką',
     'vi': 'Flexbox Froggy - Một trò chơi để học CSS flexbox',
     'pl': 'Flexbox Froggy - gra, która nauczy cię posługiwania się "flexboxa"',
-    'cs': 'Flexbox Froggy - CSS flexbox hrou'
+    'cs': 'Flexbox Froggy - CSS flexbox hrou',
+    'ja': 'Flexbox Froggy - CSS flexbox学習ゲーム',
+    'eo': 'Flexbox Froggy - Ludo por lerni CSS flexbox-on',
   },
   labelReset: {
     'en': 'Reset',
@@ -99,7 +109,9 @@ var messages = {
     'lt': 'Atstatyti',
     'vi': 'Thiết lập lại',
     'pl': 'Uruchom ponownie',
-    'cs': 'Nová hra'
+    'cs': 'Nová hra',
+    'ja': 'リセット',
+    'eo': 'Rekomencu',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -116,6 +128,8 @@ var messages = {
     'lt': 'Ar esate įsitikinę, kad norite atstatyti žaidimą į pradinę būseną?\n\nJūsų pasiekimai bus anuliuoti ir būsite nukreipti į žaidimo pradžią.',
     'vi': 'Bạn có chắc chắn là bạn muốn thiết lập lại trò chơi không? Toàn bộ tiến trình của bạn sẽ bị mất và bạn sẽ được chuyển đến đầu của trò chơi.',
     'pl': 'Na pewno chcesz uruchomić grę ponownie?\n\nUtracisz dotychczasowe postępy, a także powrócisz do początku gry.',
-    'cs': 'Opravdu chcete restartovat hru?\n\nSoučasný postup bude smazán, začnete znovu od prvního levelu.'
+    'cs': 'Opravdu chcete restartovat hru?\n\nSoučasný postup bude smazán, začnete znovu od prvního levelu.',
+    'ja': '本当にゲームをリセットしますか？\n\nここまで進めたゲームの情報は全て失われ、ゲームの最初へ移動します。',
+    'eo': 'Ĉu vi vere volas rekomenci la ludon?\n\nPerdiĝos via progresado kaj vi devos rekomenci al la komenco de la ludo.',
   }
 };

@@ -25,6 +25,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * French by [Karl Thibault](https://github.com/Notuom)
 * German by [Thorsten Frommen](https://github.com/tfrommen)
 * Italian by [Matteo Bandiera](https://github.com/matteobandiera)
+* Japanese by [Ginpei](https://github.com/ginpei)
 * Korean by [Meen Chul Kim](https://github.com/liberaliscomputing)
 * Lithuanian by [Justas Maziliauskas](https://github.com/justutiz)
 * Polish by [eLGi](https://github.com/eLGi)
