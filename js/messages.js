@@ -17,7 +17,8 @@ var messages = {
     'pl': 'Dalej',
     'cs': 'Pokračovat',
     'ja': '次へ',
-    'hu': 'Következő'
+    'hu': 'Következő',
+    'eo': 'Sekva',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -37,7 +38,8 @@ var messages = {
     'pl': 'Flexbox Froggy jest wytworem',
     'cs': 'Flexbox Froggy vytvořil',
     'ja': 'Flexbox Froggy is created by',
-    'hu': 'A Flexbox Froggy-t készítette'
+    'hu': 'A Flexbox Froggy-t készítette',
+    'eo': 'Flexbox Froggy far',
   },
   labelLevel: {
     'en': 'Level',
@@ -57,7 +59,8 @@ var messages = {
     'pl': 'Poziom',
     'cs': 'Úroveň',
     'ja': 'Lv.',
-    'hu': 'Szint'
+    'hu': 'Szint',
+    'eo': 'Nivelo',
   },
   labelOf: {
     'en': 'of',
@@ -77,7 +80,8 @@ var messages = {
     'pl': 'z',
     'cs': 'z',
     'ja': '/',
-    'hu': '/'
+    'hu': '/',
+    'eo': 'de',
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -97,7 +101,8 @@ var messages = {
     'pl': 'Flexbox Froggy - gra, która nauczy cię posługiwania się "flexboxa"',
     'cs': 'Flexbox Froggy - CSS flexbox hrou',
     'ja': 'Flexbox Froggy - CSS flexbox学習ゲーム',
-    'hu': 'Flexbox Froggy - Játékos CSS flexbox tanulás'
+    'hu': 'Flexbox Froggy - Játékos CSS flexbox tanulás',
+    'eo': 'Flexbox Froggy - Ludo por lerni CSS flexbox-on',
   },
   labelReset: {
     'en': 'Reset',
@@ -117,7 +122,8 @@ var messages = {
     'pl': 'Uruchom ponownie',
     'cs': 'Nová hra',
     'ja': 'リセット',
-    'hu': 'Újrakezd'
+    'hu': 'Újrakezd',
+    'eo': 'Rekomenci',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -137,6 +143,7 @@ var messages = {
     'pl': 'Na pewno chcesz uruchomić grę ponownie?\n\nUtracisz dotychczasowe postępy, a także powrócisz do początku gry.',
     'cs': 'Opravdu chcete restartovat hru?\n\nSoučasný postup bude smazán, začnete znovu od prvního levelu.',
     'ja': '本当にゲームをリセットしますか？\n\nここまで進めたゲームの情報は全て失われ、ゲームの最初へ移動します。',
-    'hu': 'Biztosan előlről akarod kezdeni a játékot?\n\nAz eddig elért eredményed elveszik és a játék elején fogod találni magad.'
+    'hu': 'Biztosan előlről akarod kezdeni a játékot?\n\nAz eddig elért eredményed elveszik és a játék elején fogod találni magad.',
+    'eo': 'Ĉu vi vere volas rekomenci la ludon?\n\nPerdiĝos via progresado kaj vi devos rekomenci al la komenco de la ludo.',
   }
 };
