@@ -19,11 +19,14 @@ Thomas Park
 
 My gratitude to these contributors for localizing Flexbox Froggy. This is what open source is all about.
 
-* Chinese by [Tim Guo](https://github.com/timguoqk)
+* Chinese Simplified by [Tim Guo](https://github.com/timguoqk)
+* Chinese Traditional by [sunsheeppoplar](https://github.com/sunsheeppoplar)
 * Czech by [Ondřej Hruška](https://github.com/MightyPork)
+* Esperanto by [Harvey Stroud](https://github.com/harveystroud)
 * Farsi by [Ali Haddad](https://github.com/alihaddadkar)
 * French by [Karl Thibault](https://github.com/Notuom)
 * German by [Thorsten Frommen](https://github.com/tfrommen)
+* Hungarian by [Adam Graf](https://github.com/netgrafe)
 * Italian by [Matteo Bandiera](https://github.com/matteobandiera)
 * Japanese by [Ginpei](https://github.com/ginpei)
 * Korean by [Meen Chul Kim](https://github.com/liberaliscomputing)

@@ -8,6 +8,7 @@ var messages = {
     'ru': 'Следующий',
     'fa': 'مرحله بعدی',
     'zh-cn': '继续',
+    'zh-tw': '繼續',
     'tr': 'Sonraki',
     'it': 'Prossima',
     'ko': '다음',
@@ -16,6 +17,7 @@ var messages = {
     'pl': 'Dalej',
     'cs': 'Pokračovat',
     'ja': '次へ',
+    'hu': 'Következő',
     'eo': 'Sekva',
   },
   labelFooter: {
@@ -27,6 +29,7 @@ var messages = {
     'ru': 'Игра Flexbox Froggy создана',
     'fa': 'قورباغه فلکس باکس ساخته شده توسط',
     'zh-cn': 'Flexbox Froggy的作者是',
+    'zh-tw': 'Flexbox Froggy的作者是',
     'tr': 'Flexbox Froggy\'nin yaratıcısı:',
     'it': 'Flexbox Froggy e\' stato creato da',
     'ko': 'Flexbox Froggy는 다음에 의해 개발되었습니다',
@@ -35,6 +38,7 @@ var messages = {
     'pl': 'Flexbox Froggy jest wytworem',
     'cs': 'Flexbox Froggy vytvořil',
     'ja': 'Flexbox Froggy is created by',
+    'hu': 'A Flexbox Froggy-t készítette',
     'eo': 'Flexbox Froggy far',
   },
   labelLevel: {
@@ -46,6 +50,7 @@ var messages = {
     'ru': 'Уровень',
     'fa': 'مرحله',
     'zh-cn': 'Level',
+    'zh-tw': 'Level',
     'tr': 'Seviye',
     'it': 'Livello',
     'ko': '단계',
@@ -54,6 +59,7 @@ var messages = {
     'pl': 'Poziom',
     'cs': 'Úroveň',
     'ja': 'Lv.',
+    'hu': 'Szint',
     'eo': 'Nivelo',
   },
   labelOf: {
@@ -65,6 +71,7 @@ var messages = {
     'ru': 'из',
     'fa': 'از',
     'zh-cn': '/',
+    'zh-tw': '/', 
     'tr': '/',
     'it': 'di',
     'ko': 'of',
@@ -73,6 +80,7 @@ var messages = {
     'pl': 'z',
     'cs': 'z',
     'ja': '/',
+    'hu': '/',
     'eo': 'de',
   },
   title: {
@@ -84,6 +92,7 @@ var messages = {
     'ru': 'Flexbox Froggy - Игра для изучения CSS Flexbox',
     'fa': 'قورباغه فلکس باکس - یک بازی جذاب برای آموزش سی اس اس فلکس باکس',
     'zh-cn': 'Flexbox Froggy - 一个用来学CSS flexbox的游戏',
+    'zh-tw': 'Flexbox Froggy - 一個用來學CSS flexbox的遊戲',
     'tr': 'Flexbox Froggy - CSS flexbox için öğretici oyun',
     'it': 'Flexbox Froggy - Un gioco per imparare CSS flexbox',
     'ko': 'Flexbox Froggy - CSS flexbox 속성 배우기 게임',
@@ -92,6 +101,7 @@ var messages = {
     'pl': 'Flexbox Froggy - gra, która nauczy cię posługiwania się "flexboxa"',
     'cs': 'Flexbox Froggy - CSS flexbox hrou',
     'ja': 'Flexbox Froggy - CSS flexbox学習ゲーム',
+    'hu': 'Flexbox Froggy - Játékos CSS flexbox tanulás',
     'eo': 'Flexbox Froggy - Ludo por lerni CSS flexbox-on',
   },
   labelReset: {
@@ -103,6 +113,7 @@ var messages = {
     'ru': 'Сбросить',
     'fa': 'شروع مجدد',
     'zh-cn': '重置',
+    'zh-tw': '重置',
     'tr': 'Baştan Başla',
     'it': 'Annulla',
     'ko': '재시작',
@@ -111,7 +122,8 @@ var messages = {
     'pl': 'Uruchom ponownie',
     'cs': 'Nová hra',
     'ja': 'リセット',
-    'eo': 'Rekomencu',
+    'hu': 'Újrakezd',
+    'eo': 'Rekomenci',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -122,6 +134,7 @@ var messages = {
     'ru': 'Вы действительно хотите сбросить игру?\n\nВаш прогресс будет потерян и вы вернетесь к началу игры.',
     'fa': 'آیا از شروع مجدد بازی اطمینان دارید ?\n\nتمام مراحل ذخیره شده حذف خواهند شد.',
     'zh-cn': '你确定要重置游戏吗?\n\n你保存了的进度将会丢失，而且你会回到游戏的最开始。',
+    'zh-tw': '你確定要重置遊戲嗎？\n\n你保存了的進度將會丟失，而且你會回到遊戲的最開始。',
     'tr': 'Oyuna baştan başlamak istediğinize emin misiniz? Kayıtlı bütün ilerlemeniz silinecek ve birinci seviyeye geri döneceksiniz.',
     'it': 'Sei sicuro di voler annullare il gioco?\n\nI tuoi salvataggi verranno persi e dovrai ricominciare il gioco dall\'inizio.',
     'ko': '게임을 다시 시작하시겠습니까? 지금까지의 진도는 사라지고 게임의 처음으로 돌아갈 것입니다.',
@@ -130,6 +143,7 @@ var messages = {
     'pl': 'Na pewno chcesz uruchomić grę ponownie?\n\nUtracisz dotychczasowe postępy, a także powrócisz do początku gry.',
     'cs': 'Opravdu chcete restartovat hru?\n\nSoučasný postup bude smazán, začnete znovu od prvního levelu.',
     'ja': '本当にゲームをリセットしますか？\n\nここまで進めたゲームの情報は全て失われ、ゲームの最初へ移動します。',
+    'hu': 'Biztosan előlről akarod kezdeni a játékot?\n\nAz eddig elért eredményed elveszik és a játék elején fogod találni magad.',
     'eo': 'Ĉu vi vere volas rekomenci la ludon?\n\nPerdiĝos via progresado kaj vi devos rekomenci al la komenco de la ludo.',
   }
 };
