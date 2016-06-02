@@ -18,7 +18,7 @@ var docs = {
     'cs': '<p>Určuje zarovnání řádků ve směru vedlejší osy, pokud je v kontejneru přebytek místa.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'ja': '<p>直行軸 (cross axis) に余裕がある場合、コンテナー内の行を配置します。</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'hu': '<p>A flex konténer sorvonalait igazítja a flex konténeren belül, amennyiben van szabad tér a másodlagos kereszttengely mentén.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
-	'eo': '<p>Vicigas la liniojn de la fleksujo tie kie estas aldona spaco sur la transversakso.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'eo': '<p>Vicigas la liniojn de la fleksujo tie kie estas aldona spaco sur la transversakso.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'sv': '<p>Justerar en flex-containers rader inom flex-containern när det finns extra utrymme på motsata axeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
   },
   'align-items': {
