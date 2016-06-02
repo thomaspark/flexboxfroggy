@@ -19,6 +19,7 @@ var messages = {
     'ja': '次へ',
     'hu': 'Következő',
     'eo': 'Sekva',
+    'sv': 'Nästa',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -40,6 +41,7 @@ var messages = {
     'ja': 'Flexbox Froggy is created by',
     'hu': 'A Flexbox Froggy-t készítette',
     'eo': 'Flexbox Froggy far',
+    'sv': 'Flexbox Froggy skapades av',
   },
   labelLevel: {
     'en': 'Level',
@@ -61,6 +63,7 @@ var messages = {
     'ja': 'Lv.',
     'hu': 'Szint',
     'eo': 'Nivelo',
+    'sv': 'Nivå',
   },
   labelOf: {
     'en': 'of',
@@ -82,6 +85,7 @@ var messages = {
     'ja': '/',
     'hu': '/',
     'eo': 'de',
+    'sv': 'av',
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -103,6 +107,7 @@ var messages = {
     'ja': 'Flexbox Froggy - CSS flexbox学習ゲーム',
     'hu': 'Flexbox Froggy - Játékos CSS flexbox tanulás',
     'eo': 'Flexbox Froggy - Ludo por lerni CSS flexbox-on',
+    'sv': 'Flexbox Froggy - Ett spel för att lära sig CSS flexbox',
   },
   labelReset: {
     'en': 'Reset',
@@ -124,6 +129,7 @@ var messages = {
     'ja': 'リセット',
     'hu': 'Újrakezd',
     'eo': 'Rekomenci',
+    'sv': 'Återställ',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -145,5 +151,6 @@ var messages = {
     'ja': '本当にゲームをリセットしますか？\n\nここまで進めたゲームの情報は全て失われ、ゲームの最初へ移動します。',
     'hu': 'Biztosan előlről akarod kezdeni a játékot?\n\nAz eddig elért eredményed elveszik és a játék elején fogod találni magad.',
     'eo': 'Ĉu vi vere volas rekomenci la ludon?\n\nPerdiĝos via progresado kaj vi devos rekomenci al la komenco de la ludo.',
+    'sv': 'Är du säker på att du vill börja om?\n\nDin nivå kommer att återställas och du kommer att börja om från början.',
   }
 };
