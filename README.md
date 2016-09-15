@@ -38,6 +38,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Swedish by [Martin Ohlson](https://github.com/martinkrulltott)
 * Turkish by [Uğur Korfalı](https://github.com/kel-sakal-biyik)
 * Vietnamese by [Kingsten Banh](https://github.com/kingstenbanh)
+* Ukrainian by [sHa](https://github.com/shadoll)
 
 Don't see your language on the list? Contribute a translation! Fork the [repo](https://github.com/thomaspark/flexboxfroggy/), add your translations, and submit a pull request.
 
