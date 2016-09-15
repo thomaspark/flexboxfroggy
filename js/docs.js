@@ -152,6 +152,7 @@ var docs = {
     'hu': '<p>Az elsődleges főtengely mentén igazítja a flex elemeket.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'eo': '<p>Liniigas fleksajn elementojn laŭĉefakse.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'sv': '<p>Justerar flex-objekt längs med huvudaxeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'ua': '<p>Вирівнює flex-елементи вздовж головної осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
@@ -174,5 +175,6 @@ var docs = {
     'hu': '<p>Meghatározza a flex elem sorrendiségét.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'eo': '<p>Precizigas la ordon de la fleksa elemento.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'sv': '<p>Specificerar ordningen för flex-objekten.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
+    'ua': '<p>Вказує порядок flex-елементу.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
   }
 };
