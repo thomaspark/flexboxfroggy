@@ -88,6 +88,7 @@ var docs = {
     'hu': '<p>Definiálja az elsődleges főtengely irányát.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'eo': '<p>Difinas la direkton de la ĉefa akso.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'sv': '<p>Definierar huvudaxelns håll.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'ua': '<p>Визначає напрямок головної осі.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
