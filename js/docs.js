@@ -43,7 +43,7 @@ var docs = {
     'hu': '<p>A másodlagos kereszt-tengely mentén igazítja a flex elemeket.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'eo': '<p>Vicigas transversakse fleksajn erojn.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'sv': '<p>Justerar flex-objekt längs med motsata axeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'ua': '<p>Вирівнює flex-елементи вздовж перетинаємої осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ua': '<p>Вирівнює flex-елементи вздовж перетинної осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -66,6 +66,7 @@ var docs = {
     'hu': '<p>A másodlagos kereszttengely mentén igazít egy flex elemet, felülírva a <code>align-items</code>-ben megadott értéket.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'eo': '<p>Vicigas transversakse fleksajn elementojn, anstataŭigante la <code>align-items</code> valoron.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'sv': '<p>Justerar ett flex-objekt längs med motsata axeln, överskrider värdet från <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ua': '<p>Вирівнює flex-елемент вздовж перетинної осі, перекриваючи значення властивості <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
