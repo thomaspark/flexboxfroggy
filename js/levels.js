@@ -291,6 +291,7 @@ var levels = [
       'hu': '<p>Segíts a békáknak megtalálni saját tündérrózsáikat. Bár úgy tűnik, egész közel járunk, mégis szükség lesz mind a <code>flex-direction</code>, mind pedig a <code>justify-content</code> tulajdonságra, hogy odajuttassuk őket.</p><p>Vedd figyelembe, hogy ha az irányzékot ellentétesre (reversed) állítod, a \'start\' és az \'end\' értékek jelentése is megcserélődik.</p>',
       'eo': '<p>Helpu la ranojn alveni al iliaj akvolilifolioj. Kvankam ili ŝajnas proksimaj, lokigi la ranojn tien postulos ambaŭ <code>flex-direction</code> kaj <code>justify-content</code>.</p><p>Rimarku, kiam oni metas la direkton al inversita vico aŭ kolumno, tiam la komenco kaj la fino ankaŭ estus inversitaj.</p>',
       'sv': '<p>Hjälp grodorna att ta sig till sina blomblad. Även om dom ser ut att vara nära så kommer det krävas både <code>flex-direction</code> och <code>justify-content</code> för att ta sig dit.</p><p>Notera att när du ändra riktning till en motsat rad eller kolumn så är start och slut också åt motsat håll.</p>',
+	'ua': '<p>Допоможи жабенятам потрапити на своє листя. Хоча може здатися, що вони вже на своїх місцях, але лише використав разом <code>flex-direction</code> та <code>justify-content</code> ти зможеш їх вірно розмістити.</p><p>Зверни увагу на те, що коли встановлюєш зворотній напрямок рядків або стовпчиків, початок і кінець також міняються місцями.</p>',
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
