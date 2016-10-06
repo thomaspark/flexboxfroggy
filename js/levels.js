@@ -112,6 +112,7 @@ var levels = [
       'hu': '<p>Mostanra a tündérrózsák kisodródtak a tópart felé, megnövelve ezáltal a közöttük tátongó űrt. Használd a <code>justify-content</code> tulajdonságot. Ezúttal a tündérrózsák között egyenlő mértékű szabad terület van.</p>',
       'eo': '<p>Nun, la flankaj akvolilifolioj flosas al la bordo, grandigante la spacon inter ili. Uzu <code>justify-content</code>. Ĉifoje, la akvolilifolioj havas saman spacon inter ili.</p>',
       'sv': '<p>Nu har blombladen längs med kanterna drivit in till stranden och utökt utrymmet mellan dem. Använd <code>justify-content</code>. Denna gång är blombladen jämt fördelade.</p>',
+	'ua': '<p>Тепер крайні листя латаття віднесло до берегів, збільшуючи простір між ними. Використовуй <code>justify-content</code>. Цього разу поміж листками латаття рівні відстані.</p>',
     },
     board: 'gyr',
     style: {'justify-content': 'space-between'},

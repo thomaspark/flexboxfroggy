@@ -43,7 +43,7 @@ var messages = {
     'hu': 'A Flexbox Froggy-t készítette',
     'eo': 'Flexbox Froggy far',
     'sv': 'Flexbox Froggy skapades av',
-    'ua': 'Гра Flexbox Froggy створена',
+    'ua': 'Гру Flexbox Froggy створено',
   },
   labelLevel: {
     'en': 'Level',

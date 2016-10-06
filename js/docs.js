@@ -20,6 +20,7 @@ var docs = {
     'hu': '<p>A flex konténer sorvonalait igazítja a flex konténeren belül, amennyiben van szabad tér a másodlagos kereszttengely mentén.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'eo': '<p>Vicigas la liniojn de la fleksujo tie kie estas aldona spaco sur la transversakso.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'sv': '<p>Justerar en flex-containers rader inom flex-containern när det finns extra utrymme på motsata axeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'ua': '<p>Вирівнює рядки flex-контейнеру всередені самого flex-контейнеру, коли є додатковий простір на поперечній осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -42,6 +43,7 @@ var docs = {
     'hu': '<p>A másodlagos kereszt-tengely mentén igazítja a flex elemeket.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'eo': '<p>Vicigas transversakse fleksajn erojn.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'sv': '<p>Justerar flex-objekt längs med motsata axeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ua': '<p>Вирівнює flex-елементи вздовж перетинаємої осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
