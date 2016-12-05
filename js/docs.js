@@ -112,6 +112,7 @@ var docs = {
     'hu': '<p>Rövidítésként szolgáló összevonása a <code>flex-direction</code> és a <code>flex-wrap</code> tulajdonságoknak.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'eo': '<p>Mallongita trajto por <code>flex-direction</code> kaj <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'sv': '<p>Kort version av <code>flex-direction</code> och <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+	'ua': '<p>Скорочена властивість для <code>flex-direction</code> та <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -134,6 +135,7 @@ var docs = {
     'hu': '<p>Meghatározza, hogy a flex elemek egy sorba vannak kényszerítve vagy megtörhetnek több sorba.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'eo': '<p>Indikas ĉu fleksaj elementoj devige estu sur nura linio aŭ faldkapeblas je pluraj linioj.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'sv': '<p>Specificerar on flex-objekt är låsta till en rad eller om dom får flöda över till flera rader.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
+	'ua': '<p>Визначає, чи будуть елементи знаходитись в одному рядку, чи будуть перенесені до наступних рядків.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
