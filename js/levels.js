@@ -471,6 +471,7 @@ var levels = [
     name: 'align-self 1',
     instructions: {
       'en': '<p>Another property you can apply to individual items is <code>align-self</code>. This property accepts the same values as <code>align-items</code> and its value for the specific item.</p>',
+      'bg': '<p>Друго свойство, което можеш да приложиш върху отделен елемент е <code>align-self</code>. Това свойство приема същите стойности като code>align-items</code> и неговата стойност за определен елемент.</p>',
       'de': '<p><code>align-self</code> ist eine weitere Eigenschaft f&uuml;r einzelne Elemente. Sie akzeptiert die gleichen Werte wie <code>align-items</code>.</p>',
       'pt-br': '<p>Outra propriedade que você pode aplicar para itens individuais é <code>align-self</code>. Esta propriedade aceita os mesmos valores que <code>align-items</code> e seus valores são usados para o item específico.</p>',
       'es': '<p>Otra propiedad que puedes aplicar a elementos individuales es <code>align-self</code>. Esta propiedad acepta los mismos valores de <code>align-items</code> y sus valores son usados para un elemento específico</p>',
