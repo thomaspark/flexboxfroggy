@@ -1,6 +1,7 @@
 var messages = {
   next: {
     'en': 'Next',
+    'bg': 'Следващ',
     'de': 'Weiter',
     'fr': 'Suivant',
     'pt-br': 'Próximo',
@@ -20,10 +21,11 @@ var messages = {
     'hu': 'Következő',
     'eo': 'Sekva',
     'sv': 'Nästa',
-    'uk': 'Наступний',
+    'uk': 'Наступний'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
+    'bg': 'Flexbox Froggy е създадена от',
     'de': 'Flexbox Froggy wurde gemacht von',
     'fr': 'Flexbox Froggy est créé par',
     'pt-br': 'Flexbox Froggy foi criado por',
@@ -43,10 +45,11 @@ var messages = {
     'hu': 'A Flexbox Froggy-t készítette',
     'eo': 'Flexbox Froggy far',
     'sv': 'Flexbox Froggy skapades av',
-    'uk': 'Гру Flexbox Froggy створено',
+    'uk': 'Гру Flexbox Froggy створено'
   },
   labelLevel: {
     'en': 'Level',
+    'bg': 'Ниво',
     'de': 'Level',
     'fr': 'Niveau',
     'pt-br': 'Nível',
@@ -66,10 +69,11 @@ var messages = {
     'hu': 'Szint',
     'eo': 'Nivelo',
     'sv': 'Nivå',
-    'uk': 'Рівень',
+    'uk': 'Рівень'
   },
   labelOf: {
     'en': 'of',
+    'bg': 'от',
     'de': 'von',
     'fr': 'de',
     'pt-br': 'de',
@@ -89,10 +93,11 @@ var messages = {
     'hu': '/',
     'eo': 'de',
     'sv': 'av',
-    'uk': 'з',
+    'uk': 'з'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
+    'bg': 'Flexbox Froggy - Игра за учене на CSS flexbox',
     'de': 'Flexbox Froggy - Ein Spiel, um CSS flexbox zu lernen',
     'fr': 'Flexbox Froggy - Un jeu pour apprendre les flexbox CSS',
     'pt-br': 'Flexbox Froggy - Um jogo para aprender CSS flexbox',
@@ -112,10 +117,11 @@ var messages = {
     'hu': 'Flexbox Froggy - Játékos CSS flexbox tanulás',
     'eo': 'Flexbox Froggy - Ludo por lerni CSS flexbox-on',
     'sv': 'Flexbox Froggy - Ett spel för att lära sig CSS flexbox',
-    'uk': 'Flexbox Froggy - гра для вивчення CSS flexbox',
+    'uk': 'Flexbox Froggy - гра для вивчення CSS flexbox'
   },
   labelReset: {
     'en': 'Reset',
+    'bg': 'Анулиране',
     'de': 'Zurücksetzen',
     'fr': 'Réinitialiser',
     'pt-br': 'Reinicializar',
@@ -135,10 +141,11 @@ var messages = {
     'hu': 'Újrakezd',
     'eo': 'Rekomenci',
     'sv': 'Återställ',
-    'uk': 'Скинути',
+    'uk': 'Скинути'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
+    'bg': 'Сигурни ли сте, че искате да анулирате играта?\n\nВашият резултат ще бъде загубен и ще бъдете препратени към началото на играта.',
     'de': 'Bist su sicher, dass du das Spiel zurücksetzen möchtest?\n\nDein gespeicherter Fortschritt geht dabei verloren und du musst das Spiel von neuem starten.',
     'fr': 'Êtes-vous certain de vouloir réinitialiser la partie?\n\nVotre progrès sauvegardé sera perdu et vous recommencerez au début du jeu.',
     'pt-br': 'Você tem certeza que quer reinicializar o jogo?\n\nSeu progresso salvo será perdido e você voltará ao começo do jogo.',
@@ -158,6 +165,6 @@ var messages = {
     'hu': 'Biztosan előlről akarod kezdeni a játékot?\n\nAz eddig elért eredményed elveszik és a játék elején fogod találni magad.',
     'eo': 'Ĉu vi vere volas rekomenci la ludon?\n\nPerdiĝos via progresado kaj vi devos rekomenci al la komenco de la ludo.',
     'sv': 'Är du säker på att du vill börja om?\n\nDin nivå kommer att återställas och du kommer att börja om från början.',
-    'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.',
+    'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.'
   }
 };
