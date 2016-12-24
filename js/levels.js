@@ -343,6 +343,7 @@ var levels = [
     name: 'flex-direction 5',
     instructions: {
       'en': '<p>Help the frogs find their lilypads using <code>flex-direction</code> and <code>justify-content</code>.</p>',
+      'bg': '<p>Помогни на жабчетата да намерят своите листа, използвайки <code>flex-direction</code> и <code>justify-content</code>.</p>',
       'de': '<p>Hilf den Fr&ouml;schen mit <code>flex-direction</code> und <code>justify-content</code>, ihr Seerosenblatt zu finden.</p>',
       'pt-br': '<p>Ajude os sapos a encontrar suas vitórias-régias usando <code>flex-direction</code> e <code>justify-content</code>.</p>',
       'es': '<p>Ayuda a las ranas a encontrar sus hojas de lirio usando <code>flex-direction</code> y <code>justify-content</code>.</p>',
