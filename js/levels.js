@@ -438,6 +438,7 @@ var levels = [
     name: 'order 2',
     instructions: {
       'en': '<p>Use the <code>order</code> property to send the red frog to his lilypad.</p>',
+      'bg': '<p>Използвай свойството <code>order</code>, за да изпратиш червеното жабче в негото листо.</p>',
       'de': '<p>Benutze die <code>order</code>-Eigenschaft, um den roten Frosch zu seinem Seerosenblatt zu f&uuml;hren.</p>',
       'pt-br': '<p>Use a propriedade <code>order</code> para levar o sapo vermelho à sua vitória-régia.</p>',
       'es': '<p>Usa la propiedad <code>order</code> para enviar la rana de color rojo a su hoja de lirio.</p>',
