@@ -503,6 +503,7 @@ var levels = [
     name: 'align-self 2',
     instructions: {
       'en': '<p>Combine <code>order</code> with <code>align-self</code> to help the frogs to their destinations.</p>',
+      'bg': '<p>Комбинирай <code>order</code> с <code>align-self</code>, за да помогнеш на жабчетата да достигнат своето местоназначение.</p>',
       'de': '<p>Kombiniere <code>order</code> mit <code>align-self</code>, um die Fr&ouml;sche zum Ziel zu bringen.</p>',
       'pt-br': '<p>Combine <code>order</code> e <code>align-self</code> para levar os sapos aos seus destinos.</p>',
       'es': '<p>Combina <code>order</code> con <code>align-self</code> para ayudar a las ranas a llegar a sus destinos</p>',
