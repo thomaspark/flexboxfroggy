@@ -158,6 +158,7 @@ var levels = [
     name: 'align-items 2',
     instructions: {
       'en': '<p>Lead the frog to the center of the pond using a combination of <code>justify-content</code> and <code>align-items</code>.</p>',
+      'bg': '<p>Заведи жабчето до центъра на езерото, използвайки комбинация от <code>justify-content</code> и <code>align-items</code>.</p>',
       'de': '<p>F&uuml;hre den Frosch zur Mitte des Teichs, indem du <code>justify-content</code> und <code>align-items</code> in kombinierst.</p>',
       'pt-br': '<p>Leve o sapo ao cento da lagoa usando uma combinação de <code>justify-content</code> e <code>align-items</code>.</p>',
       'es': '<p>Mueve a la rana al centro del estanque, usando una combinación de <code>justify-content</code> y <code>align-items</code>.</p>',
