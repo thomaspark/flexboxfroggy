@@ -566,6 +566,7 @@ var levels = [
     name: 'flex-wrap 2',
     instructions: {
       'en': '<p>Help this army of frogs form three orderly columns using a combination of <code>flex-direction</code> and <code>flex-wrap</code>.</p>',
+      'bg': '<p>Помогни на тази армия от жабчета да формира три подредени колони, използайки комбинация от <code>flex-direction</code> и <code>flex-wrap</code>.</p>',
       'de': '<p>Hilf dieser Frosch-Armee, mit <code>flex-direction</code> und <code>flex-wrap</code> drei ordentliche Spalten zu formen.</p>',
       'pt-br': '<p>Ajude esse exército de sapos a formar três colunas ordenadas usando uma combinação de <code>flex-direction</code> e <code>flex-wrap</code>.</p>',
       'es': '<p>Ayuda a este ejercito de ranas a ordenarse en tres columnas usando una combinación de <code>flex-direction</code> y <code>flex-wrap</code>.</p>',
