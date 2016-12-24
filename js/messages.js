@@ -1,7 +1,7 @@
 var messages = {
   next: {
     'en': 'Next',
-    'bg': 'Следващ',
+    'bg': 'Следващо',
     'de': 'Weiter',
     'fr': 'Suivant',
     'pt-br': 'Próximo',
