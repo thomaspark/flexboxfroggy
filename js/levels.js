@@ -96,6 +96,7 @@ var levels = [
     name: 'justify-content 4',
     instructions: {
       'en': '<p>Now the lilypads on the edges have drifted to the shore, increasing the space between them. Use <code>justify-content</code>. This time, the lilypads have equal spacing between them.</p>',
+      'bg': '<p>Сега крайните листа се носят към брега, увеличавайки разстоянието между тях . Използвай <code>justify-content</code>. Този път листата имат еднакво разстояние помежду си.</p>',
       'de': '<p>Inzwischen sind die &auml;u&szlig;eren Seerosenbl&auml;tter weiter nach au&szlig;en getrieben und haben so den Abstand noch weiter vergr&ouml;&szlig;ert. Benutze <code>justify-content</code>. Dieses Mal haben die Seerosenbl&auml;tter einen gleichm&auml;&szlig;igen Innenabstand.</p>',
       'pt-br': '<p>Agora as vitórias-régias nos cantos desviaram-se para a costa, aumentando o espaço em torno delas. Use <code>justify-content</code>. Desta vez, as vitórias-régias têm espaço igual entre elas.</p>',
       'es': '<p>Ahora las hojas de lirio de los bordes se han desplazado a un costado, aumentando así el espacio entre ellas. Usa <code>justify-content</code>. En esta oportunidad, las hojas de lirio tienen el mismo espacio entre ellas.</p>',
