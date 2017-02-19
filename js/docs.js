@@ -165,7 +165,8 @@ var docs = {
     'hu': '<p>Az elsődleges főtengely mentén igazítja a flex elemeket.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'eo': '<p>Liniigas fleksajn elementojn laŭĉefakse.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'sv': '<p>Justerar flex-objekt längs med huvudaxeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
-    'uk': '<p>Вирівнює flex-елементи вздовж головної осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
+    'uk': '<p>Вирівнює flex-елементи вздовж головної осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'ser': '<p>Поравњава флекс елементе дуж главне осе.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
