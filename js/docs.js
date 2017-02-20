@@ -74,6 +74,7 @@ var docs = {
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'ser': '<p>Одређује правац главне осе.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'bg': '<p>Определя посоката на основната ос.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'de': '<p>Legt die Ausrichtung der Hauptachse fest.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'es': '<p>Define la dirección del eje principal.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
