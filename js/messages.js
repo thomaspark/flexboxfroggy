@@ -21,7 +21,8 @@ var messages = {
     'hu': 'Következő',
     'eo': 'Sekva',
     'sv': 'Nästa',
-    'uk': 'Наступний'
+    'uk': 'Наступний',
+    'hi': 'अगला',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -45,7 +46,8 @@ var messages = {
     'hu': 'A Flexbox Froggy-t készítette',
     'eo': 'Flexbox Froggy far',
     'sv': 'Flexbox Froggy skapades av',
-    'uk': 'Гру Flexbox Froggy створено'
+    'uk': 'Гру Flexbox Froggy створено',
+    'hi': 'Flexbox Froggy के निर्माणकर्ता ',
   },
   labelLevel: {
     'en': 'Level',
@@ -69,7 +71,8 @@ var messages = {
     'hu': 'Szint',
     'eo': 'Nivelo',
     'sv': 'Nivå',
-    'uk': 'Рівень'
+    'uk': 'Рівень',
+    'hi': 'स्तर',
   },
   labelOf: {
     'en': 'of',
@@ -93,7 +96,8 @@ var messages = {
     'hu': '/',
     'eo': 'de',
     'sv': 'av',
-    'uk': 'з'
+    'uk': 'з',
+    'hi': '/',
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -117,7 +121,8 @@ var messages = {
     'hu': 'Flexbox Froggy - Játékos CSS flexbox tanulás',
     'eo': 'Flexbox Froggy - Ludo por lerni CSS flexbox-on',
     'sv': 'Flexbox Froggy - Ett spel för att lära sig CSS flexbox',
-    'uk': 'Flexbox Froggy - гра для вивчення CSS flexbox'
+    'uk': 'Flexbox Froggy - гра для вивчення CSS flexbox',
+    'hi': 'Flexbox Froggy - CSS Flexbox सीखने के लिए एक खेल',
   },
   labelReset: {
     'en': 'Reset',
@@ -141,7 +146,8 @@ var messages = {
     'hu': 'Újrakezd',
     'eo': 'Rekomenci',
     'sv': 'Återställ',
-    'uk': 'Скинути'
+    'uk': 'Скинути',
+    'hi': 'रीसेट',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -165,6 +171,7 @@ var messages = {
     'hu': 'Biztosan előlről akarod kezdeni a játékot?\n\nAz eddig elért eredményed elveszik és a játék elején fogod találni magad.',
     'eo': 'Ĉu vi vere volas rekomenci la ludon?\n\nPerdiĝos via progresado kaj vi devos rekomenci al la komenco de la ludo.',
     'sv': 'Är du säker på att du vill börja om?\n\nDin nivå kommer att återställas och du kommer att börja om från början.',
-    'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.'
+    'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.',
+    'hi': 'आप खेल रीसेट करना चाहते हैं, क्या आप सुनिश्चित हैं?\n\nआपकी सुरक्षित प्रगति मिटा दी जाएगी एवं आप इस खेल की शुरुआत में भेज दिये जायेंगे।',
   }
 };
