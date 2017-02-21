@@ -26,7 +26,7 @@ var messages = {
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
-    'ser': 'Флексбокс Жабца је направио',
+    'ser': 'Flexbox Froggy је направио',
     'bg': 'Flexbox Froggy е създадена от',
     'de': 'Flexbox Froggy wurde gemacht von',
     'fr': 'Flexbox Froggy est créé par',
