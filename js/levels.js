@@ -322,7 +322,7 @@ var levels = [
     name: 'flex-direction 4',
     instructions: {
       'en': '<p>Help the frogs find their lilypads using <code>flex-direction</code> and <code>justify-content</code>.</p><p>Notice that when the flex direction is a column, <code>justify-content</code> changes to the vertical and <code>align-items</code> to the horizontal.</p>',
-      'ser': '<p>ser Help the frogs find their lilypads using <code>flex-direction</code> and <code>justify-content</code>.</p><p>Notice that when the flex direction is a column, <code>justify-content</code> changes to the vertical and <code>align-items</code> to the horizontal.</p>',
+      'ser': '<p>Помози жабицама да дођу до својих локвања користећи <code>flex-direction</code> и <code>justify-content</code>.</p><p>Обрати пажњу да када је флекс правац колона, <code>justify-content</code> постаје вертикалан а <code>align-items</code> постаје хоризонталан.</p>',
       'bg': '<p>Помогни на жабчетата да намерят своите листа, използвайки <code>flex-direction</code> и <code>justify-content</code>.</p><p>Забележи, че когато flex direction е колона, <code>justify-content</code> променя по вертикалата и <code>align-items</code> променя по хоризонталата.</p>',
       'de': '<p>Hilf den Fr&ouml;schen mit <code>flex-direction</code> und <code>justify-content</code>, ihr Seerosenblatt zu finden.</p><p>Hinweis: Wenn du eine vertikale Ausrichtung w&auml;hlst, beeinflusst <code>justify-content</code> die vertikale Ausrichtung, und <code>align-items</code> die horizontale.</p>',
       'pt-br': '<p>Ajude os sapos a encontrar suas vitórias-régias usando <code>flex-direction</code> e <code>justify-content</code>.</p><p>Note que quando a direção é em coluna, <code>justify-content</code> muda para a vertical e <code>align-items</code> para a horizontal.</p>',
@@ -354,7 +354,7 @@ var levels = [
     name: 'flex-direction 5',
     instructions: {
       'en': '<p>Help the frogs find their lilypads using <code>flex-direction</code> and <code>justify-content</code>.</p>',
-      'ser': '<p>ser Help the frogs find their lilypads using <code>flex-direction</code> and <code>justify-content</code>.</p>',
+      'ser': '<p>Помози жабицама да дођу до својих локвања користећи <code>flex-direction</code> и <code>justify-content</code>.</p>',
       'bg': '<p>Помогни на жабчетата да намерят своите листа, използвайки <code>flex-direction</code> и <code>justify-content</code>.</p>',
       'de': '<p>Hilf den Fr&ouml;schen mit <code>flex-direction</code> und <code>justify-content</code>, ihr Seerosenblatt zu finden.</p>',
       'pt-br': '<p>Ajude os sapos a encontrar suas vitórias-régias usando <code>flex-direction</code> e <code>justify-content</code>.</p>',
@@ -386,7 +386,7 @@ var levels = [
     name: 'flex-direction 6',
     instructions: {
       'en': '<p>Help the frogs find their lilypads using <code>flex-direction</code>, <code>justify-content</code>, and <code>align-items</code>.</p>',
-      'ser': '<p>ser Help the frogs find their lilypads using <code>flex-direction</code>, <code>justify-content</code>, and <code>align-items</code>.</p>',
+      'ser': '<p>Помози жабицама да дођу до својих локвања користећи <code>flex-direction</code>, <code>justify-content</code> и <code>align-items</code>.</p>',
       'bg': '<p>Помогни на жабчетата да намерят своите листа, използвайки <code>flex-direction</code>, <code>justify-content</code> и <code>align-items</code>.</p>',
       'de': '<p>Hilf den Fr&ouml;schen mit <code>flex-direction</code>, <code>justify-content</code> und <code>align-items</code>, ihr Seerosenblatt zu finden.</p>',
       'pt-br': '<p>Ajude os sapos a encontrar suas vitórias-régias usando <code>flex-direction</code>, <code>justify-content</code> e <code>align-items</code>.</p>',
@@ -418,7 +418,7 @@ var levels = [
     name: 'order 1',
     instructions: {
       'en': '<p>Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the <code>order</code> property to individual items. By default, items have a value of 0, but we can use this property to set it to a positive or negative integer value.</p><p>Use the <code>order</code> property to reorder the frogs according to their lilypads.</p>',
-      'ser': '<p>ser Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the <code>order</code> property to individual items. By default, items have a value of 0, but we can use this property to set it to a positive or negative integer value.</p><p>Use the <code>order</code> property to reorder the frogs according to their lilypads.</p>',
+      'ser': '<p>Некад није довољно само променити смер реда или колоне у контејнеру. У таквим случајевима можемо применити <code>order</code> property на појединачним елементима. Иницијално, елементи имају вредност 0, али ми можемо искористити овај property и дефинисати га као позитивну или негативну нумеричку вредност.</p><p>Употреби <code>order</code> property да измениш редослед жабица у складу са локвањима.</p>',
       'bg': '<p>Понякога обръщането на реда на елементите в ред или колона не е достатъчно. В тези случаи можем да приложим свойството <code>order</code> към индивидуален елемент. По подразбиране, елементите имат стойност 0, но можем да използваме това свойство, за да я променим, използвайки положително или отрицателно цяло число.</p><p>Използвай свойството <code>order</code>, за да пренаредиш жабчетата според техните листа.</p>',
       'de': '<p>Manchmal reicht es nicht aus, die horizontale oder vertikale Ausrichtung eines Containers umzukehren. In so einem Fall k&ouml;nnen wir die <code>order</code>-Eigenschaft f&uuml;r einzelne Elemente verwenden. Standardm&auml;&szlig;ig haben alle Element den Wert 0, aber wir k&ouml;nnen die Eigenschaft verwenden, um ihn auf eine positive oder negative ganze Zahl zu setzen.</p><p>Benutze die <code>order</code>-Eigenschaft, um die Fr&ouml;schen entsprechend ihrer Seerosenbl&auml;tter anzuordnen.</p>',
       'pt-br': '<p>Às vezes, reverter a ordem de uma coluna ou de um container não é suficiente. Nesses casos, podemos aplicar a propriedade <code>order</code> para itens individuais. Por padrão, itens tem um valor de 0, mas nós podemos usar essa propriedade para alterar para um valor inteiro positivo ou negativo.</p><p>Use a propriedade <code>order</code> para reordenar os sapos de acordo com suas vitórias-régias.</p>',
@@ -452,7 +452,7 @@ var levels = [
     name: 'order 2',
     instructions: {
       'en': '<p>Use the <code>order</code> property to send the red frog to his lilypad.</p>',
-      'ser': '<p>ser Use the <code>order</code> property to send the red frog to his lilypad.</p>',
+      'ser': '<p>Искористи <code>order</code> property да пошаљеш црвену жабицу на њен локвањ.</p>',
       'bg': '<p>Използвай свойството <code>order</code>, за да изпратиш червеното жабче в негото листо.</p>',
       'de': '<p>Benutze die <code>order</code>-Eigenschaft, um den roten Frosch zu seinem Seerosenblatt zu f&uuml;hren.</p>',
       'pt-br': '<p>Use a propriedade <code>order</code> para levar o sapo vermelho à sua vitória-régia.</p>',
@@ -486,7 +486,7 @@ var levels = [
     name: 'align-self 1',
     instructions: {
       'en': '<p>Another property you can apply to individual items is <code>align-self</code>. This property accepts the same values as <code>align-items</code> and its value for the specific item.</p>',
-      'ser': '<p>ser Another property you can apply to individual items is <code>align-self</code>. This property accepts the same values as <code>align-items</code> and its value for the specific item.</p>',
+      'ser': '<p>Још један property који можеш примењивати на појединачним елементима је <code>align-self</code>. Овај property прихвата исте вредности као <code>align-items</code> и примењује их на конкретном елементу.</p>',
       'bg': '<p>Друго свойство, което можеш да приложиш върху отделен елемент е <code>align-self</code>. Това свойство приема същите стойности като code>align-items</code> и неговата стойност за определен елемент.</p>',
       'de': '<p><code>align-self</code> ist eine weitere Eigenschaft f&uuml;r einzelne Elemente. Sie akzeptiert die gleichen Werte wie <code>align-items</code>.</p>',
       'pt-br': '<p>Outra propriedade que você pode aplicar para itens individuais é <code>align-self</code>. Esta propriedade aceita os mesmos valores que <code>align-items</code> e seus valores são usados para o item específico.</p>',
@@ -519,7 +519,7 @@ var levels = [
     name: 'align-self 2',
     instructions: {
       'en': '<p>Combine <code>order</code> with <code>align-self</code> to help the frogs to their destinations.</p>',
-      'ser': '<p>ser Combine <code>order</code> with <code>align-self</code> to help the frogs to their destinations.</p>',
+      'ser': '<p>Комбинуј <code>order</code> са <code>align-self</code> како би помогао/ла жабицама да стигну до свог циља.</p>',
       'bg': '<p>Комбинирай <code>order</code> с <code>align-self</code>, за да помогнеш на жабчетата да достигнат своето местоназначение.</p>',
       'de': '<p>Kombiniere <code>order</code> mit <code>align-self</code>, um die Fr&ouml;sche zum Ziel zu bringen.</p>',
       'pt-br': '<p>Combine <code>order</code> e <code>align-self</code> para levar os sapos aos seus destinos.</p>',
@@ -552,7 +552,7 @@ var levels = [
     name: 'flex-wrap 1',
     instructions: {
       'en': '<p>Oh no! The frogs are all squeezed onto a single row of lilypads. Spread them out using the <code>flex-wrap</code> property, which accepts the following values:</p><ul><li><code>nowrap</code>: Every item is fit to a single line.</li><li><code>wrap</code>: Items wrap around to additional lines.</li><li><code>wrap-reverse</code>: Items wrap around to additional lines in reverse.</li></ul>',
-      'ser': '<p>ser Oh no! The frogs are all squeezed onto a single row of lilypads. Spread them out using the <code>flex-wrap</code> property, which accepts the following values:</p><ul><li><code>nowrap</code>: Every item is fit to a single line.</li><li><code>wrap</code>: Items wrap around to additional lines.</li><li><code>wrap-reverse</code>: Items wrap around to additional lines in reverse.</li></ul>',
+      'ser': '<p>Ох не! Све жабице су се нагурале у један ред локвања. Дај им простора користећи <code>flex-wrap</code> property, који прихвата следеће вредности:</p><ul><li><code>nowrap</code>: Сви елементи стају у један ред.</li><li><code>wrap</code>: Елементи прелазе у следеће редове.</li><li><code>wrap-reverse</code>: Елементи прелазе у следеће редове у обратном редоследу.</li></ul>',
       'bg': '<p>О не! Всички жабчета са смачкани на един единствен ред. Разделечи ги, използвайки свойството <code>flex-wrap</code>, което приема следните стойности:</p><ul><li><code>nowrap</code>: Всеки елемент се ситуира на един ред.</li><li><code>wrap</code>: Елементите се подреждат на допълнителни редове.</li><li><code>wrap-reverse</code>: Елементите се подреждат на допълнителни редове в обратен ред.</li></ul>',
       'de': '<p>Oh nein! Alle Fr&ouml;sche sind in eine Zeile Seerosenbl&auml;tter gequetscht. Verteile sie mit der <code>flex-wrap</code>-Eigenschaft, welche die folgenden Werte akzeptiert:</p><ul><li><code>nowrap</code>: Jedes Element in einer eigenen Zeile platzieren.</li><li><code>wrap</code>: Elemente auf zus&auml;tzliche Zeilen umbrechen.</li><li><code>wrap-reverse</code>: Elemente in umgekehrter Reihenfolge auf zus&auml;tzliche Zeilen umbrechen.</li></ul>',
       'pt-br': '<p>Ah, não! Os sapos estão todos apertados em uma única linha de vitórias-régias. Espalhe-os usando a propriedade <code>flex-wrap</code>, que aceita os seguintes valores:</p><ul><li><code>nowrap</code>: Todos os itens são apertados em uma única linha.</li><li><code>wrap</code>: Itens se separam em linhas adicionais.</li><li><code>wrap-reverse</code>: Itens se separam em linhas adicionais em reverso.</li></ul>',

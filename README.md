@@ -35,6 +35,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Polish by [eLGi](https://github.com/eLGi)
 * Portuguese by [Marcus Tenório](https://github.com/mvtenorio)
 * Russian by [Artyom Vozhzhov](https://github.com/artem328)
+* Serbian by [Danko Milutinovic](https://github.com/dankoknad)
 * Spanish by [Manuel González](https://github.com/manuelitox)
 * Swedish by [Martin Ohlson](https://github.com/martinkrulltott)
 * Turkish by [Uğur Korfalı](https://github.com/kel-sakal-biyik)
