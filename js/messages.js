@@ -1,6 +1,7 @@
 var messages = {
   next: {
     'en': 'Next',
+    'ser': 'Следећи',
     'bg': 'Следващо',
     'de': 'Weiter',
     'fr': 'Suivant',
@@ -25,6 +26,7 @@ var messages = {
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
+    'ser': 'Флексбокс Жабца је направио',
     'bg': 'Flexbox Froggy е създадена от',
     'de': 'Flexbox Froggy wurde gemacht von',
     'fr': 'Flexbox Froggy est créé par',
@@ -49,6 +51,7 @@ var messages = {
   },
   labelLevel: {
     'en': 'Level',
+    'ser': 'Ниво',
     'bg': 'Ниво',
     'de': 'Level',
     'fr': 'Niveau',
@@ -73,6 +76,7 @@ var messages = {
   },
   labelOf: {
     'en': 'of',
+    'ser': 'од',
     'bg': 'от',
     'de': 'von',
     'fr': 'de',
@@ -97,6 +101,7 @@ var messages = {
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
+    'ser': 'Flexbox Froggy - Игра за учење CSS flexbox-а',
     'bg': 'Flexbox Froggy - Игра за учене на CSS flexbox',
     'de': 'Flexbox Froggy - Ein Spiel, um CSS flexbox zu lernen',
     'fr': 'Flexbox Froggy - Un jeu pour apprendre les flexbox CSS',
@@ -121,6 +126,7 @@ var messages = {
   },
   labelReset: {
     'en': 'Reset',
+    'ser': 'Ресет',
     'bg': 'Анулиране',
     'de': 'Zurücksetzen',
     'fr': 'Réinitialiser',
@@ -145,6 +151,7 @@ var messages = {
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
+    'ser': 'Да ли сте сигурни да желите да ресетујете игру?\n\nВаш сачувани прогрес ће бити изгубљен и бићете враћени на почетак игре.',
     'bg': 'Сигурни ли сте, че искате да анулирате играта?\n\nВашият резултат ще бъде загубен и ще бъдете препратени към началото на играта.',
     'de': 'Bist su sicher, dass du das Spiel zurücksetzen möchtest?\n\nDein gespeicherter Fortschritt geht dabei verloren und du musst das Spiel von neuem starten.',
     'fr': 'Êtes-vous certain de vouloir réinitialiser la partie?\n\nVotre progrès sauvegardé sera perdu et vous recommencerez au début du jeu.',

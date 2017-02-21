@@ -21,11 +21,11 @@ var docs = {
     'hu': '<p>A flex konténer sorvonalait igazítja a flex konténeren belül, amennyiben van szabad tér a másodlagos kereszttengely mentén.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'eo': '<p>Vicigas la liniojn de la fleksujo tie kie estas aldona spaco sur la transversakso.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'sv': '<p>Justerar en flex-containers rader inom flex-containern när det finns extra utrymme på motsata axeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
-    'uk': '<p>Вирівнює рядки flex-контейнеру всередені самого flex-контейнеру, коли є додатковий простір на поперечній осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
+    'uk': '<p>Вирівнює рядки flex-контейнеру всередені самого flex-контейнеру, коли є додатковий простір на поперечній осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'ser': '<p>Поравњава редове у флекс контејнеру када постоји вишак простора дуж попречне осе.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'ser': '<p>Поравњава флекс елементе дуж попречне осе.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'bg': '<p>Подрежда flex елементите по дължината на осите.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'de': '<p>Richtet die flex-Elemente entlang der Querachse aus.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'pt-br': '<p>Alinha itens flex ao longo do eixo cruzado.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -46,7 +46,8 @@ var docs = {
     'hu': '<p>A másodlagos kereszt-tengely mentén igazítja a flex elemeket.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'eo': '<p>Vicigas transversakse fleksajn erojn.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'sv': '<p>Justerar flex-objekt längs med motsata axeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'uk': '<p>Вирівнює flex-елементи вздовж перетинної осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'uk': '<p>Вирівнює flex-елементи вздовж перетинної осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ser': '<p>Поравњава флекс елементе дуж попречне осе.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -70,11 +71,11 @@ var docs = {
     'hu': '<p>A másodlagos kereszttengely mentén igazít egy flex elemet, felülírva a <code>align-items</code>-ben megadott értéket.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'eo': '<p>Vicigas transversakse fleksajn elementojn, anstataŭigante la <code>align-items</code> valoron.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'sv': '<p>Justerar ett flex-objekt längs med motsata axeln, överskrider värdet från <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'uk': '<p>Вирівнює flex-елемент вздовж перетинної осі, перекриваючи значення властивості <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'uk': '<p>Вирівнює flex-елемент вздовж перетинної осі, перекриваючи значення властивості <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ser': '<p>Поравњава појединачни флекс елемент дуж попречне осе надјачавајући вредност <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
-    'ser': '<p>Одређује правац главне осе.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'bg': '<p>Определя посоката на основната ос.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'de': '<p>Legt die Ausrichtung der Hauptachse fest.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'es': '<p>Define la dirección del eje principal.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -95,7 +96,8 @@ var docs = {
     'hu': '<p>Definiálja az elsődleges főtengely irányát.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'eo': '<p>Difinas la direkton de la ĉefa akso.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'sv': '<p>Definierar huvudaxelns håll.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
-    'uk': '<p>Визначає напрямок головної осі.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
+    'uk': '<p>Визначає напрямок головної осі.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'ser': '<p>Одређује правац главне осе.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -119,7 +121,8 @@ var docs = {
     'hu': '<p>Rövidítésként szolgáló összevonása a <code>flex-direction</code> és a <code>flex-wrap</code> tulajdonságoknak.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'eo': '<p>Mallongita trajto por <code>flex-direction</code> kaj <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'sv': '<p>Kort version av <code>flex-direction</code> och <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
-    'uk': '<p>Скорочена властивість для <code>flex-direction</code> та <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
+    'uk': '<p>Скорочена властивість для <code>flex-direction</code> та <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'ser': '<p>Скраћено својство за <code>flex-direction</code> и <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -143,7 +146,8 @@ var docs = {
     'hu': '<p>Meghatározza, hogy a flex elemek egy sorba vannak kényszerítve vagy megtörhetnek több sorba.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'eo': '<p>Indikas ĉu fleksaj elementoj devige estu sur nura linio aŭ faldkapeblas je pluraj linioj.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'sv': '<p>Specificerar on flex-objekt är låsta till en rad eller om dom får flöda över till flera rader.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
-    'uk': '<p>Визначає, чи будуть елементи знаходитись в одному рядку, чи будуть перенесені до наступних рядків.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
+    'uk': '<p>Визначає, чи будуть елементи знаходитись в одному рядку, чи будуть перенесені до наступних рядків.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'ser': '<p>Одређује да ли ће флекс елементи стајати у једном реду или ће прећи у нове редове.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -192,6 +196,7 @@ var docs = {
     'hu': '<p>Meghatározza a flex elem sorrendiségét.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'eo': '<p>Precizigas la ordon de la fleksa elemento.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'sv': '<p>Specificerar ordningen för flex-objekten.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
-    'uk': '<p>Вказує порядок flex-елементу.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>'
+    'uk': '<p>Вказує порядок flex-елементу.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
+    'ser': '<p>Дефинише место појединачног флекс елемента.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>'
   }
 };
