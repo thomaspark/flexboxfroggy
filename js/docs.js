@@ -23,6 +23,7 @@ var docs = {
     'sv': '<p>Justerar en flex-containers rader inom flex-containern när det finns extra utrymme på motsata axeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'uk': '<p>Вирівнює рядки flex-контейнеру всередені самого flex-контейнеру, коли є додатковий простір на поперечній осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'hi': '<p>यह कंटेनर के भीतर रखी वस्तुओं के मध्य की जगह को संरेखित करता है।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'sr': '<p>Поравњава редове у флекс контејнеру када постоји вишак простора дуж попречне осе.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -48,6 +49,7 @@ var docs = {
     'sv': '<p>Justerar flex-objekt längs med motsata axeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'uk': '<p>Вирівнює flex-елементи вздовж перетинної осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'hi': '<p>वस्तुओं को उर्ध्वाधर रूप से संरेखित करता है।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'sr': '<p>Поравњава флекс елементе дуж попречне осе.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -73,6 +75,7 @@ var docs = {
     'sv': '<p>Justerar ett flex-objekt längs med motsata axeln, överskrider värdet från <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'uk': '<p>Вирівнює flex-елемент вздовж перетинної осі, перекриваючи значення властивості <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'hi': '<p>छैतिज रूप से किसी विशिष्ट वस्तु के लिए नियम प्रदान करता है, <code>align-items</code> के नियमों को न मानते हुए।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'sr': '<p>Поравњава појединачни флекс елемент дуж попречне осе надјачавајући вредност <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -98,6 +101,7 @@ var docs = {
     'sv': '<p>Definierar huvudaxelns håll.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'uk': '<p>Визначає напрямок головної осі.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'hi': '<p>मुख्य धुरी की दिशा परिभाषित करता है।</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'sr': '<p>Одређује правац главне осе.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -123,6 +127,7 @@ var docs = {
     'sv': '<p>Kort version av <code>flex-direction</code> och <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'uk': '<p>Скорочена властивість для <code>flex-direction</code> та <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'hi': '<p>शोर्ट हैंड प्रॉपर्टी <code>flex-direction</code> एवं <code>flex-wrap</code> के लिए।</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'sr': '<p>Скраћено својство за <code>flex-direction</code> и <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -148,6 +153,7 @@ var docs = {
     'sv': '<p>Specificerar on flex-objekt är låsta till en rad eller om dom får flöda över till flera rader.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'uk': '<p>Визначає, чи будуть елементи знаходитись в одному рядку, чи будуть перенесені до наступних рядків.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'hi': '<p>यह निर्दिष्ठ करता है की कोई वस्तु एक पंक्ति अथवा कई पंक्तियों में आएगी।</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'sr': '<p>Одређује да ли ће флекс елементи стајати у једном реду или ће прећи у нове редове.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -173,6 +179,7 @@ var docs = {
     'sv': '<p>Justerar flex-objekt längs med huvudaxeln.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'uk': '<p>Вирівнює flex-елементи вздовж головної осі.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'hi': '<p>वस्तुओं को छैतिज रूप से संरेखित करता है।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'sr': '<p>Поравњава флекс елементе дуж главне осе.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
@@ -198,5 +205,6 @@ var docs = {
     'sv': '<p>Specificerar ordningen för flex-objekten.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'uk': '<p>Вказує порядок flex-елементу.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'hi': '<p>फ्लेक्स आइटम का क्रम निश्चित करता है।</p><code>&lt;पूर्णांक&gt; (... -1, 0, 1, ...)</code>',
+    'sr': '<p>Дефинише место појединачног флекс елемента.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>'
   }
 };
