@@ -24,6 +24,7 @@ var messages = {
     'sv': 'Nästa',
     'uk': 'Наступний',
     'hi': 'अगला',
+    'nl': 'Volgende',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -50,6 +51,7 @@ var messages = {
     'sv': 'Flexbox Froggy skapades av',
     'uk': 'Гру Flexbox Froggy створено',
     'hi': 'Flexbox Froggy के निर्माणकर्ता ',
+    'nl': 'Flexbox Froggy is gemaakt door',
   },
   labelLevel: {
     'en': 'Level',
@@ -76,6 +78,7 @@ var messages = {
     'sv': 'Nivå',
     'uk': 'Рівень',
     'hi': 'स्तर',
+    'nl': 'Niveau',
   },
   labelOf: {
     'en': 'of',
@@ -102,6 +105,7 @@ var messages = {
     'sv': 'av',
     'uk': 'з',
     'hi': '/',
+    'nl': 'van',
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -128,6 +132,7 @@ var messages = {
     'sv': 'Flexbox Froggy - Ett spel för att lära sig CSS flexbox',
     'uk': 'Flexbox Froggy - гра для вивчення CSS flexbox',
     'hi': 'Flexbox Froggy - CSS Flexbox सीखने के लिए एक खेल',
+    'nl': 'Flexbox Froggy - Een spel om CSS flexbox te leren',
   },
   labelReset: {
     'en': 'Reset',
@@ -154,6 +159,7 @@ var messages = {
     'sv': 'Återställ',
     'uk': 'Скинути',
     'hi': 'रीसेट',
+    'nl': 'Resetten',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -180,5 +186,6 @@ var messages = {
     'sv': 'Är du säker på att du vill börja om?\n\nDin nivå kommer att återställas och du kommer att börja om från början.',
     'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.',
     'hi': 'आप खेल रीसेट करना चाहते हैं, क्या आप सुनिश्चित हैं?\n\nआपकी सुरक्षित प्रगति मिटा दी जाएगी एवं आप इस खेल की शुरुआत में भेज दिये जायेंगे।',
+    'nl': 'Bent u zeker dat u het spel wilt resetten?\n\nJe vooruitgang zal verloren gaan, en je zal helemaal opnieuw moeten beginnen.',
   }
 };
