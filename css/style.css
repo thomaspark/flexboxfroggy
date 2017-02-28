@@ -302,7 +302,7 @@ button:not(.disabled):hover {
   min-width: 300px;
   position: absolute;
   left: 0;
-  bottom: 2em;
+  bottom: 1em;
   line-height: 1.5em;
   padding: 0 2em;
   text-align: center;
