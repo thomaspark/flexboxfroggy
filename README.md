@@ -22,6 +22,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Bulgarian by [Mihail Gaberov](https://github.com/mihailgaberov)
 * Chinese Simplified by [Tim Guo](https://github.com/timguoqk)
 * Chinese Traditional by [sunsheeppoplar](https://github.com/sunsheeppoplar)
+* Dutch by [Peter Vermeulen](https://github.com/peterver)
 * Czech by [Ondřej Hruška](https://github.com/MightyPork)
 * Esperanto by [Harvey Stroud](https://github.com/harveystroud)
 * Farsi by [Ali Haddad](https://github.com/alihaddadkar)
@@ -42,7 +43,6 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Turkish by [Uğur Korfalı](https://github.com/kel-sakal-biyik)
 * Ukrainian by [sHa](https://github.com/shadoll)
 * Vietnamese by [Kingsten Banh](https://github.com/kingstenbanh)
-* Dutch by [Peter Vermeulen](https://github.com/peterver)
 
 Don't see your language on the list? Contribute a translation! Fork the [repo](https://github.com/thomaspark/flexboxfroggy/), add your translations, and submit a pull request.
 
