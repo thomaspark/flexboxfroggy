@@ -32,6 +32,10 @@ body {
   font-size: 15px;
 }
 
+#sidebar nav {
+  float: right;
+}
+
 h1 {
   margin: 0 0 0.5em;
   text-transform: uppercase;
@@ -85,8 +89,8 @@ a:hover {
   position: absolute;
   top: -12px;
   left: 12px;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 12px solid #2c3e50;
@@ -101,6 +105,19 @@ a:hover {
 .fb-like {
   z-index: 20;
   vertical-align: top;
+}
+
+#instructions {
+  margin: 0;
+}
+
+#instructions p:first-child {
+  margin-top: 0;
+}
+
+#instructions p:last-child,
+#instructions ul:last-child {
+  margin-bottom: 0;
 }
 
 #editor {
@@ -147,8 +164,24 @@ pre {
   overflow: auto;
 }
 
+#gamemode {
+  vertical-align: top;
+  margin-right: 5px;
+  padding: 0;
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.noobmode {
+  background-color: #C4C403;
+}
+
+.noobmode:not(.disabled):hover {
+  background-color: #D6D604;
+}
+
 #level-counter {
-  float: right;
   position: relative;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.2);

@@ -26,6 +26,15 @@ var game = {
   },
 
   setHandlers: function() {
+    $('#gamemode').on('click', function() {
+      if ($(this).hasClass('noobmode')) {
+        $(this).removeClass('noobmode').html('Hard Mode');
+      } else {
+        $(this).addClass('noobmode').html('Noob Mode');
+      }
+      $('#instructions').slideToggle('fast');
+    });
+
     $('#next').on('click', function() {
       $('#code').focus();
 
@@ -273,8 +282,8 @@ var game = {
     $('#pond ' +  selector).attr('style', code);
     game.saveAnswer();
   },
-  
-  check: function() {    
+
+  check: function() {
     game.applyStyles();
 
     var level = levels[game.level];
@@ -321,7 +330,7 @@ var game = {
         input: $('#code').val(),
         result: 'correct'
       });
-            
+
       if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
       }
@@ -335,7 +344,7 @@ var game = {
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
       });
-      
+
       analytics.push({
         timeStamp: (new Date()).getTime(),
         user: game.user,
