@@ -27,7 +27,7 @@ body {
   width: 50%;
   min-width: 300px;
   position: relative;
-  padding: 2em 2em 8em;
+  padding: 2em;
   background-color: #43A047;
   font-size: 15px;
 }
@@ -71,13 +71,14 @@ a:hover {
 
 .tooltip {
   position: absolute;
+  display: inline-block;
   max-width: 225px;
   padding: 0 1em 1em;
   background-color: #2c3e50;
   border-radius: 4px;
   font-size: 12px;
   line-height: 1.5;
-  z-index: 30;
+  z-index: 60;
 }
 
 .tooltip:after {
@@ -298,20 +299,57 @@ button:not(.disabled):hover {
 }
 
 #credits {
-  width: 100%;
-  min-width: 300px;
-  position: absolute;
-  left: 0;
-  bottom: 1em;
+  margin-top: 1.5em;  
   line-height: 1.5em;
-  padding: 0 2em;
   text-align: center;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.4);
 }
 
-.languages {
-  word-break: keep-all;
+#language {
+  position: relative;
+}
+
+#language .toggle {
+  display: inline-block;
+  padding: 1px 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  user-select: none;
+}
+
+#language .toggle:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#language .tooltip {
+  display: none;
+  bottom: 30px;
+  left: 0px;
+  width: 200px;
+  padding: 1em;
+}
+
+#language .tooltip:after {
+  top: auto;
+  bottom: -12px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #2c3e50;
+  border-bottom: none;
+}
+
+#language .tooltip a {
+  padding: 0 2px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.7);
+  white-space: nowrap;
+}
+
+#language .tooltip a:hover {
+  color: #fff;
 }
 
 #board {
@@ -423,28 +461,8 @@ button:not(.disabled):hover {
 
 @media only screen and (max-width: 1000px)  {
 
-  body {
-    position: relative;
-  }
-
+  body,
   #sidebar {
-    position: static;
-    padding: 2em;
-  }
-
-  #credits {
-    width: 50%;
-    left: 50%;
-    top: 50vw;
-  }
-
-}
-
-@media only screen and (max-width: 600px)  {
-
-  #credits {
-    width: 50%;
-    left: 50%;
-    top: 300px;
+    // font-size: 13px;
   }
 }

@@ -100,6 +100,13 @@ var game = {
       }
     });
 
+    $('#language').on('click', function() {
+      $('#language .tooltip').toggle();
+    }).on('click', 'a', function() {
+      var language = $(this).text();
+      $('#language .toggle').text(language);
+    });
+
     $(window).on('beforeunload', function() {
       game.saveAnswer();
       localStorage.setItem('level', game.level);
