@@ -95,13 +95,28 @@ a:hover {
 
 #share {
   display: none;
-  margin-top: 3em;
+  margin-bottom: 3em;
   text-align: center;
 }
 
 .fb-like {
   z-index: 20;
   vertical-align: top;
+}
+
+.img-next {
+  text-align: center;
+}
+
+.img-next img {
+  display: inline-block;
+  margin: 1em;
+  width: 200px;
+  opacity: 0.9;
+}
+
+.img-next img:hover {
+  opacity: 1;
 }
 
 #editor {
