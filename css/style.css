@@ -9,6 +9,7 @@ html, body {
 html[lang="fa"] #docs,
 html[lang="fa"] #instructions,
 html[lang="fa"] #credits .translate,
+html[lang="fa"] #translation .translate,
 a[href="#fa"] {
   direction: rtl;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
@@ -313,7 +314,7 @@ button:not(.disabled):hover {
   opacity: 0.5;
 }
 
-#credits {
+#credits, #translation {
   margin-top: 1.5em;  
   line-height: 1.5em;
   text-align: center;

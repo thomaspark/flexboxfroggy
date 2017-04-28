@@ -3,7 +3,7 @@ Parse.serverURL = 'http://129.25.12.218:1337/parse';
 var Submission = Parse.Object.extend("FlexboxFroggy");
 
 var game = {
-  language: window.location.hash.substring(1) || 'en',
+  language: window.location.hash.substring(1) || 'es',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
@@ -400,7 +400,7 @@ var game = {
       var label = $(this).attr('id');
       var text = messages[label][game.language] || messages[label].en;
 
-      $('#' + label).text(text);
+      $('#' + label).html(text);
     });
   },
 
