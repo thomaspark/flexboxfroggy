@@ -214,5 +214,8 @@ var messages = {
     'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.',
     'hi': 'आप खेल रीसेट करना चाहते हैं, क्या आप सुनिश्चित हैं?\n\nआपकी सुरक्षित प्रगति मिटा दी जाएगी एवं आप इस खेल की शुरुआत में भेज दिये जायेंगे।',
     'nl': 'Bent u zeker dat u het spel wilt resetten?\n\nJe vooruitgang zal verloren gaan, en je zal helemaal opnieuw moeten beginnen.',
+  },
+  gridGarden: {
+    'en': 'Want to learn CSS grid? Play'
   }
 };
