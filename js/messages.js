@@ -1,6 +1,7 @@
 var messages = {
   languageActive: {
     'en': 'English',
+    'ro': 'Română',
     'sr': 'Српски',
     'bg': 'Български',
     'de': 'Deutsch',
@@ -28,6 +29,7 @@ var messages = {
   },
   next: {
     'en': 'Next',
+    'ro': 'Următorul',
     'sr': 'Следећи',
     'bg': 'Следващо',
     'de': 'Weiter',
@@ -55,6 +57,7 @@ var messages = {
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
+    'ro': 'Flexbox Froggy este creat de',
     'sr': 'Flexbox Froggy је направио',
     'bg': 'Flexbox Froggy е създадена от',
     'de': 'Flexbox Froggy wurde gemacht von',
@@ -82,6 +85,7 @@ var messages = {
   },
   labelLevel: {
     'en': 'Level',
+    'ro': 'Nivelul',
     'sr': 'Ниво',
     'bg': 'Ниво',
     'de': 'Level',
@@ -109,6 +113,7 @@ var messages = {
   },
   labelOf: {
     'en': 'of',
+    'ro': 'din',
     'sr': 'од',
     'bg': 'от',
     'de': 'von',
@@ -136,6 +141,7 @@ var messages = {
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
+    'ro': 'Flexbox Froggy - Un joc pentru a învăța CSS flexbox',
     'sr': 'Flexbox Froggy - Игра за учење CSS flexbox-а',
     'bg': 'Flexbox Froggy - Игра за учене на CSS flexbox',
     'de': 'Flexbox Froggy - Ein Spiel, um CSS flexbox zu lernen',
@@ -163,6 +169,7 @@ var messages = {
   },
   labelReset: {
     'en': 'Reset',
+    'ro': 'Resetează',
     'sr': 'Ресет',
     'bg': 'Анулиране',
     'de': 'Zurücksetzen',
@@ -190,6 +197,7 @@ var messages = {
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
+    'ro': 'Ești sigur(ă) că vrei să resetezi jocul?\n\nProgresul tău va fi pierdut și vei fi trimis(ă) la începutul jocului.',
     'sr': 'Да ли сте сигурни да желите да ресетујете игру?\n\nВаш сачувани прогрес ће бити изгубљен и бићете враћени на почетак игре.',
     'bg': 'Сигурни ли сте, че искате да анулирате играта?\n\nВашият резултат ще бъде загубен и ще бъдете препратени към началото на играта.',
     'de': 'Bist su sicher, dass du das Spiel zurücksetzen möchtest?\n\nDein gespeicherter Fortschritt geht dabei verloren und du musst das Spiel von neuem starten.',
@@ -216,6 +224,7 @@ var messages = {
     'nl': 'Bent u zeker dat u het spel wilt resetten?\n\nJe vooruitgang zal verloren gaan, en je zal helemaal opnieuw moeten beginnen.',
   },
   gridGarden: {
-    'en': 'Want to learn CSS grid? Play'
+    'en': 'Want to learn CSS grid? Play',
+    'ro': 'Vrei să înveți CSS grid? Joacă'
   }
 };
