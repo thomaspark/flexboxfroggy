@@ -144,6 +144,7 @@ pre {
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
   padding: 10px 6px;
   text-align: right;
   background-color: #999;
