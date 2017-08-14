@@ -1,6 +1,7 @@
 var docs = {
   'align-content': {
     'en': '<p>Aligns a flex container\'s lines within the flex container when there is extra space on the cross-axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'ro': '<p>Aliniază liniile unui container flex cu containerul flex cand există spațiu în plus pe axa cruce.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'bg': '<p>Подравнява реводете на flex контейнера вътре в него ако има допълнително място по вртикалата.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'de': '<p>Richtet die Zeilen innerhalb eines flex-Containers aus, wenn auf der Querachse Platz ist.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'pt-br': '<p>Alinha as linhas dentro de um container flex quando há espaço sobrando no eixo cruzado.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
@@ -29,6 +30,7 @@ var docs = {
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ro': '<p>Aliniază elementele flex de-a lungul axei cruce.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'bg': '<p>Подрежда flex елементите по дължината на осите.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'de': '<p>Richtet die flex-Elemente entlang der Querachse aus.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'pt-br': '<p>Alinha itens flex ao longo do eixo cruzado.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -57,6 +59,7 @@ var docs = {
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ro': '<p>Aliniază un element flex de-a lungul axei cruce, suprascriind valoarea proprietății <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'bg': '<p>Подрежда flex елемент по дължината на осите, презаписвайки <code>align-items</code> стойността.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'de': '<p>Richtet die flex-Elemente entlang der Querachse aus, und &uuml;berschreibt den Wert von <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'pt-br': '<p>Alinha um item flex ao longo do eixo cruzado, substituindo o valor de <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -85,6 +88,7 @@ var docs = {
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'ro': '<p>Definește direcția axei principale.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'bg': '<p>Определя посоката на основната ос.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'de': '<p>Legt die Ausrichtung der Hauptachse fest.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'es': '<p>Define la dirección del eje principal.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -113,6 +117,7 @@ var docs = {
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'ro': '<p>Scurtătura pentru <code>flex-direction</code> și <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'bg': '<p>Съкратена версия на <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'de': '<p>Kurzschreibweise f&uuml;r <code>flex-direction</code> und <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'pt-br': '<p>Propriedade abreviada para <code>flex-direction</code> e <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -141,6 +146,7 @@ var docs = {
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'ro': '<p>Specifică daca elementele flex sunt forțate pe o singură linie sau pot fi impărțit pe mai multe linii.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'bg': '<p>Определя дали flex елементите са на един ред или могат да бъдат разпределени на много редове.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'de': '<p>Legt fest, ob die flex-Element in eine Zeile gezw&auml;ngt werden oder auf mehrere Zeilen umgebrochen werden k&ouml;nnen.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'pt-br': '<p>Especifica se os itens flex são forçados em um linha única ou podem quebrar em múltiplas linhas.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -169,6 +175,7 @@ var docs = {
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'ro': '<p>Aliniază elementele flex de-a lungul axei principale.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'bg': '<p>Подрежда flex елементи по дължината на основната ос.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'de': '<p>Richtet die flex-Elemente entlang der Hauptachse aus.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'pt-br': '<p>Alinha os itens flex ao longo do eixo principal.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -197,6 +204,7 @@ var docs = {
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
+    'ro': '<p>Specifică ordinea elementelor flex.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'bg': '<p>Определя реда на flex елемента.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'de': '<p>Legt die Reihenfolge der flex-Elemente fest.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'pt-br': '<p>Especifica a ordem de um item flex.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',

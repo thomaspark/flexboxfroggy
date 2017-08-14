@@ -50,49 +50,59 @@
         <button id="next" class="translate">Next</button>
       </div>
       <div id="share">
+        <p class="img-next">
+          <a href="http://cssgridgarden.com"><img src="images/next-gridgarden.png"></a>
+          <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=flexboxfroggy"><img src="images/next-treehouse.png"></a>
+        </p>
         <p class="social">
           <span id="tweet">
-            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="thomashpark">Tweet</a>
-            <a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>
+            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="playcodepip">Tweet</a>
+            <a href="https://twitter.com/playcodepip" class="twitter-follow-button" data-show-count="false">Follow @playcodepip</a>
           </span>
           <span class="fb-like" data-href="http://flexboxfroggy.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
         </p>
       </div>
-      <div id="credits">
-        <p>
-          <span id="labelFooter" class="translate">Flexbox Froggy is created by</span>
-          <a href="http://thomaspark.co">Thomas Park</a> •
-          <a href="https://github.com/thomaspark/flexboxfroggy/">GitHub</a> •
-          <a href="https://twitter.com/thomashpark">Twitter</a>
-        </p>
-        <p class="languages">
-          <a href="#en">English</a> •
-          <a href="#es">Español</a> •
-          <a href="#fr">Français</a> •
-          <a href="#de">Deutsch</a> •
-          <a href="#nl">Nederlands</a> •
-          <a href="#pt-br">Português</a> •
-          <a href="#it">Italiano</a> •
-          <a href="#sv">Svenska</a> •
-          <a href="#pl">Polski</a> •
-          <a href="#cs">Česky</a> •
-          <a href="#hu">Magyar</a> •
-          <a href="#bg">Български</a> •
-          <a href="#lt">Lietuvių</a> •
-          <a href="#uk">Українська</a> •
-          <a href="#ru">Русский</a> •
-          <a href="#sr">Српски</a> •
-          <a href="#tr">Türkçe</a> •
-          <a href="#fa">فارسی</a> •
-          <a href="#hi">हिंदी</a> •
-          <a href="#zh-cn">简体中文</a> •
-          <a href="#zh-tw">繁體中文</a> •
-          <a href="#ja">日本語</a> •
-          <a href="#ko">한국어</a> •
-          <a href="#vi">Tiếng Việt</a> •
-          <a href="#eo">Esperanto</a> •
-          <a href="#ta">தமிழ்</a>
-        </p>
+
+      <div class="credits">
+        <span id="labelFooter" class="translate">Flexbox Froggy is created by</span>
+        <a href="https://codepip.com">Codepip</a> •
+        <a href="https://github.com/thomaspark/flexboxfroggy/">GitHub</a> •
+        <a href="https://twitter.com/playcodepip">Twitter</a> •
+        <span id="language">
+          <span id="languageActive" class="toggle translate">English</span>
+          <span class="tooltip">
+            <a href="#en">English</a>
+            <a href="#es">Español</a>
+            <a href="#fr">Français</a>
+            <a href="#de">Deutsch</a>
+            <a href="#nl">Nederlands</a>
+            <a href="#pt-br">Português</a>
+            <a href="#it">Italiano</a>
+            <a href="#sv">Svenska</a>
+            <a href="#pl">Polski</a>
+            <a href="#cs">Česky</a>
+            <a href="#hu">Magyar</a>
+            <a href="#ro">Română</a>
+            <a href="#bg">Български</a>
+            <a href="#lt">Lietuvių</a>
+            <a href="#uk">Українська</a>
+            <a href="#ru">Русский</a>
+            <a href="#sr">Српски</a>
+            <a href="#tr">Türkçe</a>
+            <a href="#fa">فارسی</a>
+            <a href="#hi">हिंदी</a>
+            <a href="#zh-cn">简体中文</a>
+            <a href="#zh-tw">繁體中文</a>
+            <a href="#ja">日本語</a>
+            <a href="#ko">한국어</a>
+            <a href="#vi">Tiếng Việt</a>
+            <a href="#eo">Esperanto</a>
+            <a href="#ta">தமிழ்</a>
+          </span>
+        </span>
+      </div>
+      <div class="credits">
+        <span id="gridGarden" class="translate">Want to learn CSS grid? Play</span> <a href="http://cssgridgarden.com">Grid Garden</a>.
       </div>
     </section>
     <section id="view">
@@ -104,7 +114,7 @@
       </div>
     </section>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    <script src="https://unpkg.com/parse@1.9.2/dist/parse.min.js"></script>
     <script src="js/levels.js"></script>
     <script src="js/docs.js"></script>
     <script src="js/messages.js"></script>
