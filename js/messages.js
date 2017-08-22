@@ -26,6 +26,7 @@ var messages = {
     'uk': 'Українська',
     'hi': 'हिंदी',
     'nl': 'Nederlands',
+    'ta': 'தமிழ்',
   },
   next: {
     'en': 'Next',
