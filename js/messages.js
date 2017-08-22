@@ -54,6 +54,7 @@ var messages = {
     'uk': 'Наступний',
     'hi': 'अगला',
     'nl': 'Volgende',
+    'ta': 'அடுத்து',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -82,6 +83,7 @@ var messages = {
     'uk': 'Гру Flexbox Froggy створено',
     'hi': 'Flexbox Froggy के निर्माणकर्ता ',
     'nl': 'Flexbox Froggy is gemaakt door',
+    'ta': 'Flexbox Froggy உருவாக்கியவர்',
   },
   labelLevel: {
     'en': 'Level',
@@ -110,6 +112,7 @@ var messages = {
     'uk': 'Рівень',
     'hi': 'स्तर',
     'nl': 'Niveau',
+    'ta': 'நிலை',
   },
   labelOf: {
     'en': 'of',
@@ -138,6 +141,7 @@ var messages = {
     'uk': 'з',
     'hi': '/',
     'nl': 'van',
+    'ta': '/',
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -166,6 +170,7 @@ var messages = {
     'uk': 'Flexbox Froggy - гра для вивчення CSS flexbox',
     'hi': 'Flexbox Froggy - CSS Flexbox सीखने के लिए एक खेल',
     'nl': 'Flexbox Froggy - Een spel om CSS flexbox te leren',
+    'ta': 'Flexbox Froggy - CSS flexbox கற்றல் விளையாட்டு',
   },
   labelReset: {
     'en': 'Reset',
@@ -194,6 +199,7 @@ var messages = {
     'uk': 'Скинути',
     'hi': 'रीसेट',
     'nl': 'Resetten',
+    'ta': 'மீளமை',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -222,9 +228,11 @@ var messages = {
     'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.',
     'hi': 'आप खेल रीसेट करना चाहते हैं, क्या आप सुनिश्चित हैं?\n\nआपकी सुरक्षित प्रगति मिटा दी जाएगी एवं आप इस खेल की शुरुआत में भेज दिये जायेंगे।',
     'nl': 'Bent u zeker dat u het spel wilt resetten?\n\nJe vooruitgang zal verloren gaan, en je zal helemaal opnieuw moeten beginnen.',
+    'ta': 'நீங்கள் விளையாட்டு மீட்டமைக்க உறுதியாக இருக்கிறீர்களா?\n\nநீங்கள் சேமித்த முன்னேற்றம் இழக்கப்படும் மேலும் நீங்கள் விளையாட்டின் தொடக்கத்திற்க்கு அனுப்பி வைக்கப்படுவீர்.',
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
-    'ro': 'Vrei să înveți CSS grid? Joacă'
+    'ro': 'Vrei să înveți CSS grid? Joacă',
+    'ta': 'CSS Grid கற்றுக்கொள்ள விரும்புகிறீர்களா? விளையாடுவோம்',
   }
 };
