@@ -27,6 +27,7 @@ var docs = {
     'sr': '<p>Поравњава редове у флекс контејнеру када постоји вишак простора дуж попречне осе.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'nl': '<p>Lijnt de lijnen van een flex container binnen de flex container uit waneer er extra plaats is op de dwarsas.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'ta': '<p>குறுக்கு அச்சு மீது கூடுதல் இடம் இருக்கும் போது flex container-ல் வரிகளை சீரமைக்கும்.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'ml': '<p>ക്രോസ്-അച്ചുതയിൽ അധിക സ്ഥലം ഉള്ളപ്പോൾ ഫ്ലെക്സസ് കണ്ടെയ്നറിലുള്ള നിരകൾ വിന്യസിക്കുന്നു. </p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -56,6 +57,7 @@ var docs = {
     'sr': '<p>Поравњава флекс елементе дуж попречне осе.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'nl': '<p>Lijnt flex elementen uit over de dwarsas.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'ta': '<p>குறுக்கு அச்சு வழியாக உருப்படிகளை ஒழுங்குபடுத்துகிறது.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ml': '<p>ക്രോസ്സ് അക്ഷത്തിൽ വളവുതിരിവുകളുള്ള ഇനങ്ങൾ വിന്യസിക്കുന്നു. </p> <code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -84,7 +86,8 @@ var docs = {
     'hi': '<p>छैतिज रूप से किसी विशिष्ट वस्तु के लिए नियम प्रदान करता है, <code>align-items</code> के नियमों को न मानते हुए।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'sr': '<p>Поравњава појединачни флекс елемент дуж попречне осе надјачавајући вредност <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'nl': '<p>Lijnt een flex element uit over de dwarsas, en overschrijft de waarde van <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'ta': '<p><code>align-items</code> மதிப்புகளை புறக்கணித்து, குறுக்கு அச்சு வழியாக உருப்படிகளை ஒழுங்குபடுத்துகிறது..</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ta': '<p><code>align-items</code> மதிப்புகளை புறக்கணித்து, குறுக்கு அச்சு வழியாக உருப்படிகளை ஒழுங்குபடுத்துகிறது.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ml': '<p><code>align-items</code> ഇനെ അസാധു ആക്കി കൊണ്ട്, ക്രോസ്സ് അക്ഷത്തിൽ ഒരു ഫ്ലെക്സ് ഇനത്തെ വിന്യസിക്കുന്നു</p></p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -114,6 +117,7 @@ var docs = {
     'sr': '<p>Одређује правац главне осе.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'nl': '<p>Definieert de richting van de hoofdas.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'ta': '<p>முக்கிய அச்சு திசையை வரையறுக்கிறது.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'ml': '<p>പ്രധാന അക്ഷത്തിന്റെ ദിശ നിർവ്വചിക്കുന്നു.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -143,6 +147,7 @@ var docs = {
     'sr': '<p>Скраћено својство за <code>flex-direction</code> и <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'nl': '<p>Een verkorte eigenschap voor een combinatie van <code>flex-direction</code> en <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'ta': '<p><code>flex-direction</code> and <code>flex-wrap</code> இரண்டின் சுருக்கெழுத்து.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'ml': '<p><code>flex-direction</code> and <code>flex-wrap</code> ോർട്ട്ഹാൻഡ്.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -172,6 +177,7 @@ var docs = {
     'sr': '<p>Одређује да ли ће флекс елементи стајати у једном реду или ће прећи у нове редове.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'nl': '<p>Specifieert of de flex elementen op een enkele lijn geforceerd worden, of ze over meerdere lijnen gewikkeld worden.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'ta': '<p>ஒரு ஒற்றை வரியில் பொருட்களை கட்டாயமாக்க வேண்டுமா அல்லது பல வரிகளில் மூடப்பட்டிருக்கலாம் என்பதைக் குறிப்பிடுகிறது.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'ml': '<p>ഫ്ലെക്സിങ് ഇനങ്ങളെ ഒരൊറ്റ വരിയിൽ നിർബന്ധിതരാണോ അല്ലെങ്കിൽ ഒന്നിലധികം വരികളിൽ പൊതിഞ്ഞ് വരാമോ എന്ന് നിർദേശിക്കുന്നു.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -201,6 +207,7 @@ var docs = {
     'sr': '<p>Поравњава флекс елементе дуж главне осе.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'nl': '<p>Lijnt de flex elementen uit langs de hoofdas.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'ta': '<p>முக்கிய அச்சில் உருப்படிகளை சீரமைக்கும்.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'ml': '<p>ഫ്ലെക്സി ഇനങ്ങളെ മെയിൻ ആക്സിസിൽ വിന്യസിക്കുന്നു</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
@@ -230,5 +237,6 @@ var docs = {
     'sr': '<p>Дефинише место појединачног флекс елемента.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'nl': '<p>Bepaalt de volgorde van de flex elementen.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'ta': '<p>உருப்படியின் வரிசையைக் குறிப்பிடுகிறது.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
+    'ml': '<p>ഫ്ളക്സ് ഇനങ്ങളുടെ ക്രമം വ്യക്തമാക്കുന്നു</p></p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>'
   }
 };
