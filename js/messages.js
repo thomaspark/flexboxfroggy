@@ -235,13 +235,14 @@ var messages = {
     'sv': 'Är du säker på att du vill börja om?\n\nDin nivå kommer att återställas och du kommer att börja om från början.',
     'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.',
     'hi': 'आप खेल रीसेट करना चाहते हैं, क्या आप सुनिश्चित हैं?\n\nआपकी सुरक्षित प्रगति मिटा दी जाएगी एवं आप इस खेल की शुरुआत में भेज दिये जायेंगे।',
-    'nl': 'Bent u zeker dat u het spel wilt resetten?\n\nJe vooruitgang zal verloren gaan, en je zal helemaal opnieuw moeten beginnen.',
+    'nl': 'Ben je zeker dat je het spel wilt resetten?\n\nJe vooruitgang zal verloren gaan en je zal helemaal opnieuw moeten beginnen.',
     'ta': 'நீங்கள் விளையாட்டு மீட்டமைக்க உறுதியாக இருக்கிறீர்களா?\n\nநீங்கள் சேமித்த முன்னேற்றம் இழக்கப்படும் மேலும் நீங்கள் விளையாட்டின் தொடக்கத்திற்க்கு அனுப்பி வைக்கப்படுவீர்.',
     'ml': 'ഗെയിം പുനഃസജ്ജമാക്കണമെന്ന് നിങ്ങൾക്ക് തീർച്ചയാണോ?\n\nനിങ്ങളുടെ സംരക്ഷിത പുരോഗതി നഷ്ടപ്പെടുകയും നിങ്ങൾ ആദ്യം മുതൽ ആരംഭിക്കേണ്ടി വരും '
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
     'ro': 'Vrei să înveți CSS grid? Joacă',
+    'nl': 'Wil je CSS grid leren? Speel',
     'ta': 'CSS Grid கற்றுக்கொள்ள விரும்புகிறீர்களா? விளையாடுவோம்',
     'ml': 'CSS Grid പഠിക്കാനോ? കളിക്കു '
   }
