@@ -28,6 +28,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Farsi by [Ali Haddad](https://github.com/alihaddadkar)
 * French by [Karl Thibault](https://github.com/Notuom)
 * German by [Thorsten Frommen](https://github.com/tfrommen)
+* Greek by [lmintmate](https://github.com/lmintmate)
 * Hindi by [Shubham Pandey](https://github.com/shubham9411)
 * Hungarian by [Adam Graf](https://github.com/netgrafe)
 * Italian by [Matteo Bandiera](https://github.com/matteobandiera)
