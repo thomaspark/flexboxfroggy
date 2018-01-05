@@ -202,7 +202,7 @@ var levels = [
       'ru': '<p>Направь лягушонка в центр пруда, используя <code>justify-content</code> и <code>align-items</code> вместе.</p>',
       'fa': '<p>قورباغه را به وسط برکه هدایت کنید برای این کار از ترکیب خاصیت های <code>justify-content</code> و <code>align-items</code> استفاده کنید.</p>',
       'zh-cn': '<p>使用<code>justify-content</code>和<code>align-items</code>的组合来指引青蛙们到池塘中央。</p>',
-      'zh-tw': '<p>使用<code>justify-content</code>和<code>align-items</code>的組合來指引親哇們到池塘中央。</p>',
+      'zh-tw': '<p>使用<code>justify-content</code>和<code>align-items</code>的組合來指引青蛙們到池塘中央。</p>',
       'tr': '<p>Kurbağayı <code>justify-content</code> ve <code>align-items</code> kurallarını kullanarak gölün ortasına yönlendirin.</p>',
       'it': '<p>Dirigi la rana al centro dello stagno usando entrambe <code>justify-content</code> e <code>align-items</code>.</p>',
       'ko': '<p><code>justify-content</code>와 <code>align-items</code>를 함께 사용하여 개구리가 연못의 중앙으로 이동할 수 있도록 도와주세요.</p>',
