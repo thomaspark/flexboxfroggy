@@ -119,6 +119,10 @@ a:hover {
   opacity: 1;
 }
 
+#instructions, #instructions p{
+	/* helps prevent the difficulty animation from jumping */
+	margin: 0;
+}
 #editor {
   position: relative;
 }
