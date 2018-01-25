@@ -114,6 +114,24 @@ var game = {
       $('#language .toggle').text(language);
     });
 
+    $('#difficulty span').on('click', function() {
+		// setting height will prevent a slight jump when the animation starts
+		var $height = $('#instructions').height();
+        $('#instructions').css('height', $height);
+      if($(this).hasClass('hard')) {
+        $('#instructions').children().fadeOut('fast', function() {
+            $('#instructions').slideUp('slow');
+        });
+      } else {
+	  	$('#instructions').css('height', '');
+        $('#instructions').children().fadeIn('fast', function() {
+            $('#instructions').slideDown('slow');
+        });
+      }
+      $(this).siblings('span').removeClass('active');
+      $(this).toggleClass('active')
+    });
+
     $(window).on('beforeunload', function() {
       game.saveAnswer();
       localStorage.setItem('level', game.level);
