@@ -4,6 +4,7 @@ var Submission = Parse.Object.extend("FlexboxFroggy");
 
 var game = {
   language: window.location.hash.substring(1) || 'en',
+  difficulty: 'Easy',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
@@ -114,6 +115,26 @@ var game = {
       $('#language .toggle').text(language);
     });
 
+    $('#difficulty span').on('click', function() {
+		// setting height will prevent a slight jump when the animation starts
+		var $height = $('#instructions').height();
+        $('#instructions').css('height', $height);
+      if($(this).hasClass('hard')) {
+        $('#instructions').children().fadeOut('fast', function() {
+            $('#instructions').slideUp('slow');
+            game.difficulty = 'Hard'
+        });
+      } else {
+	  	$('#instructions').css('height', '');
+        $('#instructions').children().fadeIn('fast', function() {
+            $('#instructions').slideDown('slow');
+			game.difficulty = 'Easy'
+        });
+      }
+      $(this).siblings('span').removeClass('active');
+      $(this).toggleClass('active')
+    });
+
     $(window).on('beforeunload', function() {
       game.saveAnswer();
       localStorage.setItem('level', game.level);
@@ -143,7 +164,11 @@ var game = {
   },
 
   next: function() {
-    this.level++;
+    if(this.difficulty === "Hard") {
+      this.level = Math.floor(Math.random()* levels.length)
+    } else {
+      this.level++
+    }
 
     var levelData = levels[this.level];
     this.loadLevel(levelData);
