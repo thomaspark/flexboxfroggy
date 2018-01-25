@@ -341,25 +341,23 @@ button:not(.disabled):hover {
    cursor: pointer;
    user-select: none;
 }
+#difficulty span {
+	display: inline-block;
+	padding: 1px 8px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 3px;
+	color: rgba(255, 255, 255, 0.7);
+	cursor: pointer;
+	user-select: none;
+}
 #difficulty span:nth-child(1) {
-  display: inline-block;
-  padding: 1px 8px;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 3px;
-  color: rgba(255, 255, 255, 0.7);
-  cursor: pointer;
-  user-select: none;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 #difficulty span:nth-child(2) {
-  display: inline-block;
-  padding: 1px 8px;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 3px;
-  color: rgba(255, 255, 255, 0.7);
-  cursor: pointer;
-  user-select: none;
+  border-radius: 0;
+}
+#difficulty span:nth-child(3) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }

@@ -4,7 +4,7 @@ var Submission = Parse.Object.extend("FlexboxFroggy");
 
 var game = {
   language: window.location.hash.substring(1) || 'en',
-  difficulty: 'Easy',
+  difficulty: 'easy',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
@@ -116,19 +116,19 @@ var game = {
     });
 
     $('#difficulty span').on('click', function() {
-		// setting height will prevent a slight jump when the animation starts
-		var $height = $('#instructions').height();
-        $('#instructions').css('height', $height);
-      if($(this).hasClass('hard')) {
-        $('#instructions').children().fadeOut('fast', function() {
-            $('#instructions').slideUp('slow');
-            game.difficulty = 'Hard'
+	  // setting height will prevent a slight jump when the animation starts
+	  game.difficulty = $(this).attr('class');
+	  var $instructions = $('#instructions');
+	  var $height = $instructions.height();
+	  $instructions.css('height', $height);
+      if($(this).is('.hard, .medium')) {
+        $instructions.children().fadeOut('fast', function() {
+		  $instructions.slideUp('slow');
         });
       } else {
-	  	$('#instructions').css('height', '');
-        $('#instructions').children().fadeIn('fast', function() {
+	  	$instructions.css('height', '');
+        $instructions.children().fadeIn('fast', function() {
             $('#instructions').slideDown('slow');
-			game.difficulty = 'Easy'
         });
       }
       $(this).siblings('span').removeClass('active');
@@ -164,7 +164,7 @@ var game = {
   },
 
   next: function() {
-    if(this.difficulty === "Hard") {
+    if(this.difficulty === "hard") {
       this.level = Math.floor(Math.random()* levels.length)
     } else {
       this.level++
