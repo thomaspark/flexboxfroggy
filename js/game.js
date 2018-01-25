@@ -123,6 +123,7 @@ var game = {
             $('#instructions').slideUp('slow');
         });
       } else {
+	  	$('#instructions').css('height', '');
         $('#instructions').children().fadeIn('fast', function() {
             $('#instructions').slideDown('slow');
         });
