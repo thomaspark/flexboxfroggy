@@ -109,13 +109,18 @@ var game = {
     });
 
     $('#language').on('click', function() {
+      $('#difficulty .tooltip').hide();
       $('#language .tooltip').toggle();
     }).on('click', 'a', function() {
       var language = $(this).text();
       $('#language .toggle').text(language);
     });
 
-    $('#difficulty span').on('click', function() {
+    $('#difficulty').on('click', function() {
+		$('#language .tooltip').hide();
+        $('#difficulty .tooltip').toggle();
+    })
+    $('#difficulty a').on('click', function() {
 	  // setting height will prevent a slight jump when the animation starts
 	  game.difficulty = $(this).attr('class');
 	  var $instructions = $('#instructions');
@@ -131,8 +136,7 @@ var game = {
             $('#instructions').slideDown('slow');
         });
       }
-      $(this).siblings('span').removeClass('active');
-      $(this).toggleClass('active')
+      $('#difficultyActive').text($(this).text())
     });
 
     $(window).on('beforeunload', function() {
@@ -430,7 +434,9 @@ var game = {
 
     $('.translate').each(function() {
       var label = $(this).attr('id');
-      var text = messages[label][game.language] || messages[label].en;
+      if(messages[label]) {
+        var text = messages[label][game.language] || messages[label].en;
+	  }
 
       $('#' + label).text(text);
     });
