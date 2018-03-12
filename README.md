@@ -35,6 +35,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Japanese by [Ginpei](https://github.com/ginpei)
 * Korean by [Meen Chul Kim](https://github.com/liberaliscomputing)
 * Lithuanian by [Justas Maziliauskas](https://github.com/justutiz)
+* Macedonian by [David Timovski](https://github.com/davidtimovski)
 * Malayalam by [Agney Menon](https://github.com/BoyWithSilverWings)
 * Polish by [eLGi](https://github.com/eLGi)
 * Portuguese by [Marcus Tenório](https://github.com/mvtenorio)
