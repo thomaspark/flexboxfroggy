@@ -1,5 +1,5 @@
 var game = {
-  colorblind: true,
+  colorblind: JSON.parse(localStorage.colorblind) || false,
   language: window.location.hash.substring(1) || 'en',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
@@ -130,6 +130,11 @@ var game = {
         history.replaceState({}, document.title, './');
       }
     });
+
+    $("#colorblind-toggle").on("click", function() {
+      localStorage.setItem("colorblind", !game.colorblind);
+      window.location.reload();
+    })
   },
 
   prev: function() {
