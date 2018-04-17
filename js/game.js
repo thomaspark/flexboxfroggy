@@ -1,5 +1,5 @@
 var game = {
-  colorblind: JSON.parse(localStorage.colorblind) || false,
+  colorblind: (localStorage && JSON.parse(localStorage.colorblind)) || false,
   language: window.location.hash.substring(1) || 'en',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
