@@ -498,6 +498,17 @@ button:not(.disabled):hover {
   flex-wrap: wrap;
 }
 
+.accessibility {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#colorblind-toggle {
+  margin-top: 1em;
+  background-color: #6CB26F;
+}
+
 @media only screen and (max-width: 1000px)  {
 
   body,
