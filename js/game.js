@@ -1,4 +1,5 @@
 var game = {
+  colorblind: (localStorage.colorblind && JSON.parse(localStorage.colorblind)) || false,
   language: window.location.hash.substring(1) || 'en',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
@@ -129,6 +130,11 @@ var game = {
         history.replaceState({}, document.title, './');
       }
     });
+
+    $("#colorblind-toggle").on("click", function() {
+      localStorage.setItem("colorblind", !game.colorblind);
+      window.location.reload();
+    })
   },
 
   prev: function() {
@@ -231,8 +237,8 @@ var game = {
       var c = string.charAt(i);
       var color = colors[c];
 
-      var lilypad = $('<div/>').addClass('lilypad ' + color).data('color', color);
-      var frog = $('<div/>').addClass('frog ' + color).data('color', color);
+      var lilypad = $('<div/>').addClass('lilypad ' + color + (this.colorblind ? ' cb-friendly' : '')).data('color', color);
+      var frog = $('<div/>').addClass('frog ' + color + (this.colorblind ? ' cb-friendly' : '')).data('color', color);
 
       $('<div/>').addClass('bg').css(game.transform()).appendTo(lilypad);
       $('<div/>').addClass('bg animated pulse infinite').appendTo(frog);
@@ -285,8 +291,8 @@ var game = {
     $('#pond ' +  selector).attr('style', code);
     game.saveAnswer();
   },
-  
-  check: function() {    
+
+  check: function() {
     game.applyStyles();
 
     var level = levels[game.level];
@@ -338,7 +344,7 @@ var game = {
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
       });
-      
+
       $('#next').addClass('disabled');
     }
   },

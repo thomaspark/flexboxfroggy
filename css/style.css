@@ -86,8 +86,8 @@ a:hover {
   position: absolute;
   top: -12px;
   left: 12px;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 12px solid #2c3e50;
@@ -315,18 +315,14 @@ button:not(.disabled):hover {
 }
 
 .credits {
-  margin-top: 1.5em;  
+  margin-top: 1.5em;
   line-height: 1.5em;
   text-align: center;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.4);
 }
 
-#language {
-  position: relative;
-}
-
-#language .toggle {
+.toggle {
   display: inline-block;
   padding: 1px 8px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -334,6 +330,10 @@ button:not(.disabled):hover {
   color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
   user-select: none;
+}
+
+#language {
+  position: relative;
 }
 
 #language .toggle:hover {
@@ -398,6 +398,10 @@ button:not(.disabled):hover {
   z-index: 20;
 }
 
+#colorblind-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 .lilypad,
 .frog {
   position: relative;
@@ -451,28 +455,62 @@ button:not(.disabled):hover {
   background-image: url("../images/lilypad-green.svg");
 }
 
+.lilypad.green.cb-friendly .bg {
+  background-image: url("../images/lilypad-green-color-assist.svg");
+}
+
 .lilypad.red .bg {
   background-image: url("../images/lilypad-red.svg");
 }
 
+.lilypad.red.cb-friendly .bg {
+  background-image: url("../images/lilypad-red-color-assist.svg");
+}
+
 .lilypad.yellow .bg {
   background-image: url("../images/lilypad-yellow.svg");
+}
+.lilypad.yellow.cb-friendly .bg {
+  background-image: url("../images/lilypad-yellow-color-assist.svg");
 }
 
 .frog.green .bg {
   background-image: url("../images/frog-green.svg");
 }
 
+.frog.green.cb-friendly .bg {
+  background-image: url("../images/frog-green-color-assist.svg");
+}
+
 .frog.red .bg {
   background-image: url("../images/frog-red.svg");
+}
+
+.frog.red.cb-friendly .bg {
+  background-image: url("../images/frog-red-color-assist.svg");
 }
 
 .frog.yellow .bg {
   background-image: url("../images/frog-yellow.svg");
 }
 
+.frog.yellow.cb-friendly .bg {
+  background-image: url("../images/frog-yellow-color-assist.svg");
+}
+
 .wrap {
   flex-wrap: wrap;
+}
+
+.accessibility {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#colorblind-toggle {
+  margin-top: 1em;
+  background-color: #6CB26F;
 }
 
 @media only screen and (max-width: 1000px)  {

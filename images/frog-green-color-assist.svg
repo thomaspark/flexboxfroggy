@@ -20,6 +20,7 @@
             <circle id="Oval-37" stroke="#FFFFFF" stroke-width="5" fill="#000000" sketch:type="MSShapeGroup" cx="73" cy="24" r="12"></circle>
             <circle id="Oval-37" stroke="#FFFFFF" stroke-width="5" fill="#000000" sketch:type="MSShapeGroup" cx="163" cy="24" r="12"></circle>
             <rect id="Rectangle-33" fill="#77F87A" sketch:type="MSShapeGroup" x="62" y="72" width="110" height="70" rx="9"></rect>
+            <polygon class="colorblind-assist" points="117,90 93,131 141,131" fill="#333333" />
         </g>
     </g>
 </svg>
