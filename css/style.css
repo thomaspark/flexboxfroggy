@@ -322,11 +322,7 @@ button:not(.disabled):hover {
   color: rgba(255, 255, 255, 0.4);
 }
 
-#language {
-  position: relative;
-}
-
-#language .toggle {
+.toggle {
   display: inline-block;
   padding: 1px 8px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -334,6 +330,10 @@ button:not(.disabled):hover {
   color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
   user-select: none;
+}
+
+#language {
+  position: relative;
 }
 
 #language .toggle:hover {
@@ -396,6 +396,10 @@ button:not(.disabled):hover {
 
 #pond {
   z-index: 20;
+}
+
+#colorblind-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .lilypad,
