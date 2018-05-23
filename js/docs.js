@@ -29,7 +29,8 @@ var docs = {
     'ta': '<p>குறுக்கு அச்சு மீது கூடுதல் இடம் இருக்கும் போது flex container-ல் வரிகளை சீரமைக்கும்.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'ml': '<p>ക്രോസ്-അച്ചുതയിൽ അധിക സ്ഥലം ഉള്ളപ്പോൾ ഫ്ലെക്സസ് കണ്ടെയ്നറിലുള്ള നിരകൾ വിന്യസിക്കുന്നു. </p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'el': '<p>Ευθυγραμμίζει τις γραμμές ενός flex container μέσα στο πλαίσιο του flex container όταν υπάρχει επιπλέον χώρος στον εγκάρσιο άξονα.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
-    'mk': '<p>Ги подредува линиите на flex контејнерот кога во него има дополнителнен простор по вертикалната оска.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
+    'mk': '<p>Ги подредува линиите на flex контејнерот кога во него има дополнителнен простор по вертикалната оска.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
+    'lv': '<p>Novieto flex-elementu robežas flex-konteinera iekšienē.(Darbojas tikai, ja ir pieejama papildus vieta uz šķērsojošās ass.)</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -61,7 +62,8 @@ var docs = {
     'ta': '<p>குறுக்கு அச்சு வழியாக உருப்படிகளை ஒழுங்குபடுத்துகிறது.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'ml': '<p>ക്രോസ്സ് അക്ഷത്തിൽ വളവുതിരിവുകളുള്ള ഇനങ്ങൾ വിന്യസിക്കുന്നു. </p> <code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'el': '<p>Ευθυγραμμίζει αντικείμενα flex κατά μήκος του εγκάρσιου άξονα.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'mk': '<p>Ги подредува flex елементите по вертикалната оска.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'mk': '<p>Ги подредува flex елементите по вертикалната оска.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'lv': '<p>Novieto flex vienības attiecībā pret šķērsojošo asi.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -93,7 +95,8 @@ var docs = {
     'ta': '<p><code>align-items</code> மதிப்புகளை புறக்கணித்து, குறுக்கு அச்சு வழியாக உருப்படிகளை ஒழுங்குபடுத்துகிறது.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'ml': '<p><code>align-items</code> ഇനെ അസാധു ആക്കി കൊണ്ട്, ക്രോസ്സ് അക്ഷത്തിൽ ഒരു ഫ്ലെക്സ് ഇനത്തെ വിന്യസിക്കുന്നു</p></p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'el': '<p>Ευθυγραμμίζει ένα αντικείμενο flex κατά μήκος του εγκάρσιου άξονα, παρακάμπτοντας την αξία του <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'mk': '<p>Подредува flex element по вертикалната оска, презапишувајќи ја <code>align-items</code> вредноста.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
+    'mk': '<p>Подредува flex element по вертикалната оска, презапишувајќи ја <code>align-items</code> вредноста.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'lv': '<p>Novieto flex vienību attiecībā pret šķērsojošo asi, pārrakstot <code>align-items</code> vērtību.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -125,7 +128,8 @@ var docs = {
     'ta': '<p>முக்கிய அச்சு திசையை வரையறுக்கிறது.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'ml': '<p>പ്രധാന അക്ഷത്തിന്റെ ദിശ നിർവ്വചിക്കുന്നു.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'el': '<p>Ορίζει την κατεύθυνση του κύριου άξονα.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
-    'mk': '<p>Ја одредува насоката на хоризонталната оска.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
+    'mk': '<p>Ја одредува насоката на хоризонталната оска.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'lv': '<p>Nodefinē galvenās ass virzienu.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -157,7 +161,8 @@ var docs = {
     'ta': '<p><code>flex-direction</code> and <code>flex-wrap</code> இரண்டின் சுருக்கெழுத்து.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'ml': '<p><code>flex-direction</code> and <code>flex-wrap</code> ോർട്ട്ഹാൻഡ്.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'el': '<p>Συντομογραφική ιδιότητα για τα <code>flex-direction</code> και <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
-    'mk': '<p>Скратена верзија на <code>flex-direction</code> и <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
+    'mk': '<p>Скратена верзија на <code>flex-direction</code> и <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'lv'; '<p><code>flex-direction</code> un <code>flex-wrap</code> saīsināsinātā versija.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -190,6 +195,7 @@ var docs = {
     'ml': '<p>ഫ്ലെക്സിങ് ഇനങ്ങളെ ഒരൊറ്റ വരിയിൽ നിർബന്ധിതരാണോ അല്ലെങ്കിൽ ഒന്നിലധികം വരികളിൽ പൊതിഞ്ഞ് വരാമോ എന്ന് നിർദേശിക്കുന്നു.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'el': '<p>Προσδιορίζει κατά πόσο τα αντικείμενα flex στριμώχνονται σε μία γραμμή ή μπορούν να τυλιχθούν σε πολλαπλές γραμμές.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'mk': '<p>Специфицира дали flex елементите се присилени во еден ред или можат да бидат распределени во повеќе редови.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
+    'lv': '<p>Norāda to, vai flex vienības tiek novietotas vienā rindā vai var tik izvietotas vairākās rindās.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -222,6 +228,7 @@ var docs = {
     'ml': '<p>ഫ്ലെക്സി ഇനങ്ങളെ മെയിൻ ആക്സിസിൽ വിന്യസിക്കുന്നു</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'el': '<p>Ευθυγραμμίζει αντικείμενα flex κατά μήκος του κύριου άξονα.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'mk': '<p>Подредува flex елементи по хоризонталната оска.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
+    'lv': '<p>Novieto flex vienību attiecībā pret galveno asi.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
@@ -253,6 +260,7 @@ var docs = {
     'ta': '<p>உருப்படியின் வரிசையைக் குறிப்பிடுகிறது.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'ml': '<p>ഫ്ളക്സ് ഇനങ്ങളുടെ ക്രമം വ്യക്തമാക്കുന്നു</p></p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'el': '<p>Προσδιορίζει την σειρά του αντικειμένου flex.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
-    'mk': '<p>Го одредува редоследот на flex елементот.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>'
+    'mk': '<p>Го одредува редоследот на flex елементот.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
+    'lv': '<p>Norāda flex vienības kārtas numuru.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>'
   }
 };
