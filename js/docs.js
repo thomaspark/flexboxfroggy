@@ -162,7 +162,7 @@ var docs = {
     'ml': '<p><code>flex-direction</code> and <code>flex-wrap</code> ോർട്ട്ഹാൻഡ്.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'el': '<p>Συντομογραφική ιδιότητα για τα <code>flex-direction</code> και <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'mk': '<p>Скратена верзија на <code>flex-direction</code> и <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
-    'lv'; '<p><code>flex-direction</code> un <code>flex-wrap</code> saīsināsinātā versija.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
+    'lv': '<p><code>flex-direction</code> un <code>flex-wrap</code> saīsināsinātā versija.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -194,7 +194,7 @@ var docs = {
     'ta': '<p>ஒரு ஒற்றை வரியில் பொருட்களை கட்டாயமாக்க வேண்டுமா அல்லது பல வரிகளில் மூடப்பட்டிருக்கலாம் என்பதைக் குறிப்பிடுகிறது.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'ml': '<p>ഫ്ലെക്സിങ് ഇനങ്ങളെ ഒരൊറ്റ വരിയിൽ നിർബന്ധിതരാണോ അല്ലെങ്കിൽ ഒന്നിലധികം വരികളിൽ പൊതിഞ്ഞ് വരാമോ എന്ന് നിർദേശിക്കുന്നു.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'el': '<p>Προσδιορίζει κατά πόσο τα αντικείμενα flex στριμώχνονται σε μία γραμμή ή μπορούν να τυλιχθούν σε πολλαπλές γραμμές.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
-    'mk': '<p>Специфицира дали flex елементите се присилени во еден ред или можат да бидат распределени во повеќе редови.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
+    'mk': '<p>Специфицира дали flex елементите се присилени во еден ред или можат да бидат распределени во повеќе редови.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'lv': '<p>Norāda to, vai flex vienības tiek novietotas vienā rindā vai var tik izvietotas vairākās rindās.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
@@ -227,7 +227,7 @@ var docs = {
     'ta': '<p>முக்கிய அச்சில் உருப்படிகளை சீரமைக்கும்.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'ml': '<p>ഫ്ലെക്സി ഇനങ്ങളെ മെയിൻ ആക്സിസിൽ വിന്യസിക്കുന്നു</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'el': '<p>Ευθυγραμμίζει αντικείμενα flex κατά μήκος του κύριου άξονα.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
-    'mk': '<p>Подредува flex елементи по хоризонталната оска.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
+    'mk': '<p>Подредува flex елементи по хоризонталната оска.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'lv': '<p>Novieto flex vienību attiecībā pret galveno asi.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
   },
   'order': {
