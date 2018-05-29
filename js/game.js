@@ -4,6 +4,7 @@ var Submission = Parse.Object.extend("FlexboxFroggy");
 
 var game = {
   language: window.location.hash.substring(1) || 'en',
+  difficulty: 'easy',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
@@ -108,10 +109,34 @@ var game = {
     });
 
     $('#language').on('click', function() {
+      $('#difficulty .tooltip').hide();
       $('#language .tooltip').toggle();
     }).on('click', 'a', function() {
       var language = $(this).text();
       $('#language .toggle').text(language);
+    });
+
+    $('#difficulty').on('click', function() {
+		$('#language .tooltip').hide();
+        $('#difficulty .tooltip').toggle();
+    })
+    $('#difficulty a').on('click', function() {
+	  // setting height will prevent a slight jump when the animation starts
+	  game.difficulty = $(this).attr('class');
+	  var $instructions = $('#instructions');
+	  var $height = $instructions.height();
+	  $instructions.css('height', $height);
+      if($(this).is('.hard, .medium')) {
+        $instructions.children().fadeOut('fast', function() {
+		  $instructions.slideUp('slow');
+        });
+      } else {
+	  	$instructions.css('height', '');
+        $instructions.children().fadeIn('fast', function() {
+            $('#instructions').slideDown('slow');
+        });
+      }
+      $('#difficultyActive').text($(this).text())
     });
 
     $(window).on('beforeunload', function() {
@@ -143,7 +168,11 @@ var game = {
   },
 
   next: function() {
-    this.level++;
+    if(this.difficulty === "hard") {
+      this.level = Math.floor(Math.random()* levels.length)
+    } else {
+      this.level++
+    }
 
     var levelData = levels[this.level];
     this.loadLevel(levelData);
@@ -405,7 +434,9 @@ var game = {
 
     $('.translate').each(function() {
       var label = $(this).attr('id');
-      var text = messages[label][game.language] || messages[label].en;
+      if(messages[label]) {
+        var text = messages[label][game.language] || messages[label].en;
+	  }
 
       $('#' + label).text(text);
     });
