@@ -21,6 +21,7 @@
             <circle id="Oval-37" stroke="#FFFFFF" stroke-width="5" fill="#000000" sketch:type="MSShapeGroup" cx="73" cy="45" r="12"></circle>
             <circle id="Oval-37" stroke="#FFFFFF" stroke-width="5" fill="#000000" sketch:type="MSShapeGroup" cx="163" cy="45" r="12"></circle>
             <rect id="Rectangle-33" fill="#FFFF95" sketch:type="MSShapeGroup" x="62" y="93" width="110" height="70" rx="9"></rect>
+            <rect class="colorblind-assist" fill="#333333" x="93" y="107" width="48" height="48"></rect>
         </g>
     </g>
 </svg>

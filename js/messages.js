@@ -29,6 +29,8 @@ var messages = {
     'ta': 'தமிழ்',
     'ml': 'മലയാളം',
     'el': 'Ελληνικά',
+    'mk': 'Македонски',
+    'lv': 'Latviešu'
   },
   next: {
     'en': 'Next',
@@ -60,6 +62,8 @@ var messages = {
     'ta': 'அடுத்து',
     'ml': 'അടുത്തത്',
     'el': 'Επόμενο',
+    'mk': 'Следно',
+    'lv': 'Nākamais'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -91,6 +95,8 @@ var messages = {
     'ta': 'Flexbox Froggy உருவாக்கியவர்',
     'ml': 'Flexbox Froggy സൃഷ്ടിച്ചത്',
     'el': 'Το Flexbox Froggy δημιουργήθηκε από',
+    'mk': 'Flexbox Froggy е создадено од',
+    'lv': 'Flexbox Froggy autori ir'
   },
   labelLevel: {
     'en': 'Level',
@@ -122,6 +128,8 @@ var messages = {
     'ta': 'நிலை',
     'ml': 'നില',
     'el': 'Επίπεδο',
+    'mk': 'Ниво',
+    'lv': 'Līmenis'
   },
   labelOf: {
     'en': 'of',
@@ -153,6 +161,8 @@ var messages = {
     'ta': '/',
     'ml': '/',
     'el': 'από',
+    'mk': 'од',
+    'lv': 'no'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -184,6 +194,8 @@ var messages = {
     'ta': 'Flexbox Froggy - CSS flexbox கற்றல் விளையாட்டு',
     'ml': 'Flexbox Froggy - CSS Flexbox പഠിക്കാം',
     'el': 'Flexbox Froggy - Ένα παιχνίδι για την εκμάθηση του CSS Flexbox',
+    'mk': 'Flexbox Froggy - Игра за учење на CSS flexbox',
+    'lv': 'Flexbox Froggy - Spēle, kas Tev palīdzēs iemācīties CSS Flexbox'
   },
   labelReset: {
     'en': 'Reset',
@@ -215,6 +227,8 @@ var messages = {
     'ta': 'மீளமை',
     'ml': 'പുനഃസജ്ജമാക്കുക',
     'el': 'Επαναφορά',
+    'mk': 'Ресетирај',
+    'lv': 'Dzēst rezultātus'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -246,6 +260,8 @@ var messages = {
     'ta': 'நீங்கள் விளையாட்டு மீட்டமைக்க உறுதியாக இருக்கிறீர்களா?\n\nநீங்கள் சேமித்த முன்னேற்றம் இழக்கப்படும் மேலும் நீங்கள் விளையாட்டின் தொடக்கத்திற்க்கு அனுப்பி வைக்கப்படுவீர்.',
     'ml': 'ഗെയിം പുനഃസജ്ജമാക്കണമെന്ന് നിങ്ങൾക്ക് തീർച്ചയാണോ?\n\nനിങ്ങളുടെ സംരക്ഷിത പുരോഗതി നഷ്ടപ്പെടുകയും നിങ്ങൾ ആദ്യം മുതൽ ആരംഭിക്കേണ്ടി വരും ',
     'el': 'Είστε σίγουροι ότι θέλετε να επαναφέρετε το παιχνίδι;\n\nΗ αποθηκευμένη σας πρόοδος θα χαθεί και θα βρεθείτε στην αρχή του παιχνιδιού.',
+    'mk': 'Дали сте сигурни дека сакате да ја ресетирате играта?\n\nВашиот зачуван прогрес ќе биде загубен и ќе бидете пратени на почетокот на играта',
+    'lv': 'Vai tiešām vēlies dzēst spēles rezultātus?\n\nTevis saglabātais rezultāts tiks dzēsts un Tu tiksi atgriezts uz spēles pirmo līmeni.'
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
@@ -254,5 +270,7 @@ var messages = {
     'ta': 'CSS Grid கற்றுக்கொள்ள விரும்புகிறீர்களா? விளையாடுவோம்',
     'ml': 'CSS Grid പഠിക്കാനോ? കളിക്കു ',
     'el': 'Θέλετε να μάθετε CSS Grid; Παίξτε',
+    'mk': 'Сакате да научите CSS grid? Играјте',
+    'lv': 'Gribi apgūt CSS grid? Spēlē '
   }
 };

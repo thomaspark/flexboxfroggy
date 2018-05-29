@@ -1,8 +1,5 @@
-Parse.initialize("FwVMmzHookZZ5j9F9ILc2E5MT5ufabuV7hCXKSeu");
-Parse.serverURL = 'http://129.25.12.218:1337/parse';
-var Submission = Parse.Object.extend("FlexboxFroggy");
-
 var game = {
+  colorblind: (localStorage.colorblind && JSON.parse(localStorage.colorblind)) || false,
   language: window.location.hash.substring(1) || 'en',
   difficulty: 'easy',
   level: parseInt(localStorage.level, 10) || 0,
@@ -158,6 +155,11 @@ var game = {
         history.replaceState({}, document.title, './');
       }
     });
+
+    $("#colorblind-toggle").on("click", function() {
+      localStorage.setItem("colorblind", !game.colorblind);
+      window.location.reload();
+    })
   },
 
   prev: function() {
@@ -264,8 +266,8 @@ var game = {
       var c = string.charAt(i);
       var color = colors[c];
 
-      var lilypad = $('<div/>').addClass('lilypad ' + color).data('color', color);
-      var frog = $('<div/>').addClass('frog ' + color).data('color', color);
+      var lilypad = $('<div/>').addClass('lilypad ' + color + (this.colorblind ? ' cb-friendly' : '')).data('color', color);
+      var frog = $('<div/>').addClass('frog ' + color + (this.colorblind ? ' cb-friendly' : '')).data('color', color);
 
       $('<div/>').addClass('bg').css(game.transform()).appendTo(lilypad);
       $('<div/>').addClass('bg animated pulse infinite').appendTo(frog);
@@ -318,8 +320,8 @@ var game = {
     $('#pond ' +  selector).attr('style', code);
     game.saveAnswer();
   },
-  
-  check: function() {    
+
+  check: function() {
     game.applyStyles();
 
     var level = levels[game.level];
@@ -350,8 +352,6 @@ var game = {
       }
     });
 
-    var submission = new Submission();
-
     if (correct) {
       ga('send', {
         hitType: 'event',
@@ -360,15 +360,6 @@ var game = {
         eventLabel: $('#code').val()
       });
 
-      submission.save({
-        timeStamp: (new Date()).getTime(),
-        user: game.user,
-        levelName: level.name,
-        changed: game.changed,
-        input: $('#code').val(),
-        result: 'correct'
-      });
-            
       if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
       }
@@ -381,15 +372,6 @@ var game = {
         eventCategory: level.name,
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
-      });
-      
-      submission.save({
-        timeStamp: (new Date()).getTime(),
-        user: game.user,
-        levelName: level.name,
-        changed: game.changed,
-        input: $('#code').val(),
-        result: 'incorrect'
       });
 
       $('#next').addClass('disabled');
