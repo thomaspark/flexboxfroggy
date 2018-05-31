@@ -1,5 +1,5 @@
 var game = {
-  colorblind: (localStorage.colorblind && JSON.parse(localStorage.colorblind)) || false,
+  colorblind: (localStorage.colorblind && JSON.parse(localStorage.colorblind)) || 'false',
   language: window.location.hash.substring(1) || 'en',
   difficulty: 'easy',
   level: parseInt(localStorage.level, 10) || 0,
@@ -9,18 +9,20 @@ var game = {
   changed: false,
 
   start: function() {
-      // navigator.language can include '-'
-      // ref: https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language
-      var requestLang = window.navigator.language.split('-')[0];
-      if (window.location.hash === '' && requestLang !== 'en' && messages.languageActive.hasOwnProperty(requestLang)) {
-          game.language = requestLang;
-          window.location.hash = requestLang;
-      }
-    game.translate();
+    // navigator.language can include '-'
+    // ref: https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language
+    var requestLang = window.navigator.language.split('-')[0];
+    if (window.location.hash === '' && requestLang !== 'en' && messages.languageActive.hasOwnProperty(requestLang)) {
+      game.language = requestLang;
+      window.location.hash = requestLang;
+    }
 
+    game.translate();
     $('#level-counter .total').text(levels.length);
     $('#editor').show();
     $('#share').hide();
+    $('#language').val(game.language);
+    $('input[value="' + game.colorblind + '"]', '#colorblind').prop('checked', true);
 
     if (!localStorage.user) {
       game.user = '' + (new Date()).getTime() + Math.random().toString(36).slice(1);
@@ -105,47 +107,45 @@ var game = {
       }
     });
 
-    $('#language').on('click', function() {
-      $('#difficulty .tooltip').hide();
-      $('#language .tooltip').toggle();
-    }).on('click', 'a', function() {
-      var language = $(this).text();
-      $('#language .toggle').text(language);
-    });
-
-    $('#difficulty').on('click', function() {
-		  $('#language .tooltip').hide();
-      $('#difficulty .tooltip').toggle();
+    $('#labelSettings').on('click', function() {
+      $('#settings .tooltip').toggle();
     })
 
-    $('#difficulty a').on('click', function() {
-	  // setting height will prevent a slight jump when the animation starts
-      game.difficulty = $(this).attr('class');
-      var $instructions = $('#instructions');
-      var $height = $instructions.height();
-
-      $instructions.css('height', $height);
-      
-      if ($(this).is('.hard, .medium')) {
-        $instructions.children().fadeOut('fast', function() {
-		      $instructions.slideUp('slow');
-        });
-      } else {
-  	  	$instructions.css('height', '');
-
-        $instructions.children().fadeIn('fast', function() {
-          $('#instructions').slideDown('slow');
-        });
-      }
-
-      $('#difficultyActive').text($(this).text())
+    $('#language').on('change', function() {
+      window.location.hash = $(this).val();
     });
+
+    $('#difficulty').on('change', function() {
+      game.difficulty = $('input:checked', '#difficulty').val();
+
+      // setting height will prevent a slight jump when the animation starts
+      var $instructions = $('#instructions');
+      var height = $instructions.height();
+      $instructions.css('height', height);
+      
+      if (game.difficulty == 'hard' || game.difficulty == 'medium') {
+        $instructions.slideUp();
+      } else {
+        $instructions.css('height', '').slideDown();
+      }
+    });
+
+    $('#colorblind').on('change', function() {
+      game.colorblind = $('input:checked', '#colorblind').val();
+
+      if (game.colorblind == 'true') {
+        $('.lilypad, .frog').addClass('cb-friendly');
+      } else {
+        $('.lilypad, .frog').removeClass('cb-friendly');
+      }
+    })
 
     $(window).on('beforeunload', function() {
       game.saveAnswer();
       localStorage.setItem('level', game.level);
       localStorage.setItem('answers', JSON.stringify(game.answers));
       localStorage.setItem('solved', JSON.stringify(game.solved));
+      localStorage.setItem('colorblind', JSON.stringify(game.colorblind));
     }).on('hashchange', function() {
       game.language = window.location.hash.substring(1) || 'en';
       game.translate();
@@ -160,11 +160,6 @@ var game = {
         history.replaceState({}, document.title, './');
       }
     });
-
-    $("#colorblind-toggle").on("click", function() {
-      localStorage.setItem("colorblind", !game.colorblind);
-      window.location.reload();
-    })
   },
 
   prev: function() {
@@ -271,8 +266,8 @@ var game = {
       var c = string.charAt(i);
       var color = colors[c];
 
-      var lilypad = $('<div/>').addClass('lilypad ' + color + (this.colorblind ? ' cb-friendly' : '')).data('color', color);
-      var frog = $('<div/>').addClass('frog ' + color + (this.colorblind ? ' cb-friendly' : '')).data('color', color);
+      var lilypad = $('<div/>').addClass('lilypad ' + color + (this.colorblind == 'true' ? ' cb-friendly' : '')).data('color', color);
+      var frog = $('<div/>').addClass('frog ' + color + (this.colorblind == 'true' ? ' cb-friendly' : '')).data('color', color);
 
       $('<div/>').addClass('bg').css(game.transform()).appendTo(lilypad);
       $('<div/>').addClass('bg animated pulse infinite').appendTo(frog);

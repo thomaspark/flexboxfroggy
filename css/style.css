@@ -119,10 +119,11 @@ a:hover {
   opacity: 1;
 }
 
-#instructions, #instructions p{
+#instructions, #instructions p {
 	/* helps prevent the difficulty animation from jumping */
 	margin: 0;
 }
+
 #editor {
   position: relative;
 }
@@ -326,8 +327,7 @@ button:not(.disabled):hover {
   color: rgba(255, 255, 255, 0.4);
 }
 
-#language,
-#difficulty{
+#settings {
   position: relative;
 }
 
@@ -341,28 +341,17 @@ button:not(.disabled):hover {
   user-select: none;
 }
 
-#language .toggle:hover,
-#difficulty .toggle:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-#language .tooltip,
-#difficulty .tooltip {
+#settings .tooltip {
   display: none;
   bottom: 30px;
   left: 0px;
-  width: 200px;
+  width: 275px;
+  max-width: 275px;
   padding: 1em;
-}
-
-#difficulty .tooltip {
   text-align: left;
-  width: 250px;
-  max-width: 250px;
 }
 
-#language .tooltip:after,
-#difficulty .tooltip:after {
+#settings .tooltip:after {
   top: auto;
   bottom: -12px;
   border-left: 12px solid transparent;
@@ -371,19 +360,13 @@ button:not(.disabled):hover {
   border-bottom: none;
 }
 
-#language .tooltip a,
-#difficulty .tooltip a {
-  padding: 0 2px;
-  font-weight: 900;
-  color: rgba(255, 255, 255, 0.7);
-  white-space: nowrap;
-  text-decoration: underline;
-  cursor: pointer;
+#settings section {
+  margin: 0.5rem 0;
 }
 
-#language .tooltip a:hover,
-#difficulty .tooltip a:hover {
-  color: #fff;
+#settings h4 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #board {
@@ -414,10 +397,6 @@ button:not(.disabled):hover {
 
 #pond {
   z-index: 20;
-}
-
-#colorblind-toggle:hover {
-  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .lilypad,
@@ -518,17 +497,6 @@ button:not(.disabled):hover {
 
 .wrap {
   flex-wrap: wrap;
-}
-
-.accessibility {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-#colorblind-toggle {
-  margin-top: 1em;
-  background-color: #6CB26F;
 }
 
 @media only screen and (max-width: 1000px)  {

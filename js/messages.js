@@ -272,5 +272,33 @@ var messages = {
     'el': 'Θέλετε να μάθετε CSS Grid; Παίξτε',
     'mk': 'Сакате да научите CSS grid? Играјте',
     'lv': 'Gribi apgūt CSS grid? Spēlē '
+  },
+  labelLanguage: {
+    'en': 'Language',
+    'es': 'Lengua'
+  },
+  labelSettings: {
+    'en': 'Settings'
+  },
+  labelDifficulty: {
+    'en': 'Difficulty'
+  },
+  labelColorblind: {
+    'en': 'Color Blind Mode'
+  },
+  labelColorblindOff: {
+    'en': 'Off'
+  },
+  labelColorblindOn: {
+    'en': 'On'
+  },
+  labelDifficultyEasy: {
+    'en': 'Beginner'
+  },
+  labelDifficultyMedium: {
+    'en': 'Intermediate - No Directions'
+  },
+  labelDifficultyHard: {
+    'en': 'Advanced - No Directions & Random Levels'
   }
 };
