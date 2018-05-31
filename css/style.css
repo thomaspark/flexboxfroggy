@@ -32,8 +32,15 @@ body {
   font-size: 15px;
 }
 
-h1 {
-  margin: 0 0 0.5em;
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -0.5rem;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0.5rem 0 0;
   text-transform: uppercase;
   font-family: 'Fredoka One', cursive;
   font-size: 28px;
@@ -119,6 +126,10 @@ a:hover {
   opacity: 1;
 }
 
+#instructions {
+  padding-top: 1rem;
+}
+
 #instructions, #instructions p {
 	/* helps prevent the difficulty animation from jumping */
 	margin: 0;
@@ -170,11 +181,10 @@ pre {
 }
 
 #level-counter {
-  float: right;
   position: relative;
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
+  height: 30px;
+  margin-top: 0.5rem;
   font-size: 15px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -185,7 +195,7 @@ pre {
 #levelsWrapper {
   display: none;
   top: 30px;
-  right: 20px;
+  right: 31px;
   max-width: 160px;
   padding: 1em 0.5em;
   margin-top: 12px;
@@ -228,6 +238,7 @@ pre {
 .arrow {
   float: left;
   height: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #level-indicator {
@@ -249,7 +260,7 @@ pre {
 
 #level-indicator:hover,
 .arrow:not(.disabled):hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 #labelReset {
@@ -267,10 +278,12 @@ pre {
 
 .arrow.left {
   border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px 0 0 4px;
 }
 
 .arrow.right {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0 4px 4px 0;
 }
 
 .arrow.left:not(.disabled):hover,
@@ -499,10 +512,14 @@ button:not(.disabled):hover {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 1000px)  {
+@media only screen and (max-width: 767px)  {
 
   body,
   #sidebar {
-    // font-size: 13px;
+    font-size: 13px;
+  }
+
+  .title {
+    font-size: 26px;
   }
 }
