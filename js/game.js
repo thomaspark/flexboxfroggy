@@ -108,8 +108,8 @@ var game = {
     });
 
     $('#labelSettings').on('click', function() {
-      $('.tooltip').hide();
-      $('#settings .tooltip').show();
+      $('#levelsWrapper').hide();
+      $('#settings .tooltip').toggle();
     })
 
     $('#language').on('change', function() {
@@ -209,8 +209,8 @@ var game = {
     });
 
     $('#level-indicator').on('click', function() {
-      $('.tooltip').hide();
-      $('#levelsWrapper').show();
+      $('#settings .tooltip').hide();
+      $('#levelsWrapper').toggle();
     });
 
     $('.arrow.left').on('click', function() {
