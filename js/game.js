@@ -114,25 +114,30 @@ var game = {
     });
 
     $('#difficulty').on('click', function() {
-		$('#language .tooltip').hide();
-        $('#difficulty .tooltip').toggle();
+		  $('#language .tooltip').hide();
+      $('#difficulty .tooltip').toggle();
     })
+
     $('#difficulty a').on('click', function() {
 	  // setting height will prevent a slight jump when the animation starts
-	  game.difficulty = $(this).attr('class');
-	  var $instructions = $('#instructions');
-	  var $height = $instructions.height();
-	  $instructions.css('height', $height);
-      if($(this).is('.hard, .medium')) {
+      game.difficulty = $(this).attr('class');
+      var $instructions = $('#instructions');
+      var $height = $instructions.height();
+
+      $instructions.css('height', $height);
+      
+      if ($(this).is('.hard, .medium')) {
         $instructions.children().fadeOut('fast', function() {
-		  $instructions.slideUp('slow');
+		      $instructions.slideUp('slow');
         });
       } else {
-	  	$instructions.css('height', '');
+  	  	$instructions.css('height', '');
+
         $instructions.children().fadeIn('fast', function() {
-            $('#instructions').slideDown('slow');
+          $('#instructions').slideDown('slow');
         });
       }
+
       $('#difficultyActive').text($(this).text())
     });
 
@@ -170,7 +175,7 @@ var game = {
   },
 
   next: function() {
-    if(this.difficulty === "hard") {
+    if (this.difficulty === "hard") {
       this.level = Math.floor(Math.random()* levels.length)
     } else {
       this.level++
@@ -416,7 +421,7 @@ var game = {
 
     $('.translate').each(function() {
       var label = $(this).attr('id');
-      if(messages[label]) {
+      if (messages[label]) {
         var text = messages[label][game.language] || messages[label].en;
 	  }
 

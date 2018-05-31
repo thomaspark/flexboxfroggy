@@ -326,16 +326,12 @@ button:not(.disabled):hover {
   color: rgba(255, 255, 255, 0.4);
 }
 
-#language, #difficulty{
+#language,
+#difficulty{
   position: relative;
 }
-#difficulty .tooltip {
-  text-align: left;
-}
-#difficulty .tooltip a {
-  cursor: pointer;
-}
-#language .toggle, #difficulty .toggle {
+
+.toggle {
   display: inline-block;
   padding: 1px 8px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -345,11 +341,13 @@ button:not(.disabled):hover {
   user-select: none;
 }
 
-#language .toggle:hover, #difficulty .toggle:hover {
+#language .toggle:hover,
+#difficulty .toggle:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-#language .tooltip, #difficulty .tooltip {
+#language .tooltip,
+#difficulty .tooltip {
   display: none;
   bottom: 30px;
   left: 0px;
@@ -357,7 +355,14 @@ button:not(.disabled):hover {
   padding: 1em;
 }
 
-#language .tooltip:after, #difficulty .tooltip:after {
+#difficulty .tooltip {
+  text-align: left;
+  width: 250px;
+  max-width: 250px;
+}
+
+#language .tooltip:after,
+#difficulty .tooltip:after {
   top: auto;
   bottom: -12px;
   border-left: 12px solid transparent;
@@ -366,14 +371,18 @@ button:not(.disabled):hover {
   border-bottom: none;
 }
 
-#language .tooltip a, #difficulty .tooltip a {
+#language .tooltip a,
+#difficulty .tooltip a {
   padding: 0 2px;
   font-weight: 900;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-#language .tooltip a:hover, #difficulty .tooltip a:hover {
+#language .tooltip a:hover,
+#difficulty .tooltip a:hover {
   color: #fff;
 }
 
