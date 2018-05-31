@@ -108,7 +108,8 @@ var game = {
     });
 
     $('#labelSettings').on('click', function() {
-      $('#settings .tooltip').toggle();
+      $('.tooltip').hide();
+      $('#settings .tooltip').show();
     })
 
     $('#language').on('change', function() {
@@ -138,7 +139,15 @@ var game = {
       } else {
         $('.lilypad, .frog').removeClass('cb-friendly');
       }
-    })
+    });
+
+    $('body').on('click', function() {
+      $('.tooltip').hide();
+    });
+
+    $('.tooltip, .toggle, #level-indicator').on('click', function(e) {
+      e.stopPropagation();
+    });
 
     $(window).on('beforeunload', function() {
       game.saveAnswer();
@@ -200,7 +209,8 @@ var game = {
     });
 
     $('#level-indicator').on('click', function() {
-      $('#levelsWrapper').toggle();
+      $('.tooltip').hide();
+      $('#levelsWrapper').show();
     });
 
     $('.arrow.left').on('click', function() {
