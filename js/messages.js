@@ -299,6 +299,6 @@ var messages = {
     'en': 'Intermediate - No Directions'
   },
   labelDifficultyHard: {
-    'en': 'Advanced - No Directions & Random Levels'
+    'en': 'Expert - No Directions & Random Levels'
   }
 };
