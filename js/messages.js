@@ -284,7 +284,7 @@ var messages = {
     'en': 'Difficulty'
   },
   labelColorblind: {
-    'en': 'Color Blind Mode'
+    'en': 'Colorblind Mode'
   },
   labelColorblindOff: {
     'en': 'Off'
