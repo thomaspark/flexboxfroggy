@@ -130,9 +130,15 @@ a:hover {
   padding-top: 1rem;
 }
 
-#instructions, #instructions p {
+#instructions,
+#instructions p,
+#instructions ul {
 	/* helps prevent the difficulty animation from jumping */
 	margin: 0;
+}
+
+#instructions p {
+  padding-bottom: 1em;
 }
 
 #editor {
