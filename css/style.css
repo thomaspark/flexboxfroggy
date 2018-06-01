@@ -135,9 +135,6 @@ a:hover {
 #instructions ul {
 	/* helps prevent the difficulty animation from jumping */
 	margin: 0;
-}
-
-#instructions p {
   padding-bottom: 1em;
 }
 
