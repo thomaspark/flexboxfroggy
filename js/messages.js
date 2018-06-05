@@ -275,30 +275,39 @@ var messages = {
   },
   labelLanguage: {
     'en': 'Language',
-    'es': 'Lengua'
+    'es': 'Lengua',
+    'lv': 'Valoda'
   },
   labelSettings: {
-    'en': 'Settings'
+    'en': 'Settings',
+    'lv': 'Iestatījumi'
   },
   labelDifficulty: {
-    'en': 'Difficulty'
+    'en': 'Difficulty',
+    'lv': 'Grūtības pakāpe'
   },
   labelColorblind: {
-    'en': 'Colorblind Mode'
+    'en': 'Colorblind Mode',
+    'lv': 'Krāsu akluma režīms'
   },
   labelColorblindOff: {
-    'en': 'Off'
+    'en': 'Off',
+    'lv': 'Izslēgts'
   },
   labelColorblindOn: {
-    'en': 'On'
+    'en': 'On',
+    'lv': 'Ieslēgts'
   },
   labelDifficultyEasy: {
     'en': 'Beginner'
+    'lv': 'Viegls'
   },
   labelDifficultyMedium: {
-    'en': 'Intermediate - No Directions'
+    'en': 'Intermediate - No Directions',
+    'lv': 'Vidēji grūts - Bez norādēm'
   },
   labelDifficultyHard: {
-    'en': 'Expert - No Directions & Random Levels'
+    'en': 'Expert - No Directions & Random Levels',
+    'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā'
   }
 };

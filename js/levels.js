@@ -392,7 +392,7 @@ var levels = [
       'ml': '<p>തവളകൾ സ്വന്തം lilypads ലേക്കുള്ള സഹായിക്കുക. അവർ തൊട്ടു അടുത്ത് ആണെങ്കിൽ പോലും  <code>flex-direction</code> and <code>justify-content</code> ഉപയോഗിക്കേണ്ടി വരും അവരെ ലക്ഷ്യസ്ഥാനത്തു എത്തിക്കാൻ </p><p>തിരിയുന്ന വരി അല്ലെങ്കിൽ നിരയിലേക്ക് നിങ്ങൾ ദിശ സജ്ജമാക്കിയാൽ, ആരംഭവും അവസാനവും തിരസ്കരിക്കുന്നു.</p>',
       'el': '<p>Βοηθήστε τους βατράχους να φτάσουν στα νούφαρά τους. Αν και φαίνονται κοντά, θα χρειαστεί τόσο το <code>flex-direction</code> όσο και το <code>justify-content</code> για να τους πάτε εκεί.</p><p>Σημειώστε ότι όταν ορίζετε την κατεύθυνση σε μια αντεστραμμένη σειρά ή στήλη, η αρχή και το τέλος επίσης αντιστρέφονται.</p>',
       'mk': '<p>Помогнете им на жабите да стигнат до своите листови. Иако се чинат близу, ќе бидат потребни и <code>flex-direction</code> и <code>justify-content</code> да ги доведеме таму.</p><p>Приметете дека кога ја поставувате насоката на ред или колона обратно, почетокот и крајот исто така треба да бидат обратни.</p>',
-      'lv': '<p>Palīdzi katram vardulēnam nokļūt uz savas ūdensrozes. Kaut arī izskatās, ka tie jau atrodas tuvu, šim uzdevumam vajadzēs lietot gan <code>flex-direction</code>, gan <code>justify-content<code>.<p>Ievēro, ka rindai vai kolonnai norādot apgriezto virzienu, sākums un beigas arī tiek apgriezti otrādāk.</p>'
+      'lv': '<p>Palīdzi katram vardulēnam nokļūt uz savas ūdensrozes. Kaut arī izskatās, ka tie jau atrodas tuvu, šim uzdevumam vajadzēs lietot gan <code>flex-direction</code>, gan <code>justify-content<code>.</p><p>Ievēro, ka rindai vai kolonnai norādot apgriezto virzienu, sākums un beigas arī tiek apgriezti otrādāk.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
@@ -432,7 +432,7 @@ var levels = [
       'ml': '<p><code>flex-direction</code> and <code>justify-content</code> ഉപയോഗിച്ച് വഴു കണ്ടു പിടിക്കാൻ സഹായിക്കുക .</p><p>ശ്രദ്ധിക്കുക, <code>flex direction</code> column ആണെങ്കിൽ <code>justify-content</code> vertical ആകും <code>align-items</code> horizontal ആകും .</p>',
       'el': '<p>Βοηθήστε τους βατράχους να βρουν τα νούφαρά τους χρησιμοποιώντας τα <code>flex-direction</code> και <code>justify-content</code>.</p><p>Σημειώστε ότι όταν η κατεύθυνση flex είναι μια στήλη, το <code>justify-content</code> αλλάζει στον κάθετο άξονα και το <code>align-items</code> στον οριζόντιο.</p>',
       'mk': '<p>Помогнете им на жабите да ги најдат своите листови со користење на <code>flex-direction</code> и <code>justify-content</code>.</p><p>Приметете дека кога flex насоката е колона, <code>justify-content</code> променува по вертикалата и <code>align-items</code> по хоризонталата.</p>',
-      'lv': '<p>Lietojot <code>flex-direction</code> un <code>justify-content</code>, palīdzi katram vardulēnam nokļūt uz savas ūdensrozes. Ievēro, ka "flex-directio" esot "column", <code>justify-content</code> mainās uz vertikālo un <code>align-items</code> uz horizontālo.</p>'
+      'lv': '<p>Lietojot <code>flex-direction</code> un <code>justify-content</code>, palīdzi katram vardulēnam nokļūt uz savas ūdensrozes. Ievēro, ka "flex-direction" esot "column", <code>justify-content</code> mainās uz vertikālo un <code>align-items</code> uz horizontālo.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'column', 'justify-content': 'flex-end'},
