@@ -299,7 +299,7 @@ var messages = {
     'lv': 'Ieslēgts'
   },
   labelDifficultyEasy: {
-    'en': 'Beginner'
+    'en': 'Beginner',
     'lv': 'Viegls'
   },
   labelDifficultyMedium: {
