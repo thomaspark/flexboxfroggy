@@ -392,7 +392,7 @@ var levels = [
       'ml': '<p>തവളകൾ സ്വന്തം lilypads ലേക്കുള്ള സഹായിക്കുക. അവർ തൊട്ടു അടുത്ത് ആണെങ്കിൽ പോലും  <code>flex-direction</code> and <code>justify-content</code> ഉപയോഗിക്കേണ്ടി വരും അവരെ ലക്ഷ്യസ്ഥാനത്തു എത്തിക്കാൻ </p><p>തിരിയുന്ന വരി അല്ലെങ്കിൽ നിരയിലേക്ക് നിങ്ങൾ ദിശ സജ്ജമാക്കിയാൽ, ആരംഭവും അവസാനവും തിരസ്കരിക്കുന്നു.</p>',
       'el': '<p>Βοηθήστε τους βατράχους να φτάσουν στα νούφαρά τους. Αν και φαίνονται κοντά, θα χρειαστεί τόσο το <code>flex-direction</code> όσο και το <code>justify-content</code> για να τους πάτε εκεί.</p><p>Σημειώστε ότι όταν ορίζετε την κατεύθυνση σε μια αντεστραμμένη σειρά ή στήλη, η αρχή και το τέλος επίσης αντιστρέφονται.</p>',
       'mk': '<p>Помогнете им на жабите да стигнат до своите листови. Иако се чинат близу, ќе бидат потребни и <code>flex-direction</code> и <code>justify-content</code> да ги доведеме таму.</p><p>Приметете дека кога ја поставувате насоката на ред или колона обратно, почетокот и крајот исто така треба да бидат обратни.</p>',
-      'lv': '<p>Palīdzi katram vardulēnam nokļūt uz savas ūdensrozes. Kaut arī izskatās, ka tie jau atrodas tuvu, šim uzdevumam vajadzēs lietot gan <code>flex-direction</code>, gan <code>justify-content<code>.</p><p>Ievēro, ka rindai vai kolonnai norādot apgriezto virzienu, sākums un beigas arī tiek apgriezti otrādāk.</p>'
+      'lv': '<p>Palīdzi katram vardulēnam nokļūt uz savas ūdensrozes. Kaut arī izskatās, ka tie jau atrodas tuvu, šim uzdevumam vajadzēs lietot gan <code>flex-direction</code>, gan <code>justify-content</code>.</p><p>Ievēro, ka rindai vai kolonnai norādot apgriezto virzienu, sākums un beigas arī tiek apgriezti otrādāk.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
