@@ -528,3 +528,47 @@ button:not(.disabled):hover {
     font-size: 26px;
   }
 }
+
+/* Native by BuySellAds */
+.native-ad {
+  visibility: hidden;
+  transition: all .25s ease-in-out;
+  opacity: 0;
+}
+
+.native-show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.native-ad {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .03) 5px, hsla(0, 0%, 0%, .03) 10px) hsla(0, 0%, 0%, .03);
+  margin-top: 1.5em;
+}
+
+.native-ad a {
+  text-decoration: none;
+  display: block;
+  line-height: 1.5;
+}
+
+
+.native-ad .sponsor {
+  position: relative;
+  top: -1px;
+  padding: 3px 4px 2px;
+  margin-right: 4px;
+  border: solid 1px currentColor;
+  border-radius: 2px;
+  color: currentColor;
+  content: "Sponsor";
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1;
+}
+
