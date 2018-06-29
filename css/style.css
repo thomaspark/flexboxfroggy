@@ -543,10 +543,11 @@ button:not(.disabled):hover {
 
 .native-ad {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 20px 8px;
   border-radius: 4px;
   background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .03) 5px, hsla(0, 0%, 0%, .03) 10px) hsla(0, 0%, 0%, .03);
   margin-top: 1.5em;
+  font-size: 12px;
 }
 
 .native-ad a {
