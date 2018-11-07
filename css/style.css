@@ -111,19 +111,55 @@ a:hover {
   vertical-align: top;
 }
 
-.img-next {
-  text-align: center;
-}
-
-.img-next img {
+.next {
   display: inline-block;
-  margin: 1em;
   width: 200px;
-  opacity: 0.9;
+  height: 200px;
+  margin: 1em;
+  text-decoration: none;
+  background-size: cover;
 }
 
-.img-next img:hover {
-  opacity: 1;
+.next div {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.next button {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Fredoka One', cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.next button:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.next.gridgarden {
+  background-image: url('../images/next-gridgarden.png');
+}
+
+.next.gridgarden button {
+  background-color: #DB9322;
+}
+
+.next.gridgarden button:hover {
+  background-color: #F5A628;
+}
+
+.next.treehouse {
+  background-image: url('../images/next-treehouse.png');
+}
+
+.next.treehouse button {
+  background-color: #AE7347;
+}
+
+.next.treehouse button:hover {
+  background-color: #C88551;
 }
 
 #instructions {
