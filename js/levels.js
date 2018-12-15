@@ -747,7 +747,7 @@ var levels = [
       'pl': '<p>Pomóż tej zgrai żabek utworzyć trzy uporządkowane kolumny używając własności <code>flex-direction</code> oraz <code>flex-wrap</code>.</p>',
       'cs': '<p>Pomozte žabkám utvořiy tři zástupy pomocí <code>flex-direction</code> a <code>flex-wrap</code>.</p>',
       'ja': '<p><code>flex-direction</code>と<code>flex-wrap</code>を使って、このカエルの大群がきちんと三列に並ぶようにしてあげてください。</p>',
-      'hu': '<p>Segíts ezt a békahadsereget, hogy három szabályos oszlop alakzatba rendeződjenek a <code>flex-direction</code> és a <code>flex-wrap</code> használatának ötvözésével.</p>',
+      'hu': '<p>Segítsd ezt a békahadsereget, hogy három szabályos oszlop alakzatba rendeződjenek a <code>flex-direction</code> és a <code>flex-wrap</code> használatának ötvözésével.</p>',
       'eo': '<p>Helpu tiun ĉi aron da ranoj formi tri ordigotajn kolumojn uzante kombinon de <code>flex-direction</code> kaj <code>flex-wrap</code>.</p>',
       'sv': '<p>Hjälp en hel drös av grodor att ställa sig i tre raka kolumner genom att använda en kombination av <code>flex-direction</code> och <code>flex-wrap</code>.</p>',
       'uk': '<p>Допоможи армії жаб сформувати три однакові стовпці, за допомогою комбінації властивостей <code>flex-direction</code> та <code>flex-wrap</code>.</p>',
