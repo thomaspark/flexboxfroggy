@@ -46,7 +46,7 @@ var messages = {
     'zh-cn': '继续',
     'zh-tw': '繼續',
     'tr': 'Sonraki',
-    'it': 'Prossima',
+    'it': 'Prossimo',
     'ko': '다음',
     'lt': 'Sekantis',
     'vi': 'Kế Tiếp',
@@ -79,7 +79,7 @@ var messages = {
     'zh-cn': 'Flexbox Froggy的作者是',
     'zh-tw': 'Flexbox Froggy的作者是',
     'tr': 'Flexbox Froggy\'nin yaratıcısı:',
-    'it': 'Flexbox Froggy e\' stato creato da',
+    'it': 'Flexbox Froggy è stato creato da',
     'ko': 'Flexbox Froggy는 다음에 의해 개발되었습니다',
     'lt': 'Flexbox Froggy kūrėjas',
     'vi': 'Flexbox Froggy được tạo ra bởi',
@@ -244,7 +244,7 @@ var messages = {
     'zh-cn': '你确定要重置游戏吗?\n\n你保存了的进度将会丢失，而且你会回到游戏的最开始。',
     'zh-tw': '你確定要重置遊戲嗎？\n\n你保存了的進度將會丟失，而且你會回到遊戲的最開始。',
     'tr': 'Oyuna baştan başlamak istediğinize emin misiniz? Kayıtlı bütün ilerlemeniz silinecek ve birinci seviyeye geri döneceksiniz.',
-    'it': 'Sei sicuro di voler annullare il gioco?\n\nI tuoi salvataggi verranno persi e dovrai ricominciare il gioco dall\'inizio.',
+    'it': 'Sei sicuro di voler annullare la partita?\n\nI tuoi salvataggi verranno persi e dovrai ricominciare il gioco dall\'inizio.',
     'ko': '게임을 다시 시작하시겠습니까? 지금까지의 진도는 사라지고 게임의 처음으로 돌아갈 것입니다.',
     'lt': 'Ar esate įsitikinę, kad norite atstatyti žaidimą į pradinę būseną?\n\nJūsų pasiekimai bus anuliuoti ir būsite nukreipti į žaidimo pradžią.',
     'vi': 'Bạn có chắc chắn là bạn muốn thiết lập lại trò chơi không? Toàn bộ tiến trình của bạn sẽ bị mất và bạn sẽ được chuyển đến đầu của trò chơi.',
@@ -271,24 +271,29 @@ var messages = {
     'ml': 'CSS Grid പഠിക്കാനോ? കളിക്കു ',
     'el': 'Θέλετε να μάθετε CSS Grid; Παίξτε',
     'mk': 'Сакате да научите CSS grid? Играјте',
-    'lv': 'Gribi apgūt CSS grid? Spēlē '
+    'lv': 'Gribi apgūt CSS grid? Spēlē ',
+    'it': 'Vuoi imparare CSS grid? Gioca a',
   },
   labelLanguage: {
     'en': 'Language',
     'es': 'Lengua',
-    'lv': 'Valoda'
+    'lv': 'Valoda',
+    'it': 'Lingua'
   },
   labelSettings: {
     'en': 'Settings',
-    'lv': 'Iestatījumi'
+    'lv': 'Iestatījumi',
+    'it': 'Impostazioni'
   },
   labelDifficulty: {
     'en': 'Difficulty',
-    'lv': 'Grūtības pakāpe'
+    'lv': 'Grūtības pakāpe',
+    'it': 'Difficoltà'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
-    'lv': 'Krāsu akluma režīms'
+    'lv': 'Krāsu akluma režīms',
+    'it': 'Modalità daltonici'
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -300,14 +305,17 @@ var messages = {
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
-    'lv': 'Viegls'
+    'lv': 'Viegls',
+    'it': 'Principiante'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
-    'lv': 'Vidēji grūts - Bez norādēm'
+    'lv': 'Vidēji grūts - Bez norādēm',
+    'it': 'Intermedio - Nessuna istruzione'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
-    'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā'
+    'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā',
+    'it': 'Esperto - Nessuna istruzione e livelli in ordine casuale'
   }
 };
