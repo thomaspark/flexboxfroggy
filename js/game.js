@@ -1,4 +1,4 @@
-var game = {
+let game = {
   colorblind: (localStorage.colorblind && JSON.parse(localStorage.colorblind)) || 'false',
   language: window.location.hash.substring(1) || 'en',
   difficulty: 'easy',
@@ -11,7 +11,7 @@ var game = {
   start: function() {
     // navigator.language can include '-'
     // ref: https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language
-    var requestLang = window.navigator.language.split('-')[0];
+    const requestLang = window.navigator.language.split('-')[0];
     if (window.location.hash === '' && requestLang !== 'en' && messages.languageActive.hasOwnProperty(requestLang)) {
       game.language = requestLang;
       window.location.hash = requestLang;
@@ -68,11 +68,11 @@ var game = {
           return;
         }
 
-        var max = $(this).data('lines');
-        var code = $(this).val();
-        var trim = code.trim();
-        var codeLength = code.split('\n').length;
-        var trimLength = trim.split('\n').length;
+        const max = $(this).data('lines');
+        let code = $(this).val();
+        const trim = code.trim();
+        const codeLength = code.split('\n').length;
+        const trimLength = trim.split('\n').length;
 
         if (codeLength >= max) {
 
@@ -94,8 +94,8 @@ var game = {
     });
 
     $('#labelReset').on('click', function() {
-      var warningReset = messages.warningReset[game.language] || messages.warningReset.en;
-      var r = confirm(warningReset);
+      let warningReset = messages.warningReset[game.language] || messages.warningReset.en;
+      const r = confirm(warningReset);
 
       if (r) {
         game.level = 0;
