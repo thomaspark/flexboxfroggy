@@ -273,49 +273,59 @@ var messages = {
     'mk': 'Сакате да научите CSS grid? Играјте',
     'lv': 'Gribi apgūt CSS grid? Spēlē ',
     'it': 'Vuoi imparare CSS grid? Gioca a',
+    'pl': 'Chcesz nauczyć się CSS Grid? Zagraj w'
   },
   labelLanguage: {
     'en': 'Language',
     'es': 'Lengua',
     'lv': 'Valoda',
-    'it': 'Lingua'
+    'it': 'Lingua',
+    'pl': 'Język'
   },
   labelSettings: {
     'en': 'Settings',
     'lv': 'Iestatījumi',
-    'it': 'Impostazioni'
+    'it': 'Impostazioni',
+    'pl': 'Ustawienia'
   },
   labelDifficulty: {
     'en': 'Difficulty',
     'lv': 'Grūtības pakāpe',
-    'it': 'Difficoltà'
+    'it': 'Difficoltà',
+    'pl': 'Poziom trudności'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
     'lv': 'Krāsu akluma režīms',
-    'it': 'Modalità daltonici'
+    'it': 'Modalità daltonici',
+    'pl': 'Tryb dla daltonistów'
   },
   labelColorblindOff: {
     'en': 'Off',
-    'lv': 'Izslēgts'
+    'lv': 'Izslēgts',
+    'pl': 'Wyłączony'
   },
   labelColorblindOn: {
     'en': 'On',
-    'lv': 'Ieslēgts'
+    'lv': 'Ieslēgts',
+    'pl': 'Włączony'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
     'lv': 'Viegls',
-    'it': 'Principiante'
+    'it': 'Principiante',
+    'pl': 'Łatwy'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
     'lv': 'Vidēji grūts - Bez norādēm',
-    'it': 'Intermedio - Nessuna istruzione'
+    'it': 'Intermedio - Nessuna istruzione',
+    'pl': 'Średni - Brak wskazówek'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
     'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā',
-    'it': 'Esperto - Nessuna istruzione e livelli in ordine casuale'
+    'it': 'Esperto - Nessuna istruzione e livelli in ordine casuale',
+    'pl': 'Trudny - Brak wskazówek i losowe poziomy'
   }
 };
