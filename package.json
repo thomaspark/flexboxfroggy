@@ -5,7 +5,7 @@
   "main": "game.js",
   "dependencies": {
     "animate.css": "^3.4.0",
-    "jquery": "^3.3.1"
+    "jquery": "^3.4.1"
   },
   "devDependencies": {},
   "author": "Thomas Park",
