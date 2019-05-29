@@ -191,7 +191,7 @@ var game = {
 
   loadMenu: function() {
     levels.forEach(function(level, i) {
-      var levelMarker = $('<span/>').addClass('level-marker').attr('data-level', i).text(i+1);
+      var levelMarker = $('<span/>').addClass('level-marker').attr({'data-level': i, 'title': level.name}).text(i+1);
 
       if ($.inArray(level.name, game.solved) !== -1) {
         levelMarker.addClass('solved');
