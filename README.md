@@ -24,6 +24,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Chinese Traditional by [sunsheeppoplar](https://github.com/sunsheeppoplar)
 * Dutch by [Peter Vermeulen](https://github.com/peterver)
 * Czech by [Ondřej Hruška](https://github.com/MightyPork)
+* English by [Aditya Singh](https://github.com/Aditya2603)
 * Esperanto by [Harvey Stroud](https://github.com/harveystroud)
 * Farsi by [Ali Haddad](https://github.com/alihaddadkar)
 * French by [Karl Thibault](https://github.com/Notuom)
