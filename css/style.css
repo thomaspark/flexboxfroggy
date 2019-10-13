@@ -41,6 +41,11 @@ body {
   background-color: #43A047;
   font-size: 15px;
 }
+.ButOne{
+marin-left:20px;
+matgin-top:50px;
+color:red;
+}
 
 .header {
   display: flex;
