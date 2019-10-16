@@ -286,7 +286,8 @@ var messages = {
     'en': 'Settings',
     'lv': 'Iestatījumi',
     'it': 'Impostazioni',
-    'pl': 'Ustawienia'
+    'pl': 'Ustawienia',
+    'pt-br': 'Configurações'
   },
   labelDifficulty: {
     'en': 'Difficulty',
