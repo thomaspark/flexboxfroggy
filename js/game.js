@@ -87,6 +87,8 @@ var game = {
     }).on('input', game.debounce(game.check, 500))
     .on('input', function() {
       game.changed = true;
+      $('#next').addClass('disabled');
+      $('#next').removeClass('animated tada');
     });
 
     $('#editor').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -376,6 +378,7 @@ var game = {
 
       $('[data-level=' + game.level + ']').addClass('solved');
       $('#next').removeClass('disabled');
+      $('#next').addClass('animated tada');
     } else {
       ga('send', {
         hitType: 'event',
@@ -383,8 +386,6 @@ var game = {
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
       });
-
-      $('#next').addClass('disabled');
     }
   },
 
