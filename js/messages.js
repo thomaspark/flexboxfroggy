@@ -30,7 +30,8 @@ var messages = {
     'ml': 'മലയാളം',
     'el': 'Ελληνικά',
     'mk': 'Македонски',
-    'lv': 'Latviešu'
+    'lv': 'Latviešu',
+    'id': 'Bahasa'
   },
   next: {
     'en': 'Next',
@@ -63,7 +64,8 @@ var messages = {
     'ml': 'അടുത്തത്',
     'el': 'Επόμενο',
     'mk': 'Следно',
-    'lv': 'Nākamais'
+    'lv': 'Nākamais',
+    'id': 'Lanjut'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -96,7 +98,8 @@ var messages = {
     'ml': 'Flexbox Froggy സൃഷ്ടിച്ചത്',
     'el': 'Το Flexbox Froggy δημιουργήθηκε από',
     'mk': 'Flexbox Froggy е создадено од',
-    'lv': 'Flexbox Froggy autori ir'
+    'lv': 'Flexbox Froggy autori ir',
+    'id': 'Flexbox Froggy dibuat oleh'
   },
   labelLevel: {
     'en': 'Level',
@@ -129,7 +132,8 @@ var messages = {
     'ml': 'നില',
     'el': 'Επίπεδο',
     'mk': 'Ниво',
-    'lv': 'Līmenis'
+    'lv': 'Līmenis',
+    'en': 'Tingkat'
   },
   labelOf: {
     'en': 'of',
@@ -162,7 +166,8 @@ var messages = {
     'ml': '/',
     'el': 'από',
     'mk': 'од',
-    'lv': 'no'
+    'lv': 'no',
+    'en': 'dari'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -195,7 +200,8 @@ var messages = {
     'ml': 'Flexbox Froggy - CSS Flexbox പഠിക്കാം',
     'el': 'Flexbox Froggy - Ένα παιχνίδι για την εκμάθηση του CSS Flexbox',
     'mk': 'Flexbox Froggy - Игра за учење на CSS flexbox',
-    'lv': 'Flexbox Froggy - Spēle, kas Tev palīdzēs iemācīties CSS Flexbox'
+    'lv': 'Flexbox Froggy - Spēle, kas Tev palīdzēs iemācīties CSS Flexbox',
+    'id': 'Flexbox Froggy - Sebuah permainan untuk belajar CSS flexbox'
   },
   labelReset: {
     'en': 'Reset',
@@ -229,6 +235,7 @@ var messages = {
     'el': 'Επαναφορά',
     'mk': 'Ресетирај',
     'lv': 'Dzēst rezultātus'
+    'id': 'Atur Ulang'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -261,7 +268,8 @@ var messages = {
     'ml': 'ഗെയിം പുനഃസജ്ജമാക്കണമെന്ന് നിങ്ങൾക്ക് തീർച്ചയാണോ?\n\nനിങ്ങളുടെ സംരക്ഷിത പുരോഗതി നഷ്ടപ്പെടുകയും നിങ്ങൾ ആദ്യം മുതൽ ആരംഭിക്കേണ്ടി വരും ',
     'el': 'Είστε σίγουροι ότι θέλετε να επαναφέρετε το παιχνίδι;\n\nΗ αποθηκευμένη σας πρόοδος θα χαθεί και θα βρεθείτε στην αρχή του παιχνιδιού.',
     'mk': 'Дали сте сигурни дека сакате да ја ресетирате играта?\n\nВашиот зачуван прогрес ќе биде загубен и ќе бидете пратени на почетокот на играта',
-    'lv': 'Vai tiešām vēlies dzēst spēles rezultātus?\n\nTevis saglabātais rezultāts tiks dzēsts un Tu tiksi atgriezts uz spēles pirmo līmeni.'
+    'lv': 'Vai tiešām vēlies dzēst spēles rezultātus?\n\nTevis saglabātais rezultāts tiks dzēsts un Tu tiksi atgriezts uz spēles pirmo līmeni.',
+    'id': 'Apakah Anda yakin ingin mengatur ulang game?\n\n Proses Anda yang tersimpan akan hilang dan Anda akan dikirim ke awal game.'
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
@@ -273,14 +281,16 @@ var messages = {
     'mk': 'Сакате да научите CSS grid? Играјте',
     'lv': 'Gribi apgūt CSS grid? Spēlē ',
     'it': 'Vuoi imparare CSS grid? Gioca a',
-    'pl': 'Chcesz nauczyć się CSS Grid? Zagraj w'
+    'pl': 'Chcesz nauczyć się CSS Grid? Zagraj w',
+    'id': 'Ingin mempelajari CSS grid? Main'
   },
   labelLanguage: {
     'en': 'Language',
     'es': 'Lengua',
     'lv': 'Valoda',
     'it': 'Lingua',
-    'pl': 'Język'
+    'pl': 'Język',
+    'id': 'Bahasa'
   },
   labelSettings: {
     'en': 'Settings',
@@ -288,45 +298,53 @@ var messages = {
     'it': 'Impostazioni',
     'pl': 'Ustawienia',
     'pt-br': 'Configurações'
+    'id': 'Pengaturan'
   },
   labelDifficulty: {
     'en': 'Difficulty',
     'lv': 'Grūtības pakāpe',
     'it': 'Difficoltà',
-    'pl': 'Poziom trudności'
+    'pl': 'Poziom trudności',
+    'id': 'Tingkat Kesulitan'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
     'lv': 'Krāsu akluma režīms',
     'it': 'Modalità daltonici',
-    'pl': 'Tryb dla daltonistów'
+    'pl': 'Tryb dla daltonistów',
+    'id': 'Mode Buta Warna'
   },
   labelColorblindOff: {
     'en': 'Off',
     'lv': 'Izslēgts',
-    'pl': 'Wyłączony'
+    'pl': 'Wyłączony',
+    'id': 'Matikan'
   },
   labelColorblindOn: {
     'en': 'On',
     'lv': 'Ieslēgts',
-    'pl': 'Włączony'
+    'pl': 'Włączony',
+    'id': 'Aktifkan'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
     'lv': 'Viegls',
     'it': 'Principiante',
     'pl': 'Łatwy'
+    'id': 'pemula'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
     'lv': 'Vidēji grūts - Bez norādēm',
     'it': 'Intermedio - Nessuna istruzione',
     'pl': 'Średni - Brak wskazówek'
+    'id': 'Medium- tidak ada arahan'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
     'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā',
     'it': 'Esperto - Nessuna istruzione e livelli in ordine casuale',
     'pl': 'Trudny - Brak wskazówek i losowe poziomy'
+    'id': 'Ahli - Tidak ada arahan & Tingkat permainan Acak'
   }
 };
