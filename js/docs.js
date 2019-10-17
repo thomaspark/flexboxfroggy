@@ -32,7 +32,7 @@ var docs = {
     'mk': '<p>Ги подредува линиите на flex контејнерот кога во него има дополнителнен простор по вертикалната оска.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'lv': '<p>Novieto flex-elementu robežas flex-konteinera iekšienē.(Darbojas tikai, ja ir pieejama papildus vieta uz šķērsojošās ass.)</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'id': '<p> Selaraskan garis flex di dalam wadah flex apabila ada ruang tambahan pada sumbu silang </p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>'
-    
+
     },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',

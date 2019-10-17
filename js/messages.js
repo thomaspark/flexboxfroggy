@@ -31,7 +31,7 @@ var messages = {
     'el': 'Ελληνικά',
     'mk': 'Македонски',
     'lv': 'Latviešu',
-    'id': 'Bahasa'
+    'id': 'Bahasa Indonesia'
   },
   next: {
     'en': 'Next',
