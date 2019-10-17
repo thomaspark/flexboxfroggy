@@ -133,7 +133,7 @@ var messages = {
     'el': 'Επίπεδο',
     'mk': 'Ниво',
     'lv': 'Līmenis',
-    'en': 'Tingkat'
+    'id': 'Tingkat'
   },
   labelOf: {
     'en': 'of',
@@ -167,7 +167,7 @@ var messages = {
     'el': 'από',
     'mk': 'од',
     'lv': 'no',
-    'en': 'dari'
+    'id': 'dari'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -234,7 +234,7 @@ var messages = {
     'ml': 'പുനഃസജ്ജമാക്കുക',
     'el': 'Επαναφορά',
     'mk': 'Ресетирај',
-    'lv': 'Dzēst rezultātus'
+    'lv': 'Dzēst rezultātus',
     'id': 'Atur Ulang'
   },
   warningReset: {
@@ -297,7 +297,7 @@ var messages = {
     'lv': 'Iestatījumi',
     'it': 'Impostazioni',
     'pl': 'Ustawienia',
-    'pt-br': 'Configurações'
+    'pt-br': 'Configurações',
     'id': 'Pengaturan'
   },
   labelDifficulty: {
@@ -330,21 +330,21 @@ var messages = {
     'en': 'Beginner',
     'lv': 'Viegls',
     'it': 'Principiante',
-    'pl': 'Łatwy'
+    'pl': 'Łatwy',
     'id': 'pemula'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
     'lv': 'Vidēji grūts - Bez norādēm',
     'it': 'Intermedio - Nessuna istruzione',
-    'pl': 'Średni - Brak wskazówek'
+    'pl': 'Średni - Brak wskazówek',
     'id': 'Medium- tidak ada arahan'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
     'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā',
     'it': 'Esperto - Nessuna istruzione e livelli in ordine casuale',
-    'pl': 'Trudny - Brak wskazówek i losowe poziomy'
+    'pl': 'Trudny - Brak wskazówek i losowe poziomy',
     'id': 'Ahli - Tidak ada arahan & Tingkat permainan Acak'
   }
 };
