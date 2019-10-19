@@ -376,6 +376,11 @@ button:not(.disabled):hover {
   position: absolute;
   right: 1em;
   bottom: 1em;
+  padding-top: 0.3em;
+}
+
+.animation {
+  animation: tada 1s, pulse 2s infinite 2s;
 }
 
 #next.disabled {
