@@ -439,11 +439,14 @@ button:not(.disabled):hover {
 }
 
 #board {
-  position: relative;
+  position: sticky;
+  top: 0;
   width: 50vw;
   height: 50vw;
   min-width: 300px;
   min-height: 300px;
+  max-width: 100vh;
+  max-height: 100vh;
   overflow: hidden;
 }
 
