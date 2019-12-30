@@ -9,9 +9,18 @@ html, body {
 html[lang="fa"] #docs,
 html[lang="fa"] #instructions,
 html[lang="fa"] #credits .translate,
-html[lang="fa"] #translation .translate,
-a[href="#fa"] {
+a[href="#fa"],
+html[lang="he"] #docs,
+html[lang="he"] #instructions,
+html[lang="he"] #credits .translate,
+a[href="#he"] {
   direction: rtl;
+}
+
+html[lang="fa"] #docs,
+html[lang="fa"] #instructions,
+html[lang="fa"] #credits .translate,
+a[href="#fa"] {
   font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
@@ -33,8 +42,15 @@ body {
   font-size: 15px;
 }
 
-h1 {
-  margin: 0 0 0.5em;
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -0.5rem;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0.5rem 0 0;
   text-transform: uppercase;
   font-family: 'Fredoka One', cursive;
   font-size: 28px;
@@ -73,8 +89,8 @@ a:hover {
 .tooltip {
   position: absolute;
   display: inline-block;
-  max-width: 225px;
-  padding: 0 1em 1em;
+  max-width: 350px;
+  padding: 1em 1em;
   background-color: #2c3e50;
   border-radius: 4px;
   font-size: 12px;
@@ -87,8 +103,8 @@ a:hover {
   position: absolute;
   top: -12px;
   left: 12px;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 12px solid #2c3e50;
@@ -105,19 +121,67 @@ a:hover {
   vertical-align: top;
 }
 
-.img-next {
-  text-align: center;
-}
-
-.img-next img {
+.next {
   display: inline-block;
-  margin: 1em;
   width: 200px;
-  opacity: 0.9;
+  height: 200px;
+  margin: 1em;
+  text-decoration: none;
+  background-size: cover;
 }
 
-.img-next img:hover {
-  opacity: 1;
+.next div {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.next button {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Fredoka One', cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.next button:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.next.gridgarden {
+  background-image: url('../images/next-gridgarden.png');
+}
+
+.next.gridgarden button {
+  background-color: #DB9322;
+}
+
+.next.gridgarden button:hover {
+  background-color: #F5A628;
+}
+
+.next.treehouse {
+  background-image: url('../images/next-treehouse.png');
+}
+
+.next.treehouse button {
+  background-color: #AE7347;
+}
+
+.next.treehouse button:hover {
+  background-color: #C88551;
+}
+
+#instructions {
+  padding-top: 1rem;
+}
+
+#instructions,
+#instructions p,
+#instructions ul {
+	/* helps prevent the difficulty animation from jumping */
+	margin: 0;
+  padding-bottom: 1em;
 }
 
 #editor {
@@ -145,6 +209,7 @@ pre {
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
   padding: 10px 6px;
   text-align: right;
   background-color: #999;
@@ -165,11 +230,10 @@ pre {
 }
 
 #level-counter {
-  float: right;
   position: relative;
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
+  height: 30px;
+  margin-top: 0.5rem;
   font-size: 15px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -180,10 +244,11 @@ pre {
 #levelsWrapper {
   display: none;
   top: 30px;
-  right: 20px;
+  right: 31px;
   max-width: 160px;
   padding: 1em 0.5em;
   margin-top: 12px;
+  z-index: 80;
 }
 
 #levelsWrapper:after {
@@ -223,11 +288,12 @@ pre {
 .arrow {
   float: left;
   height: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #level-indicator {
   display: inline-block;
-  width: 144px;
+  width: 160px;
   line-height: 30px;
   text-align: center;
   cursor: pointer;
@@ -244,7 +310,7 @@ pre {
 
 #level-indicator:hover,
 .arrow:not(.disabled):hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 #labelReset {
@@ -262,10 +328,12 @@ pre {
 
 .arrow.left {
   border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px 0 0 4px;
 }
 
 .arrow.right {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0 4px 4px 0;
 }
 
 .arrow.left:not(.disabled):hover,
@@ -308,25 +376,35 @@ button:not(.disabled):hover {
   position: absolute;
   right: 1em;
   bottom: 1em;
+  padding-top: 0.3em;
+}
+
+.animation {
+  animation: tada 1s, pulse 2s infinite 2s;
 }
 
 #next.disabled {
   opacity: 0.5;
 }
 
+<<<<<<< HEAD
 #credits, #translation {
-  margin-top: 1.5em;  
+  margin-top: 1.5em;
+=======
+.credits {
+  margin-top: 1.5em;
+>>>>>>> cbbdcf2ead556c384d68bc3fcaade97c6c84197b
   line-height: 1.5em;
   text-align: center;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.4);
 }
 
-#language {
+#settings {
   position: relative;
 }
 
-#language .toggle {
+.toggle {
   display: inline-block;
   padding: 1px 8px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -336,19 +414,18 @@ button:not(.disabled):hover {
   user-select: none;
 }
 
-#language .toggle:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-#language .tooltip {
+#settings .tooltip {
   display: none;
   bottom: 30px;
   left: 0px;
-  width: 200px;
+  width: 275px;
+  max-width: 275px;
   padding: 1em;
+  text-align: left;
+  z-index: 80;
 }
 
-#language .tooltip:after {
+#settings .tooltip:after {
   top: auto;
   bottom: -12px;
   border-left: 12px solid transparent;
@@ -357,23 +434,24 @@ button:not(.disabled):hover {
   border-bottom: none;
 }
 
-#language .tooltip a {
-  padding: 0 2px;
-  font-weight: 900;
-  color: rgba(255, 255, 255, 0.7);
-  white-space: nowrap;
+#settings section {
+  margin: 0.5rem 0;
 }
 
-#language .tooltip a:hover {
-  color: #fff;
+#settings h4 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #board {
-  position: relative;
+  position: sticky;
+  top: 0;
   width: 50vw;
   height: 50vw;
   min-width: 300px;
   min-height: 300px;
+  max-width: 100vh;
+  max-height: 100vh;
   overflow: hidden;
 }
 
@@ -451,34 +529,106 @@ button:not(.disabled):hover {
   background-image: url("../images/lilypad-green.svg");
 }
 
+.lilypad.green.cb-friendly .bg {
+  background-image: url("../images/lilypad-green-color-assist.svg");
+}
+
 .lilypad.red .bg {
   background-image: url("../images/lilypad-red.svg");
 }
 
+.lilypad.red.cb-friendly .bg {
+  background-image: url("../images/lilypad-red-color-assist.svg");
+}
+
 .lilypad.yellow .bg {
   background-image: url("../images/lilypad-yellow.svg");
+}
+.lilypad.yellow.cb-friendly .bg {
+  background-image: url("../images/lilypad-yellow-color-assist.svg");
 }
 
 .frog.green .bg {
   background-image: url("../images/frog-green.svg");
 }
 
+.frog.green.cb-friendly .bg {
+  background-image: url("../images/frog-green-color-assist.svg");
+}
+
 .frog.red .bg {
   background-image: url("../images/frog-red.svg");
+}
+
+.frog.red.cb-friendly .bg {
+  background-image: url("../images/frog-red-color-assist.svg");
 }
 
 .frog.yellow .bg {
   background-image: url("../images/frog-yellow.svg");
 }
 
+.frog.yellow.cb-friendly .bg {
+  background-image: url("../images/frog-yellow-color-assist.svg");
+}
+
 .wrap {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 1000px)  {
+@media only screen and (max-width: 767px)  {
 
   body,
   #sidebar {
-    // font-size: 13px;
+    font-size: 13px;
+  }
+
+  .title {
+    font-size: 26px;
   }
 }
+
+/* Native by BuySellAds */
+.native-ad {
+  visibility: hidden;
+  transition: all .25s ease-in-out;
+  opacity: 0;
+}
+
+.native-show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.native-ad {
+  display: block;
+  padding: 10px 20px 8px;
+  border-radius: 4px;
+  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .03) 5px, hsla(0, 0%, 0%, .03) 10px) hsla(0, 0%, 0%, .03);
+  margin-top: 1.5em;
+  font-size: 12px;
+}
+
+.native-ad a {
+  text-decoration: none;
+  display: block;
+  line-height: 1.5;
+}
+
+
+.native-ad .sponsor {
+  position: relative;
+  top: -1px;
+  padding: 3px 4px 2px;
+  margin-right: 4px;
+  border: solid 1px currentColor;
+  border-radius: 2px;
+  color: currentColor;
+  content: "Sponsor";
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1;
+}
+

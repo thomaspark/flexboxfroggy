@@ -1,9 +1,9 @@
 Flexbox Froggy
 =======
 
-Flexbox Froggy is a game for learning CSS flexbox. Check it out at [flexboxfroggy.com](http://flexboxfroggy.com).
+Flexbox Froggy is a game for learning CSS flexbox. Check it out at [flexboxfroggy.com](https://flexboxfroggy.com).
 
-Read [this blog post](http://thomaspark.co/2015/11/learning-css-layout-with-flexbox-froggy/) for background on the project.
+Read [this blog post](https://thomaspark.co/2015/11/learning-css-layout-with-flexbox-froggy/) for background on the project.
 
 ![FontCDN screenshot](./images/screenshot.png)
 
@@ -12,7 +12,7 @@ Read [this blog post](http://thomaspark.co/2015/11/learning-css-layout-with-flex
 Thomas Park
 
 * [Twitter](https://twitter.com/thomashpark)
-* [Homepage](http://thomaspark.co)
+* [Homepage](https://thomaspark.co)
 * [GitHub](https://github.com/thomaspark)
 
 ## Translators
@@ -28,18 +28,25 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Farsi by [Ali Haddad](https://github.com/alihaddadkar)
 * French by [Karl Thibault](https://github.com/Notuom)
 * German by [Thorsten Frommen](https://github.com/tfrommen)
+* Greek by [lmintmate](https://github.com/lmintmate)
 * Hindi by [Shubham Pandey](https://github.com/shubham9411)
 * Hungarian by [Adam Graf](https://github.com/netgrafe)
+* Indonesian by [gabesx](https://github.com/gabesx)
 * Italian by [Matteo Bandiera](https://github.com/matteobandiera)
 * Japanese by [Ginpei](https://github.com/ginpei)
 * Korean by [Meen Chul Kim](https://github.com/liberaliscomputing)
+* Latvian by [Arturs Kirtovskis](https://github.com/akirtovskis)
 * Lithuanian by [Justas Maziliauskas](https://github.com/justutiz)
+* Macedonian by [David Timovski](https://github.com/davidtimovski)
+* Malayalam by [Agney Menon](https://github.com/BoyWithSilverWings)
 * Polish by [eLGi](https://github.com/eLGi)
 * Portuguese by [Marcus Tenório](https://github.com/mvtenorio)
+* Romanian by [Vlad](https://github.com/pckltr)
 * Russian by [Artyom Vozhzhov](https://github.com/artem328)
 * Serbian by [Danko Milutinovic](https://github.com/dankoknad)
 * Spanish by [Manuel González](https://github.com/manuelitox)
 * Swedish by [Martin Ohlson](https://github.com/martinkrulltott)
+* Tamil by [Galeel Bhasha](https://github.com/gbhasha)
 * Turkish by [Uğur Korfalı](https://github.com/kel-sakal-biyik)
 * Ukrainian by [sHa](https://github.com/shadoll)
 * Vietnamese by [Kingsten Banh](https://github.com/kingstenbanh)

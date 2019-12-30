@@ -20,7 +20,10 @@
   </head>
   <body>
     <section id="sidebar">
-      <div>
+      <div class="header">
+        <div>
+          <h1 class="title">Flexbox Froggy</h1>
+        </div>
         <div id="level-counter">
           <span class="arrow left">◀</span>
           <span id="level-indicator">
@@ -36,10 +39,8 @@
             <div id="labelReset" class="translate">Reset</div>
           </div>
         </div>
-        <h1>Flexbox Froggy</h1>
-        <p id="instructions"></p>
-        <p id="docs"></p>
       </div>
+      <p id="instructions"></p>
       <div id="editor">
         <div id="css">
           <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</div>
@@ -50,57 +51,119 @@
         <button id="next" class="translate">Next</button>
       </div>
       <div id="share">
-        <p class="img-next">
-          <a href="http://cssgridgarden.com"><img src="images/next-gridgarden.png"></a>
-          <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=flexboxfroggy"><img src="images/next-treehouse.png"></a>
-        </p>
+        <a class="next gridgarden" href="https://codepip.com/games/grid-garden/">
+          <div>
+            <button>Grid Garden</button>
+          </div>
+        </a>
+        <a class="next treehouse" href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=flexboxfroggy">
+          <div>
+            <button>Treehouse</button>
+          </div>
+        </a>
         <p class="social">
           <span id="tweet">
-            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="thomashpark">Tweet</a>
-            <a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>
+            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="playcodepip">Tweet</a>
+            <a href="https://twitter.com/playcodepip" class="twitter-follow-button" data-show-count="false">Follow @playcodepip</a>
           </span>
           <span class="fb-like" data-href="http://flexboxfroggy.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
         </p>
       </div>
-      <div id="credits">
+
+      <script src="js/native.js"></script>
+      <script>_native.init("CK7D427U");</script>
+
+      <div class="native-ad">
+        <a href="#native_link#"><span class="sponsor">Sponsor</span> #native_company# — #native_desc#</a>
+      </div>
+
+      <div class="credits">
         <span id="labelFooter" class="translate">Flexbox Froggy is created by</span>
-        <a href="http://thomaspark.co">Thomas Park</a> •
+        <a href="https://codepip.com">Codepip</a> •
         <a href="https://github.com/thomaspark/flexboxfroggy/">GitHub</a> •
-        <a href="https://twitter.com/thomashpark">Twitter</a> •
-        <span id="language">
-          <span id="languageActive" class="toggle translate">Español</span>
+        <a href="https://twitter.com/playcodepip">Twitter</a> •
+        <span id="settings">
+          <span id="labelSettings" class="toggle translate">Settings</span>
           <span class="tooltip">
-            <a href="#en">English</a>
-            <a href="#es">Español</a>
-            <a href="#fr">Français</a>
-            <a href="#de">Deutsch</a>
-            <a href="#nl">Nederlands</a>
-            <a href="#pt-br">Português</a>
-            <a href="#it">Italiano</a>
-            <a href="#sv">Svenska</a>
-            <a href="#pl">Polski</a>
-            <a href="#cs">Česky</a>
-            <a href="#hu">Magyar</a>
-            <a href="#bg">Български</a>
-            <a href="#lt">Lietuvių</a>
-            <a href="#uk">Українська</a>
-            <a href="#ru">Русский</a>
-            <a href="#sr">Српски</a>
-            <a href="#tr">Türkçe</a>
-            <a href="#fa">فارسی</a>
-            <a href="#hi">हिंदी</a>
-            <a href="#zh-cn">简体中文</a>
-            <a href="#zh-tw">繁體中文</a>
-            <a href="#ja">日本語</a>
-            <a href="#ko">한국어</a>
-            <a href="#vi">Tiếng Việt</a>
-            <a href="#eo">Esperanto</a>
+            <section>
+              <h4 id="labelLanguage" class="translate">Language</h4>
+              <select id="language">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="nl">Nederlands</option>
+                <option value="pt-br">Português</option>
+                <option value="it">Italiano</option>
+                <option value="sv">Svenska</option>
+                <option value="pl">Polski</option>
+                <option value="cs">Česky</option>
+                <option value="hu">Magyar</option>
+                <option value="ro">Română</option>
+                <option value="bg">Български</option>
+                <option value="lv">Latviešu</option>
+                <option value="lt">Lietuvių</option>
+                <option value="uk">Українська</option>
+                <option value="ru">Русский</option>
+                <option value="sr">Српски</option>
+                <option value="mk">Македонски</option>
+                <option value="el">Ελληνικά</option>
+                <option value="tr">Türkçe</option>
+                <option value="fa">فارسی</option>
+                <option value="hi">हिंदी</option>
+                <option value="ta">தமிழ்</option>
+                <option value="ml">മലയാളം</option>
+                <option value="zh-cn">简体中文</option>
+                <option value="zh-tw">繁體中文</option>
+                <option value="ja">日本語</option>
+                <option value="ko">한국어</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="id">Bahasa Indonesia</option>
+                <option value="eo">Esperanto</option>
+              </select>
+            </section>
+            <section>
+              <h4 id="labelDifficulty" class="translate">Difficulty</h4>
+              <form id="difficulty">
+                <div>
+                  <input type="radio" name="difficulty" id="difficultyEasy" value="easy" checked>
+                  <label id="labelDifficultyEasy" for="difficultyEasy" class="translate">Beginner</label>
+                </div>
+                <div>
+                  <input type="radio" name="difficulty" id="difficultyMedium" value="medium">
+                  <label id="labelDifficultyMedium" for="difficultyMedium" class="translate">Intermediate - No Directions</label>
+                </div>
+                <div>
+                  <input type="radio" name="difficulty" id="difficultyHard" value="hard">
+                  <label id="labelDifficultyHard" for="difficultyHard" class="translate">Expert - No Directions &amp; Random Levels</label>
+                </div>
+              </form>
+            </section>
+            <section>
+              <h4 id="labelColorblind" class="translate">Colorblind Mode</h4>
+              <form id="colorblind">
+                <div>
+                  <div>
+                    <input type="radio" name="colorblind" id="colorblindOff" value="false" checked>
+                    <label id="labelColorblindOff" for="colorblindOff" class="translate">Off</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="colorblind" id="colorblindOn" value="true">
+                    <label id="labelColorblindOn" for="colorblindOn" class="translate">On</label>
+                  </div>
+              </form>
+            </section>
           </span>
         </span>
       </div>
+<<<<<<< HEAD
       <div id="translation">
         <span id="adaptedBy" class="translate">This project has been adapted to <a href="http://laboratoria.la">Laboratoria</a> to spanish by</span>
         <a href="https://github.com/ivandevp">Ivan Medina</a>
+=======
+      <div class="credits">
+        <span id="gridGarden" class="translate">Want to learn CSS grid? Play</span> <a href="https://codepip.com/games/grid-garden/">Grid Garden</a>.
+>>>>>>> cbbdcf2ead556c384d68bc3fcaade97c6c84197b
       </div>
     </section>
     <section id="view">
@@ -112,7 +175,6 @@
       </div>
     </section>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="https://unpkg.com/parse@1.9.2/dist/parse.min.js"></script>
     <script src="js/levels.js"></script>
     <script src="js/docs.js"></script>
     <script src="js/messages.js"></script>
