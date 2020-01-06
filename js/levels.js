@@ -141,7 +141,7 @@ var levels = [
       'ko': '<p>수련잎이 연못가로 떠내려가면서 수련잎 사이의 간격이 넓어졌습니다. <code>justify-content</code>를 사용하세요. 이번에는 수련잎 사이에 동일한 간격이 있습니다.</p>',
       'lt': '<p>Dabar kraštiniai lelijos lapai nuplaukė arčiau krantų, taip padidindami tarpus tarp vienas kito. Naudokite <code>justify-content</code>. Šį kartą tarpai tarp lelijos lapų yra vienodi.</p>',
       'vi': '<p>Bây giờ những lá bông súng đã trôi dạt vào bờ, tạo thêm không gian giữa chúng. Sử dụng <code>justify-content</code>. Lần này, những lá bông súng có khoảng cách bằng nhau giữa chúng.</p>',
-      'pl': '<p>Tym razem skrajne listki odpłynęły do krańców kontenera, zwiększając odstępy. Uzyj <code>justify-content</code>. Tym razem listki mają tę samą odległość między sobą.</p>',
+      'pl': '<p>Tym razem skrajne listki odpłynęły do krańców kontenera, zwiększając odstępy. Użyj <code>justify-content</code>. Tym razem listki mają tę samą odległość między sobą.</p>',
       'cs': '<p>Teď lekníny na stranách odpluly ke břehu, zvětšíly se mezery. Použijte <code>justify-content</code>. Tentokrát jsou mezi lekníny rovnoměrné rozestupy.</p>',
       'ja': '<p>蓮の葉は両岸まで流されてしまいました。間隔はさらに開いています。<code>justify-content</code>を使いましょう。蓮の葉は等間隔に並んでいます。</p>',
       'hu': '<p>Mostanra a tündérrózsák kisodródtak a tópart felé, megnövelve ezáltal a közöttük tátongó űrt. Használd a <code>justify-content</code> tulajdonságot. Ezúttal a tündérrózsák között egyenlő mértékű szabad terület van.</p>',
