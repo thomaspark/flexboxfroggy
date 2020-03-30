@@ -46,7 +46,7 @@ var game = {
         return;
       }
 
-      $(this).removeClass();
+      $(this).removeClass('animated animation');
       $('.frog').addClass('animated bounceOutUp');
       $('.arrow, #next').addClass('disabled');
 
@@ -88,7 +88,7 @@ var game = {
     }).on('input', game.debounce(game.check, 500))
     .on('input', function() {
       game.changed = true;
-      $('#next').removeClass().addClass('disabled');
+      $('#next').removeClass('animated animation').addClass('disabled');
     });
 
     $('#editor').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -243,7 +243,7 @@ var game = {
     $('#level-counter .current').text(this.level + 1);
     $('#before').text(level.before);
     $('#after').text(level.after);
-    $('#next').removeClass().addClass('disabled');
+    $('#next').removeClass('animated animation').addClass('disabled');
 
     var instructions = level.instructions[game.language] || level.instructions.en;
     $('#instructions').html(instructions);
@@ -377,7 +377,7 @@ var game = {
       }
 
       $('[data-level=' + game.level + ']').addClass('solved');
-      $('#next').removeClass().addClass('animated animation');
+      $('#next').removeClass('disabled').addClass('animated animation');
     } else {
       ga('send', {
         hitType: 'event',
