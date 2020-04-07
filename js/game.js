@@ -116,6 +116,12 @@ var game = {
 
     $('#language').on('change', function() {
       window.location.hash = $(this).val();
+      var sidebar = $('#sidebar');
+      if(window.location.hash == "#ar"){
+        sidebar.dir = "rtl";
+      }else{
+        sidebar.dir = "ltr";
+      }
     });
 
     $('#difficulty').on('change', function() {

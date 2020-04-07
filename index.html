@@ -41,7 +41,7 @@
         </div>
       </div>
       <p id="instructions"></p>
-      <div id="editor">
+      <div id="editor" dir="ltr">
         <div id="css">
           <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</div>
           <pre id="before"></pre>
@@ -193,5 +193,10 @@
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=916849395036923";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+      if(window.location.hash == "#ar"){
+        document.getElementById('sidebar').dir = "rtl";
+      }
+    </script>
   </body>
 </html>
