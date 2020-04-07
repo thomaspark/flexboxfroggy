@@ -13,7 +13,11 @@ a[href="#fa"],
 html[lang="he"] #docs,
 html[lang="he"] #instructions,
 html[lang="he"] #credits .translate,
-a[href="#he"] {
+a[href="#he"],
+html[lang="ar"] #docs,
+html[lang="ar"] #instructions,
+html[lang="ar"] #credits .translate,
+a[href="#ar"] {
   direction: rtl;
 }
 
