@@ -19,6 +19,7 @@ Thomas Park
 
 My gratitude to these contributors for localizing Flexbox Froggy. This is what open source is all about.
 
+* Arabic by [Mahmoud Al-Omoush](https://github.com/m7modg97)
 * Bulgarian by [Mihail Gaberov](https://github.com/mihailgaberov)
 * Chinese Simplified by [Tim Guo](https://github.com/timguoqk)
 * Chinese Traditional by [sunsheeppoplar](https://github.com/sunsheeppoplar)
