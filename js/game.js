@@ -116,11 +116,11 @@ var game = {
 
     $('#language').on('change', function() {
       window.location.hash = $(this).val();
-      var sidebar = $('#sidebar');
+      
       if(window.location.hash == "#ar"){
-        sidebar.dir = "rtl";
+        document.getElementById('sidebar').dir = "rtl";
       }else{
-        sidebar.dir = "ltr";
+        document.getElementById('sidebar').dir = "ltr";
       }
     });
 
