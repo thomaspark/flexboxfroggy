@@ -216,7 +216,7 @@ var levels = [
       'ro': '<p>Îndrumă broasca către centrul lacului folosind o combinație de <code>justify-content</code> și <code>align-items</code>.</p>',
       'bg': '<p>Заведи жабчето до центъра на езерото, използвайки комбинация от <code>justify-content</code> и <code>align-items</code>.</p>',
       'de': '<p>F&uuml;hre den Frosch zur Mitte des Teichs, indem du <code>justify-content</code> und <code>align-items</code> in kombinierst.</p>',
-      'pt-br': '<p>Leve o sapo ao cento da lagoa usando uma combinação de <code>justify-content</code> e <code>align-items</code>.</p>',
+      'pt-br': '<p>Leve o sapo ao centro da lagoa usando uma combinação de <code>justify-content</code> e <code>align-items</code>.</p>',
       'es': '<p>Mueve la rana al centro del estanque, usando una combinación de <code>justify-content</code> y <code>align-items</code>.</p>',
       'fr': '<p>Dirigez la grenouille au centre de l\'étang en utilisant une combinaison de <code>justify-content</code> et <code>align-items</code>.</p>',
       'ru': '<p>Направь лягушонка в центр пруда, используя <code>justify-content</code> и <code>align-items</code> вместе.</p>',
