@@ -368,7 +368,7 @@ var messages = {
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
-    'fr': 'Expert - Pas d\'indications & Niveau mélangés',
+    'fr': 'Expert - Pas d\'indications & Niveaux mélangés',
     'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā',
     'it': 'Esperto - Nessuna istruzione e livelli in ordine casuale',
     'pl': 'Trudny - Brak wskazówek i losowe poziomy',
