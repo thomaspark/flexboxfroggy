@@ -282,6 +282,7 @@ var messages = {
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
     'ro': 'Vrei să înveți CSS grid? Joacă',
+    'fr': 'Vous voulez apprendre la grille CSS ? Jouer',
     'nl': 'Wil je CSS grid leren? Speel',
     'ta': 'CSS Grid கற்றுக்கொள்ள விரும்புகிறீர்களா? விளையாடுவோம்',
     'ml': 'CSS Grid പഠിക്കാനോ? കളിക്കു ',
@@ -295,6 +296,7 @@ var messages = {
   },
   labelLanguage: {
     'en': 'Language',
+    'fr': 'Langue',
     'es': 'Lengua',
     'lv': 'Valoda',
     'it': 'Lingua',
@@ -304,6 +306,7 @@ var messages = {
   },
   labelSettings: {
     'en': 'Settings',
+    'fr': 'Paramètres',
     'lv': 'Iestatījumi',
     'it': 'Impostazioni',
     'pl': 'Ustawienia',
@@ -313,6 +316,7 @@ var messages = {
   },
   labelDifficulty: {
     'en': 'Difficulty',
+    'fr': 'Difficulté',
     'lv': 'Grūtības pakāpe',
     'it': 'Difficoltà',
     'pl': 'Poziom trudności',
@@ -321,6 +325,7 @@ var messages = {
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
+    'fr': 'Mode Daltonien',
     'lv': 'Krāsu akluma režīms',
     'it': 'Modalità daltonici',
     'pl': 'Tryb dla daltonistów',
@@ -329,6 +334,7 @@ var messages = {
   },
   labelColorblindOff: {
     'en': 'Off',
+    'fr': 'Désactivé',
     'lv': 'Izslēgts',
     'pl': 'Wyłączony',
     'id': 'Matikan',
@@ -336,6 +342,7 @@ var messages = {
   },
   labelColorblindOn: {
     'en': 'On',
+    'fr': 'Activé',
     'lv': 'Ieslēgts',
     'pl': 'Włączony',
     'id': 'Aktifkan',
@@ -343,6 +350,7 @@ var messages = {
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
+    'fr': 'Débutant',
     'lv': 'Viegls',
     'it': 'Principiante',
     'pl': 'Łatwy',
@@ -351,6 +359,7 @@ var messages = {
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
+    'fr': 'Intermédiaire - Pas d\'indications',
     'lv': 'Vidēji grūts - Bez norādēm',
     'it': 'Intermedio - Nessuna istruzione',
     'pl': 'Średni - Brak wskazówek',
@@ -359,6 +368,7 @@ var messages = {
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
+    'fr': 'Expert - Pas d\'indications & Niveau mélangés',
     'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā',
     'it': 'Esperto - Nessuna istruzione e livelli in ordine casuale',
     'pl': 'Trudny - Brak wskazówek i losowe poziomy',
