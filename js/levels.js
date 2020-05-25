@@ -142,7 +142,7 @@ var levels = [
       'fa': '<p>در حال حاضر نیلوفر های آبی به سمت لبه های ساحل حرکت کرده اند و فضای بین آنها افزایش پیدا کرده پس با استفاده از <code>justify-content</code> به قورباغه ها کمک کنید. نیلوفرهای آبی دارای فاصله مساوی هستن.</p>',
       'zh-cn': '<p>现在边上的荷叶都漂到了岸上，使得他们之间的间距变大了。使用<code>justify-content</code>。这次荷叶之间有相等的距离。</p>',
       'zh-tw': '<p>現在邊上的荷葉都漂到了岸上，使得他們之間的間距變大了。使用<code>justify-content</code>。這次荷葉之間有相等的距離。</p>',
-      'tr': '<p>Şimdi, nilüfer yaprakları sürüklenerek kıyıya vurmuşlar. <code>justify-content</code> kuralını kullanın. Bu sefer, nilüfer yaprakları arasında eşit mesafe var.</p>',
+      'tr': '<p>Şimdi de nilüfer yaprakları sürüklenerek kıyıya vurmuşlar. <code>justify-content</code> kuralını kullanın ve nilüfer yaprakları arasındaki mesafenin eşit olduğuna dikkat edin.</p>',
       'it': '<p>Le ninfee sono andate alla deriva aumentando lo spazio tra di loro. Usa <code>justify-content</code>. Questa volta le ninfee sono equidistanti tra di loro.</p>',
       'ko': '<p>수련잎이 연못가로 떠내려가면서 수련잎 사이의 간격이 넓어졌습니다. <code>justify-content</code>를 사용하세요. 이번에는 수련잎 사이에 동일한 간격이 있습니다.</p>',
       'lt': '<p>Dabar kraštiniai lelijos lapai nuplaukė arčiau krantų, taip padidindami tarpus tarp vienas kito. Naudokite <code>justify-content</code>. Šį kartą tarpai tarp lelijos lapų yra vienodi.</p>',
