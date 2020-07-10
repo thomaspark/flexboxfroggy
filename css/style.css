@@ -575,9 +575,9 @@ button:not(.disabled):hover {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 767px)  {
-  body{
-    flex-direction: column;
+@media only screen and (max-width: 767px) {
+  body {
+    flex-direction: column-reverse;
     align-items: center;
     min-width: 100vw;
   }
@@ -586,12 +586,25 @@ button:not(.disabled):hover {
   #sidebar {
     font-size: 13px;
   }
-  #sidebar{
+
+  #sidebar {
     width: 100%;
+  }
+
+  #background {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .header {
+    justify-content: center;
   }
 
   .title {
     font-size: 26px;
+  }
+
+  #labelFooter {
+    display: none;
   }
 }
 
