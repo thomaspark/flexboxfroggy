@@ -3,6 +3,7 @@ var messages = {
     'en': 'English',
     'ro': 'Română',
     'sr': 'Српски',
+    'bs': 'Bosanski',
     'bg': 'Български',
     'de': 'Deutsch',
     'fr': 'Français',
@@ -39,6 +40,7 @@ var messages = {
     'en': 'Next',
     'ro': 'Următorul',
     'sr': 'Следећи',
+    'bs': 'Dalje',
     'bg': 'Следващо',
     'de': 'Weiter',
     'fr': 'Suivant',
@@ -75,6 +77,7 @@ var messages = {
     'en': 'Flexbox Froggy is created by',
     'ro': 'Flexbox Froggy este creat de',
     'sr': 'Flexbox Froggy је направио',
+    'bs': 'Flexbox Froggy je napravio',
     'bg': 'Flexbox Froggy е създадена от',
     'de': 'Flexbox Froggy wurde gemacht von',
     'fr': 'Flexbox Froggy est créé par',
@@ -111,6 +114,7 @@ var messages = {
     'en': 'Level',
     'ro': 'Nivelul',
     'sr': 'Ниво',
+    'bs': 'Nivo',
     'bg': 'Ниво',
     'de': 'Level',
     'fr': 'Niveau',
@@ -147,6 +151,7 @@ var messages = {
     'en': 'of',
     'ro': 'din',
     'sr': 'од',
+    'bs': 'od',
     'bg': 'от',
     'de': 'von',
     'fr': 'de',
@@ -183,6 +188,7 @@ var messages = {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
     'ro': 'Flexbox Froggy - Un joc pentru a învăța CSS flexbox',
     'sr': 'Flexbox Froggy - Игра за учење CSS flexbox-а',
+    'bs': 'Flexbox Froggy - Igra za učenje CSS flexbox-a',
     'bg': 'Flexbox Froggy - Игра за учене на CSS flexbox',
     'de': 'Flexbox Froggy - Ein Spiel, um CSS flexbox zu lernen',
     'fr': 'Flexbox Froggy - Un jeu pour apprendre les flexbox CSS',
@@ -219,6 +225,7 @@ var messages = {
     'en': 'Reset',
     'ro': 'Resetează',
     'sr': 'Ресет',
+    'bs': 'Restart',
     'bg': 'Анулиране',
     'de': 'Zurücksetzen',
     'fr': 'Réinitialiser',
@@ -255,6 +262,7 @@ var messages = {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
     'ro': 'Ești sigur(ă) că vrei să resetezi jocul?\n\nProgresul tău va fi pierdut și vei fi trimis(ă) la începutul jocului.',
     'sr': 'Да ли сте сигурни да желите да ресетујете игру?\n\nВаш сачувани прогрес ће бити изгубљен и бићете враћени на почетак игре.',
+    'bs': 'Da li ste sigurni da želite da resetujete igru?\n\nVaš sačuvani progres će biti izgubljen i bićete vraćeni na početak igre.',
     'bg': 'Сигурни ли сте, че искате да анулирате играта?\n\nВашият резултат ще бъде загубен и ще бъдете препратени към началото на играта.',
     'de': 'Bist su sicher, dass du das Spiel zurücksetzen möchtest?\n\nDein gespeicherter Fortschritt geht dabei verloren und du musst das Spiel von neuem starten.',
     'fr': 'Êtes-vous certain de vouloir réinitialiser la partie?\n\nVotre progrès sauvegardé sera perdu et vous recommencerez au début du jeu.',
@@ -289,6 +297,7 @@ var messages = {
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
+    'bs': 'Želiš naučiti CSS grid? Igraj',
     'ro': 'Vrei să înveți CSS grid? Joacă',
     'fr': 'Vous voulez apprendre la grille CSS ? Jouer',
     'nl': 'Wil je CSS grid leren? Speel',
@@ -305,6 +314,7 @@ var messages = {
   },
   labelLanguage: {
     'en': 'Language',
+    'bs': 'Jezik',
     'fr': 'Langue',
     'es': 'Lengua',
     'lv': 'Valoda',
@@ -316,6 +326,7 @@ var messages = {
   },
   labelSettings: {
     'en': 'Settings',
+    'bs': 'Postavke',
     'fr': 'Paramètres',
     'lv': 'Iestatījumi',
     'it': 'Impostazioni',
@@ -327,6 +338,7 @@ var messages = {
   },
   labelDifficulty: {
     'en': 'Difficulty',
+    'bs': 'Težina',
     'fr': 'Difficulté',
     'lv': 'Grūtības pakāpe',
     'it': 'Difficoltà',
@@ -337,6 +349,7 @@ var messages = {
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
+    'bs': 'Postavke za slijepe',
     'fr': 'Mode Daltonien',
     'lv': 'Krāsu akluma režīms',
     'it': 'Modalità daltonici',
@@ -347,6 +360,7 @@ var messages = {
   },
   labelColorblindOff: {
     'en': 'Off',
+    'bs': 'Deaktivirano',
     'fr': 'Désactivé',
     'lv': 'Izslēgts',
     'pl': 'Wyłączony',
@@ -356,6 +370,7 @@ var messages = {
   },
   labelColorblindOn: {
     'en': 'On',
+    'bs': 'Aktivirano',
     'fr': 'Activé',
     'lv': 'Ieslēgts',
     'pl': 'Włączony',
@@ -365,6 +380,7 @@ var messages = {
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
+    'bs': 'Početnik',
     'fr': 'Débutant',
     'lv': 'Viegls',
     'it': 'Principiante',
@@ -375,6 +391,7 @@ var messages = {
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
+    'bs': 'Srednji nivo - Bez pomaganja',
     'fr': 'Intermédiaire - Pas d\'indications',
     'lv': 'Vidēji grūts - Bez norādēm',
     'it': 'Intermedio - Nessuna istruzione',
@@ -385,6 +402,7 @@ var messages = {
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
+    'bs': 'Expert - Bez pomoći i nasumični nivoi',
     'fr': 'Expert - Pas d\'indications & Niveaux mélangés',
     'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā',
     'it': 'Esperto - Nessuna istruzione e livelli in ordine casuale',
