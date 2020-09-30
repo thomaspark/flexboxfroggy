@@ -33,7 +33,7 @@ body {
   min-width: 600px;
   margin: 0;
   background-color: #43A047;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -197,14 +197,14 @@ pre {
   font-family: 'Source Code Pro', monospace;
   font-size: 16px;
   line-height: 1.5;
-  color: #aaa;
+  color: #777;
 }
 
 #css {
   height: 260px;
   position: relative;
   padding: 10px 10px 10px 40px;
-  background-color: #ddd;
+  background-color: #e0e0e0;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -412,7 +412,7 @@ button:not(.disabled):hover {
   line-height: 1.5em;
   text-align: center;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 #settings {
