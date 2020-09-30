@@ -324,9 +324,9 @@ pre {
 }
 
 .arrow {
-  display: inline-block;
-  font-family: 'Comic Sans MS';
-  padding: 0.25em 0.4em 0.2em;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25em 0.5em 0.2em;
   cursor: pointer;
 }
 
@@ -347,6 +347,22 @@ pre {
 
 .arrow.disabled {
   opacity: 0.5;
+}
+
+.triangle {
+  display: inline-block;
+  width: 0; 
+  height: 0; 
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent; 
+}
+
+.left .triangle {
+  border-right: 11px solid rgba(255, 255, 255, 0.7);; 
+}
+
+.right .triangle {
+  border-left: 11px solid rgba(255, 255, 255, 0.7);; 
 }
 
 button {
