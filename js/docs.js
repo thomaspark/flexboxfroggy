@@ -36,6 +36,7 @@ var docs = {
     'th': '<p>จัดวางแนวของ flex container ภายใน flex container เมื่อมีพื้นที่เพิ่มเติมบนแกนไขว้.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch (default)</code>',
     'ar': '<p>محاذاة سطور حاويات فكلس في داخل حاوية فلكس عندما يكون هناك مساحة اضافية على المحور الثانوي .</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch (default)</code>',
     'ca': '<p>Alinea les línees d\'un contenidor flex quan existeixi més espai en l\'eix transversal.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch (default)</code>',
+    'da': '<p>Justerer en flex-containers linjer inden i flex-containeren når der er plads til overs på den tværgående akse.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch (default)</code>',
     },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
@@ -74,6 +75,7 @@ var docs = {
     'th': '<p>จัดวาง flex item ตามแนวแกนไขว้.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'ar': '<p>محاذاة عناصر فلكس على طول المحور الثانوي.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'ca': '<p>Alinea elements Flex al llarg de l\'eix transversal.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
+    'da': '<p>Justerer flex-elementer langs den tværgående akse.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -112,6 +114,7 @@ var docs = {
     'th': '<p>จัดวาง flex item ตามแนวแกนไขว้, และจะ override ค่าของ <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'ar': '<p>محاذاة عنصر فلكس على طول المحور الثانوي, متجاوزا قيمة <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'ca': '<p>Alinea un element flex al llarg de l\'eix transversal, anul·lant el valor de <code>align-items</code></p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'da': '<p>Justerer et flex-element langs den tværgående akse, og underkender værdien af <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -150,6 +153,7 @@ var docs = {
     'th': '<p>กำหนดทิศทางของแกนหลัก.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'ar': '<p>تحديد اتجاه المحور الرئيسي.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'ca': '<p>Defineix la direcció de l\'eix principal.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'da': '<p>Definerer hovedaksens retning.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -188,6 +192,7 @@ var docs = {
     'th': '<p>คำสั่งลัดของ <code>flex-direction</code> และ <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'ar': '<p>خاصية مختصرة لـ <code>flex-direction</code> و <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'ca': '<p>Abreujament de les propietats de <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code></p>',
+    'da': '<p>Forkortelse for <code>flex-direction</code> og <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -226,6 +231,7 @@ var docs = {
     'th': '<p>ระบุว่า flex item จะถูกบังคับให้วางในบรรทัดเดียวหรือสามารถวางได้หลายบรรทัด.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'ar': '<p>تحديد اذا كانت عناصر فلكس يجب ان تكون في سطر واحد او ممكن ان تتمدد الى اكثر من سطر.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'ca': '<p>Especifica si els elements flex són forçats a una sola línia o poden ser encapçulats en multiples línies.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'da': '<p>Fastsætter om flex-elementer skal tvinges ind på en enkelt linje eller må fordeles over flere linjer.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -264,6 +270,7 @@ var docs = {
     'th': '<p>จัดวาง flex item ตามแนวแกนหลัก.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'ar': '<p>محاذاة عناصر فلكس على طول المحور الرئيسي.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'ca': '<p>Alinea els elements flex al llarg de l\'eix principal.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'da': '<p>Justerer flex-elementer langs hovedaksen.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
@@ -302,5 +309,6 @@ var docs = {
     'th': '<p>ระบุลำดับของ flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'ar': '<p>تحديد ترتيب عناصر فلكس.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'ca': '<p>Especifica l\'ordre dels elements flex.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
+    'da': '<p>Fastsætter rækkefølgen af flex-elementet.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
   }
 };
