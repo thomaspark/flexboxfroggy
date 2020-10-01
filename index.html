@@ -74,12 +74,7 @@
         </p>
       </div>
 
-      <script src="js/native.js"></script>
-      <script>_native.init("CK7D427U");</script>
-
-      <div class="native-ad">
-        <a href="#native_link#"><span class="sponsor">Sponsor</span> #native_company# — #native_desc#</a>
-      </div>
+      <div class="bsa-custom"></div>
 
       <div class="credits">
         <span id="labelFooter" class="translate">Flexbox Froggy is created by</span>
@@ -200,5 +195,25 @@
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=916849395036923";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- BuySellAds -->
+    <script type="text/javascript" src="//m.servedby-buysellads.com/monetization.custom.js"></script>
+    <script>
+    (function() {
+      if (typeof _bsa !== 'undefined' && _bsa) {
+        _bsa.init('custom', 'CK7D427U', 'placement:flexboxfroggycom', {
+          target: '.bsa-custom',
+          template:
+    `
+    <div class="native-ad">
+      <a href="##statlink##"><span class="sponsor">Sponsor</span> ##company## — ##description##</a>
+    </div>
+    `
+        });
+      }
+    })();
+    </script>
   </body>
 </html>
+
+

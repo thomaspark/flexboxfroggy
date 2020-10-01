@@ -626,17 +626,6 @@ button:not(.disabled):hover {
 
 /* Native by BuySellAds */
 .native-ad {
-  visibility: hidden;
-  transition: all .25s ease-in-out;
-  opacity: 0;
-}
-
-.native-show {
-  visibility: visible;
-  opacity: 1;
-}
-
-.native-ad {
   display: block;
   padding: 10px 20px 8px;
   border-radius: 4px;
