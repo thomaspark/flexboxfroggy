@@ -39,7 +39,7 @@ var levels = [
       'ca': '<p>Benvingut a Flexbox Froggy, un joc on ajudaràs a Froggy i els seus amics escrivint codi CSS. Guia aquesta granota al nenúfar de la dreta, utilitzant la propietat <code>justify-content</code>, que alinea els elements horizontalment i accepta els següents valors:</p><ul><li><code>flex-start</code>: Alinea elements al costat esquerra del contenidor.</li><li><code>flex-end</code>: Alinea elements al costat dret del contenidor.</li><li><code>center</code>: Alinea elements al centre del contenidor.</li><li><code>space-between</code>: Mostra elements amb la mateixa distància entre ells.</li><li><code>space-around</code>: Mostra elements amb la mateixa separació al voltant d\'ells.</li></ul><p>Per exemple, <code>justify-content: flex-end;</code> mourà la granota a la dreta.</p>',
     },
     board: 'g',
-    style: {'justify-content': 'flex-end'},
+    style: { 'justify-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -83,7 +83,7 @@ var levels = [
       'ca': '<p>Novament, utilitza <code>justify-content</code> per ajudar a les granotes a arribar als seus nenúfars. Recorda que aquesta propietat CSS alinea elements horitzontalment i accepta els següents valors:<ul><li><code>flex-start</code>: Alinea elements al costat esquerra del contenidor.</li><li><code>flex-end</code>: Alinea elements al costat dret del contenidor.</li><li><code>center</code>: Alinea elements al centre del contenidor.</li><li><code>space-between</code>: Mostra elements amb la mateixa distància entre ells.</li><li><code>space-around</code>: Mostra elements amb la mateixa separació al seu voltant.</li></ul>',
     },
     board: 'gy',
-    style: {'justify-content': 'center'},
+    style: { 'justify-content': 'center' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -127,7 +127,7 @@ var levels = [
       'ca': '<p>Ajuda a les tres granotes a trobar els seus nenúfars utilitzant <code>justify-content</code>. Aquest cop, els nenúfars tenen molt espai aal seu voltant.</p><p>Si no recordes els valors d\'una propietat, pots passar el cursor sobre el nom d\'una i inmediatament es mostrarà. Prova a passar el cursor sobre <code>justify-content</code>.</p>',
     },
     board: 'gyr',
-    style: {'justify-content': 'space-around'},
+    style: { 'justify-content': 'space-around' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -139,7 +139,7 @@ var levels = [
       'bg': '<p>Сега крайните листа се носят към брега, увеличавайки разстоянието между тях . Използвай <code>justify-content</code>. Този път листата имат еднакво разстояние помежду си.</p>',
       'de': '<p>Inzwischen sind die &auml;u&szlig;eren Seerosenbl&auml;tter weiter nach au&szlig;en getrieben und haben so den Abstand noch weiter vergr&ouml;&szlig;ert. Benutze <code>justify-content</code>. Dieses Mal haben die Seerosenbl&auml;tter einen gleichm&auml;&szlig;igen Innenabstand.</p>',
       'pt-br': '<p>Agora as vitórias-régias nos cantos desviaram-se para a costa, aumentando o espaço em torno delas. Use <code>justify-content</code>. Desta vez, as vitórias-régias têm espaço igual entre elas.</p>',
-      'es': '<p>Ahora las hojas de lirio de los bordes se han desplazado a un costado, aumentando así el espacio entre ellas. Usa <code>justify-content</code>. En esta oportunidad, las hojas de lirio tienen el mismo espacio entre ellas.</p>',
+      'es': '<p>Ahora las hojas de lirio de los bordes se han desplazado a un costado, aumentando el espacio entre ellas. Usa <code>justify-content</code>. En esta oportunidad, las hojas de lirio tienen el mismo espacio entre ellas.</p>',
       'fr': '<p>Maintenant, les nénuphars sur les côtés ont dérivé jusqu\'à la rive, augmentant l\'espace entre eux. Utilisez <code>justify-content</code>. Cette fois-ci, l\'espace entre chaque nénuphar est équivalent.</p>',
       'ru': '<p>Теперь лилии по краям уплыли к берегам, увеличив пространство между ними. Используй <code>justify-content</code>. В этот раз, у лилий одинаковое расстояние между ними.</p>',
       'fa': '<p>در حال حاضر نیلوفر های آبی به سمت لبه های ساحل حرکت کرده اند و فضای بین آنها افزایش پیدا کرده پس با استفاده از <code>justify-content</code> به قورباغه ها کمک کنید. نیلوفرهای آبی دارای فاصله مساوی هستن.</p>',
@@ -171,7 +171,7 @@ var levels = [
       'ca': '<p>Ara els nenúfars de les vores s\'han desplaçat a un costat, augmentant així l\'espai entre elles. Utilitza <code>justify-content</code>. Aquest cop, els nenúfars tenen el mateix espai entre elles.</p>',
     },
     board: 'gyr',
-    style: {'justify-content': 'space-between'},
+    style: { 'justify-content': 'space-between' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -215,7 +215,7 @@ var levels = [
       'ca': '<p>Ara utilitza <code>align-items</code> per ajudar a les granotes a arribar al fons de l\'estany. Aquesta propietat CSS alinea elements verticalment i accepta els següents valors:</p><ul><li><code>flex-start</code>: Alinea elements a la part superior del contenidor.</li><li><code>flex-end</code>: Alinea elements a la part inferior del contenidor.</li><li><code>center</code>: Alinea elements al centre (verticalment) del contenidor.</li><li><code>baseline</code>: Mostra elements en la línia base del contenidor</li><li><code>stretch</code>: Elements s\'estiren per ajustar-se al contenidor.</li></ul>',
     },
     board: 'gyr',
-    style: {'align-items': 'flex-end'},
+    style: { 'align-items': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -259,7 +259,7 @@ var levels = [
       'ca': '<p>Mou la granota al centre de l\'estany, utilitzant una combinació de <code>justify-content</code> i <code>align-items</code>.</p>',
     },
     board: 'g',
-    style: {'justify-content': 'center', 'align-items': 'center'},
+    style: { 'justify-content': 'center', 'align-items': 'center' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -303,7 +303,7 @@ var levels = [
       'ca': '<p>De nou, les granotes necessiten creuar l\'estany. Aquest cop, els nenúfars tenen molt espai al seu voltant. Has d\'utilitzar una combinació de <code>justify-content</code> i <code>align-items</code>.</p>',
     },
     board: 'gyr',
-    style: {'justify-content': 'space-around', 'align-items': 'flex-end'},
+    style: { 'justify-content': 'space-around', 'align-items': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -347,7 +347,7 @@ var levels = [
       'ca': '<p>Les granotes necessiten posar-se en el mateix ordre que els seus nenúfars <code>flex-direction</code>. Aquesta propietat CSS defineix la direcció dels elements en el contenidor, i accepta els següents valors:</p><ul><li><code>row</code>: Els elements es col·loquen en la mateixa direcció del text.</li><li><code>row-reverse</code>: Els elements es col·loquen en la direcció oposada al text.</li><li><code>column</code>: Els elements es col·loquen de dalt a baix.</li><li><code>column-reverse</code>: Els elements es col·loquen de baix a dalt.</li></ul>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'row-reverse'},
+    style: { 'flex-direction': 'row-reverse' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -391,7 +391,7 @@ var levels = [
       'ca': '<p>Ajuda les granotes a trobar el seu nenúfar de la columna utilitzant <code>flex-direction</code>. Aquesta propietat CSS defineix la direcció dels elements en el contenidor, i accepta els següents valors:</p><ul><li><code>row</code>: Els elements es col·loquen en la mateixa direcció del text.</li><li><code>row-reverse</code>: Els elements es col·loquen en la direcció oposada al text.</li><li><code>column</code>: Els elements es col·loquen de de dalt a baix.</li><li><code>column-reverse</code>: Els elements es col·loquen de baix a dalt.</li></ul>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'column'},
+    style: { 'flex-direction': 'column' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -435,7 +435,7 @@ var levels = [
       'ca': '<p>Ajuda les granotes a arribar als seus nenúfars. Malgrat que semblen estar aprop, necesitaràs utilitzar <code>flex-direction</code> i <code>justify-content</code> per arribar fins allí.</p><p>Nota que quan estableixes la direcció a una fila invertida o columna, l\'inici i el final també s\'inverteixen.</p>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
+    style: { 'flex-direction': 'row-reverse', 'justify-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -479,7 +479,7 @@ var levels = [
       'ca': '<p>Ajuda les granotes a trobar els seus nenúfars utilitzant <code>flex-direction</code> i <code>justify-content</code>.</p><p>Nota que quan és una columna, <code>justify-content</code> canvia a vertical i <code>align-items</code> a horitzontal.</p>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'column', 'justify-content': 'flex-end'},
+    style: { 'flex-direction': 'column', 'justify-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -523,7 +523,7 @@ var levels = [
       'ca': '<p>Ajuda les granotes a trobar els seus nenúfars utilitzant <code>flex-direction</code> i <code>justify-content</code>.</p>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'column-reverse', 'justify-content': 'space-between'},
+    style: { 'flex-direction': 'column-reverse', 'justify-content': 'space-between' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -567,7 +567,7 @@ var levels = [
       'ca': '<p>Ajuda les granotes a trobar els seus nenúfars utilitzant <code>flex-direction</code>, <code>justify-content</code>, i <code>align-items</code>.</p>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
+    style: { 'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -612,8 +612,8 @@ var levels = [
     },
     board: 'gyr',
     selector: '> :nth-child(2)',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'order': '2'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'order': '2' },
     before: "#pond {\n  display: flex;\n}\n\n.yellow {\n",
     after: "}"
   },
@@ -658,8 +658,8 @@ var levels = [
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'order': '-1'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'order': '-1' },
     before: "#pond {\n  display: flex;\n}\n\n.red {\n",
     after: "}"
   },
@@ -704,7 +704,7 @@ var levels = [
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
-    style: {'align-self': 'flex-end'},
+    style: { 'align-self': 'flex-end' },
     before: "#pond {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
     after: "}"
   },
@@ -749,7 +749,7 @@ var levels = [
     },
     board: 'ygygg',
     selector: '> .yellow',
-    style: {'align-self': 'flex-end', 'order': '2'},
+    style: { 'align-self': 'flex-end', 'order': '2' },
     before: "#pond {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
     after: "}"
   },
@@ -793,7 +793,7 @@ var levels = [
       'ca': '<p>Oh, no! Totes les granotes estan apretades en una sola fila de nenúfars. Anem a distribuir-les correctament utilitzant la propietat <code>flex-wrap</code>, que accepta els següents valors:</p><ul><li><code>nowrap</code>: Cada element s\'ajusta en una sola línia.</li><li><code>wrap</code>: els elements s\'envolten de línies adicionals.</li><li><code>wrap-reverse</code>: Els elements s\'envolten de línies adicionals invertides.</li></ul>',
     },
     board: 'ygggggr',
-    style: {'flex-wrap': 'wrap'},
+    style: { 'flex-wrap': 'wrap' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -837,7 +837,7 @@ var levels = [
       'ca': '<p>Ajuda aquest exèrcit de granotes a ordenar-se en tres columnes utilitzant una combinació de <code>flex-direction</code> i <code>flex-wrap</code>.</p>',
     },
     board: 'gggggrrrrryyyyy',
-    style: {'flex-direction': 'column', 'flex-wrap': 'wrap'},
+    style: { 'flex-direction': 'column', 'flex-wrap': 'wrap' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -881,7 +881,7 @@ var levels = [
       'ca': '<p>Les dos propietats <code>flex-direction</code> i <code>flex-wrap</code> s\'utilitzen sovint juntament amb la propietat abreujada <code>flex-flow</code>, que va ser creada para combinar-les. Aquesta propietat abreujada, accepta un valor de cada una separada per un espai.</p><p>Per exemple, pots utilitzar <code>flex-flow</code> per establir filas i envoltar-les.</p><p>Intenta utilitzar <code>flex-flow</code> per tornar a realitzar el nivell anterior.</p>',
     },
     board: 'gggggrrrrryyyyy',
-    style: {'flex-flow': 'column wrap'},
+    style: { 'flex-flow': 'column wrap' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -923,10 +923,10 @@ var levels = [
       'id': '<p>PAra katak tersebar di seluruh kolam, tetap ada beberapa lilypads diatas. Kamu dapat gunakan <code>align-content</code> untuk mengatur beberapa baris untuk memberi jarak dari masing-masing. Properti ini memiliki nilai:</p><ul><li><code>flex-start</code>: Baris ini mengumpulkan pada wadah bagian atas.</li><li><code>flex-end</code>: Baris dikemas di bagian bawah wadah.</li><li><code>center</code>: Baris dikemas di pusat vertikal wadah.</li><li><code>space-between</code>: Baris ditampilkan dengan jarak sesuai diantara mereka.</li><li><code>space-around</code>: baris ditampilkan dengan jarak yang sama diantara mereka.</li><li><code>stretch</code>: Baris di tarik untuk menyesuaikan jarak wadah.</li></ul><p>Ini mungkin membinggungkan, tapi <code>align-content</code> menentukan jarak diantara baris, sedangkan <code>align-items</code> menentukan bagaimana objek secara keseluruhan sejajar di dalam wadah. Ketika ada satu baris, <code>align-content</code> hal ini tidak akan memberikan effect apapun.</p>',
       'ar': '<p>تنتشر الضفادع في جميع انحاء البركة, لكن اوراق الزنبق محشورة في الاعلى. يمكنك استخدام <code>align-content</code> لضبط كيفية تباعد الاسطر المتعددة عن بعضها البعض. هذه الخاصية تقبل القيم التالية:</p><ul><li><code>flex-start</code>: تعبئة الخطوط في الجزء العلوي من الحاوية.</li><li><code>flex-end</code>: تعبئة الخطوط في الجزء السفلي من الحاوية.</li><li><code>center</code>: تعبئة الخطوط في الجزء الاوسط من الحاوية عاموديا.</li><li><code>space-between</code>: تعبئة الخطوط مع مسافات متساوية بينهم.</li><li><code>space-around</code>: تعبئة الخطوط مع مسافات متساوية حولهم.</li><li><code>stretch</code>: تمدد العناصر عاموديا لتملئ الحاوية.</li></ul><p>يمكن ان يكون هذا مربكًا, لكن <code>align-content</code> تحدد المسافة بين الخطوط, بينما <code>align-items</code> تحدد كيفية محاذاة العناصر ككل داخل الحاوية. عندما يكون هناك سطر واحد فقط, <code>align-content</code> لا تحدث اي تأثير.</p>',
       'ca': '<p>Les granotes estan repartides per tot l\'estany, però els nenúfars estan agrupats en la part superior. Pots utilitzar <code>align-content</code> per establir-ho com múltiples línies que estan separades unes de les altres. Aquesta propietat accepta els següents valors:</p><ul><li><code>flex-start</code>: Les línies es posicionen en la part superior del contenidor.</li><li><code>flex-end</code>: Les línies es posicionen en la part inferior del contenidor.</li><li><code>center</code>: Les línies es posicionen en el mig (verticalment) del contenidor.</li><li><code>space-between</code>: Les línies es mostren amb la mateixa distància entre elles.</li><li><code>space-around</code>: Les línies es mostren amb la mateixa separació al voltant d\'elles.</li><li><code>stretch</code>: Les línies s\'estiren per ajustar-se al contenidor.</li></ul><p>Això pot confondre, però <code>align-content</code> determina l\'espai entre les línies, mentre que <code>align-items</code> determina com els elements conjuntament estan alineats dins del contenidor. Quan hi ha només una línia, <code>align-content</code> no té cap efect.</p>',
-  },
+    },
     board: 'ggggggggggggggg',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'align-content': 'flex-start'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'align-content': 'flex-start' },
     before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
@@ -970,8 +970,8 @@ var levels = [
       'ca': '<p>Ara, la corrent ha agrupat els nenúfars en la part inferior. Utilitza <code>align-content</code> per guiar las granotes fins allí.</p>',
     },
     board: 'ggggggggggggggg',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'align-content': 'flex-end'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'align-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
@@ -1015,8 +1015,8 @@ var levels = [
       'ca': '<p>Les granotes han fet una festa, però ara ha arribat l\'hora de tornar a casa. Utilitza una combinació de <code>flex-direction</code> i <code>align-content</code> per portar-les als seus nenúfars.</p>',
     },
     board: 'rgggyrgggyrgggy',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'flex-direction': 'column-reverse', 'align-content': 'center'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'flex-direction': 'column-reverse', 'align-content': 'center' },
     before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
@@ -1060,7 +1060,7 @@ var levels = [
       'ca': '<p>Porta les granotes a casa seva una cop més utilitzant les propietats CSS que has aprés:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code></li></ul>',
     },
     board: 'rggggyy',
-    style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
+    style: { 'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   }
@@ -1106,7 +1106,7 @@ var levelWin = {
     'ca': '<p>Has guanyat! Gràcies al teu domini de flexbox, has estat capaç d\'ajudar a totes les granotes a arribar als seus nenúfars. Només cal veure què felices estan!!</p><p>Si t\'ha semblat divertit, revisa altres projectes en el meu <a href="http://thomaspark.co">blog</a> o <a href="http://twitter.com/thomashpark">Twitter</a> i assegurat de compartir Flexbox Froggy amb els teus amics.</p>',
   },
   board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
-  classes: {'#pond, #background': 'wrap'},
+  classes: { '#pond, #background': 'wrap' },
   style: {},
   before: "#pond {\n  display: flex;\n",
   after: "}"
