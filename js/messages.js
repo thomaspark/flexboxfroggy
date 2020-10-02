@@ -1,6 +1,7 @@
 var messages = {
   languageActive: {
     'en': 'English',
+    'he': 'עברית',
     'ro': 'Română',
     'sr': 'Српски',
     'bs': 'Bosanski',
@@ -39,6 +40,7 @@ var messages = {
   },
   next: {
     'en': 'Next',
+    'he': 'הבא',
     'ro': 'Următorul',
     'sr': 'Следећи',
     'bs': 'Dalje',
@@ -77,6 +79,7 @@ var messages = {
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
+    'he': 'Flexbox Froggy נוצר על ידי',
     'ro': 'Flexbox Froggy este creat de',
     'sr': 'Flexbox Froggy је направио',
     'bs': 'Flexbox Froggy je napravio',
@@ -115,6 +118,7 @@ var messages = {
   },
   labelLevel: {
     'en': 'Level',
+    'he': 'שלב',
     'ro': 'Nivelul',
     'sr': 'Ниво',
     'bs': 'Nivo',
@@ -153,6 +157,7 @@ var messages = {
   },
   labelOf: {
     'en': 'of',
+    'he': 'מתוך',
     'ro': 'din',
     'sr': 'од',
     'bs': 'od',
@@ -191,6 +196,7 @@ var messages = {
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
+    'he': 'Flexbox Froggy - משחק ללמידת CSS flexbox',
     'ro': 'Flexbox Froggy - Un joc pentru a învăța CSS flexbox',
     'sr': 'Flexbox Froggy - Игра за учење CSS flexbox-а',
     'bs': 'Flexbox Froggy - Igra za učenje CSS flexbox-a',
@@ -229,6 +235,7 @@ var messages = {
   },
   labelReset: {
     'en': 'Reset',
+    'he': 'איפוס',
     'ro': 'Resetează',
     'sr': 'Ресет',
     'bs': 'Restart',
@@ -267,6 +274,7 @@ var messages = {
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
+    'he': 'האם לאפס את המשחק?\n\nההתקדמות שנשמרה תימחק והמשחק יתחיל מחדש.',
     'ro': 'Ești sigur(ă) că vrei să resetezi jocul?\n\nProgresul tău va fi pierdut și vei fi trimis(ă) la începutul jocului.',
     'sr': 'Да ли сте сигурни да желите да ресетујете игру?\n\nВаш сачувани прогрес ће бити изгубљен и бићете враћени на почетак игре.',
     'bs': 'Da li ste sigurni da želite da resetujete igru?\n\nVaš sačuvani progres će biti izgubljen i bićete vraćeni na početak igre.',
@@ -305,6 +313,7 @@ var messages = {
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
+    'he': 'רוצה ללמוד CSS grid? שחק',
     'bs': 'Želiš naučiti CSS grid? Igraj',
     'ro': 'Vrei să înveți CSS grid? Joacă',
     'fr': 'Vous voulez apprendre la grille CSS ? Jouer',
@@ -323,6 +332,7 @@ var messages = {
   },
   labelLanguage: {
     'en': 'Language',
+    'he': 'שפה',
     'bs': 'Jezik',
     'fr': 'Langue',
     'es': 'Lengua',
@@ -336,6 +346,7 @@ var messages = {
   },
   labelSettings: {
     'en': 'Settings',
+    'he': 'הגדרות',
     'bs': 'Postavke',
     'fr': 'Paramètres',
     'lv': 'Iestatījumi',
@@ -349,6 +360,7 @@ var messages = {
   },
   labelDifficulty: {
     'en': 'Difficulty',
+    'he': 'רמת קושי',
     'bs': 'Težina',
     'fr': 'Difficulté',
     'lv': 'Grūtības pakāpe',
@@ -361,6 +373,7 @@ var messages = {
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
+    'he': 'מצב לעיוורי צבעים',
     'bs': 'Postavke za slijepe',
     'fr': 'Mode Daltonien',
     'lv': 'Krāsu akluma režīms',
@@ -373,6 +386,7 @@ var messages = {
   },
   labelColorblindOff: {
     'en': 'Off',
+    'he': 'כבוי',
     'bs': 'Deaktivirano',
     'fr': 'Désactivé',
     'lv': 'Izslēgts',
@@ -384,6 +398,7 @@ var messages = {
   },
   labelColorblindOn: {
     'en': 'On',
+    'he': 'דלוק',
     'bs': 'Aktivirano',
     'fr': 'Activé',
     'lv': 'Ieslēgts',
@@ -395,6 +410,7 @@ var messages = {
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
+    'he': 'קל',
     'bs': 'Početnik',
     'fr': 'Débutant',
     'lv': 'Viegls',
@@ -407,6 +423,7 @@ var messages = {
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
+    'he': 'בינוני - בלי בכוונה',
     'bs': 'Srednji nivo - Bez pomaganja',
     'fr': 'Intermédiaire - Pas d\'indications',
     'lv': 'Vidēji grūts - Bez norādēm',
@@ -419,6 +436,7 @@ var messages = {
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
+    'he': 'קשה - בלי הכוונה ובשלבים רנדומלים',
     'bs': 'Expert - Bez pomoći i nasumični nivoi',
     'fr': 'Expert - Pas d\'indications & Niveaux mélangés',
     'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā',
