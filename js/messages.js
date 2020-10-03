@@ -1,6 +1,7 @@
 var messages = {
   languageActive: {
     'en': 'English',
+    'he': 'עברית',
     'ro': 'Română',
     'sr': 'Српски',
     'bs': 'Bosanski',
@@ -34,10 +35,12 @@ var messages = {
     'lv': 'Latviešu',
     'id': 'Bahasa Indonesia',
     'ar': 'العربية',
-    'ca': 'Català'
+    'ca': 'Català',
+    'da': 'Dansk'
   },
   next: {
     'en': 'Next',
+    'he': 'הבא',
     'ro': 'Următorul',
     'sr': 'Следећи',
     'bs': 'Dalje',
@@ -71,10 +74,12 @@ var messages = {
     'lv': 'Nākamais',
     'id': 'Lanjut',
     'ar': 'التالي',
-    'ca': 'Següent'
+    'ca': 'Següent',
+    'da': 'Næste'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
+    'he': 'Flexbox Froggy נוצר על ידי',
     'ro': 'Flexbox Froggy este creat de',
     'sr': 'Flexbox Froggy је направио',
     'bs': 'Flexbox Froggy je napravio',
@@ -108,10 +113,12 @@ var messages = {
     'lv': 'Flexbox Froggy autori ir',
     'id': 'Flexbox Froggy dibuat oleh',
     'ar': 'تم انشاء فروغي فلكسبكس بواسطة',
-    'ca': 'Flexbox Froggy és una creació de'
+    'ca': 'Flexbox Froggy és una creació de',
+    'da': 'Flexbox Froggy er skabt af'
   },
   labelLevel: {
     'en': 'Level',
+    'he': 'שלב',
     'ro': 'Nivelul',
     'sr': 'Ниво',
     'bs': 'Nivo',
@@ -145,10 +152,12 @@ var messages = {
     'lv': 'Līmenis',
     'id': 'Tingkat',
     'ar': 'المرحلة',
-    'ca': 'Nivell'
+    'ca': 'Nivell',
+    'da': 'Niveau'
   },
   labelOf: {
     'en': 'of',
+    'he': 'מתוך',
     'ro': 'din',
     'sr': 'од',
     'bs': 'od',
@@ -182,10 +191,12 @@ var messages = {
     'lv': 'no',
     'id': 'dari',
     'ar': 'من',
-    'ca': 'de'
+    'ca': 'de',
+    'da': 'af'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
+    'he': 'Flexbox Froggy - משחק ללמידת CSS flexbox',
     'ro': 'Flexbox Froggy - Un joc pentru a învăța CSS flexbox',
     'sr': 'Flexbox Froggy - Игра за учење CSS flexbox-а',
     'bs': 'Flexbox Froggy - Igra za učenje CSS flexbox-a',
@@ -219,10 +230,12 @@ var messages = {
     'lv': 'Flexbox Froggy - Spēle, kas Tev palīdzēs iemācīties CSS Flexbox',
     'id': 'Flexbox Froggy - Sebuah permainan untuk belajar CSS flexbox',
     'ar': 'فروغي فلكسبكس - لعبة لتعلم الفلكسبكس في CSS',
-    'ca': 'Flexbox Froggy - Un joc per aprendre CSS Flexbox'
+    'ca': 'Flexbox Froggy - Un joc per aprendre CSS Flexbox',
+    'da': 'Flexbox Froggy - Et spil, der lærer dig CSS Flexbox'
   },
   labelReset: {
     'en': 'Reset',
+    'he': 'איפוס',
     'ro': 'Resetează',
     'sr': 'Ресет',
     'bs': 'Restart',
@@ -256,10 +269,12 @@ var messages = {
     'lv': 'Dzēst rezultātus',
     'id': 'Atur Ulang',
     'ar': 'اعادة',
-    'ca': 'Reiniciar'
+    'ca': 'Reiniciar',
+    'da': 'Nulstil'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
+    'he': 'האם לאפס את המשחק?\n\nההתקדמות שנשמרה תימחק והמשחק יתחיל מחדש.',
     'ro': 'Ești sigur(ă) că vrei să resetezi jocul?\n\nProgresul tău va fi pierdut și vei fi trimis(ă) la începutul jocului.',
     'sr': 'Да ли сте сигурни да желите да ресетујете игру?\n\nВаш сачувани прогрес ће бити изгубљен и бићете враћени на почетак игре.',
     'bs': 'Da li ste sigurni da želite da resetujete igru?\n\nVaš sačuvani progres će biti izgubljen i bićete vraćeni na početak igre.',
@@ -293,10 +308,12 @@ var messages = {
     'lv': 'Vai tiešām vēlies dzēst spēles rezultātus?\n\nTevis saglabātais rezultāts tiks dzēsts un Tu tiksi atgriezts uz spēles pirmo līmeni.',
     'id': 'Apakah Anda yakin ingin mengatur ulang game?\n\n Proses Anda yang tersimpan akan hilang dan Anda akan dikirim ke awal game.',
     'ar': 'هل انت متأكد من إعادة اللعبة؟ \n\n ستفقد تقدمك وسيعاد توجيهك الى بداية اللعبة',
-    'ca': 'Estàs segur que vols reiniciar el joc?\n\nEl teu progrès es perdrà i tornaràs a l\'inici del joc'
+    'ca': 'Estàs segur que vols reiniciar el joc?\n\nEl teu progrès es perdrà i tornaràs a l\'inici del joc',
+    'da': 'Er du sikker på at du vil nulstille spillet?\n\nDine fremskridt vil gå tabt, og du bliver sendt tilbage til starten af spillet.'
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
+    'he': 'רוצה ללמוד CSS grid? שחק',
     'bs': 'Želiš naučiti CSS grid? Igraj',
     'ro': 'Vrei să înveți CSS grid? Joacă',
     'fr': 'Vous voulez apprendre la grille CSS ? Jouer',
@@ -310,10 +327,12 @@ var messages = {
     'pl': 'Chcesz nauczyć się CSS Grid? Zagraj w',
     'id': 'Ingin mempelajari CSS grid? Main',
     'ar': 'تريد تعلم الجريد في CSS? العب',
-    'ca': 'Vols aprendre CSS grid? Jugar'
+    'ca': 'Vols aprendre CSS grid? Jugar',
+    'da': 'Vil du lære CSS grid? Spil'
   },
   labelLanguage: {
     'en': 'Language',
+    'he': 'שפה',
     'bs': 'Jezik',
     'fr': 'Langue',
     'es': 'Lengua',
@@ -322,10 +341,12 @@ var messages = {
     'pl': 'Język',
     'id': 'Bahasa',
     'ar': 'اللغة',
-    'ca': 'Idioma'
+    'ca': 'Idioma',
+    'da': 'Sprog'
   },
   labelSettings: {
     'en': 'Settings',
+    'he': 'הגדרות',
     'bs': 'Postavke',
     'fr': 'Paramètres',
     'lv': 'Iestatījumi',
@@ -334,10 +355,12 @@ var messages = {
     'pt-br': 'Configurações',
     'id': 'Pengaturan',
     'ar': 'الاعدادات',
-    'ca': 'Paràmetres'
+    'ca': 'Paràmetres',
+    'da': 'Indstillinger'
   },
   labelDifficulty: {
     'en': 'Difficulty',
+    'he': 'רמת קושי',
     'bs': 'Težina',
     'fr': 'Difficulté',
     'lv': 'Grūtības pakāpe',
@@ -345,10 +368,12 @@ var messages = {
     'pl': 'Poziom trudności',
     'id': 'Tingkat Kesulitan',
     'ar': 'المستوى',
-    'ca': 'Dificultat'
+    'ca': 'Dificultat',
+    'da': 'Sværhedsgrad'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
+    'he': 'מצב לעיוורי צבעים',
     'bs': 'Postavke za slijepe',
     'fr': 'Mode Daltonien',
     'lv': 'Krāsu akluma režīms',
@@ -356,30 +381,36 @@ var messages = {
     'pl': 'Tryb dla daltonistów',
     'id': 'Mode Buta Warna',
     'ar': 'وضعية عمى الالوان',
-    'ca': 'Mode per daltònics'
+    'ca': 'Mode per daltònics',
+    'da': 'Indstilling til farveblinde'
   },
   labelColorblindOff: {
     'en': 'Off',
+    'he': 'כבוי',
     'bs': 'Deaktivirano',
     'fr': 'Désactivé',
     'lv': 'Izslēgts',
     'pl': 'Wyłączony',
     'id': 'Matikan',
     'ar': 'ايقاف',
-    'ca': 'Desactivat'
+    'ca': 'Desactivat',
+    'da': 'Fra'
   },
   labelColorblindOn: {
     'en': 'On',
+    'he': 'דלוק',
     'bs': 'Aktivirano',
     'fr': 'Activé',
     'lv': 'Ieslēgts',
     'pl': 'Włączony',
     'id': 'Aktifkan',
     'ar': 'تشغيل',
-    'ca': 'Activat'
+    'ca': 'Activat',
+    'da': 'Til'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
+    'he': 'קל',
     'bs': 'Početnik',
     'fr': 'Débutant',
     'lv': 'Viegls',
@@ -387,10 +418,12 @@ var messages = {
     'pl': 'Łatwy',
     'id': 'pemula',
     'ar': 'مبتدئ',
-    'ca': 'Principiant'
+    'ca': 'Principiant',
+    'da': 'Begynder'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
+    'he': 'בינוני - בלי בכוונה',
     'bs': 'Srednji nivo - Bez pomaganja',
     'fr': 'Intermédiaire - Pas d\'indications',
     'lv': 'Vidēji grūts - Bez norādēm',
@@ -398,10 +431,12 @@ var messages = {
     'pl': 'Średni - Brak wskazówek',
     'id': 'Medium- tidak ada arahan',
     'ar': 'متوسط - بلا توجيهات',
-    'ca': 'Intermig - Sense Indicacions'
+    'ca': 'Intermig - Sense Indicacions',
+    'da': 'Øvet - ingen hjælp'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
+    'he': 'קשה - בלי הכוונה ובשלבים רנדומלים',
     'bs': 'Expert - Bez pomoći i nasumični nivoi',
     'fr': 'Expert - Pas d\'indications & Niveaux mélangés',
     'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā',
@@ -409,6 +444,7 @@ var messages = {
     'pl': 'Trudny - Brak wskazówek i losowe poziomy',
     'id': 'Ahli - Tidak ada arahan & Tingkat permainan Acak',
     'ar': 'متقدم - بلا توجيهات وبمراحل عشوائية',
-    'ca': 'Expert - Sense indicacions i Nivells aleatòris'
+    'ca': 'Expert - Sense indicacions i Nivells aleatòris',
+    'da': 'Ekspert - ingen hjælp og tilfældige niveauer'
   }
 };
