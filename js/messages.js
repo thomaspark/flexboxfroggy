@@ -237,7 +237,7 @@ var messages = {
     'ar': 'فروغي فلكسبكس - لعبة لتعلم الفلكسبكس في CSS',
     'ca': 'Flexbox Froggy - Un joc per aprendre CSS Flexbox',
     'da': 'Flexbox Froggy - Et spil, der lærer dig CSS Flexbox',
-    'fi': 'Flexbox Froggy – Peli, joka opettaa sinulle CSS flexboxia'
+    'fi': 'Flexbox Froggy – Peli, jossa opit CSS flexbox -asettelun'
   },
   labelReset: {
     'en': 'Reset',
@@ -482,6 +482,6 @@ var messages = {
     'ar': 'متقدم - بلا توجيهات وبمراحل عشوائية',
     'ca': 'Expert - Sense indicacions i Nivells aleatòris',
     'da': 'Ekspert - ingen hjælp og tilfældige niveauer',
-    'fi': 'Vaikea – ei ohjeita ja kentät satunnaisjärjestyksessä'
+    'fi': 'Vaikea – ei ohjeita, kentät sattumanvaraisessa järjestyksessä'
   }
 };
