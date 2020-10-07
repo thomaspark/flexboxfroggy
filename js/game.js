@@ -419,7 +419,7 @@ var game = {
     document.title = messages.title[game.language] || messages.title.en;
     $('html').attr('lang', game.language);
 
-    var level = levels[game.level];
+    var level = $('#editor').is(':visible') ? levels[game.level] : levelWin;
     var instructions = level.instructions[game.language] || level.instructions.en;
     $('#instructions').html(instructions);
     game.loadDocs();
