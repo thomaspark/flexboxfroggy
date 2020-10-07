@@ -30,6 +30,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Czech by [Ondřej Hruška](https://github.com/MightyPork)
 * Esperanto by [Harvey Stroud](https://github.com/harveystroud)
 * Farsi by [Ali Haddad](https://github.com/alihaddadkar)
+* Finnish by [Minna N.](https://github.com/minna-xD)
 * French by [Karl Thibault](https://github.com/Notuom)
 * German by [Thorsten Frommen](https://github.com/tfrommen)
 * Greek by [lmintmate](https://github.com/lmintmate)
