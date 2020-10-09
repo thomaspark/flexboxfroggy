@@ -29,6 +29,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Dutch by [Peter Vermeulen](https://github.com/peterver)
 * Czech by [Ondřej Hruška](https://github.com/MightyPork)
 * Esperanto by [Harvey Stroud](https://github.com/harveystroud)
+* Estonian by [Sten Orasmäe](https://github.com/sten9911)
 * Farsi by [Ali Haddad](https://github.com/alihaddadkar)
 * Finnish by [Minna N.](https://github.com/minna-xD)
 * French by [Karl Thibault](https://github.com/Notuom)
