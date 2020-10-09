@@ -38,6 +38,7 @@ var messages = {
     'ca': 'Català',
     'da': 'Dansk',
     'et': 'Eesti',
+    'fi': 'Suomi'
   },
   next: {
     'en': 'Next',
@@ -78,6 +79,7 @@ var messages = {
     'ca': 'Següent',
     'da': 'Næste',
     'et': 'järgmine',
+    'fi': 'Seuraava'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -118,6 +120,7 @@ var messages = {
     'ca': 'Flexbox Froggy és una creació de',
     'da': 'Flexbox Froggy er skabt af',
     'et': 'Flexbox Froggy on looja on',
+    'fi': 'Flexbox Froggyn on tehnyt'
   },
   labelLevel: {
     'en': 'Level',
@@ -158,6 +161,7 @@ var messages = {
     'ca': 'Nivell',
     'da': 'Niveau',
     'et': 'Tase',
+    'fi': 'Kenttä'
   },
   labelOf: {
     'en': 'of',
@@ -198,6 +202,7 @@ var messages = {
     'ca': 'de',
     'da': 'af',
     'et': '/',
+    'fi': '/'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -238,6 +243,7 @@ var messages = {
     'ca': 'Flexbox Froggy - Un joc per aprendre CSS Flexbox',
     'da': 'Flexbox Froggy - Et spil, der lærer dig CSS Flexbox',
     'et': 'Flexbox Froggy - Mäng CSS flexbox\'i õppimiseks',
+    'fi': 'Flexbox Froggy – Peli, jossa opit CSS flexbox -asettelun'
   },
   labelReset: {
     'en': 'Reset',
@@ -278,6 +284,7 @@ var messages = {
     'ca': 'Reiniciar',
     'da': 'Nulstil',
     'et': 'Lähtesta',
+    'fi': 'Aloita alusta'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -318,6 +325,7 @@ var messages = {
     'ca': 'Estàs segur que vols reiniciar el joc?\n\nEl teu progrès es perdrà i tornaràs a l\'inici del joc',
     'da': 'Er du sikker på at du vil nulstille spillet?\n\nDine fremskridt vil gå tabt, og du bliver sendt tilbage til starten af spillet.',
     'et': 'Oled sa kindel, et sa tahad mängu lähtestada?\n\nSinu salvestatud progress kustutatakse ja sind saadetakse mängu algusesse.',
+    'fi': 'Haluatko varmasti aloittaa pelin alusta?\n\nTallennettu edistyminen menetetään, ja palaat ensimmäiseen kenttään.'
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
@@ -340,6 +348,7 @@ var messages = {
     'ca': 'Vols aprendre CSS grid? Jugar',
     'da': 'Vil du lære CSS grid? Spil',
     'et': 'Kas sa tahad õppida CSS grid\'i? Mängi',
+    'fi': 'Haluatko oppia CSS grid -asettelun? Kokeile peliä'
   },
   labelLanguage: {
     'en': 'Language',
@@ -357,6 +366,7 @@ var messages = {
     'ca': 'Idioma',
     'da': 'Sprog',
     'et': 'Keel',
+    'fi': 'Kieli'
   },
   labelSettings: {
     'en': 'Settings',
@@ -373,6 +383,7 @@ var messages = {
     'ca': 'Paràmetres',
     'da': 'Indstillinger',
     'et': 'Seaded',
+    'fi': 'Asetukset'
   },
   labelDifficulty: {
     'en': 'Difficulty',
@@ -389,6 +400,7 @@ var messages = {
     'ca': 'Dificultat',
     'da': 'Sværhedsgrad',
     'et': 'Raskustase',
+    'fi': 'Vaikeustaso'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
@@ -405,6 +417,7 @@ var messages = {
     'ca': 'Mode per daltònics',
     'da': 'Indstilling til farveblinde',
     'et': 'Värvipimeduse režiim',
+    'fi': 'Värien erottelun avustin'
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -420,6 +433,7 @@ var messages = {
     'ca': 'Desactivat',
     'da': 'Fra',
     'et': 'Väljas',
+    'fi': 'Poissa käytöstä'
   },
   labelColorblindOn: {
     'en': 'On',
@@ -435,6 +449,7 @@ var messages = {
     'ca': 'Activat',
     'da': 'Til',
     'et': 'Sees',
+    'fi': 'Käytössä'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
@@ -451,6 +466,7 @@ var messages = {
     'ca': 'Principiant',
     'da': 'Begynder',
     'et': 'Algaja',
+    'fi': 'Helppo'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -467,6 +483,7 @@ var messages = {
     'ca': 'Intermig - Sense Indicacions',
     'da': 'Øvet - ingen hjælp',
     'et': 'Keskmine tase - puuduvad juhised',
+    'fi': 'Keskitaso – ei ohjeita'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
@@ -483,5 +500,6 @@ var messages = {
     'ca': 'Expert - Sense indicacions i Nivells aleatòris',
     'da': 'Ekspert - ingen hjælp og tilfældige niveauer',
     'et': 'Ekspert - puuduvad juhised ja tasemed on juhuslikud',
+    'fi': 'Vaikea – ei ohjeita, kentät sattumanvaraisessa järjestyksessä'
   }
 };

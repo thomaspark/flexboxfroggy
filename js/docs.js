@@ -39,6 +39,7 @@ var docs = {
     'ca': '<p>Alinea les línees d\'un contenidor flex quan existeixi més espai en l\'eix transversal.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch (default)</code>',
     'da': '<p>Justerer en flex-containers linjer inden i flex-containeren når der er plads til overs på den tværgående akse.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch (default)</code>',
     'et': '<p>Joondab flex konteineri jooned flex konteineriga kui on piisavalt ruumi ristteljel.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch (default)</code>',
+    'fi': '<p>Kohdistaa rivit flex-säilössä, jos poikittaisakselilla on ylimääräistä tilaa.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch (oletusarvo)</code>',
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
@@ -80,6 +81,7 @@ var docs = {
     'ca': '<p>Alinea elements Flex al llarg de l\'eix transversal.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'da': '<p>Justerer flex-elementer langs den tværgående akse.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'et': '<p>Joondab flex elemendid mööda risttelge.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
+    'fi': '<p>Kohdistaa flex-elementit poikittaisakselin suuntaisesti.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (oletusarvo)</code>',
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -121,6 +123,7 @@ var docs = {
     'ca': '<p>Alinea un element flex al llarg de l\'eix transversal, anul·lant el valor de <code>align-items</code></p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'da': '<p>Justerer et flex-element langs den tværgående akse, og underkender værdien af <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'et': '<p>Joondab flex elemendi mööda risttelge, ja võtab üle <code>align-items</code> väärtuse.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'fi': '<p>Kohdistaa yksittäisen flex-elementin poikittaisakselin suuntaisesti ohittaen <code>align-items</code>-ominaisuudelle määritetyn arvon.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -162,6 +165,7 @@ var docs = {
     'ca': '<p>Defineix la direcció de l\'eix principal.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'da': '<p>Definerer hovedaksens retning.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'et': '<p>Määrab põhitelje suuna</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'fi': '<p>Määrittää pääakselin suunnan.</p><code>row (oletusarvo)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -203,6 +207,7 @@ var docs = {
     'ca': '<p>Abreujament de les propietats de <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code></p>',
     'da': '<p>Forkortelse for <code>flex-direction</code> og <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'et': '<p>Lühendatud omadus, mis ühendab <code>flex-direction</code> ja <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'fi': '<p>Ominaisuuksien <code>flex-direction</code> ja <code>flex-wrap</code> yhdistelmä.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -244,6 +249,7 @@ var docs = {
     'ca': '<p>Especifica si els elements flex són forçats a una sola línia o poden ser encapçulats en multiples línies.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'da': '<p>Fastsætter om flex-elementer skal tvinges ind på en enkelt linje eller må fordeles over flere linjer.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'et': '<p>Täpsustab, kas flex elemendd on surutud on ühele reale või on nad pakitud mitmele reale.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'fi': '<p>Määrittää, pakotetaanko elementit yhdelle riville vai voivatko ne rivittyä useammalle riville.</p><code>nowrap (oletusarvo)</code> <code>wrap</code> <code>wrap-reverse</code>',
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
@@ -285,6 +291,7 @@ var docs = {
     'ca': '<p>Alinea els elements flex al llarg de l\'eix principal.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'da': '<p>Justerer flex-elementer langs hovedaksen.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'en': '<p>Joondab flex elemendid mööda põhitelge.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'fi': '<p>Kohdistaa flex-elementit pääakselin suuntaisesti.</p><code>flex-start (oletusarvo)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
@@ -326,5 +333,6 @@ var docs = {
     'ca': '<p>Especifica l\'ordre dels elements flex.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'da': '<p>Fastsætter rækkefølgen af flex-elementet.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'en': '<p>Täpsustab flex elemendi järjekorda.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
+    'fi': '<p>Määrittää yksittäisen flex-elementin järjestyksen.</p><code>&lt;integer&gt; (... -1, 0 (oletusarvo), 1, ...)</code>',
   }
 };
