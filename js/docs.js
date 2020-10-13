@@ -290,7 +290,7 @@ var docs = {
     'ar': '<p>محاذاة عناصر فلكس على طول المحور الرئيسي.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'ca': '<p>Alinea els elements flex al llarg de l\'eix principal.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'da': '<p>Justerer flex-elementer langs hovedaksen.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
-    'en': '<p>Joondab flex elemendid mööda põhitelge.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
+    'et': '<p>Joondab flex elemendid mööda põhitelge.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'fi': '<p>Kohdistaa flex-elementit pääakselin suuntaisesti.</p><code>flex-start (oletusarvo)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
   },
   'order': {
@@ -332,7 +332,7 @@ var docs = {
     'ar': '<p>تحديد ترتيب عناصر فلكس.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'ca': '<p>Especifica l\'ordre dels elements flex.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'da': '<p>Fastsætter rækkefølgen af flex-elementet.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
-    'en': '<p>Täpsustab flex elemendi järjekorda.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
+    'et': '<p>Täpsustab flex elemendi järjekorda.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'fi': '<p>Määrittää yksittäisen flex-elementin järjestyksen.</p><code>&lt;integer&gt; (... -1, 0 (oletusarvo), 1, ...)</code>',
   }
 };
