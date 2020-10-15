@@ -70,37 +70,44 @@ var game = {
       }, 2000);
     });
 
-    $('#code')
-      .on('keydown', function (e) {
-        if (e.keyCode === 13) {
-          if (e.ctrlKey || e.metaKey) {
-            e.preventDefault();
-            game.check();
-            $('#next').click();
-            return;
-          }
+    const codeField = document.querySelector('#code');
 
-          var max = $(this).data('lines');
-          var code = $(this).val();
-          var trim = code.trim();
-          var codeLength = code.split('\n').length;
-          var trimLength = trim.split('\n').length;
+    codeField.addEventListener('keydown', (event) => {
+      const ENTER_KEYCODE = 13;
 
-          if (codeLength >= max) {
-            if (codeLength === trimLength) {
-              e.preventDefault();
-              $('#next').click();
-            } else {
-              $('#code').focus().val('').val(trim);
-            }
+      if (event.keyCode === ENTER_KEYCODE) {
+        if (event.ctrlKey || event.metaKey) {
+          event.preventDefault();
+          game.check();
+          document.querySelector('#next').click();
+          return;
+        }
+
+        const max = codeField.dataset.lines;
+        console.log(max);
+        const code = codeField.textContent;
+        const codeTrimmed = code.trim();
+        const codeLength = code.split('\n').length;
+        const codeTrimmedLength = codeTrimmed.split('\n').length;
+
+        if (codeLength >= max) {
+          if (codeLength === codeTrimmedLength) {
+            event.preventDefault();
+            document.querySelector('#next').click();
+          } else {
+            document.querySelector('#code').focus().val('').val(trim);
           }
         }
-      })
-      .on('input', game.debounce(game.check, 500))
-      .on('input', function () {
-        game.changed = true;
-        $('#next').removeClass('animated animation').addClass('disabled');
-      });
+      }
+    });
+
+    codeField.addEventListener('input', game.debounce(game.check, 500));
+
+    codeField.addEventListener('input', () => {
+      game.changed = true;
+      document.querySelector('#next').classList.remove('animated', 'animation');
+      document.querySelector('#next').classList.add('disabled');
+    });
 
     $('#editor').on(
       'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
@@ -291,7 +298,7 @@ var game = {
     var lines = Object.keys(level.style).length;
     $('#code')
       .height(20 * lines)
-      .data('lines', lines);
+      .attr('data-lines', lines);
 
     var string = level.board;
     var markup = '';
