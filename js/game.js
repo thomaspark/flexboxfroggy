@@ -36,20 +36,20 @@ var game = {
   },
 
   setHandlers: function() {
-    $('#next').on('click', function() {
-      $('#code').focus();
+    document.querySelector('#next').addEventListener("click", (event) => {
+      const nextButton = event.target;
 
-      if ($(this).hasClass('disabled')) {
-        if (!$('.frog').hasClass('animated')) {
+      if(nextButton.classList.contains('disabled')) {
+        if (!nextButton.classList.contains('animated')) {
           game.tryagain();
         }
 
         return;
       }
 
-      $(this).removeClass('animated animation');
-      $('.frog').addClass('animated bounceOutUp');
-      $('.arrow, #next').addClass('disabled');
+      nextButton.classList.remove('animated', 'animation');
+      document.querySelector('.frog').classList.add("animated", "bounceOutUp");
+      document.querySelector('.arrow', '#next').classList.add('disabled');
 
       setTimeout(function() {
         if (game.level >= levels.length - 1) {
