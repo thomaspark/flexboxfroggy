@@ -18,11 +18,12 @@ var game = {
     }
 
     game.translate();
-    $('#level-counter .total').text(levels.length);
-    $('#editor').show();
-    $('#share').hide();
-    $('#language').val(game.language);
-    $('input[value="' + game.colorblind + '"]', '#colorblind').prop('checked', true);
+    document.querySelector('#level-counter .total').textContent = levels.length;
+    document.querySelector('#editor').style.display = "block";
+    document.querySelector('#share').style.display = "block";
+    document.querySelector('#language').value = game.language;
+    document.querySelector(`input[value="${game.colorblind}"]`).setAttribute('checked', true);
+    document.querySelector('#colorblind').setAttribute('checked', true);
 
     if (!localStorage.user) {
       game.user = '' + (new Date()).getTime() + Math.random().toString(36).slice(1);
@@ -125,7 +126,7 @@ var game = {
       var $instructions = $('#instructions');
       var height = $instructions.height();
       $instructions.css('height', height);
-      
+
       if (game.difficulty == 'hard' || game.difficulty == 'medium') {
         $instructions.slideUp();
       } else {
