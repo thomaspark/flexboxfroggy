@@ -120,18 +120,19 @@ var game = {
       })
     );
 
-    $('#labelReset').on('click', function () {
-      var warningReset =
+    document.querySelector('#labelReset').addEventListener('click', () => {
+      const warningReset =
         messages.warningReset[game.language] || messages.warningReset.en;
-      var r = confirm(warningReset);
 
-      if (r) {
+      const isResetConfirmed = confirm(warningReset);
+
+      if (isResetConfirmed) {
         game.level = 0;
         game.answers = {};
         game.solved = [];
         game.loadLevel(levels[0]);
 
-        $('.level-marker').removeClass('solved');
+        document.querySelector('.level-marker').classList.remove('solved');
       }
     });
 
