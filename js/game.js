@@ -84,7 +84,6 @@ var game = {
         }
 
         const max = codeField.dataset.lines;
-        console.log(max);
         const code = codeField.textContent;
         const codeTrimmed = code.trim();
         const codeLength = code.split('\n').length;
@@ -109,11 +108,16 @@ var game = {
       document.querySelector('#next').classList.add('disabled');
     });
 
-    $('#editor').on(
-      'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-      function () {
-        $(this).removeClass();
-      }
+    [
+      'webkitAnimationEnd',
+      'mozAnimationEnd',
+      'MSAnimationEnd',
+      'oanimationend',
+      'animationend',
+    ].forEach((event) =>
+      document.querySelector('#editor').addEventListener(event, (event) => {
+        event.target.className = '';
+      })
     );
 
     $('#labelReset').on('click', function () {
