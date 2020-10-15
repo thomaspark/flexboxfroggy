@@ -1,3 +1,6 @@
+const ENTER_KEYCODE = 13;
+const ESCAPE_KEYCODE = 27;
+
 var game = {
   colorblind:
     (localStorage.colorblind && JSON.parse(localStorage.colorblind)) || 'false',
@@ -73,8 +76,6 @@ var game = {
     const codeField = document.querySelector('#code');
 
     codeField.addEventListener('keydown', (event) => {
-      const ENTER_KEYCODE = 13;
-
       if (event.keyCode === ENTER_KEYCODE) {
         if (event.ctrlKey || event.metaKey) {
           event.preventDefault();
@@ -141,8 +142,8 @@ var game = {
       $('#settings .tooltip').toggle();
     });
 
-    $('#language').on('change', function () {
-      window.location.hash = $(this).val();
+    document.querySelector('#language').addEventListener('change', (event) => {
+      window.location.hash = event.target.value;
     });
 
     $('#difficulty').on('change', function () {
