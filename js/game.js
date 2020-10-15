@@ -56,7 +56,9 @@ var game = {
       }
 
       nextButton.classList.remove('animated', 'animation');
-      document.querySelector('.frog').classList.add('animated', 'bounceOutUp');
+      document
+        .querySelectorAll('.frog')
+        .forEach((frog) => frog.classList.add('animated', 'bounceOutUp'));
       document.querySelector('.arrow', '#next').classList.add('disabled');
 
       setTimeout(function () {
