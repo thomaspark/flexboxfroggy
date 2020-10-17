@@ -267,7 +267,6 @@ var game = {
     $('#code').height(20 * lines).data("lines", lines);
 
     var string = level.board;
-    var markup = '';
     var colors = {
       'g': 'green',
       'r': 'red',
@@ -278,8 +277,8 @@ var game = {
       var c = string.charAt(i);
       var color = colors[c];
 
-      var lilypad = $('<div/>').addClass('lilypad ' + color + (this.colorblind == 'true' ? ' cb-friendly' : '')).data('color', color);
-      var frog = $('<div/>').addClass('frog ' + color + (this.colorblind == 'true' ? ' cb-friendly' : '')).data('color', color);
+      var lilypad = $('<div/>').addClass(`lilypad ${color}${this.colorblind == 'true' ? ' cb-friendly' : ''}`).data('color', color);
+      var frog = $('<div/>').addClass(`frog ${color}${this.colorblind == 'true' ? ' cb-friendly' : ''}`).data('color', color);
 
       $('<div/>').addClass('bg').css(game.transform()).appendTo(lilypad);
       $('<div/>').addClass('bg animated pulse infinite').appendTo(frog);
@@ -304,21 +303,21 @@ var game = {
     game.check();
   },
 
-  loadDocs: function() {
-    $('#instructions code').each(function() {
+  loadDocs: function () {
+    $('#instructions code').each(function () {
       var code = $(this);
       var text = code.text();
 
       if (text in docs) {
         code.addClass('help');
-        code.on('mouseenter', function(e) {
+        code.on('mouseenter', function () {
           if ($('#instructions .tooltip').length === 0) {
             var html = docs[text][game.language] || docs[text].en;
             var tooltipX = code.offset().left;
             var tooltipY = code.offset().top + code.height() + 13;
-            $('<div class="tooltip"></div>').html(html).css({top: tooltipY, left: tooltipX}).appendTo($('#instructions'));
+            $('<div class="tooltip"></div>').html(html).css({ top: tooltipY, left: tooltipX }).appendTo($('#instructions'));
           }
-        }).on('mouseleave', function() {
+        }).on('mouseleave', function () {
           $('#instructions .tooltip').remove();
         });
       }
@@ -337,7 +336,6 @@ var game = {
     game.applyStyles();
 
     var level = levels[game.level];
-    var lilypads = {};
     var frogs = {};
     var correct = true;
 
@@ -376,7 +374,7 @@ var game = {
         game.solved.push(level.name);
       }
 
-      $('[data-level=' + game.level + ']').addClass('solved');
+      $(`[data-level=${game.level}]`).addClass('solved');
       $('#next').removeClass('disabled').addClass('animated animation');
     } else {
       ga('send', {
