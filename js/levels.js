@@ -915,6 +915,7 @@ var levels = [
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-direction': 'column', 'flex-wrap': 'wrap'},
+    styleShort: {'flex-flow': 'column wrap'},
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -1158,6 +1159,7 @@ var levels = [
     },
     board: 'rggggyy',
     style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
+    styleShort: {'flex-flow': 'column-reverse wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
     before: "#pond {\n  display: flex;\n",
     after: "}"
   }

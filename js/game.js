@@ -69,20 +69,25 @@ var game = {
           return;
         }
 
-        var max = $(this).data('lines');
+        var max = $(this).data('max');
+        var min = $(this).data('min');
         var code = $(this).val();
         var trim = code.trim();
         var codeLength = code.split('\n').length;
         var trimLength = trim.split('\n').length;
 
-        if (codeLength >= max) {
+        if (codeLength >= min) {
 
-          if (codeLength === trimLength) {
+          if (! $('#next').hasClass('disabled')) {
             e.preventDefault();
             $('#next').click();
-          } else {
-            $('#code').focus().val('').val(trim);
+            return;
           }
+
+          if (trimLength >= max) {
+            e.preventDefault();
+          }
+          $('#code').focus().val('').val(trim);
         }
       }
     }).on('input', game.debounce(game.check, 500))
@@ -125,7 +130,7 @@ var game = {
       var $instructions = $('#instructions');
       var height = $instructions.height();
       $instructions.css('height', height);
-      
+
       if (game.difficulty == 'hard' || game.difficulty == 'medium') {
         $instructions.slideUp();
       } else {
@@ -264,7 +269,8 @@ var game = {
     this.loadDocs();
 
     var lines = Object.keys(level.style).length;
-    $('#code').height(20 * lines).data("lines", lines);
+    var min = level.styleShort ? Object.keys(level.styleShort).length : lines;
+    $('#code').height(20 * lines).data('max', lines).data('min', min);
 
     var string = level.board;
     var markup = '';
