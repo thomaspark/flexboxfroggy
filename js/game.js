@@ -11,7 +11,14 @@ var game = {
   start: function() {
     // navigator.language can include '-'
     // ref: https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language
-    var requestLang = window.navigator.language.split('-')[0];
+    let requestLang = window.navigator.language.toLowerCase()
+
+    //This is a workaround to automatically detect languages added with country sufix in lang code
+    const langsWithCountrySufix = ['pt-br', 'zh-cn', 'zh-tw']
+
+    if(!langsWithCountrySufix.includes(requestLang))
+      requestLang = requestLang.split('-')[0]
+
     if (window.location.hash === '' && requestLang !== 'en' && messages.languageActive.hasOwnProperty(requestLang)) {
       game.language = requestLang;
       window.location.hash = requestLang;
