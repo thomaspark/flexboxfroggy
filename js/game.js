@@ -35,7 +35,7 @@ var game = {
   },
 
   setHandlers: function() {
-    $('#next').on('click', function() {
+    $('#next').on('click', () => {
       $('#code').focus();
 
       if ($(this).hasClass('disabled')) {
@@ -59,7 +59,7 @@ var game = {
       }, 2000);
     });
 
-    $('#code').on('keydown', function(e) {
+    $('#code').on('keydown', (e) => {
       if (e.keyCode === 13) {
 
         if (e.ctrlKey || e.metaKey) {
@@ -86,16 +86,16 @@ var game = {
         }
       }
     }).on('input', game.debounce(game.check, 500))
-    .on('input', function() {
+    .on('input', () => {
       game.changed = true;
       $('#next').removeClass('animated animation').addClass('disabled');
     });
 
-    $('#editor').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+    $('#editor').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', () => {
       $(this).removeClass();
     });
 
-    $('#labelReset').on('click', function() {
+    $('#labelReset').on('click', () => {
       var warningReset = messages.warningReset[game.language] || messages.warningReset.en;
       var r = confirm(warningReset);
 
@@ -109,16 +109,16 @@ var game = {
       }
     });
 
-    $('#labelSettings').on('click', function() {
+    $('#labelSettings').on('click', () => {
       $('#levelsWrapper').hide();
       $('#settings .tooltip').toggle();
     })
 
-    $('#language').on('change', function() {
+    $('#language').on('change', () => {
       window.location.hash = $(this).val();
     });
 
-    $('#difficulty').on('change', function() {
+    $('#difficulty').on('change', () => {
       game.difficulty = $('input:checked', '#difficulty').val();
 
       // setting height will prevent a slight jump when the animation starts
@@ -151,7 +151,7 @@ var game = {
       }
     });
 
-    $('#colorblind').on('change', function() {
+    $('#colorblind').on('change', () => {
       game.colorblind = $('input:checked', '#colorblind').val();
 
       if (game.colorblind == 'true') {
@@ -161,21 +161,21 @@ var game = {
       }
     });
 
-    $('body').on('click', function() {
+    $('body').on('click', () => {
       $('.tooltip').hide();
     });
 
-    $('.tooltip, .toggle, #level-indicator').on('click', function(e) {
+    $('.tooltip, .toggle, #level-indicator').on('click', (e) => {
       e.stopPropagation();
     });
 
-    $(window).on('beforeunload', function() {
+    $(window).on('beforeunload', () => {
       game.saveAnswer();
       localStorage.setItem('level', game.level);
       localStorage.setItem('answers', JSON.stringify(game.answers));
       localStorage.setItem('solved', JSON.stringify(game.solved));
       localStorage.setItem('colorblind', JSON.stringify(game.colorblind));
-    }).on('hashchange', function() {
+    }).on('hashchange', () => {
       game.language = window.location.hash.substring(1) || 'en';
       game.translate();
 
@@ -191,14 +191,14 @@ var game = {
     });
   },
 
-  prev: function() {
+  prev: () => {
     this.level--;
 
     var levelData = levels[this.level];
     this.loadLevel(levelData);
   },
 
-  next: function() {
+  next: () => {
     if (this.difficulty === "hard") {
       this.level = Math.floor(Math.random()* levels.length)
     } else {
@@ -209,7 +209,7 @@ var game = {
     this.loadLevel(levelData);
   },
 
-  loadMenu: function() {
+  loadMenu: () => {
     levels.forEach(function(level, i) {
       var levelMarker = $('<span/>').addClass('level-marker').attr({'data-level': i, 'title': level.name}).text(i+1);
 
@@ -220,7 +220,7 @@ var game = {
       levelMarker.appendTo('#levels');
     });
 
-    $('.level-marker').on('click', function() {
+    $('.level-marker').on('click', () => {
       game.saveAnswer();
 
       var level = $(this).attr('data-level');
@@ -228,12 +228,12 @@ var game = {
       game.loadLevel(levels[level]);
     });
 
-    $('#level-indicator').on('click', function() {
+    $('#level-indicator').on('click', () => {
       $('#settings .tooltip').hide();
       $('#levelsWrapper').toggle();
     });
 
-    $('.arrow.left').on('click', function() {
+    $('.arrow.left').on('click', () => {
       if ($(this).hasClass('disabled')) {
         return;
       }
@@ -242,7 +242,7 @@ var game = {
       game.prev();
     });
 
-    $('.arrow.right').on('click', function() {
+    $('.arrow.right').on('click', () => {
       if ($(this).hasClass('disabled')) {
         return;
       }
@@ -252,7 +252,7 @@ var game = {
     });
   },
 
-  loadLevel: function(level) {
+  loadLevel: (level) => {
     $('#editor').show();
     $('#share').hide();
     $('#background, #pond').removeClass('wrap').attr('style', '').empty();
@@ -322,14 +322,14 @@ var game = {
     game.check();
   },
 
-  loadDocs: function() {
-    $('#instructions code').each(function() {
+  loadDocs: () => {
+    $('#instructions code').each(() => {
       var code = $(this);
       var text = code.text();
 
       if (text in docs) {
         code.addClass('help');
-        code.on('mouseenter', function(e) {
+        code.on('mouseenter', (e) => {
           if ($('#instructions .tooltip').length === 0) {
             var html = docs[text][game.language] || docs[text].en;
             var tooltipX = code.offset().left;
@@ -343,7 +343,7 @@ var game = {
     });
   },
 
-  applyStyles: function() {
+  applyStyles: () => {
     var level = levels[game.level];
     var code = $('#code').val();
     var selector = level.selector || '';
@@ -351,7 +351,7 @@ var game = {
     game.saveAnswer();
   },
 
-  check: function() {
+  check: () => {
     game.applyStyles();
 
     var level = levels[game.level];
@@ -359,7 +359,7 @@ var game = {
     var frogs = {};
     var correct = true;
 
-    $('.frog').each(function() {
+    $('.frog').each( () => {
       var position = $(this).position();
       position.top = Math.floor(position.top);
       position.left = Math.floor(position.left);
@@ -369,7 +369,7 @@ var game = {
       frogs[key] = val;
     });
 
-    $('.lilypad').each(function() {
+    $('.lilypad').each( () => {
       var position = $(this).position();
       position.top = Math.floor(position.top);
       position.left = Math.floor(position.left);
@@ -406,16 +406,16 @@ var game = {
     }
   },
 
-  saveAnswer: function() {
+  saveAnswer: () => {
     var level = levels[this.level];
     game.answers[level.name] = $('#code').val();
   },
 
-  tryagain: function() {
+  tryagain: () => {
     $('#editor').addClass('animated shake');
   },
 
-  win: function() {
+  win: () => {
     var solution = $('#code').val();
 
     this.loadLevel(levelWin);
@@ -426,14 +426,14 @@ var game = {
     $('.frog .bg').removeClass('pulse').addClass('bounce');
   },
 
-  transform: function() {
+  transform: () => {
     var scale = 1 + ((Math.random() / 5) - 0.2);
     var rotate = 360 * Math.random();
 
     return {'transform': 'scale(' + scale + ') rotate(' + rotate + 'deg)'};
   },
 
-  translate: function() {
+  translate: () => {
     document.title = messages.title[game.language] || messages.title.en;
     $('html').attr('lang', game.language);
 
@@ -442,7 +442,7 @@ var game = {
     $('#instructions').html(instructions);
     game.loadDocs();
 
-    $('.translate').each(function() {
+    $('.translate').each( () => {
       var label = $(this).attr('id');
       if (messages[label]) {
         var text = messages[label][game.language] || messages[label].en;
@@ -452,11 +452,11 @@ var game = {
     });
   },
 
-  debounce: function(func, wait, immediate) {
+  debounce: (func, wait, immediate) => {
     var timeout;
     return function() {
       var context = this, args = arguments;
-      var later = function() {
+      var later = () => {
         timeout = null;
         if (!immediate) func.apply(context, args);
       };
@@ -468,6 +468,6 @@ var game = {
   }
 };
 
-$(document).ready(function() {
+$(document).ready(() => {
   game.start();
 });
