@@ -44,7 +44,7 @@ var levels = [
       'fi': '<p>Tämä on Flexbox Froggy – peli, jossa kirjoitat CSS-koodia auttaaksesi Froggy-sammakkoa ja sen kavereita! Opasta tämä sammakko oikealla puolella olevalle lumpeenlehdelle määrittämällä ominaisuus <code>justify-content</code>, joka kohdistaa elementit vaakasuunnassa. Voit antaa ominaisuudelle jonkin seuraavista arvoista:</p><ul><li><code>flex-start</code>: Elementit kohdistetaan säilön vasempaan reunaan.</li><li><code>flex-end</code>: Elementit kohdistetaan säilön oikeaan reunaan.</li><li><code>center</code>: Elementit kohdistetaan vaakasuunnassa säilön keskelle.</li><li><code>space-between</code>: Elementtien välissä on yhtä paljon tilaa.</li><li><code>space-around</code>: Elementtien ympärillä on yhtä paljon tilaa.</li></ul><p>Esimerkiksi <code>justify-content: flex-end;</code> siirtää sammakon oikealle. <img src="https://code.org/api/hour/begin_flexbox_froggy.png"></p>',
     },
     board: 'g',
-    style: {'justify-content': 'flex-end'},
+    style: { 'justify-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -93,7 +93,7 @@ var levels = [
       'fi': '<p>Käytä taas ominaisuutta <code>justify-content</code>, jotta nämä sammakot pääsevät omien lumpeenlehtiensä luo. Muista, että tämä CSS-ominaisuus kohdistaa elementit vaakasuunnassa ja sille voi antaa jonkin seuraavista arvoista:</p><ul><li><code>flex-start</code>: Elementit kohdistetaan säilön vasempaan reunaan.</li><li><code>flex-end</code>: Elementit kohdistetaan säilön oikeaan reunaan.</li><li><code>center</code>: Elementit kohdistetaan vaakasuunnassa säilön keskelle.</li><li><code>space-between</code>: Elementtien välissä on yhtä paljon tilaa.</li><li><code>space-around</code>: Elementtien ympärillä on yhtä paljon tilaa.</li></ul>',
     },
     board: 'gy',
-    style: {'justify-content': 'center'},
+    style: { 'justify-content': 'center' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -142,7 +142,7 @@ var levels = [
       'fi': '<p>Auta näitä kolmea sammakkoa löytämään omat lumpeenlehtensä pelkän <code>justify-content</code>-ominaisuuden avulla. Tällä kertaa lumpeenlehtien ympärillä on paljon tilaa.</p><p>Jos et muista jonkin ominaisuuden mahdollisia arvoja, osoita ominaisuuden nimeä. Kokeile osoittaa ominaisuutta <code>justify-content</code>.</p>',
     },
     board: 'gyr',
-    style: {'justify-content': 'space-around'},
+    style: { 'justify-content': 'space-around' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -155,7 +155,7 @@ var levels = [
       'bg': '<p>Сега крайните листа се носят към брега, увеличавайки разстоянието между тях . Използвай <code>justify-content</code>. Този път листата имат еднакво разстояние помежду си.</p>',
       'de': '<p>Inzwischen sind die äußeren Seerosenblätter weiter nach außen getrieben und haben so den Abstand noch weiter vergrößert. Benutze <code>justify-content</code>. Dieses Mal haben die Seerosenblätter einen gleichmäßigen Innenabstand.</p>',
       'pt-br': '<p>Agora as vitórias-régias nos cantos desviaram-se para a costa, aumentando o espaço em torno delas. Use <code>justify-content</code>. Desta vez, as vitórias-régias têm espaço igual entre elas.</p>',
-      'es': '<p>Ahora las hojas de lirio de los bordes se han desplazado a un costado, aumentando así el espacio entre ellas. Usa <code>justify-content</code>. En esta oportunidad, las hojas de lirio tienen el mismo espacio entre ellas.</p>',
+      'es': '<p>Ahora las hojas de lirio de los bordes se han desplazado a un costado, aumentando el espacio entre ellas. Usa <code>justify-content</code>. En esta oportunidad, las hojas de lirio tienen el mismo espacio entre ellas.</p>',
       'fr': '<p>Maintenant, les nénuphars sur les côtés ont dérivé jusqu\'à la rive, augmentant l\'espace entre eux. Utilisez <code>justify-content</code>. Cette fois-ci, l\'espace entre chaque nénuphar est équivalent.</p>',
       'ru': '<p>Теперь лилии по краям уплыли к берегам, увеличив пространство между ними. Используй <code>justify-content</code>. В этот раз, у лилий одинаковое расстояние между ними.</p>',
       'fa': '<p>در حال حاضر نیلوفر های آبی به سمت لبه های ساحل حرکت کرده اند و فضای بین آنها افزایش پیدا کرده پس با استفاده از <code>justify-content</code> به قورباغه ها کمک کنید. نیلوفرهای آبی دارای فاصله مساوی هستن.</p>',
@@ -191,7 +191,7 @@ var levels = [
       'fi': '<p>Nyt reunoilla olevat lumpeenlehdet ovat ajelehtineet rantaan, joten niiden välissä on enemmän tilaa. Käytä taas ominaisuutta <code>justify-content</code>. Tällä kertaa lumpeenlehtien välissä on yhtä paljon tilaa.</p>',
     },
     board: 'gyr',
-    style: {'justify-content': 'space-between'},
+    style: { 'justify-content': 'space-between' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -240,7 +240,7 @@ var levels = [
       'fi': '<p>Nyt sinun on autettava sammakot lammen alareunaan käyttämällä ominaisuutta <code>align-items</code>, joka kohdistaa elementit pystysuunnassa. Voit antaa ominaisuudelle jonkin seuraavista arvoista:</p><ul><li><code>flex-start</code>: Elementit kohdistetaan säilön yläreunaan.</li><li><code>flex-end</code>: Elementit kohdistetaan säilön alareunaan.</li><li><code>center</code>: Elementit kohdistetaan pystysuuntaisesti säilön keskelle.</li><li><code>baseline</code>: Elementit kohdistetaan säilön perusviivalle.</li><li><code>stretch</code>: Elementit venytetään säilön koon mukaan.</li></ul>',
     },
     board: 'gyr',
-    style: {'align-items': 'flex-end'},
+    style: { 'align-items': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -289,7 +289,7 @@ var levels = [
       'fi': '<p>Opasta sammakko lammen keskelle käyttämällä ominaisuuksia <code>justify-content</code> ja <code>align-items</code> yhdessä.</p>',
     },
     board: 'g',
-    style: {'justify-content': 'center', 'align-items': 'center'},
+    style: { 'justify-content': 'center', 'align-items': 'center' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -338,7 +338,7 @@ var levels = [
       'fi': '<p>Sammakoiden täytyy taas päästä lammen halki, tällä kertaa kaukana toisistaan olevien lumpeenlehtien luo. Määritä ominaisuudet <code>justify-content</code> ja <code>align-items</code> yhdessä.</p>',
     },
     board: 'gyr',
-    style: {'justify-content': 'space-around', 'align-items': 'flex-end'},
+    style: { 'justify-content': 'space-around', 'align-items': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -387,7 +387,7 @@ var levels = [
       'fi': '<p>Sammakoiden täytyy asettua samaan järjestykseen kuin lumpeenlehdet <code>flex-direction</code>-ominaisuuden avulla. Tämä CSS-ominaisuus määrittää elementtien järjestyksen säilössä. Sille voi antaa jonkin seuraavista arvoista:</p><ul><li><code>row</code>: Elementit järjestetään vaakasuuntaan tekstin kulkusuunnan mukaisesti.</li><li><code>row-reverse</code>: Elementit järjestetään vaakasuuntaan tekstin kulkusuunnan vastaisesti.</li><li><code>column</code>: Elementit järjestetään pystysuuntaan ylhäältä alas.</li><li><code>column-reverse</code>: Elementit järjestetään pystysuuntaan alhaalta ylös.</li></ul>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'row-reverse'},
+    style: { 'flex-direction': 'row-reverse' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -436,7 +436,7 @@ var levels = [
       'fi': '<p>Auta sammakoita löytämään pystysuunnassa kelluvat lumpeenlehdet <code>flex-direction</code>-ominaisuuden avulla. Tämä CSS-ominaisuus määrittää elementtien järjestyksen säilössä. Sille voi antaa jonkin seuraavista arvoista:</p><ul><li><code>row</code>: Elementit järjestetään vaakasuuntaan tekstin kulkusuunnan mukaisesti.</li><li><code>row-reverse</code>: Elementit järjestetään vaakasuuntaan tekstin kulkusuunnan vastaisesti.</li><li><code>column</code>: Elementit järjestetään pystysuuntaan ylhäältä alas.</li><li><code>column-reverse</code>: Elementit järjestetään pystysuuntaan alhaalta ylös.</li></ul>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'column'},
+    style: { 'flex-direction': 'column' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -485,7 +485,7 @@ var levels = [
       'fi': '<p>Auta sammakot omille lumpeenlehdilleen. Vaikka ne ovatkin melkein paikoillaan, sinun tarvitsee määrittää sekä <code>flex-direction</code> että <code>justify-content</code>.</p><p>Huomaa, että kun määrität vaaka- tai pystysuuntaisen järjestyksen käänteiseksi, alku- ja loppupää vaihtavat myös paikkaa.</p>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
+    style: { 'flex-direction': 'row-reverse', 'justify-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -534,7 +534,7 @@ var levels = [
       'fi': '<p>Auta sammakoita löytämään omat lumpeenlehtensä ominaisuuksien <code>flex-direction</code> ja <code>justify-content</code> avulla.</p><p>Huomaa, että kun elementit järjestetään pystysuunnassa, kohdistaa <code>justify-content</code> elementit pystysuuntaisesti ja <code>align-items</code> vaakasuuntaisesti.</p>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'column', 'justify-content': 'flex-end'},
+    style: { 'flex-direction': 'column', 'justify-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -583,7 +583,7 @@ var levels = [
       'fi': '<p>Auta sammakoita löytämään omat lumpeenlehtensä ominaisuuksien <code>flex-direction</code> ja <code>justify-content</code> avulla.</p>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'column-reverse', 'justify-content': 'space-between'},
+    style: { 'flex-direction': 'column-reverse', 'justify-content': 'space-between' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -632,7 +632,7 @@ var levels = [
       'fi': '<p>Auta sammakoita löytämään omat lumpeenlehtensä ominaisuuksien <code>flex-direction</code>, <code>justify-content</code> ja <code>align-items</code> avulla.</p>',
     },
     board: 'gyr',
-    style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
+    style: { 'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -682,8 +682,8 @@ var levels = [
     },
     board: 'gyr',
     selector: '> :nth-child(2)',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'order': '2'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'order': '2' },
     before: "#pond {\n  display: flex;\n}\n\n.yellow {\n",
     after: "}"
   },
@@ -733,8 +733,8 @@ var levels = [
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'order': '-1'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'order': '-1' },
     before: "#pond {\n  display: flex;\n}\n\n.red {\n",
     after: "}"
   },
@@ -784,7 +784,7 @@ var levels = [
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
-    style: {'align-self': 'flex-end'},
+    style: { 'align-self': 'flex-end' },
     before: "#pond {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
     after: "}"
   },
@@ -834,7 +834,7 @@ var levels = [
     },
     board: 'ygygg',
     selector: '> .yellow',
-    style: {'align-self': 'flex-end', 'order': '2'},
+    style: { 'align-self': 'flex-end', 'order': '2' },
     before: "#pond {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
     after: "}"
   },
@@ -883,7 +883,7 @@ var levels = [
       'fi': '<p>Voi ei! Sammakot ovat ahtautuneet samalle riville. Auta niitä levittäytymään <code>flex-wrap</code>-ominaisuuden avulla. Sille voi antaa jonkin seuraavista arvoista:</p><ul><li><code>nowrap</code>: Kaikki elementit sovitetaan yhdelle riville.</li><li><code>wrap</code>: Elementit jakautuvat tarvittaessa useammalle riville.</li><li><code>wrap-reverse</code>: Elementit jakautuvat useammalle riville käänteisessä järjestyksessä.</li></ul>',
     },
     board: 'ygggggr',
-    style: {'flex-wrap': 'wrap'},
+    style: { 'flex-wrap': 'wrap' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -933,7 +933,7 @@ var levels = [
 
     },
     board: 'gggggrrrrryyyyy',
-    style: {'flex-direction': 'column', 'flex-wrap': 'wrap'},
+    style: { 'flex-direction': 'column', 'flex-wrap': 'wrap' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -982,7 +982,7 @@ var levels = [
       'fi': '<p>Ominaisuuksia <code>flex-direction</code> ja <code>flex-wrap</code> käytetään niin usein yhdessä, että niitä varten on luotu yhdistelmäominaisuus <code>flex-flow</code>. Tälle ominaisuudelle voi määrittää yhden kummankin ominaisuuden arvoista välilyönnillä erotettuna.</p><p>Voit esimerkiksi määrittää vaakasuuntaisen järjestyksen ja jakaa sen useammalle riville kirjoittamalla <code>flex-flow: row wrap</code>.</p><p>Kokeile ratkaista edellinen pulma <code>flex-flow</code>-ominaisuuden avulla.</p>',
     },
     board: 'gggggrrrrryyyyy',
-    style: {'flex-flow': 'column wrap'},
+    style: { 'flex-flow': 'column wrap' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   },
@@ -1031,8 +1031,8 @@ var levels = [
       'fi': '<p>Sammakot ovat levittäytyneet joka puolelle lampea, mutta lumpeenlehdet ovat kerääntyneet yläreunaan. Voit määrittää usean rivin asettelun <code>align-content</code>-ominaisuuden avulla. Ominaisuudelle voi antaa jonkin seuraavista arvoista:</p><ul><li><code>flex-start</code>: Rivit pakkautuvat säilön yläreunaan.</li><li><code>flex-end</code>: Rivit pakkautuvat säilön alareunaan.</li><li><code>center</code>: Rivit pakkautuvat pystysuuntaisesti säilön keskelle.</li><li><code>space-between</code>: Rivien välissä on yhtä paljon tilaa.</li><li><code>space-around</code>: Rivien ympärillä on yhtä paljon tilaa.</li><li><code>stretch</code>: Rivit venytetään säilön koon mukaan.</li></ul><p>Tämä saattaa vaikuttaa monimutkaiselta, mutta <code>align-content</code> määrittää rivien välisen tilan ja <code>align-items</code> määrittää, kuinka elementit kokonaisuudessaan kohdistetaan säilön sisällä. Jos rivejä on vain yksi, ominaisuudella <code>align-content</code> ei ole vaikutusta.</p>',
     },
     board: 'ggggggggggggggg',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'align-content': 'flex-start'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'align-content': 'flex-start' },
     before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
@@ -1081,8 +1081,8 @@ var levels = [
       'fi': '<p>Nyt virtaus on kasannut lumpeenlehdet lammen alareunaan. Opasta sammakot sinne <code>align-content</code>-ominaisuuden avulla.</p>',
     },
     board: 'ggggggggggggggg',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'align-content': 'flex-end'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'align-content': 'flex-end' },
     before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
@@ -1131,8 +1131,8 @@ var levels = [
       'fi': '<p>Sammakot ovat juhlineet, mutta nyt on aika palata koteihin. Opasta sammakot omille lumpeenlehdilleen käyttämällä ominaisuuksia <code>flex-direction</code> ja <code>align-content</code> yhdessä.</p>',
     },
     board: 'rgggyrgggyrgggy',
-    classes: {'#pond, #background': 'wrap'},
-    style: {'flex-direction': 'column-reverse', 'align-content': 'center'},
+    classes: { '#pond, #background': 'wrap' },
+    style: { 'flex-direction': 'column-reverse', 'align-content': 'center' },
     before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
@@ -1181,7 +1181,7 @@ var levels = [
       'fi': '<p>Opasta sammakot koteihinsa vielä viimeisen kerran käyttämällä oppimiasi CSS-ominaisuuksia:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code><img src="https://code.org/api/hour/finish_flexbox_froggy.png"></li></ul>',
     },
     board: 'rggggyy',
-    style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
+    style: { 'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center' },
     before: "#pond {\n  display: flex;\n",
     after: "}"
   }
@@ -1232,7 +1232,7 @@ var levelWin = {
     'fi': '<p>Hurraa! Mestarillisten flexbox-taitojesi ansiosta kaikki sammakot löysivät omat lumpeenlehtensä. Katso, kuinka ne hyppivät ilosta!</p><p>Jos pidit tästä seikkailusta, kokeile myös <a href="https://codepip.com/games/grid-garden/">Grid Garden</a> -peliä, jossa tutustut toiseen mahtavaan CSS-asetteluominaisuuteen. Lisää koodailupelejä löytyy <a href="https://codepip.com/">Codepip</a>-sivustolta.</p><p>Haluaisitko oppia lisää ja samalla tukea Flexbox Froggy -peliä? Tutustu <a href="https://treehouse.7eer.net/c/371033/228915/3944?subId1=flexboxfroggy">Treehousen</a> websuunnittelu- ja koodauskursseihin. Äläkä unohda kertoa Flexbox Froggysta ystävillesi!</p>',
   },
   board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
-  classes: {'#pond, #background': 'wrap'},
+  classes: { '#pond, #background': 'wrap' },
   style: {},
   before: "#pond {\n  display: flex;\n",
   after: "}"
