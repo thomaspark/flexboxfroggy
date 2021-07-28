@@ -51,7 +51,7 @@ var game = {
       $('.arrow, #next').addClass('disabled');
 
       setTimeout(function() {
-        if (game.level >= levels.length - 1) {
+        if (game.solved.length >= levels.length) {
           game.win();
         } else {
           game.next();
@@ -201,6 +201,8 @@ var game = {
   next: function() {
     if (this.difficulty === "hard") {
       this.level = Math.floor(Math.random()* levels.length)
+    } else if(this.level == levels.length -1) {
+      this.level = 0;
     } else {
       this.level++
     }
