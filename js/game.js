@@ -131,10 +131,28 @@ var game = {
       var height = $instructions.height();
       $instructions.css('height', height);
 
+      var $markers = $('.level-marker');
+      
       if (game.difficulty == 'hard' || game.difficulty == 'medium') {
         $instructions.slideUp();
+
+        $markers.each(function() {
+          var $marker = $(this);
+          if ($marker[0].hasAttribute('title')) {
+            $marker.attr('data-title', $marker.attr('title'));
+            $marker.removeAttr('title');
+          }
+        });
       } else {
         $instructions.css('height', '').slideDown();
+
+        $markers.each(function() {
+          var $marker = $(this);
+          if ($marker[0].hasAttribute('data-title')) {
+            $marker.attr('title', $marker.attr('data-title'));
+            $marker.removeAttr('data-title');
+          }
+        });
       }
     });
 

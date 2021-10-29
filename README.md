@@ -54,6 +54,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Spanish by [Manuel González](https://github.com/manuelitox)
 * Swedish by [Martin Ohlson](https://github.com/martinkrulltott)
 * Tamil by [Galeel Bhasha](https://github.com/gbhasha)
+* Telugu by [Sai Venkat Balabadruni](https://github.com/Thunderbolt2-o)
 * Turkish by [Uğur Korfalı](https://github.com/kel-sakal-biyik)
 * Ukrainian by [sHa](https://github.com/shadoll)
 * Vietnamese by [Kingsten Banh](https://github.com/kingstenbanh)
@@ -62,4 +63,4 @@ Don't see your language on the list? Contribute a translation! Fork the [repo](h
 
 ## Copyright and License
 
-Copyright 2015-2017 Thomas Park. Code released under [the MIT License](https://github.com/thomaspark/flexboxfroggy/blob/gh-pages/LICENSE). Images released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/legalcode.txt).
+Copyright 2015-2021 Thomas Park. Code released under [the MIT License](https://github.com/thomaspark/flexboxfroggy/blob/gh-pages/LICENSE). Images released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/legalcode.txt).
