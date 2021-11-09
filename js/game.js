@@ -162,7 +162,7 @@ var game = {
     });
 
     $('body').on('click', function() {
-      $('.tooltip').hide();
+      $('.tooltip').remove();
     });
 
     $('.tooltip, .toggle, #level-indicator').on('click', function(e) {
@@ -331,6 +331,9 @@ var game = {
         var flag = false; // to check click or not
         code.addClass('help');
         code.on('mouseenter', function(e) {
+          if($('#instructions .tooltip').length !== 0) {
+            $('#instructions .tooltip').remove();
+          }
           if ($('#instructions .tooltip').length === 0) {
             var html = docs[text][game.language] || docs[text].en;
             var tooltipX = code.offset().left;
@@ -348,10 +351,9 @@ var game = {
           }
         });
         code.on('mouseleave', function() {
-          if (flag){
-            flag = false;
-            $('#instructions .tooltip').remove();
-          }
+          $('#instructions .tooltip').on('mouseleave', function() {
+            $('#tooltip').remove();
+          });
         });
       }
     });
