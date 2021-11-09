@@ -349,8 +349,7 @@ var game = {
             });
             $("code").css('cursor', 'pointer');
           }
-        });
-        code.on('mouseleave', function() {
+        }).on('mouseleave', function() {
           $('#instructions .tooltip').on('mouseleave', function() {
             $('#tooltip').remove();
           });
