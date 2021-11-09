@@ -336,7 +336,8 @@ var game = {
             var tooltipY = code.offset().top + code.height() + 13;
             $('<div class="tooltip"></div>').html(html).css({top: tooltipY, left: tooltipX}).appendTo($('#instructions'));
           }
-        }).on('mouseleave', function() {
+        });
+        code.on('mouseleave', function() {
           $('#instructions .tooltip').remove();
         });
       }
