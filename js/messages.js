@@ -356,7 +356,8 @@ var messages = {
     'ca': 'Vols aprendre CSS grid? Jugar',
     'da': 'Vil du lære CSS grid? Spil',
     'et': 'Kas sa tahad õppida CSS grid\'i? Mängi',
-    'fi': 'Haluatko oppia CSS grid -asettelun? Kokeile peliä'
+    'fi': 'Haluatko oppia CSS grid -asettelun? Kokeile peliä',
+    'tr': 'CSS grid öğrenmek ister misiniz? Oyna'
   },
   labelLanguage: {
     'en': 'Language',
@@ -375,7 +376,8 @@ var messages = {
     'te': 'భాష',
     'da': 'Sprog',
     'et': 'Keel',
-    'fi': 'Kieli'
+    'fi': 'Kieli',
+    'tr': 'Dil'
   },
   labelSettings: {
     'en': 'Settings',
@@ -393,7 +395,8 @@ var messages = {
     'te': 'సెట్టింగులు',
     'da': 'Indstillinger',
     'et': 'Seaded',
-    'fi': 'Asetukset'
+    'fi': 'Asetukset',
+    'tr': 'Ayarlar'
   },
   labelDifficulty: {
     'en': 'Difficulty',
@@ -411,7 +414,8 @@ var messages = {
     'te': 'స్థాయి',
     'da': 'Sværhedsgrad',
     'et': 'Raskustase',
-    'fi': 'Vaikeustaso'
+    'fi': 'Vaikeustaso',
+    'tr': 'Zorluk'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
@@ -428,7 +432,8 @@ var messages = {
     'ca': 'Mode per daltònics',
     'da': 'Indstilling til farveblinde',
     'et': 'Värvipimeduse režiim',
-    'fi': 'Värien erottelun avustin'
+    'fi': 'Värien erottelun avustin',
+    'tr': 'Renk körlüğü modu'
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -444,7 +449,8 @@ var messages = {
     'ca': 'Desactivat',
     'da': 'Fra',
     'et': 'Väljas',
-    'fi': 'Poissa käytöstä'
+    'fi': 'Poissa käytöstä',
+    'tr': 'Kapalı'
   },
   labelColorblindOn: {
     'en': 'On',
@@ -460,7 +466,8 @@ var messages = {
     'ca': 'Activat',
     'da': 'Til',
     'et': 'Sees',
-    'fi': 'Käytössä'
+    'fi': 'Käytössä',
+    'tr': 'Açık'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
@@ -478,7 +485,8 @@ var messages = {
     'te': 'బిగినర్',
     'da': 'Begynder',
     'et': 'Algaja',
-    'fi': 'Helppo'
+    'fi': 'Helppo',
+    'tr': 'Acemi'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -496,7 +504,8 @@ var messages = {
     'te': 'ఇంటర్మీడియట్ - సహాయం ఉండదు',
     'da': 'Øvet - ingen hjælp',
     'et': 'Keskmine tase - puuduvad juhised',
-    'fi': 'Keskitaso – ei ohjeita'
+    'fi': 'Keskitaso – ei ohjeita',
+    'tr': 'Orta Düzey - Yol Tarifi Yok'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
@@ -514,6 +523,7 @@ var messages = {
     'te':  'నిపుణుడు - సహాయం లేదు మరియు భిన్నమైన గట్టలు వస్తుంది',
     'da': 'Ekspert - ingen hjælp og tilfældige niveauer',
     'et': 'Ekspert - puuduvad juhised ja tasemed on juhuslikud',
-    'fi': 'Vaikea – ei ohjeita, kentät sattumanvaraisessa järjestyksessä'
+    'fi': 'Vaikea – ei ohjeita, kentät sattumanvaraisessa järjestyksessä',
+    'tr': 'Uzman - Yol Tarifi Yok & Rastgele Seviyeler'
   }
 };
