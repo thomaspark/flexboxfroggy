@@ -328,17 +328,30 @@ var game = {
       var text = code.text();
 
       if (text in docs) {
+        var flag = false; // to check click or not
         code.addClass('help');
         code.on('mouseenter', function(e) {
           if ($('#instructions .tooltip').length === 0) {
             var html = docs[text][game.language] || docs[text].en;
             var tooltipX = code.offset().left;
             var tooltipY = code.offset().top + code.height() + 13;
-            $('<div class="tooltip"></div>').html(html).css({top: tooltipY, left: tooltipX}).appendTo($('#instructions'));
+            $('<div class="tooltip"></div>').html(html).css({
+              top: tooltipY,
+              left: tooltipX
+            }).appendTo($('#instructions'));
+            $("#instructions .tooltip code").click(function(event) {
+              var ordinary = $('#code').val().concat(event.target.textContent);
+              $('#code').val(ordinary);
+              flag = true;
+            });
+            $("code").css('cursor', 'pointer');
           }
         });
         code.on('mouseleave', function() {
-          $('#instructions .tooltip').remove();
+          if (flag){
+            flag = false;
+            $('#instructions .tooltip').remove();
+          }
         });
       }
     });
