@@ -111,7 +111,7 @@ var game = {
 
     $('#labelSettings').on('click', function() {
       $('#levelsWrapper').hide();
-      $('#settings .tooltip').toggle();
+      $('#settings .tooltip').show();
     })
 
     $('#language').on('change', function() {
@@ -162,7 +162,7 @@ var game = {
     });
 
     $('body').on('click', function() {
-      $('.tooltip').remove();
+      $('.tooltip').hide();
     });
 
     $('.tooltip, .toggle, #level-indicator').on('click', function(e) {
@@ -230,7 +230,7 @@ var game = {
 
     $('#level-indicator').on('click', function() {
       $('#settings .tooltip').hide();
-      $('#levelsWrapper').toggle();
+      $('#levelsWrapper').show();
     });
 
     $('.arrow.left').on('click', function() {
