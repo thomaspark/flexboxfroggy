@@ -343,8 +343,11 @@ var game = {
               left: tooltipX
             }).appendTo($('#instructions'));
             $("#instructions .tooltip code").click(function(event) {
-              var clickedCode = event.target.textContent;
-              var ordinary = $('#code').val().concat(clickedCode.split(" ")[0]);
+              var content = event.target.textContent.split(" ")[0];
+              if(content == "<integer>"){
+                content = 0;
+              }
+              var ordinary = $('#code').val().concat(content);
               $('#code').val(ordinary);
               flag = true;
             });
