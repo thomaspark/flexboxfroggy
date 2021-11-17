@@ -296,7 +296,7 @@ var levels = [
   {
     name: 'align-items 3',
     instructions: {
-      'en': '<p>The frogs need to cross the pond again, this time for some lilypads with plenty of space around them. Using a combination of <code>justify-content</code> and <code>align-items</code>.</p>',
+      'en': '<p>The frogs need to cross the pond again, this time for some lilypads with plenty of space around them. Use a combination of <code>justify-content</code> and <code>align-items</code>.</p>',
       'he': '<p>הצפרדעים שוב צריכות לחצות את האגם, הפעם העלים עם הרבה מרווחים בינהם. השתמשו בשילוב של <code>justify-content</code> ושל <code>align-items</code>.</p>',
       'ro': '<p>Broaștele trebuie să treacă lacul din nou, de această dată unii nuferi au mult spațiu în jurul lor. Folosește o combinație de <code>justify-content</code> și <code>align-items</code>.</p>',
       'bg': '<p>Жабчетата трябва да преминат през езерото отново, този път до листа с доста разстояние около себе си. Използвай комбинация от <code>justify-content</code> и <code>align-items</code>.</p>',
