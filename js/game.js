@@ -176,6 +176,7 @@ var game = {
       localStorage.setItem('solved', JSON.stringify(game.solved));
       localStorage.setItem('colorblind', JSON.stringify(game.colorblind));
     }).on('hashchange', function() {
+      console.log('foo');
       game.language = window.location.hash.substring(1) || 'en';
       game.translate();
 
@@ -183,7 +184,10 @@ var game = {
       var html = '<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="https://flexboxfroggy.com" data-via="thomashpark">Tweet</a> ' +
                  '<a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>';
       $('#tweet').html(html);
-      twttr.widgets.load();
+
+      if (typeof twttr !== 'undefined') {
+        twttr.widgets.load();
+      }
 
       if (game.language === 'en') {
         history.replaceState({}, document.title, './');
