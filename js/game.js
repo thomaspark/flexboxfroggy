@@ -328,7 +328,6 @@ var game = {
       var text = code.text();
 
       if (text in docs) {
-        var flag = false; // to check click or not
         code.addClass('help');
         code.on('mouseenter', function(e) {
           if($('#instructions .tooltip').length !== 0) {
@@ -350,7 +349,6 @@ var game = {
               game.writeCSS(pName, pValue)
 
               game.check();
-              flag = true;
             });
             $("code").css('cursor', 'pointer');
           }
