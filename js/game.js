@@ -423,6 +423,9 @@ var game = {
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
       });
+
+      game.changed = true;
+      $('#next').removeClass('animated animation').addClass('disabled');
     }
   },
 
