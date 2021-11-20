@@ -342,13 +342,14 @@ var game = {
               top: tooltipY,
               left: tooltipX
             }).appendTo($('#instructions'));
-            $("#instructions .tooltip code").click(function(event) {
-              var content = event.target.textContent.split(" ")[0];
-              if(content == "<integer>"){
-                content = 0;
-              }
-              var ordinary = $('#code').val().concat(content);
-              $('#code').val(ordinary);
+
+            $('#instructions .tooltip code').on('click', function(event) {
+              var pName = text
+              var pValue = event.target.textContent.split(' ')[0];
+              pValue = pValue === "<integer>" ? 0 : pValue;
+              game.writeCSS(pName, pValue)
+
+              game.check();
               flag = true;
             });
             $("code").css('cursor', 'pointer');
@@ -484,6 +485,39 @@ var game = {
       timeout = setTimeout(later, wait);
       if (callNow) func.apply(context, args);
     };
+  },
+
+  writeCSS: function(pName, pValue){
+    var tokens = $('#code').val().trim().split(/[\s:;]+/);
+    var keywords = ['justify-content', 'align-items', 'flex-direction', // TODO: Is there any way not to add new keywords?
+      'order', 'align-self', 'flex-wrap', 'flex-flow', 'align-content'];
+    var content = '';
+    var filled = false;
+
+    tokens.forEach(function (token, i){
+      if (!keywords.includes(token)){
+        return;
+      }
+
+      var append = content !== '' ? '\n' : '';
+      if (token === pName && !filled)
+      {
+        filled = true;
+        append += token + ': ' + pValue + ';';
+      }
+      else if (i + 1 < tokens.length){
+        append += token + ': ' + tokens.at(i + 1) + ';';
+      }
+
+      content += append;
+    });
+
+    if (!filled){
+      content += content !== '' ? '\n' : '';
+      content += pName + ': ' + pValue + ';';
+    }
+
+    $('#code').val(content);
   }
 };
 
