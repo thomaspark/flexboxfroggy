@@ -506,7 +506,7 @@ var game = {
         append += token + ': ' + pValue + ';';
       }
       else if (i + 1 < tokens.length){
-        append += token + ': ' + tokens.at(i + 1) + ';';
+        append += token + ': ' + tokens[i + 1] + ';';
       }
 
       content += append;
