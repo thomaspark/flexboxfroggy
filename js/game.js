@@ -490,8 +490,7 @@ var game = {
 
   writeCSS: function(pName, pValue){
     var tokens = $('#code').val().trim().split(/[\s:;]+/);
-    var keywords = ['justify-content', 'align-items', 'flex-direction', // TODO: Is there any way not to add new keywords?
-      'order', 'align-self', 'flex-wrap', 'flex-flow', 'align-content'];
+    var keywords = Object.keys(docs);
     var content = '';
     var filled = false;
 
