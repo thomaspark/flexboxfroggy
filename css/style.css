@@ -13,7 +13,11 @@ a[href="#fa"],
 html[lang="he"] #docs,
 html[lang="he"] #instructions,
 html[lang="he"] #credits .translate,
-a[href="#he"] {
+a[href="#he"],
+html[lang="ar"] #docs,
+html[lang="ar"] #instructions,
+html[lang="ar"] #credits .translate,
+a[href="#ar"] {
   direction: rtl;
 }
 
@@ -29,7 +33,7 @@ body {
   min-width: 600px;
   margin: 0;
   background-color: #43A047;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -89,7 +93,7 @@ a:hover {
 .tooltip {
   position: absolute;
   display: inline-block;
-  max-width: 225px;
+  max-width: 350px;
   padding: 1em 1em;
   background-color: #2c3e50;
   border-radius: 4px;
@@ -121,55 +125,52 @@ a:hover {
   vertical-align: top;
 }
 
-.next {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  margin: 1em;
-  text-decoration: none;
-  background-size: cover;
-}
-
-.next div {
+.games {
   display: flex;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-.next button {
-  color: rgba(255, 255, 255, 0.8);
+.games a {
+  position: relative;
+  display: inline-block;
+  width: calc(50% - 0.25rem);
+  border-radius: 6px;
+  overflow:  hidden;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.games a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:  0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s;
+}
+
+.games a:hover::before {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.games a::after {
+  content: attr(data-title);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
   font-family: 'Fredoka One', cursive;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-size: 18px;
 }
 
-.next button:hover {
-  color: rgba(255, 255, 255, 1);
-}
-
-.next.gridgarden {
-  background-image: url('../images/next-gridgarden.png');
-}
-
-.next.gridgarden button {
-  background-color: #DB9322;
-}
-
-.next.gridgarden button:hover {
-  background-color: #F5A628;
-}
-
-.next.treehouse {
-  background-image: url('../images/next-treehouse.png');
-}
-
-.next.treehouse button {
-  background-color: #AE7347;
-}
-
-.next.treehouse button:hover {
-  background-color: #C88551;
+.games a img {
+  width: 100%;
+  height: 100%;
 }
 
 #instructions {
@@ -193,14 +194,14 @@ pre {
   font-family: 'Source Code Pro', monospace;
   font-size: 16px;
   line-height: 1.5;
-  color: #aaa;
+  color: #777;
 }
 
 #css {
   height: 260px;
   position: relative;
   padding: 10px 10px 10px 40px;
-  background-color: #ddd;
+  background-color: #e0e0e0;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -320,9 +321,9 @@ pre {
 }
 
 .arrow {
-  display: inline-block;
-  font-family: 'Comic Sans MS';
-  padding: 0.25em 0.4em 0.2em;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25em 0.5em 0.2em;
   cursor: pointer;
 }
 
@@ -343,6 +344,22 @@ pre {
 
 .arrow.disabled {
   opacity: 0.5;
+}
+
+.triangle {
+  display: inline-block;
+  width: 0; 
+  height: 0; 
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent; 
+}
+
+.left .triangle {
+  border-right: 11px solid rgba(255, 255, 255, 0.7);; 
+}
+
+.right .triangle {
+  border-left: 11px solid rgba(255, 255, 255, 0.7);; 
 }
 
 button {
@@ -376,6 +393,11 @@ button:not(.disabled):hover {
   position: absolute;
   right: 1em;
   bottom: 1em;
+  padding-top: 0.3em;
+}
+
+.animation {
+  animation: tada 1s, pulse 2s infinite 2s;
 }
 
 #next.disabled {
@@ -387,7 +409,7 @@ button:not(.disabled):hover {
   line-height: 1.5em;
   text-align: center;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 #settings {
@@ -434,11 +456,14 @@ button:not(.disabled):hover {
 }
 
 #board {
-  position: relative;
+  position: sticky;
+  top: 0;
   width: 50vw;
   height: 50vw;
   min-width: 300px;
   min-height: 300px;
+  max-width: 100vh;
+  max-height: 100vh;
   overflow: hidden;
 }
 
@@ -563,30 +588,40 @@ button:not(.disabled):hover {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 767px)  {
+@media only screen and (max-width: 767px) {
+  body {
+    flex-direction: column-reverse;
+    align-items: center;
+    min-width: 100vw;
+  }
 
   body,
   #sidebar {
     font-size: 13px;
   }
 
+  #sidebar {
+    width: 100%;
+  }
+
+  #background {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
   .title {
     font-size: 26px;
+  }
+
+  #labelFooter {
+    display: none;
   }
 }
 
 /* Native by BuySellAds */
-.native-ad {
-  visibility: hidden;
-  transition: all .25s ease-in-out;
-  opacity: 0;
-}
-
-.native-show {
-  visibility: visible;
-  opacity: 1;
-}
-
 .native-ad {
   display: block;
   padding: 10px 20px 8px;

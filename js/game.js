@@ -46,6 +46,7 @@ var game = {
         return;
       }
 
+      $(this).removeClass('animated animation');
       $('.frog').addClass('animated bounceOutUp');
       $('.arrow, #next').addClass('disabled');
 
@@ -87,6 +88,7 @@ var game = {
     }).on('input', game.debounce(game.check, 500))
     .on('input', function() {
       game.changed = true;
+      $('#next').removeClass('animated animation').addClass('disabled');
     });
 
     $('#editor').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -123,11 +125,29 @@ var game = {
       var $instructions = $('#instructions');
       var height = $instructions.height();
       $instructions.css('height', height);
+
+      var $markers = $('.level-marker');
       
       if (game.difficulty == 'hard' || game.difficulty == 'medium') {
         $instructions.slideUp();
+
+        $markers.each(function() {
+          var $marker = $(this);
+          if ($marker[0].hasAttribute('title')) {
+            $marker.attr('data-title', $marker.attr('title'));
+            $marker.removeAttr('title');
+          }
+        });
       } else {
         $instructions.css('height', '').slideDown();
+
+        $markers.each(function() {
+          var $marker = $(this);
+          if ($marker[0].hasAttribute('data-title')) {
+            $marker.attr('title', $marker.attr('data-title'));
+            $marker.removeAttr('data-title');
+          }
+        });
       }
     });
 
@@ -156,14 +176,18 @@ var game = {
       localStorage.setItem('solved', JSON.stringify(game.solved));
       localStorage.setItem('colorblind', JSON.stringify(game.colorblind));
     }).on('hashchange', function() {
+      console.log('foo');
       game.language = window.location.hash.substring(1) || 'en';
       game.translate();
 
       $('#tweet iframe').remove();
-      var html = '<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="thomashpark">Tweet</a> ' +
+      var html = '<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="https://flexboxfroggy.com" data-via="thomashpark">Tweet</a> ' +
                  '<a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>';
       $('#tweet').html(html);
-      twttr.widgets.load();
+
+      if (typeof twttr !== 'undefined') {
+        twttr.widgets.load();
+      }
 
       if (game.language === 'en') {
         history.replaceState({}, document.title, './');
@@ -241,7 +265,7 @@ var game = {
     $('#level-counter .current').text(this.level + 1);
     $('#before').text(level.before);
     $('#after').text(level.after);
-    $('#next').addClass('disabled');
+    $('#next').removeClass('animated animation').addClass('disabled');
 
     var instructions = level.instructions[game.language] || level.instructions.en;
     $('#instructions').html(instructions);
@@ -375,7 +399,7 @@ var game = {
       }
 
       $('[data-level=' + game.level + ']').addClass('solved');
-      $('#next').removeClass('disabled');
+      $('#next').removeClass('disabled').addClass('animated animation');
     } else {
       ga('send', {
         hitType: 'event',
@@ -383,8 +407,6 @@ var game = {
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
       });
-
-      $('#next').addClass('disabled');
     }
   },
 
@@ -419,7 +441,7 @@ var game = {
     document.title = messages.title[game.language] || messages.title.en;
     $('html').attr('lang', game.language);
 
-    var level = levels[game.level];
+    var level = $('#editor').is(':visible') ? levels[game.level] : levelWin;
     var instructions = level.instructions[game.language] || level.instructions.en;
     $('#instructions').html(instructions);
     game.loadDocs();

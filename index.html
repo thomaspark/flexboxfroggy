@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <title>Flexbox Froggy - A game for learning CSS flexbox</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:url"           content="http://flexboxfroggy.com">
+    <meta property="og:url"           content="https://flexboxfroggy.com">
     <meta property="og:type"          content="website">
     <meta property="og:title"         content="Flexbox Froggy">
     <meta property="og:description"   content="A game for learning CSS flexbox">
-    <meta property="og:image"         content="http://flexboxfroggy.com/images/screenshot.png">
+    <meta property="og:image"         content="https://flexboxfroggy.com/images/screenshot.png">
     <meta property="fb:app_id"        content="916849395036923">
-    <meta name="twitter:url"          content="http://flexboxfroggy.com">
+    <meta name="twitter:url"          content="https://flexboxfroggy.com">
     <meta name="twitter:title"        content="Flexbox Froggy">
     <meta name="twitter:description"  content="A game for learning CSS flexbox">
-    <meta name="twitter:image"        content="http://flexboxfroggy.com/images/screenshot.png">
+    <meta name="twitter:image"        content="https://flexboxfroggy.com/images/screenshot.png">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans|Fredoka+One|Source+Code+Pro' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
@@ -25,7 +25,9 @@
           <h1 class="title">Flexbox Froggy</h1>
         </div>
         <div id="level-counter">
-          <span class="arrow left">◀</span>
+          <span class="arrow left">
+            <span class="triangle"></span>
+          </span>
           <span id="level-indicator">
             <span id="labelLevel" class="translate">Level</span>
             <span class="current">1</span>
@@ -33,7 +35,9 @@
             <span class="total">1</span>
             <span class="caret">▾</span>
           </span>
-          <span class="arrow right">▶</span>
+          <span class="arrow right">
+            <span class="triangle"></span>
+          </span>
           <div id="levelsWrapper" class="tooltip">
             <div id="levels"></div>
             <div id="labelReset" class="translate">Reset</div>
@@ -45,37 +49,36 @@
         <div id="css">
           <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</div>
           <pre id="before"></pre>
-          <textarea id="code" autofocus></textarea>
+          <textarea id="code" autofocus autocapitalize="none"></textarea>
           <pre id="after"></pre>
         </div>
         <button id="next" class="translate">Next</button>
       </div>
       <div id="share">
-        <a class="next gridgarden" href="https://codepip.com/games/grid-garden/">
-          <div>
-            <button>Grid Garden</button>
-          </div>
-        </a>
-        <a class="next treehouse" href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=flexboxfroggy">
-          <div>
-            <button>Treehouse</button>
-          </div>
-        </a>
+        <div class="games">
+          <a target="_blank" data-title="Grid Garden" href="https://codepip.com/games/grid-garden/">
+            <img src="images/games/grid-garden.png">
+          </a>
+          <a target="_blank" data-title="Nth Cart" href="https://codepip.com/">
+            <img src="images/games/nth-cart.png">
+          </a>
+          <a target="_blank" data-title="Disarray" href="https://codepip.com/">
+            <img src="images/games/disarray.png">
+          </a>
+          <a target="_blank" data-title="Code Crunchers" href="https://codepip.com/">
+            <img src="images/games/code-crunchers.png">
+          </a>
+        </div>
         <p class="social">
           <span id="tweet">
-            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="playcodepip">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="https://flexboxfroggy.com" data-via="playcodepip">Tweet</a>
             <a href="https://twitter.com/playcodepip" class="twitter-follow-button" data-show-count="false">Follow @playcodepip</a>
           </span>
-          <span class="fb-like" data-href="http://flexboxfroggy.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
+          <span class="fb-like" data-href="https://flexboxfroggy.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
         </p>
       </div>
 
-      <script src="js/native.js"></script>
-      <script>_native.init("CK7D427U");</script>
-
-      <div class="native-ad">
-        <a href="#native_link#"><span class="sponsor">Sponsor</span> #native_company# — #native_desc#</a>
-      </div>
+      <div class="bsa-custom"></div>
 
       <div class="credits">
         <span id="labelFooter" class="translate">Flexbox Froggy is created by</span>
@@ -94,23 +97,31 @@
                 <option value="de">Deutsch</option>
                 <option value="nl">Nederlands</option>
                 <option value="pt-br">Português</option>
+                <option value="ca">Català</option>
                 <option value="it">Italiano</option>
                 <option value="sv">Svenska</option>
+                <option value="fi">Suomi</option>
+                <option value="da">Dansk</option>
                 <option value="pl">Polski</option>
                 <option value="cs">Česky</option>
                 <option value="hu">Magyar</option>
                 <option value="ro">Română</option>
                 <option value="bg">Български</option>
+                <option value="et">Eesti</option>
                 <option value="lv">Latviešu</option>
                 <option value="lt">Lietuvių</option>
                 <option value="uk">Українська</option>
                 <option value="ru">Русский</option>
                 <option value="sr">Српски</option>
+                <option value="bs">Bosanski</option>
                 <option value="mk">Македонски</option>
                 <option value="el">Ελληνικά</option>
                 <option value="tr">Türkçe</option>
+                <option value="he">עברית</option>
+                <option value="ar">العربية</option>
                 <option value="fa">فارسی</option>
                 <option value="hi">हिंदी</option>
+                <option value="te">తెలుగు</option>
                 <option value="ta">தமிழ்</option>
                 <option value="ml">മലയാളം</option>
                 <option value="zh-cn">简体中文</option>
@@ -118,6 +129,7 @@
                 <option value="ja">日本語</option>
                 <option value="ko">한국어</option>
                 <option value="vi">Tiếng Việt</option>
+                <option value="id">Bahasa Indonesia</option>
                 <option value="eo">Esperanto</option>
                 <option value="gl">Galego</option>
               </select>
@@ -192,5 +204,23 @@
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=916849395036923";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- BuySellAds -->
+    <script type="text/javascript" src="//m.servedby-buysellads.com/monetization.custom.js"></script>
+    <script>
+    (function() {
+      if (typeof _bsa !== 'undefined' && _bsa) {
+        _bsa.init('custom', 'CK7D427U', 'placement:flexboxfroggycom', {
+          target: '.bsa-custom',
+          template:
+    `
+    <div class="native-ad">
+      <a href="##statlink##"><span class="sponsor">Sponsor</span> ##company## — ##description##</a>
+    </div>
+    `
+        });
+      }
+    })();
+    </script>
   </body>
 </html>
