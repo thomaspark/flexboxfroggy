@@ -7,6 +7,7 @@ var game = {
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
   user: localStorage.user || '',
   changed: false,
+  clickedCode: null,
 
   start: function() {
     // navigator.language can include '-'
@@ -163,6 +164,7 @@ var game = {
 
     $('body').on('click', function() {
       $('.tooltip').hide();
+      clickedCode = null;
     });
 
     $('.tooltip, .toggle, #level-indicator').on('click', function(e) {
@@ -329,33 +331,34 @@ var game = {
 
       if (text in docs) {
         code.addClass('help');
-        code.on('mouseenter', function(e) {
-          if($('#instructions .tooltip').length !== 0) {
+        code.on('click', function(e) {
+          e.stopPropagation();
+
+          // If click same code when tooltip already displayed, just remove current tooltip.
+          if ($('#instructions .tooltip').length !== 0 && clickedCode === code){
             $('#instructions .tooltip').remove();
+            return;
           }
-          if ($('#instructions .tooltip').length === 0) {
-            var html = docs[text][game.language] || docs[text].en;
-            var tooltipX = code.offset().left;
-            var tooltipY = code.offset().top + code.height() + 13;
-            $('<div class="tooltip"></div>').html(html).css({
-              top: tooltipY,
-              left: tooltipX
-            }).appendTo($('#instructions'));
 
-            $('#instructions .tooltip code').on('click', function(event) {
-              var pName = text
-              var pValue = event.target.textContent.split(' ')[0];
-              pValue = pValue === "<integer>" ? 0 : pValue;
-              game.writeCSS(pName, pValue)
+          $('#instructions .tooltip').remove();
+          var html = docs[text][game.language] || docs[text].en;
+          var tooltipX = code.offset().left;
+          var tooltipY = code.offset().top + code.height() + 13;
+          $('<div class="tooltip"></div>').html(html).css({
+            top: tooltipY,
+            left: tooltipX
+          }).appendTo($('#instructions'));
 
-              game.check();
-            });
-            $("#instructions .tooltip code").css('cursor', 'pointer');
-          }
-        }).on('mouseleave', function() {
-          $('#instructions .tooltip').on('mouseleave', function() {
-            $('#tooltip').remove();
+          $('#instructions .tooltip code').on('click', function(event) {
+            var pName = text
+            var pValue = event.target.textContent.split(' ')[0];
+            pValue = pValue === "<integer>" ? 0 : pValue;
+            game.writeCSS(pName, pValue)
+
+            game.check();
           });
+          $("#instructions .tooltip code").css('cursor', 'pointer');
+          clickedCode = code;
         });
       }
     });
