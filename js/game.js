@@ -350,7 +350,7 @@ var game = {
 
               game.check();
             });
-            $("code").css('cursor', 'pointer');
+            $("#instructions .tooltip code").css('cursor', 'pointer');
           }
         }).on('mouseleave', function() {
           $('#instructions .tooltip').on('mouseleave', function() {
