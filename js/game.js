@@ -111,7 +111,7 @@ var game = {
 
     $('#labelSettings').on('click', function() {
       $('#levelsWrapper').hide();
-      $('#settings .tooltip').show();
+      $('#settings .tooltip').toggle();
     })
 
     $('#language').on('change', function() {
@@ -230,7 +230,7 @@ var game = {
 
     $('#level-indicator').on('click', function() {
       $('#settings .tooltip').hide();
-      $('#levelsWrapper').show();
+      $('#levelsWrapper').toggle();
     });
 
     $('.arrow.left').on('click', function() {
