@@ -353,10 +353,19 @@ var game = {
             left: tooltipX
           }).appendTo($('#instructions'));
 
+          var getDefaultPropVal = (pValue) => {
+            if (pValue == '<integer>')
+              return '0'
+            else if (pValue == '<flex-direction>')
+              return 'row nowrap'
+
+            return pValue;
+          }
+
           $('#instructions .tooltip code').on('click', function(event) {
             var pName = text
             var pValue = event.target.textContent.split(' ')[0];
-            pValue = pValue === "<integer>" ? 0 : pValue;
+            pValue = getDefaultPropVal(pValue);
             game.writeCSS(pName, pValue)
 
             game.check();
