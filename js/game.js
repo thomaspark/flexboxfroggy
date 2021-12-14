@@ -505,24 +505,26 @@ var game = {
   },
 
   writeCSS: function(pName, pValue){
-    var tokens = $('#code').val().trim().split(/[\s:;]+/);
+    var tokens = $('#code').val().trim().split(/[\n:;]+/).filter(i => i);
     var keywords = Object.keys(docs);
     var content = '';
     var filled = false;
 
     tokens.forEach(function (token, i){
-      if (!keywords.includes(token)){
+      var trimmedToken = token.trim();
+      if (!keywords.includes(trimmedToken)){
         return;
       }
 
       var append = content !== '' ? '\n' : '';
-      if (token === pName && !filled)
+      if (trimmedToken === pName && !filled)
       {
         filled = true;
-        append += token + ': ' + pValue + ';';
+        append += trimmedToken + ': ' + pValue + ';';
       }
       else if (i + 1 < tokens.length){
-        append += token + ': ' + tokens[i + 1] + ';';
+        var val = !keywords.includes(tokens[i + 1].trim()) ? tokens[i + 1].trim() : ''; // TODO: Maybe prop value validiation required
+        append += trimmedToken + ': ' + val + ';';
       }
 
       content += append;
