@@ -521,6 +521,7 @@ var game = {
     }
 
     $('#code').val(content);
+    $('#code').focus();
   }
 };
 
