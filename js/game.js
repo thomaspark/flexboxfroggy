@@ -370,7 +370,6 @@ var game = {
 
             game.check();
           });
-          $("#instructions .tooltip code").css('cursor', 'pointer');
           clickedCode = code;
         });
       }

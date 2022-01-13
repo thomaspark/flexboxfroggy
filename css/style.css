@@ -114,6 +114,10 @@ a:hover {
   border-bottom: 12px solid #2c3e50;
 }
 
+#instructions .tooltip code {
+  cursor: pointer;
+}
+
 #share {
   display: none;
   margin-bottom: 3em;
@@ -348,18 +352,18 @@ pre {
 
 .triangle {
   display: inline-block;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent; 
+  border-bottom: 7px solid transparent;
 }
 
 .left .triangle {
-  border-right: 11px solid rgba(255, 255, 255, 0.7);; 
+  border-right: 11px solid rgba(255, 255, 255, 0.7);;
 }
 
 .right .triangle {
-  border-left: 11px solid rgba(255, 255, 255, 0.7);; 
+  border-left: 11px solid rgba(255, 255, 255, 0.7);;
 }
 
 button {
