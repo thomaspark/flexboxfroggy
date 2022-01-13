@@ -129,7 +129,7 @@ var game = {
       $instructions.css('height', height);
 
       var $markers = $('.level-marker');
-      
+
       if (game.difficulty == 'hard' || game.difficulty == 'medium') {
         $instructions.slideUp();
 
@@ -509,6 +509,9 @@ var game = {
     var keywords = Object.keys(docs);
     var content = '';
     var filled = false;
+
+    // Do nothing when click property name inside Tooltip
+    if (keywords.includes(pValue)) return;
 
     tokens.forEach(function (token, i){
       var trimmedToken = token.trim();
