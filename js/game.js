@@ -7,6 +7,7 @@ var game = {
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
   user: localStorage.user || '',
   changed: false,
+  clickedCode: null,
 
   start: function() {
     // navigator.language can include '-'
@@ -112,6 +113,7 @@ var game = {
     $('#labelSettings').on('click', function() {
       $('#levelsWrapper').hide();
       $('#settings .tooltip').toggle();
+      $('#instructions .tooltip').remove();
     })
 
     $('#language').on('change', function() {
@@ -127,7 +129,7 @@ var game = {
       $instructions.css('height', height);
 
       var $markers = $('.level-marker');
-      
+
       if (game.difficulty == 'hard' || game.difficulty == 'medium') {
         $instructions.slideUp();
 
@@ -163,6 +165,7 @@ var game = {
 
     $('body').on('click', function() {
       $('.tooltip').hide();
+      clickedCode = null;
     });
 
     $('.tooltip, .toggle, #level-indicator').on('click', function(e) {
@@ -235,6 +238,7 @@ var game = {
     $('#level-indicator').on('click', function() {
       $('#settings .tooltip').hide();
       $('#levelsWrapper').toggle();
+      $('#instructions .tooltip').remove();
     });
 
     $('.arrow.left').on('click', function() {
@@ -333,15 +337,44 @@ var game = {
 
       if (text in docs) {
         code.addClass('help');
-        code.on('mouseenter', function(e) {
-          if ($('#instructions .tooltip').length === 0) {
-            var html = docs[text][game.language] || docs[text].en;
-            var tooltipX = code.offset().left;
-            var tooltipY = code.offset().top + code.height() + 13;
-            $('<div class="tooltip"></div>').html(html).css({top: tooltipY, left: tooltipX}).appendTo($('#instructions'));
+        code.on('click', function(e) {
+          e.stopPropagation();
+
+          // If click same code when tooltip already displayed, just remove current tooltip.
+          if ($('#instructions .tooltip').length !== 0 && clickedCode === code){
+            $('#instructions .tooltip').remove();
+            return;
           }
-        }).on('mouseleave', function() {
+
+          $('#levelsWrapper').hide();
+          $('#settings .tooltip').hide();
           $('#instructions .tooltip').remove();
+          var html = docs[text][game.language] || docs[text].en;
+          var tooltipX = code.offset().left;
+          var tooltipY = code.offset().top + code.height() + 13;
+          $('<div class="tooltip"></div>').html(html).css({
+            top: tooltipY,
+            left: tooltipX
+          }).appendTo($('#instructions'));
+
+          var getDefaultPropVal = (pValue) => {
+            if (pValue == '<integer>')
+              return '0'
+            else if (pValue == '<flex-direction>')
+              return 'row nowrap'
+
+            return pValue;
+          }
+
+          $('#instructions .tooltip code').on('click', function(event) {
+            var pName = text
+            var pValue = event.target.textContent.split(' ')[0];
+            pValue = getDefaultPropVal(pValue);
+            game.writeCSS(pName, pValue)
+
+            game.check();
+          });
+          clickedCode = code;
         });
       }
     });
@@ -407,6 +440,9 @@ var game = {
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
       });
+
+      game.changed = true;
+      $('#next').removeClass('animated animation').addClass('disabled');
     }
   },
 
@@ -469,6 +505,44 @@ var game = {
       timeout = setTimeout(later, wait);
       if (callNow) func.apply(context, args);
     };
+  },
+
+  writeCSS: function(pName, pValue){
+    var tokens = $('#code').val().trim().split(/[\n:;]+/).filter(i => i);
+    var keywords = Object.keys(docs);
+    var content = '';
+    var filled = false;
+
+    // Do nothing when click property name inside Tooltip
+    if (keywords.includes(pValue)) return;
+
+    tokens.forEach(function (token, i){
+      var trimmedToken = token.trim();
+      if (!keywords.includes(trimmedToken)){
+        return;
+      }
+
+      var append = content !== '' ? '\n' : '';
+      if (trimmedToken === pName && !filled)
+      {
+        filled = true;
+        append += trimmedToken + ': ' + pValue + ';';
+      }
+      else if (i + 1 < tokens.length){
+        var val = !keywords.includes(tokens[i + 1].trim()) ? tokens[i + 1].trim() : ''; // TODO: Maybe prop value validiation required
+        append += trimmedToken + ': ' + val + ';';
+      }
+
+      content += append;
+    });
+
+    if (!filled){
+      content += content !== '' ? '\n' : '';
+      content += pName + ': ' + pValue + ';';
+    }
+
+    $('#code').val(content);
+    $('#code').focus();
   }
 };
 
