@@ -121,7 +121,7 @@ var messages = {
     'mk': 'Flexbox Froggy е создадено од',
     'lv': 'Flexbox Froggy autori ir',
     'id': 'Flexbox Froggy dibuat oleh',
-    'ar': 'تم انشاء فروغي فلكسبكس بواسطة',
+    'ar': 'تم انشاء Flexbox Froggy بواسطة',
     'ca': 'Flexbox Froggy és una creació de',
     'da': 'Flexbox Froggy er skabt af',
     'et': 'Flexbox Froggy on looja on',
