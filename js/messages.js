@@ -366,7 +366,8 @@ var messages = {
     'et': 'Kas sa tahad õppida CSS grid\'i? Mängi',
     'fi': 'Haluatko oppia CSS grid -asettelun? Kokeile peliä',
     'tr': 'CSS grid öğrenmek ister misiniz? Oyna',
-    'gl': 'Tamén queres aprender CSS grid? Proba o'
+    'gl': 'Tamén queres aprender CSS grid? Proba o',
+    'uk': 'Хочеш вивчити CSS grid? Грай',
   },
   labelLanguage: {
     'en': 'Language',
@@ -387,7 +388,8 @@ var messages = {
     'et': 'Keel',
     'fi': 'Kieli',
     'tr': 'Dil',
-    'gl': 'Idioma'
+    'gl': 'Idioma',
+    'uk': 'Мова'
   },
   labelSettings: {
     'en': 'Settings',
@@ -407,7 +409,8 @@ var messages = {
     'et': 'Seaded',
     'fi': 'Asetukset',
     'tr': 'Ayarlar',
-    'gl': 'Axustes'
+    'gl': 'Axustes',
+    'uk': 'Налаштування'
   },
   labelDifficulty: {
     'en': 'Difficulty',
@@ -427,7 +430,8 @@ var messages = {
     'et': 'Raskustase',
     'fi': 'Vaikeustaso',
     'tr': 'Zorluk',
-    'gl': 'Dificultade'
+    'gl': 'Dificultade',
+    'uk': 'Складність'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
@@ -446,7 +450,8 @@ var messages = {
     'et': 'Värvipimeduse režiim',
     'fi': 'Värien erottelun avustin',
     'tr': 'Renk körlüğü modu',
-    'gl': 'Modo daltónico'
+    'gl': 'Modo daltónico',
+    'uk': 'Режим для дальтоніків'
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -464,7 +469,8 @@ var messages = {
     'et': 'Väljas',
     'fi': 'Poissa käytöstä',
     'tr': 'Kapalı',
-    'gl': 'Non'
+    'gl': 'Non',
+    'uk': 'Вимкнено'
   },
   labelColorblindOn: {
     'en': 'On',
@@ -482,7 +488,8 @@ var messages = {
     'et': 'Sees',
     'fi': 'Käytössä',
     'tr': 'Açık',
-    'gl': 'Si'
+    'gl': 'Si',
+    'uk': 'Увімкнено'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
@@ -502,7 +509,8 @@ var messages = {
     'et': 'Algaja',
     'fi': 'Helppo',
     'tr': 'Acemi',
-    'gl': 'Novato'
+    'gl': 'Novato',
+    'uk': 'Початківець'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -522,7 +530,8 @@ var messages = {
     'et': 'Keskmine tase - puuduvad juhised',
     'fi': 'Keskitaso – ei ohjeita',
     'tr': 'Orta Düzey - Yol Tarifi Yok',
-    'gl': 'Intermedio: Sen pistas'
+    'gl': 'Intermedio: Sen pistas',
+    'uk': 'Середній - Без підказок'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
@@ -537,11 +546,12 @@ var messages = {
     'id': 'Ahli - Tidak ada arahan & Tingkat permainan Acak',
     'ar': 'متقدم - بلا توجيهات وبمراحل عشوائية',
     'ca': 'Expert - Sense indicacions i Nivells aleatòris',
-    'te':  'నిపుణుడు - సహాయం లేదు మరియు భిన్నమైన గట్టలు వస్తుంది',
+    'te': 'నిపుణుడు - సహాయం లేదు మరియు భిన్నమైన గట్టలు వస్తుంది',
     'da': 'Ekspert - ingen hjælp og tilfældige niveauer',
     'et': 'Ekspert - puuduvad juhised ja tasemed on juhuslikud',
     'fi': 'Vaikea – ei ohjeita, kentät sattumanvaraisessa järjestyksessä',
     'tr': 'Uzman - Yol Tarifi Yok & Rastgele Seviyeler',
-    'gl': 'Experto - Sen pistas e con niveis aleatorios'
+    'gl': 'Experto - Sen pistas e con niveis aleatorios',
+    'uk': 'Експерт - Без підказок та випадкові рівні'
   }
 };
