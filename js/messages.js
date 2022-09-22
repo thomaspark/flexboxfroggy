@@ -310,7 +310,7 @@ var messages = {
     'de': 'Bist du sicher, dass du das Spiel zurücksetzen möchtest?\n\nDein gespeicherter Fortschritt geht dabei verloren und du musst das Spiel von neuem starten.',
     'fr': 'Êtes-vous certain de vouloir réinitialiser la partie?\n\nVotre progrès sauvegardé sera perdu et vous recommencerez au début du jeu.',
     'pt-br': 'Você tem certeza que quer reinicializar o jogo?\n\nSeu progresso salvo será perdido e você voltará ao começo do jogo.',
-    'es': 'Estás seguro, ¿Quieres reiniciar el juego?\n\nTu progreso se perderá y serás enviado al inicio del juego.',
+    'es': '¿Estás seguro de que quieres reiniciar el juego?\n\nTu progreso se perderá y serás enviado al inicio del juego.',
     'ru': 'Вы действительно хотите сбросить игру?\n\nВаш прогресс будет потерян и вы вернетесь к началу игры.',
     'fa': 'آیا از شروع مجدد بازی اطمینان دارید ?\n\nتمام مراحل ذخیره شده حذف خواهند شد.',
     'zh-cn': '你确定要重置游戏吗?\n\n你保存了的进度将会丢失，而且你会回到游戏的最开始。',
