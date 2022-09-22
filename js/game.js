@@ -179,7 +179,6 @@ var game = {
       localStorage.setItem('solved', JSON.stringify(game.solved));
       localStorage.setItem('colorblind', JSON.stringify(game.colorblind));
     }).on('hashchange', function() {
-      console.log('foo');
       game.language = window.location.hash.substring(1) || 'en';
       game.translate();
 
