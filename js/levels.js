@@ -102,7 +102,7 @@ var levels = [
   {
     name: 'justify-content 3',
     instructions: {
-      'en': '<p>Help all three frogs find their lilypads just by using <code>justify-content</code>. This time, the lilypads have lots of space all around them.</p><p>If you find yourself forgetting the possible values for a property, you can hover over the property name to view them. Try hovering over <code>justify-content</code>.</p>',
+      'en': '<p>Help all three frogs find their lilypads just by using <code>justify-content</code>. This time, the lilypads have lots of space all around them.</p><p>If you find yourself forgetting the possible values for a property, you can click on the property name to view them. Try clicking on <code>justify-content</code>.</p>',
       'he': '<p>עזרו לכל הצפרדעים להגיע לעלים שלהן רק בעזרת <code>justify-content</code>. הפעם יש הרבה מרווח מסביב לעלים.</p><p>אם שכחתם איזה ערכים התכונה יכולה לקבל, תעברו על התכונה עם העכבר כדי לראות אותם. נסו לשים את העבר על <code>justify-content</code>.</p>',
       'ro': '<p>Ajută-le pe cele trei broaște să-și găsească nuferii folosind doar <code>justify-content</code>. De această dată, nuferii au foarte mult spațiu între ei.</p><p>Dacă nu-ți mai amintești posibilele valori ale unei proprietăți, poți să faci hover peste numele unei proprietăți pentru a le vedea. Incearcă să faci hover pe <code>justify-content</code>.</p>',
       'bg': '<p>Помогни на трите жабчета да намерят своите листа, използвайки <code>justify-content</code>. Този път листата имат доста място около себе си.</p><p>Ако забравиш някоя от възможните стойности на дадено свойство, можеш да посочиш с мишката върху името на свойството, за да ги видиш. Опитай да посочиш върху <code>justify-content</code>.</p>',
