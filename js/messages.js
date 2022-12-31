@@ -40,7 +40,8 @@ var messages = {
     'da': 'Dansk',
     'et': 'Eesti',
     'fi': 'Suomi',
-    'gl': 'Galego'
+    'gl': 'Galego',
+    'th': 'ไทย'
   },
   next: {
     'en': 'Next',
@@ -83,7 +84,8 @@ var messages = {
     'da': 'Næste',
     'et': 'järgmine',
     'fi': 'Seuraava',
-    'gl': 'Seguinte'
+    'gl': 'Seguinte',
+    'th': 'ถัดไป'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -126,7 +128,8 @@ var messages = {
     'da': 'Flexbox Froggy er skabt af',
     'et': 'Flexbox Froggy on looja on',
     'fi': 'Flexbox Froggyn on tehnyt',
-    'gl': 'Flexbox Froggy creouno'
+    'gl': 'Flexbox Froggy creouno',
+    'th': 'Flexbox Froggy ถูกสร้างโดย'
   },
   labelLevel: {
     'en': 'Level',
@@ -169,7 +172,8 @@ var messages = {
     'da': 'Niveau',
     'et': 'Tase',
     'fi': 'Kenttä',
-    'gl': 'Nivel'
+    'gl': 'Nivel',
+    'th': 'เลเวล'
   },
   labelOf: {
     'en': 'of',
@@ -212,7 +216,8 @@ var messages = {
     'da': 'af',
     'et': '/',
     'fi': '/',
-    'gl': 'de'
+    'gl': 'de',
+    'th': '/'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -255,7 +260,8 @@ var messages = {
     'da': 'Flexbox Froggy - Et spil, der lærer dig CSS Flexbox',
     'et': 'Flexbox Froggy - Mäng CSS flexbox\'i õppimiseks',
     'fi': 'Flexbox Froggy - Peli, jossa opit CSS flexbox -asettelun',
-    'gl': 'Flexbox Froggy - Un xogo para aprenderes CSS Flexbox'
+    'gl': 'Flexbox Froggy - Un xogo para aprenderes CSS Flexbox',
+    'th': 'Flexbox Froggy - เกมสำหรับเรียนรู้ CSS Flexbox'
   },
   labelReset: {
     'en': 'Reset',
@@ -298,7 +304,8 @@ var messages = {
     'da': 'Nulstil',
     'et': 'Lähtesta',
     'fi': 'Aloita alusta',
-    'gl': 'Reiniciar'
+    'gl': 'Reiniciar',
+    'th': 'เริ่มใหม่'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -341,7 +348,8 @@ var messages = {
     'da': 'Er du sikker på at du vil nulstille spillet?\n\nDine fremskridt vil gå tabt, og du bliver sendt tilbage til starten af spillet.',
     'et': 'Oled sa kindel, et sa tahad mängu lähtestada?\n\nSinu salvestatud progress kustutatakse ja sind saadetakse mängu algusesse.',
     'fi': 'Haluatko varmasti aloittaa pelin alusta?\n\nTallennettu edistyminen menetetään, ja palaat ensimmäiseen kenttään.',
-    'gl': 'Seguro que queres reiniciar a partida?\n\nPerderás todo o que leves feito e terás que comezar o xogo desde o principio.'
+    'gl': 'Seguro que queres reiniciar a partida?\n\nPerderás todo o que leves feito e terás que comezar o xogo desde o principio.',
+    'th': 'คุณแน่ใจหรือไม่ว่าต้องการเริ่มเกมใหม่?\n\nความคืบหน้าที่เก็บไว้ของคุณจะหายไป และคุณจะกลับไปเริ่มเกมใหม่'
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
@@ -369,6 +377,7 @@ var messages = {
     'tr': 'CSS grid öğrenmek ister misiniz? Oyna',
     'gl': 'Tamén queres aprender CSS grid? Proba o',
     'uk': 'Хочеш вивчити CSS grid? Грай',
+    'th': 'อยากเรียนรู้ CSS grid? เล่น'
   },
   labelLanguage: {
     'en': 'Language',
@@ -391,7 +400,8 @@ var messages = {
     'fi': 'Kieli',
     'tr': 'Dil',
     'gl': 'Idioma',
-    'uk': 'Мова'
+    'uk': 'Мова',
+    'th': 'ภาษา'
   },
   labelSettings: {
     'en': 'Settings',
@@ -413,7 +423,8 @@ var messages = {
     'fi': 'Asetukset',
     'tr': 'Ayarlar',
     'gl': 'Axustes',
-    'uk': 'Налаштування'
+    'uk': 'Налаштування',
+    'th': 'การตั้งค่า'
   },
   labelDifficulty: {
     'en': 'Difficulty',
@@ -435,7 +446,8 @@ var messages = {
     'fi': 'Vaikeustaso',
     'tr': 'Zorluk',
     'gl': 'Dificultade',
-    'uk': 'Складність'
+    'uk': 'Складність',
+    'th': 'ความยาก'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
@@ -456,7 +468,8 @@ var messages = {
     'fi': 'Värien erottelun avustin',
     'tr': 'Renk körlüğü modu',
     'gl': 'Modo daltónico',
-    'uk': 'Режим для дальтоніків'
+    'uk': 'Режим для дальтоніків',
+    'th': 'โหมดตาบอดสี'
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -476,7 +489,8 @@ var messages = {
     'fi': 'Poissa käytöstä',
     'tr': 'Kapalı',
     'gl': 'Non',
-    'uk': 'Вимкнено'
+    'uk': 'Вимкнено',
+    'th': 'ปิด'
   },
   labelColorblindOn: {
     'en': 'On',
@@ -496,7 +510,8 @@ var messages = {
     'fi': 'Käytössä',
     'tr': 'Açık',
     'gl': 'Si',
-    'uk': 'Увімкнено'
+    'uk': 'Увімкнено',
+    'th': 'เปิด'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
@@ -518,7 +533,8 @@ var messages = {
     'fi': 'Helppo',
     'tr': 'Acemi',
     'gl': 'Novato',
-    'uk': 'Початківець'
+    'uk': 'Початківець',
+    'th': 'มือใหม่'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -540,7 +556,8 @@ var messages = {
     'fi': 'Keskitaso – ei ohjeita',
     'tr': 'Orta Düzey - Yol Tarifi Yok',
     'gl': 'Intermedio: Sen pistas',
-    'uk': 'Середній - Без підказок'
+    'uk': 'Середній - Без підказок',
+    'th': 'ระดับกลาง - ไม่มีคำใบ้'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
@@ -562,6 +579,7 @@ var messages = {
     'fi': 'Vaikea – ei ohjeita, kentät sattumanvaraisessa järjestyksessä',
     'tr': 'Uzman - Yol Tarifi Yok & Rastgele Seviyeler',
     'gl': 'Experto - Sen pistas e con niveis aleatorios',
-    'uk': 'Експерт - Без підказок та випадкові рівні'
+    'uk': 'Експерт - Без підказок та випадкові рівні',
+    'th': 'เชี่ยวชาญ - ไม่มีคำใบ้ & สุ่มเลเวล'
   }
 };
