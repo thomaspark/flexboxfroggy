@@ -87,7 +87,7 @@ var messages = {
     'fi': 'Seuraava',
     'gl': 'Seguinte',
     'th': 'ถัดไป',
-    'mn': 'Дараах',
+    'mn': 'Дараах'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -357,7 +357,7 @@ var messages = {
     'fi': 'Haluatko varmasti aloittaa pelin alusta?\n\nTallennettu edistyminen menetetään, ja palaat ensimmäiseen kenttään.',
     'gl': 'Seguro que queres reiniciar a partida?\n\nPerderás todo o que leves feito e terás que comezar o xogo desde o principio.',
     'th': 'คุณแน่ใจหรือไม่ว่าต้องการเริ่มเกมใหม่?\n\nความคืบหน้าที่เก็บไว้ของคุณจะหายไป และคุณจะกลับไปเริ่มเกมใหม่',
-    'mn': 'Та тоглоомыг дахин эхлүүлэхдээ итгэлтэй байна уу?\n\nТаны хадгалсан ахиц дэвшил алдагдаж, таныг тоглоом эхлэл рүү илгээх болно.'
+    'mn': 'Та тоглоомыг дахин эхлүүлэхдээ итгэлтэй байна уу?\n\nТаны хадгалсан ахиц дэвшил алдагдаж, тоглоомын эхлэл рүү очих болно.'
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
