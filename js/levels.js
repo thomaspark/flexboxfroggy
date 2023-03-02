@@ -668,7 +668,7 @@ var levels = [
       'fi': '<p>Auta sammakoita löytämään omat lumpeenlehtensä ominaisuuksien <code>flex-direction</code>, <code>justify-content</code> ja <code>align-items</code> avulla.</p>',
       'gl': '<p>Axuda ás rás a chegar a cadanseu nenúfar empregando <code>flex-direction</code>, <code>justify-content</code>, e <code>align-items</code>.</p>',
       'th': '<p>ช่วยเจ้ากบทั้งหลายไปสู่ใบบัวของมัน ด้วยคำสั่ง <code>flex-direction</code>, <code>justify-content</code>, และ <code>align-items</code>.</p>',
-      'mn': '<p>Мэлхийнүүдэд <code>flex-direction</code>, <code>justify-content</code>, <code>align-items</code>-г ашиглан сараана цэцэгээ олоход нь туслаарай.< /p>'
+      'mn': '<p>Мэлхийнүүдэд <code>flex-direction</code>, <code>justify-content</code>, <code>align-items</code>-г ашиглан сараана цэцэгээ олоход нь туслаарай.</p>'
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
