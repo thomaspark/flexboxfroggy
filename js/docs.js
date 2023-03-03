@@ -42,6 +42,7 @@ var docs = {
     'fi': '<p>Kohdistaa rivit flex-säilössä, jos poikittaisakselilla on ylimääräistä tilaa.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (oletusarvo)</code>',
     'gl': '<p>Aliña as liñas dun contedor flex cando hai espazo extra no eixe transversal.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'th': '<p>จัดเรียงบรรทัดภายใน flex container ในกรณีที่มีพื้นที่ว่างบนแกนขวาง</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
+    'mn': '<p>Хөндлөн тэнхлэгт нэмэлт зай байгаа үед flexbox-н мөрүүдийг дураараа байрлуулна.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>'
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
@@ -86,6 +87,7 @@ var docs = {
     'fi': '<p>Kohdistaa flex-elementit poikittaisakselin suuntaisesti.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (oletusarvo)</code>',
     'gl': '<p>Aliña os elementos flex no eixe transversal.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'th': '<p>จัดเรียง flex items ตามแกนขวาง</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
+    'mn': '<p>Хөндлөн тэнхлэгийн дагуу flex items-г байрлуулна.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>'
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -130,6 +132,7 @@ var docs = {
     'fi': '<p>Kohdistaa yksittäisen flex-elementin poikittaisakselin suuntaisesti ohittaen <code>align-items</code>-ominaisuudelle määritetyn arvon.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'gl': '<p>Aliña un elemento flex no eixe transversal, sobrescribindo o valor de <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'th': '<p>จัดเรียง flex item ตามแกนขวาง, โดยทับค่าของคำสั่ง <code>align-items</code></p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'mn': '<p><code>align-items</code> утгыг дарж, flex item-г хөндлөн тэнхлэгийн дагуу байрлуулна.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -174,6 +177,7 @@ var docs = {
     'fi': '<p>Määrittää pääakselin suunnan.</p><code>row (oletusarvo)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'gl': '<p>Define a dirección do eixe principal.</p><code>row</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'th': '<p>กำหนดทิศทางของแกนหลัก</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'mn': '<p>Үндсэн тэнхлэгийн чиглэлийг тодорхойлно.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -218,6 +222,7 @@ var docs = {
     'fi': '<p>Ominaisuuksien <code>flex-direction</code> ja <code>flex-wrap</code> yhdistelmä.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'gl': '<p>Propiedade-atallo para <code>flex-direction</code> e <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'th': '<p>เป็นคำสั่งย่อของ <code>flex-direction</code> และ <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'mn': '<p><code>flex-direction</code> болон <code>flex-wrap</code>-д зориулсан товчилсон проперти.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -262,6 +267,7 @@ var docs = {
     'fi': '<p>Määrittää, pakotetaanko elementit yhdelle riville vai voivatko ne rivittyä useammalle riville.</p><code>nowrap (oletusarvo)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'gl': '<p>Determina se os elementos flex teñen que apertarse para coller nunha soa liña ou se se poden distribuír en múltiples liñas.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'th': '<p>กำหนดว่า flex items จะถูกบังคับให้อยู่ในบรรทัดเดียว หรือสามารถพับไปอยู่หลายบรรทัด</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'mn': '<p>Flex items-г нэг мөрөнд шахах эсвэл олон мөрөнд тарааж байрлуулах уу гэдгийг заана.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
@@ -306,6 +312,7 @@ var docs = {
     'fi': '<p>Kohdistaa flex-elementit pääakselin suuntaisesti.</p><code>flex-start (oletusarvo)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'gl': '<p>Aliña os elementos flex no eixe principal.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
     'th': '<p>จัดเรียง flex items ตามแกนหลัก</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
+    'mn': '<p>Үндсэн тэнхлэгийн дагуу flex item-ийг байрлуулна.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>'
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
@@ -350,5 +357,6 @@ var docs = {
     'fi': '<p>Määrittää yksittäisen flex-elementin järjestyksen.</p><code>&lt;integer&gt; (... -1, 0 (oletusarvo), 1, ...)</code>',
     'gl': '<p>Especifica a orde do elemento flex.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'th': '<p>กำหนดลำดับของ flex item</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
+    'mn': '<p>Flex item-н байрлах дарааллыг заана.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>'
   }
 };
