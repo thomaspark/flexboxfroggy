@@ -20,6 +20,7 @@ Thomas Park
 My gratitude to these contributors for localizing Flexbox Froggy. This is what open source is all about.
 
 * Arabic by [Mahmoud Al-Omoush](https://github.com/m7modg97)
+* Azerbaijani by [jalalbmnf](https://github.com/jalalbmnf)
 * Bosnian by [Haris Hamzić](https://github.com/hamzic2019)
 * Bulgarian by [Mihail Gaberov](https://github.com/mihailgaberov)
 * Catalan by [Xavier Gaya](https://github.com/xavigaya)
