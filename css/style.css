@@ -4,6 +4,8 @@
 
 html, body {
   min-height: 100%;
+  --scrollbarBG: palegreen;
+  --thumbBG: forestgreen;
 }
 
 html[lang="fa"] #docs,
@@ -35,6 +37,22 @@ body {
   background-color: #43A047;
   color: rgba(255, 255, 255, 0.8);
   font-family: 'PT Sans', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
 }
 
 #sidebar {
