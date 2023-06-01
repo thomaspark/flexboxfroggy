@@ -26,6 +26,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Catalan by [Xavier Gaya](https://github.com/xavigaya)
 * Chinese Simplified by [Tim Guo](https://github.com/timguoqk)
 * Chinese Traditional by [sunsheeppoplar](https://github.com/sunsheeppoplar)
+* Croatian by [diomed](https://github.com/diomed)
 * Danish by [Frederik Jacobsen](https://github.com/fkj)
 * Dutch by [Peter Vermeulen](https://github.com/peterver)
 * Czech by [Ondřej Hruška](https://github.com/MightyPork)
