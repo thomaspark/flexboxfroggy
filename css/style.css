@@ -58,6 +58,7 @@ body {
   text-transform: uppercase;
   font-family: 'Fredoka One', cursive;
   font-size: 28px;
+  letter-spacing: 4px;
 }
 
 pre {
