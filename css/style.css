@@ -323,7 +323,9 @@ pre {
   text-align: center;
   cursor: pointer;
 }
-
+#labelReset span {
+    color:#fff;
+}
 .arrow {
   display: inline-flex;
   align-items: center;
