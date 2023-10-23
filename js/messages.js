@@ -46,7 +46,7 @@ var messages = {
     'th': 'ไทย',
     'mn': 'Монгол хэл',
     'sk': 'Slovenčina',
-    'sin': 'සිංහල',
+    'si': 'සිංහල',
   },
   next: {
     'en': 'Next',
@@ -95,7 +95,7 @@ var messages = {
     'th': 'ถัดไป',
     'mn': 'Дараах',
     'sk': 'Pokračovať',
-    'sin': 'ඊළඟ',
+    'si': 'ඊළඟ',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -144,7 +144,7 @@ var messages = {
     'th': 'Flexbox Froggy ถูกสร้างโดย',
     'mn': 'Flexbox Froggy is created by',
     'sk': 'Flexbox Froggy vytvoril',
-    'sin': 'Flexbox මැඬියා නිර්මාණය කළේ',
+    'si': 'Flexbox මැඬියා නිර්මාණය කළේ',
   },
   labelLevel: {
     'en': 'Level',
@@ -193,7 +193,7 @@ var messages = {
     'th': 'เลเวล',
     'mn': 'Үе',
     'sk': 'Úroveň',
-    'sin': 'අභ්‍යාසය',
+    'si': 'අභ්‍යාසය',
   },
   labelOf: {
     'en': 'of',
@@ -242,7 +242,7 @@ var messages = {
     'th': '/',
     'mn': '/',
     'sk':'z',
-    'sin': '/',
+    'si': '/',
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -291,7 +291,7 @@ var messages = {
     'th': 'Flexbox Froggy - เกมสำหรับเรียนรู้ CSS Flexbox',
     'mn': 'Flexbox Froggy - CSS flexbox-г сурах тоглоом',
     'sk': 'Flexbox Froggy - Hra na učenie CSS flexbox',
-    'sin': 'Flexbox මැඬියා - CSS flexbox ඉගෙනීමේ ක්‍රීඩාවක්',
+    'si': 'Flexbox මැඬියා - CSS flexbox ඉගෙනීමේ ක්‍රීඩාවක්',
   },
   labelReset: {
     'en': 'Reset',
@@ -340,7 +340,7 @@ var messages = {
     'th': 'เริ่มใหม่',
     'mn': 'Дахин эхлүүлэх',
     'sk': 'Reštart',
-    'sin': 'නැවත මුල සිට',
+    'si': 'නැවත මුල සිට',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -389,7 +389,7 @@ var messages = {
     'th': 'คุณแน่ใจหรือไม่ว่าต้องการเริ่มเกมใหม่?\n\nความคืบหน้าที่เก็บไว้ของคุณจะหายไป และคุณจะกลับไปเริ่มเกมใหม่',
     'mn': 'Та тоглоомыг дахин эхлүүлэхдээ итгэлтэй байна уу?\n\nТаны хадгалсан ахиц дэвшил алдагдаж, тоглоомын эхлэл рүү очих болно.',
     'sk': 'Určite chcete resetovať hru?\n\nVáš uložený postup sa stratí a budete poslaní na začiatok hry.',
-    'sin': 'ඔබට ක්‍රීඩාව නැවත මුල සිට කිරීමට අවශ්‍ය බව විශ්වාසද?\n\nඔබගේ සුරැකි ප්‍රගතිය නැති වී ඔබව ක්‍රීඩාවේ ආරම්භයට යවනු ඇත.',
+    'si': 'ඔබට ක්‍රීඩාව නැවත මුල සිට කිරීමට අවශ්‍ය බව විශ්වාසද?\n\nඔබගේ සුරැකි ප්‍රගතිය නැති වී ඔබව ක්‍රීඩාවේ ආරම්භයට යවනු ඇත.',
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
@@ -422,7 +422,7 @@ var messages = {
     'th': 'อยากเรียนรู้ CSS grid? เล่น',
     'mn': 'CSS grid-г сурмаар байна уу? Тоглох',
     'sk': 'Chcete sa naučiť mriežku CSS? Zahrajte si',
-    'sin': 'CSS grid ඉගෙන ගැනීමට අවශ්‍යද? මෙතනින් යන්න',
+    'si': 'CSS grid ඉගෙන ගැනීමට අවශ්‍යද? මෙතනින් යන්න',
   },
   labelLanguage: {
     'en': 'Language',
