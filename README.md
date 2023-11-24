@@ -21,6 +21,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 
 * Arabic by [Mahmoud Al-Omoush](https://github.com/m7modg97)
 * Azerbaijani by [jalalbmnf](https://github.com/jalalbmnf)
+* Bengali by [Ayemun Hossain](https://github.com/AyemunHossain)
 * Bosnian by [Haris Hamzić](https://github.com/hamzic2019)
 * Bulgarian by [Mihail Gaberov](https://github.com/mihailgaberov)
 * Catalan by [Xavier Gaya](https://github.com/xavigaya)
