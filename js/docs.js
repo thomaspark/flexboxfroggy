@@ -282,7 +282,6 @@ var docs = {
     'uk': '<p>Визначає, чи будуть елементи знаходитись в одному рядку, чи будуть перенесені до наступних рядків.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'hi': '<p>यह निर्दिष्ठ करता है की कोई वस्तु एक पंक्ति अथवा कई पंक्तियों में आएगी।</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'gj': '<p>તે નક્કી કરે છે કે flex items ને single line માં wrap કરવા કે  multiple linesમાં .</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
-
     'sr': '<p>Одређује да ли ће флекс елементи стајати у једном реду или ће прећи у нове редове.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'bs': '<p>Određuje da li će fleks elementi stajati u jednom redu ili će preći u nove redove.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'hr': '<p>Određuje da li će fleks elementi stajati u jednom redu ili će prijeći u nove redove.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -305,7 +304,6 @@ var docs = {
     'sk': '<p>Určuje, či sa položky flex musia nachádzať na jednom riadku alebo môžu byť zabalené do viacerých riadkov.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'si': '<p>flex අයිතම තනි පේළියකට හෝ පේළි කිහිපයකට ඇසිරීම තීරණය කරයි.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'bn': '<p>flex আইটেমগুলি একটি সিঙ্গেল লাইনে বাধ্য করা হবে কিনা বা একাধিক লাইনে বাধ্য করা হবে কিনা তা নির্দেশ করে।</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>'
-  
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
