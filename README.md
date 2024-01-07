@@ -39,6 +39,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Galician by [Pilar Mera](https://github.com/decrecementofeliz)
 * German by [Thorsten Frommen](https://github.com/tfrommen)
 * Greek by [lmintmate](https://github.com/lmintmate)
+* Gujarati by [Harshhh](https://github.com/ozaharsh95)
 * Hebrew by [Omri Attiya](https://github.com/omriattiya)
 * Hindi by [Shubham Pandey](https://github.com/shubham9411)
 * Hungarian by [Adam Graf](https://github.com/netgrafe)
