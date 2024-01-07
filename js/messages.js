@@ -29,6 +29,7 @@ var messages = {
     'sv': 'Svenska',
     'uk': 'Українська',
     'hi': 'हिंदी',
+    'gj' : 'ગુજરાતી',
     'nl': 'Nederlands',
     'ta': 'தமிழ்',
     'te': 'తెలుగు',
@@ -79,6 +80,7 @@ var messages = {
     'sv': 'Nästa',
     'uk': 'Наступний',
     'hi': 'अगला',
+    'gj': 'આગળ વધો',
     'nl': 'Volgende',
     'ta': 'அடுத்து',
     'te': 'తరువాత',
@@ -129,6 +131,7 @@ var messages = {
     'sv': 'Flexbox Froggy skapades av',
     'uk': 'Гру Flexbox Froggy створено',
     'hi': 'Flexbox Froggy के निर्माणकर्ता ',
+    'gj': 'Flexbox Froggy ના નિર્માણકર્તા ',
     'nl': 'Flexbox Froggy is gemaakt door',
     'ta': 'Flexbox Froggy உருவாக்கியவர்',
     'te': 'Flexbox Froggy చేసిన వారు',
@@ -179,6 +182,7 @@ var messages = {
     'sv': 'Nivå',
     'uk': 'Рівень',
     'hi': 'स्तर',
+    'gj': 'સ્તર',
     'nl': 'Niveau',
     'ta': 'நிலை',
     'te': 'ఘట్టం',
@@ -229,6 +233,7 @@ var messages = {
     'sv': 'av',
     'uk': 'з',
     'hi': '/',
+    'gj': '/',
     'nl': 'van',
     'ta': '/',
     'te': '/',
@@ -279,6 +284,7 @@ var messages = {
     'sv': 'Flexbox Froggy - Ett spel för att lära sig CSS flexbox',
     'uk': 'Flexbox Froggy - гра для вивчення CSS flexbox',
     'hi': 'Flexbox Froggy - CSS Flexbox सीखने के लिए एक खेल',
+    'gj': 'Flexbox Froggy - CSS Flexbox  શીખવા માટેની એક રમત',
     'nl': 'Flexbox Froggy - Een spel om CSS flexbox te leren',
     'ta': 'Flexbox Froggy - CSS flexbox கற்றல் விளையாட்டு',
     'te': 'Flexbox Froggy - CSS Flexbox నేర్చుకోవడానికి ఒక ఆట',
@@ -329,6 +335,7 @@ var messages = {
     'sv': 'Återställ',
     'uk': 'Скинути',
     'hi': 'रीसेट',
+    'gj': 'રીસેટ',
     'nl': 'Resetten',
     'ta': 'மீளமை',
     'te': 'రీసెట్',
@@ -379,6 +386,7 @@ var messages = {
     'sv': 'Är du säker på att du vill börja om?\n\nDin nivå kommer att återställas och du kommer att börja om från början.',
     'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.',
     'hi': 'आप खेल रीसेट करना चाहते हैं, क्या आप सुनिश्चित हैं?\n\nआपकी सुरक्षित प्रगति मिटा दी जाएगी एवं आप इस खेल की शुरुआत में भेज दिये जायेंगे।',
+    'gj': 'તમે રમતને રીસેટ કરવા માંગો છો , શું તમારો નિર્ણય દ્રઢ છે ?\n\n તમે રમતમાં મેળવેલ પ્રગતિ નષ્ટ થઇ જશે અને તમને રમતના પ્રારંભમાં મોકલાઈ દેવામાં આવશે. ',
     'nl': 'Ben je zeker dat je het spel wilt resetten?\n\nJe vooruitgang zal verloren gaan en je zal helemaal opnieuw moeten beginnen.',
     'ta': 'நீங்கள் விளையாட்டு மீட்டமைக்க உறுதியாக இருக்கிறீர்களா?\n\nநீங்கள் சேமித்த முன்னேற்றம் இழக்கப்படும் மேலும் நீங்கள் விளையாட்டின் தொடக்கத்திற்க்கு அனுப்பி வைக்கப்படுவீர்.',
     'te': 'మీరు ఆటను రీసెట్ చేయాలనుకుంటున్నారా? \n\n మీ కూడబెట్టుకున్న పురోగతి పోతుంది మరియు మీరు ఆట ప్రారంభానికి పంపబడతారు. ',
@@ -401,6 +409,7 @@ var messages = {
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
+    'gj':'શું તમે CSS Grid શીખવા ઈચ્છો છો ? ચાલો રમવા..!',
     'he': 'רוצה ללמוד CSS grid? שחק',
     'bs': 'Želiš naučiti CSS grid? Igraj',
     'hr': 'Želiš li naučiti CSS grid? Igraj',
@@ -435,6 +444,7 @@ var messages = {
   },
   labelLanguage: {
     'en': 'Language',
+    'gj': 'ભાષા',
     'he': 'שפה',
     'bs': 'Jezik',
     'hr': 'Jezik',
@@ -492,6 +502,7 @@ var messages = {
   },
   labelDifficulty: {
     'en': 'Difficulty',
+    'gj': 'મુશ્કેલી',
     'he': 'רמת קושי',
     'bs': 'Težina',
     'hr': 'Težina',
@@ -599,6 +610,7 @@ var messages = {
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
+    'gj': 'સરળ',
     'he': 'קל',
     'bs': 'Početnik',
     'hr': 'Početnik',
@@ -627,6 +639,7 @@ var messages = {
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
+    'gj': 'મધ્યમ - કોઈ દિશા વિના',
     'he': 'בינוני - בלי בכוונה',
     'bs': 'Srednji nivo - Bez pomaganja',
     'hr': 'Srednji nivo - Bez pomaganja',
@@ -655,6 +668,7 @@ var messages = {
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
+    'gj':'મુશ્કેલ - કોઈ દિશા વિના અને રેન્ડમ',
     'he': 'קשה - בלי הכוונה ובשלבים רנדומלים',
     'bs': 'Expert - Bez pomoći i nasumični nivoi',
     'hr': 'Expert - Bez pomoći i nasumični nivoi',
@@ -682,3 +696,4 @@ var messages = {
     'bn': 'বিশেষজ্ঞ - কোন নির্দেশনা নেই এবং এলোমেলো স্তর'
   }
 };
+
