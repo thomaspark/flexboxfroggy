@@ -1,7 +1,7 @@
 var messages = {
   languageActive: {
-    'afr': 'Afrikaans',
     'en': 'English',
+    'af': 'Afrikaans',
     'he': 'עברית',
     'ro': 'Română',
     'sr': 'Српски',
@@ -52,8 +52,8 @@ var messages = {
     'bn': 'বাংলা',
   },
   next: {
-    'afr': 'Volgende',
     'en': 'Next',
+    'af': 'Volgende',
     'he': 'הבא',
     'ro': 'Următorul',
     'sr': 'Следећи',
@@ -104,8 +104,8 @@ var messages = {
     'bn': 'পরবর্তী',
   },
   labelFooter: {
-    'afr': 'Flexbox Froggy is ontwerp deur',
     'en': 'Flexbox Froggy is created by',
+    'af': 'Flexbox Froggy is ontwerp deur',
     'he': 'Flexbox Froggy נוצר על ידי',
     'ro': 'Flexbox Froggy este creat de',
     'sr': 'Flexbox Froggy је направио',
@@ -156,8 +156,8 @@ var messages = {
     'bn': 'Flexbox Froggy তৈরি করেছেন',
   },
   labelLevel: {
-    'afr': 'Vlak',
     'en': 'Level',
+    'af': 'Vlak',
     'he': 'שלב',
     'ro': 'Nivelul',
     'sr': 'Ниво',
@@ -208,8 +208,8 @@ var messages = {
     'bn': 'স্তর',
   },
   labelOf: {
-    'en': 'van',
     'en': 'of',
+    'af': 'van',
     'he': 'מתוך',
     'ro': 'din',
     'sr': 'од',
@@ -260,8 +260,8 @@ var messages = {
     'bn': '/',
   },
   title: {
-    'en': 'Flexbox Froggy - `n Spel vir die leer van CSS flexbox',
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
+    'af': 'Flexbox Froggy - `n Spel vir die leer van CSS flexbox',
     'he': 'Flexbox Froggy - משחק ללמידת CSS flexbox',
     'ro': 'Flexbox Froggy - Un joc pentru a învăța CSS flexbox',
     'sr': 'Flexbox Froggy - Игра за учење CSS flexbox-а',
@@ -312,8 +312,8 @@ var messages = {
     'bn': 'Flexbox Froggy - CSS flexbox শেখার জন্য একটি খেলা',
   },
   labelReset: {
-    'afr': 'Herstel',
     'en': 'Reset',
+    'af': 'Herstel',
     'he': 'איפוס',
     'ro': 'Resetează',
     'sr': 'Ресет',
@@ -364,8 +364,8 @@ var messages = {
     'bn': 'রিসেট',
   },
   warningReset: {
-    'afr': 'Is jy seker jy wil die speletjie herstel?\n\nJy sal jou gestoorde vordering verloor en na die begin van die speletjie toe gestuur word.',
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
+    'af': 'Is jy seker jy wil die speletjie herstel?\n\nJy sal jou gestoorde vordering verloor en na die begin van die speletjie toe gestuur word.',
     'he': 'האם לאפס את המשחק?\n\nההתקדמות שנשמרה תימחק והמשחק יתחיל מחדש.',
     'ro': 'Ești sigur(ă) că vrei să resetezi jocul?\n\nProgresul tău va fi pierdut și vei fi trimis(ă) la începutul jocului.',
     'sr': 'Да ли сте сигурни да желите да ресетујете игру?\n\nВаш сачувани прогрес ће бити изгубљен и бићете враћени на почетак игре.',
@@ -416,8 +416,8 @@ var messages = {
     'bn': 'আপনি কি খেলাটি রিসেট করতে চান?\n\nআপনার সংরক্ষিত অগ্রগতি হারিয়ে যাবে এবং আপনাকে খেলার শুরুতে পাঠানো হবে।',
   },
   gridGarden: {
-    'en': 'Wil jy CSS grid leer? Speel',
     'en': 'Want to learn CSS grid? Play',
+    'af': 'Wil jy CSS grid leer? Speel',
     'gj':'શું તમે CSS Grid શીખવા ઈચ્છો છો ? ચાલો રમવા..!',
     'he': 'רוצה ללמוד CSS grid? שחק',
     'bs': 'Želiš naučiti CSS grid? Igraj',
@@ -452,8 +452,8 @@ var messages = {
     'bn': 'CSS গ্রিড শেখতে চান? খেলুন',
   },
   labelLanguage: {
-    'afr': 'Taal',
     'en': 'Language',
+    'af': 'Taal',
     'gj': 'ભાષા',
     'he': 'שפה',
     'bs': 'Jezik',
@@ -483,8 +483,8 @@ var messages = {
     'bn': 'ভাষা'
   },
   labelSettings: {
-    'afr': 'Instellings',
     'en': 'Settings',
+    'af': 'Instellings',
     'he': 'הגדרות',
     'bs': 'Postavke',
     'hr': 'Postavke',
@@ -512,8 +512,8 @@ var messages = {
     'bn': 'সেটিংস'
   },
   labelDifficulty: {
-    'afr': 'Moeilikheid',
     'en': 'Difficulty',
+    'af': 'Moeilikheid',
     'gj': 'મુશ્કેલી',
     'he': 'רמת קושי',
     'bs': 'Težina',
@@ -542,8 +542,8 @@ var messages = {
     'bn': 'কঠিনতা'
   },
   labelColorblind: {
-    'afr': 'Kleurblind mode',
     'en': 'Colorblind Mode',
+    'af': 'Kleurblind mode',
     'he': 'מצב לעיוורי צבעים',
     'bs': 'Postavke za slijepe',
     'hr': 'Postavke za slijepe',
@@ -570,8 +570,8 @@ var messages = {
     'bn': 'কালারব্লাইন্ড মোড'
   },
   labelColorblindOff: {
-    'afr': 'Af',
     'en': 'Off',
+    'af': 'Af',
     'he': 'כבוי',
     'bs': 'Deaktivirano',
     'hr': 'Deaktivirano',
@@ -597,8 +597,8 @@ var messages = {
     'bn': 'বন্ধ'
   },
   labelColorblindOn: {
-    'afr': 'Aan',
     'en': 'On',
+    'af': 'Aan',
     'he': 'דלוק',
     'bs': 'Aktivirano',
     'hr': 'Aktivirano',
@@ -624,8 +624,8 @@ var messages = {
     'bn': 'চালু'
   },
   labelDifficultyEasy: {
-    'afr': 'Beginner',
     'en': 'Beginner',
+    'af': 'Beginner',
     'gj': 'સરળ',
     'he': 'קל',
     'bs': 'Početnik',
@@ -654,8 +654,8 @@ var messages = {
     'bn': 'শুরুকারী'
   },
   labelDifficultyMedium: {
-    'afr': 'Intermediêre - Geen aanwysings',
     'en': 'Intermediate - No Directions',
+    'af': 'Intermediêre - Geen aanwysings',
     'gj': 'મધ્યમ - કોઈ દિશા વિના',
     'he': 'בינוני - בלי בכוונה',
     'bs': 'Srednji nivo - Bez pomaganja',
@@ -684,8 +684,8 @@ var messages = {
     'bn': 'মাঝারি - কোন নির্দেশনা নেই'
   },
   labelDifficultyHard: {
-    'afr': 'Kenner - Geen direksies & willekeurige vlakke',
     'en': 'Expert - No Directions & Random Levels',
+    'af': 'Kenner - Geen direksies & willekeurige vlakke',
     'gj':'મુશ્કેલ - કોઈ દિશા વિના અને રેન્ડમ',
     'he': 'קשה - בלי הכוונה ובשלבים רנדומלים',
     'bs': 'Expert - Bez pomoći i nasumični nivoi',
