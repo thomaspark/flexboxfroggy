@@ -1,6 +1,7 @@
 var messages = {
   languageActive: {
     'en': 'English',
+    'af': 'Afrikaans',
     'he': 'עברית',
     'ro': 'Română',
     'sr': 'Српски',
@@ -52,6 +53,7 @@ var messages = {
   },
   next: {
     'en': 'Next',
+    'af': 'Volgende',
     'he': 'הבא',
     'ro': 'Următorul',
     'sr': 'Следећи',
@@ -103,6 +105,7 @@ var messages = {
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
+    'af': 'Flexbox Froggy is ontwerp deur',
     'he': 'Flexbox Froggy נוצר על ידי',
     'ro': 'Flexbox Froggy este creat de',
     'sr': 'Flexbox Froggy је направио',
@@ -154,6 +157,7 @@ var messages = {
   },
   labelLevel: {
     'en': 'Level',
+    'af': 'Vlak',
     'he': 'שלב',
     'ro': 'Nivelul',
     'sr': 'Ниво',
@@ -205,6 +209,7 @@ var messages = {
   },
   labelOf: {
     'en': 'of',
+    'af': 'van',
     'he': 'מתוך',
     'ro': 'din',
     'sr': 'од',
@@ -256,6 +261,7 @@ var messages = {
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
+    'af': 'Flexbox Froggy - `n Spel vir die leer van CSS flexbox',
     'he': 'Flexbox Froggy - משחק ללמידת CSS flexbox',
     'ro': 'Flexbox Froggy - Un joc pentru a învăța CSS flexbox',
     'sr': 'Flexbox Froggy - Игра за учење CSS flexbox-а',
@@ -307,6 +313,7 @@ var messages = {
   },
   labelReset: {
     'en': 'Reset',
+    'af': 'Herstel',
     'he': 'איפוס',
     'ro': 'Resetează',
     'sr': 'Ресет',
@@ -358,6 +365,7 @@ var messages = {
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
+    'af': 'Is jy seker jy wil die speletjie herstel?\n\nJy sal jou gestoorde vordering verloor en na die begin van die speletjie toe gestuur word.',
     'he': 'האם לאפס את המשחק?\n\nההתקדמות שנשמרה תימחק והמשחק יתחיל מחדש.',
     'ro': 'Ești sigur(ă) că vrei să resetezi jocul?\n\nProgresul tău va fi pierdut și vei fi trimis(ă) la începutul jocului.',
     'sr': 'Да ли сте сигурни да желите да ресетујете игру?\n\nВаш сачувани прогрес ће бити изгубљен и бићете враћени на почетак игре.',
@@ -409,6 +417,7 @@ var messages = {
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
+    'af': 'Wil jy CSS grid leer? Speel',
     'gj':'શું તમે CSS Grid શીખવા ઈચ્છો છો ? ચાલો રમવા..!',
     'he': 'רוצה ללמוד CSS grid? שחק',
     'bs': 'Želiš naučiti CSS grid? Igraj',
@@ -444,6 +453,7 @@ var messages = {
   },
   labelLanguage: {
     'en': 'Language',
+    'af': 'Taal',
     'gj': 'ભાષા',
     'he': 'שפה',
     'bs': 'Jezik',
@@ -474,6 +484,7 @@ var messages = {
   },
   labelSettings: {
     'en': 'Settings',
+    'af': 'Instellings',
     'he': 'הגדרות',
     'bs': 'Postavke',
     'hr': 'Postavke',
@@ -502,6 +513,7 @@ var messages = {
   },
   labelDifficulty: {
     'en': 'Difficulty',
+    'af': 'Moeilikheid',
     'gj': 'મુશ્કેલી',
     'he': 'רמת קושי',
     'bs': 'Težina',
@@ -531,6 +543,7 @@ var messages = {
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
+    'af': 'Kleurblind mode',
     'he': 'מצב לעיוורי צבעים',
     'bs': 'Postavke za slijepe',
     'hr': 'Postavke za slijepe',
@@ -558,6 +571,7 @@ var messages = {
   },
   labelColorblindOff: {
     'en': 'Off',
+    'af': 'Af',
     'he': 'כבוי',
     'bs': 'Deaktivirano',
     'hr': 'Deaktivirano',
@@ -584,6 +598,7 @@ var messages = {
   },
   labelColorblindOn: {
     'en': 'On',
+    'af': 'Aan',
     'he': 'דלוק',
     'bs': 'Aktivirano',
     'hr': 'Aktivirano',
@@ -610,6 +625,7 @@ var messages = {
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
+    'af': 'Beginner',
     'gj': 'સરળ',
     'he': 'קל',
     'bs': 'Početnik',
@@ -639,6 +655,7 @@ var messages = {
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
+    'af': 'Intermediêre - Geen aanwysings',
     'gj': 'મધ્યમ - કોઈ દિશા વિના',
     'he': 'בינוני - בלי בכוונה',
     'bs': 'Srednji nivo - Bez pomaganja',
@@ -668,6 +685,7 @@ var messages = {
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
+    'af': 'Kenner - Geen direksies & willekeurige vlakke',
     'gj':'મુશ્કેલ - કોઈ દિશા વિના અને રેન્ડમ',
     'he': 'קשה - בלי הכוונה ובשלבים רנדומלים',
     'bs': 'Expert - Bez pomoći i nasumični nivoi',
