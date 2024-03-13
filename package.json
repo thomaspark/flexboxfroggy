@@ -7,7 +7,9 @@
     "animate.css": "^3.4.0",
     "jquery": "^3.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  },
   "author": "Thomas Park",
   "license": "MIT"
 }
