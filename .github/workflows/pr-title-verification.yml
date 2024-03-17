@@ -1,9 +1,8 @@
 name: PR Title Verification
 
 on:
-push:
-    branches:
-      - gh-pages
+  push:
+    branches: [gh-pages]
   pull_request:
     types: [opened, edited, reopened]
 
@@ -21,4 +20,3 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
