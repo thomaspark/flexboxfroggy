@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 html,
 body {
   min-height: 100%;
+  /* dsc */
 }
 
 html[lang="fa"] #docs,
