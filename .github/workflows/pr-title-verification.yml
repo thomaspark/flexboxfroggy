@@ -1,6 +1,9 @@
 name: PR Title Verification
 
 on:
+push:
+    branches:
+      - gh-pages
   pull_request:
     types: [opened, edited, reopened]
 
