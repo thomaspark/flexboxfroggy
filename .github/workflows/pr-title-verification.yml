@@ -1,7 +1,6 @@
 name: PR Title Verification
 
 on:
-  push:
   pull_request:
     types: [opened, edited, reopened]
 
