@@ -6,6 +6,7 @@
 html,
 body {
   min-height: 100%;
+  /* dsc */
 }
 
 html[lang="fa"] #docs,
