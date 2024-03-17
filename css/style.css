@@ -1,8 +1,10 @@
 * {
   box-sizing: border-box;
+  /* sdcsd */
 }
 
-html, body {
+html,
+body {
   min-height: 100%;
 }
 
@@ -32,16 +34,16 @@ body {
   display: flex;
   min-width: 600px;
   margin: 0;
-  background-color: #43A047;
+  background-color: #43a047;
   color: rgba(255, 255, 255, 0.8);
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 #sidebar {
   width: 50%;
   min-width: 300px;
   padding: 2em;
-  background-color: #43A047;
+  background-color: #43a047;
   font-size: 15px;
 }
 
@@ -55,7 +57,7 @@ body {
 .title {
   margin: 0.5rem 0 0;
   text-transform: uppercase;
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
   font-size: 28px;
 }
 
@@ -66,7 +68,7 @@ pre {
 code {
   padding: 0 2px;
   background-color: rgba(255, 255, 255, 0.2);
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-weight: 900;
   color: rgba(255, 255, 255, 0.8);
   white-space: nowrap;
@@ -102,7 +104,7 @@ a:hover {
 }
 
 .tooltip:after {
-  content: '';
+  content: "";
   position: absolute;
   top: -12px;
   left: 12px;
@@ -139,7 +141,7 @@ a:hover {
   display: inline-block;
   width: calc(50% - 0.25rem);
   border-radius: 6px;
-  overflow:  hidden;
+  overflow: hidden;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
 }
@@ -149,7 +151,7 @@ a:hover {
   position: absolute;
   left: 0;
   right: 0;
-  top:  0;
+  top: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.3);
   transition: background-color 0.2s;
@@ -167,7 +169,7 @@ a:hover {
   bottom: 10%;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.8);
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
   font-size: 18px;
 }
 
@@ -183,8 +185,8 @@ a:hover {
 #instructions,
 #instructions p,
 #instructions ul {
-	/* helps prevent the difficulty animation from jumping */
-	margin: 0;
+  /* helps prevent the difficulty animation from jumping */
+  margin: 0;
   padding-bottom: 1em;
 }
 
@@ -194,7 +196,7 @@ a:hover {
 
 #editor,
 pre {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 16px;
   line-height: 1.5;
   color: #777;
@@ -217,7 +219,7 @@ pre {
   padding: 10px 6px;
   text-align: right;
   background-color: #999;
-  color: #D5D5D5;
+  color: #d5d5d5;
 }
 
 #code {
@@ -226,7 +228,7 @@ pre {
   height: 24px;
   margin-left: 16px;
   border: none;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 16px;
   outline: none;
   resize: none;
@@ -285,7 +287,7 @@ pre {
 }
 
 .level-marker.solved {
-  background-color: #228B24;
+  background-color: #228b24;
 }
 
 #level-indicator,
@@ -358,20 +360,20 @@ pre {
 }
 
 .left .triangle {
-  border-right: 11px solid rgba(255, 255, 255, 0.7);;
+  border-right: 11px solid rgba(255, 255, 255, 0.7);
 }
 
 .right .triangle {
-  border-left: 11px solid rgba(255, 255, 255, 0.7);;
+  border-left: 11px solid rgba(255, 255, 255, 0.7);
 }
 
 button {
   display: inline-block;
   padding: 0.4em 0.8em;
-  background-color: #D11606;
+  background-color: #d11606;
   border: none;
   border-radius: 4px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -389,7 +391,7 @@ button:active {
 }
 
 button:not(.disabled):hover {
-  background-color: #F12D22;
+  background-color: #f12d22;
 }
 
 #next {
@@ -484,7 +486,7 @@ button:not(.disabled):hover {
 #background {
   z-index: 10;
   border-radius: 0 0 0 10px;
-  background-color: #1F5768;
+  background-color: #1f5768;
 }
 
 #pond {
@@ -500,10 +502,10 @@ button:not(.disabled):hover {
 }
 
 .frog.bounceOutUp {
-  -webkit-animation-delay: .6s;
-  -moz-animation-delay: .6s;
-  -ms-animation-delay: .6s;
-  animation-delay: .6s;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  -ms-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .frog .bg.bounce {
@@ -514,17 +516,17 @@ button:not(.disabled):hover {
 }
 
 .frog.yellow .bg.bounce {
-  -webkit-animation-delay: .3s;
-  -moz-animation-delay: .3s;
-  -ms-animation-delay: .3s;
-  animation-delay: .3s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .frog.red .bg.bounce {
-  -webkit-animation-delay: .6s;
-  -moz-animation-delay: .6s;
-  -ms-animation-delay: .6s;
-  animation-delay: .6s;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  -ms-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .lilypad .bg,
@@ -629,7 +631,14 @@ button:not(.disabled):hover {
   display: block;
   padding: 10px 20px 8px;
   border-radius: 4px;
-  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .03) 5px, hsla(0, 0%, 0%, .03) 10px) hsla(0, 0%, 0%, .03);
+  background: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      hsla(0, 0%, 0%, 0.03) 5px,
+      hsla(0, 0%, 0%, 0.03) 10px
+    )
+    hsla(0, 0%, 0%, 0.03);
   margin-top: 1.5em;
   font-size: 12px;
 }
@@ -639,7 +648,6 @@ button:not(.disabled):hover {
   display: block;
   line-height: 1.5;
 }
-
 
 .native-ad .sponsor {
   position: relative;
@@ -656,4 +664,3 @@ button:not(.disabled):hover {
   font-weight: 600;
   line-height: 1;
 }
-
