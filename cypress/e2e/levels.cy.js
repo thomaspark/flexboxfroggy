@@ -24,9 +24,11 @@ describe("Levels", () => {
     22: "align-content: flex-end;",
     23: "flex-direction: column-reverse;\nalign-content: center;",
     24: "flex-direction: column-reverse;\nflex-wrap: wrap-reverse;\nalign-content: space-between;\njustify-content: center;",
+    25: "flex-direction: column-reverse;\nflex-wrap: wrap-reverse;\nalign-content: space-between;\njustify-content: center;",
   };
+  const numberOfLevels = Object.keys(levelAnswers).length
 
-  for (let level = 1; level <= 24; level++) {
+  for (let level = 1; level <= numberOfLevels; level++) {
     it(`should allow us to pass level ${level} after we complete the level`, () => {
       cy.setLevel(level - 1);
       cy.visit("index.html");
@@ -36,7 +38,7 @@ describe("Levels", () => {
       cy.get("#code").should("have.value", levelCode);
       cy.get("#next").should("not.have.class", "disabled");
       cy.get("#next").click();
-      if (level < 24) {
+      if (level < numberOfLevels) {
         cy.get("#level-indicator .current").should("have.text", `${level + 1}`);
       } else {
         cy.get("#instructions").should("contain", "You win!");
