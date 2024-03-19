@@ -1,6 +1,6 @@
 {
   "name": "flexboxfroggy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A game for learning CSS flexbox",
   "main": "game.js",
   "dependencies": {
