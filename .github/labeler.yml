@@ -1,0 +1,32 @@
+feature:
+  - head-branch: ["feature"]
+
+bugfix:
+  - head-branch: ["bugfix"]
+
+build:
+  - head-branch: ["build"]
+
+chore:
+  - head-branch: ["chore"]
+
+ci:
+  - head-branch: ["ci"]
+
+docs:
+  - head-branch: ["docs"]
+
+style:
+  - head-branch: ["style"]
+
+refactor:
+  - head-branch: ["refactor"]
+
+perf:
+  - head-branch: ["perf"]
+
+test:
+  - head-branch: ["test"]
+
+other:
+  - head-branch: ["other"]
