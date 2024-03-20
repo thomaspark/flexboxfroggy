@@ -1,0 +1,21 @@
+name: PR Title Verification
+
+on:
+  pull_request:
+    types: [opened, edited, reopened]
+
+jobs:
+  title-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking PR title for task type prefix
+        run: |
+          title="${{ github.event.pull_request.title }}"
+          pattern="^(feature|bug-fix|build|chore|ci|docs|style|refactor|perf|test|translation|other)/"
+          if ! [[ $title =~ $pattern ]]; then
+            echo "PR title does not start with 'feature/', 'bug-fix/', 'build/', 'chore/', 'ci/', 'docs/', 'style/', 'refactor/', 'perf/', 'test/', 'translation/', or 'other/'. Please update the title to follow the naming convention."
+            exit 1
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
