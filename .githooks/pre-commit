@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+LC_ALL=C
+
+local_branch="$(git rev-parse --abbrev-ref HEAD)"
+
+branch_prefix_types=("feature" "bugfix" "build" "chore" "ci" "docs" "style" "refactor" "perf" "test" "other")
+
+valid_branch_regex="^($(IFS='|'; echo "${branch_prefix_types[*]}"))\/[a-z0-9._-]+$"
+
+branch_prefixes=("${branch_prefix_types[*]/%//}")
+
+message="Branch names in this project must be prefixed with one of the following labels: ${branch_prefixes[*]}"
+
+if [[ ! $local_branch =~ $valid_branch_regex ]]
+then
+    echo "$message"
+    exit 1
+fi
+
+exit 0
