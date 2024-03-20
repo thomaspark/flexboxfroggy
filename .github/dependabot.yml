@@ -6,5 +6,5 @@ updates:
     directory: "/"
     # Check for updates every month
     schedule:
-      interval: "month"
+      interval: "daily"
 
