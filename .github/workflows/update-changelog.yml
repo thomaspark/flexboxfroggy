@@ -1,0 +1,32 @@
+name: Update Changelog
+on:
+  push:
+    tags:
+      - "*"
+jobs:
+  update-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          fetch-depth: 0
+      - name: Update project version in package.json
+        run: |
+          TAG_NAME="${GITHUB_REF#refs/tags/}"
+          echo "Updating package.json version to $TAG_NAME"
+          npm version "$TAG_NAME" --no-git-tag-version
+      - name: Install package dependencies
+        run: npm install
+      - name: Generate new changelog entries
+        run: npx conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r 0
+      - name: Commit Changelog
+        run: |
+          echo "Commiting the changes that we made to CHANGELOG.md and package.json"
+          git config --local user.email "action@github.com"
+          git config --local user.name "Github Actions"
+          git add CHANGELOG.md package.json
+          git commit -m "docs: Updated app version and CHANGELOG.MD"
+      - name: Push new Changelog
+        run: git push origin gh-pages

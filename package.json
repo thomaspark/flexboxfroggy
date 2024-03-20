@@ -1,13 +1,16 @@
 {
   "name": "flexboxfroggy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A game for learning CSS flexbox",
   "main": "game.js",
   "dependencies": {
     "animate.css": "^3.4.0",
+    "conventional-changelog-cli": "^4.1.0",
     "jquery": "^3.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  },
   "author": "Thomas Park",
   "license": "MIT"
 }
