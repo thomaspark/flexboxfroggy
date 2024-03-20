@@ -33,7 +33,7 @@ body {
   min-width: 600px;
   margin: 0;
   background-color: #43A047;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255 255 255 / 80%);
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -65,10 +65,10 @@ pre {
 
 code {
   padding: 0 2px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(255 255 255 / 20%);
   font-family: 'Source Code Pro', monospace;
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255 255 255 / 80%);
   white-space: nowrap;
 }
 
@@ -77,7 +77,7 @@ li {
 }
 
 a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255 255 255 / 70%);
 }
 
 a:hover {
@@ -86,14 +86,14 @@ a:hover {
 
 .help {
   cursor: pointer;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgb(255 255 255 / 70%);
 }
 
 .tooltip {
   position: absolute;
   display: inline-block;
   max-width: 350px;
-  padding: 1em 1em;
+  padding: 1em;
   background-color: #2c3e50;
   border-radius: 4px;
   font-size: 12px;
@@ -101,7 +101,7 @@ a:hover {
   z-index: 60;
 }
 
-.tooltip:after {
+.tooltip::after {
   content: '';
   position: absolute;
   top: -12px;
@@ -141,22 +141,19 @@ a:hover {
   border-radius: 6px;
   overflow:  hidden;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgb(255 255 255 / 90%);
 }
 
 .games a::before {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
-  top:  0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  inset: 0;
+  background-color: rgb(0 0 0 / 30%);
   transition: background-color 0.2s;
 }
 
 .games a:hover::before {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(0 0 0 / 10%);
 }
 
 .games a::after {
@@ -166,7 +163,7 @@ a:hover {
   right: 0;
   bottom: 10%;
   padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(0 0 0 / 80%);
   font-family: 'Fredoka One', cursive;
   font-size: 18px;
 }
@@ -239,9 +236,9 @@ pre {
   height: 30px;
   margin-top: 0.5rem;
   font-size: 15px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+  user-select: none;
+  user-select: none;
+  user-select: none;
   user-select: none;
 }
 
@@ -255,7 +252,7 @@ pre {
   z-index: 80;
 }
 
-#levelsWrapper:after {
+#levelsWrapper::after {
   left: calc(50% - 12px);
 }
 
@@ -272,7 +269,7 @@ pre {
   height: 30px;
   margin: 2px;
   line-height: 26px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(255 255 255 / 20%);
   border: 2px solid transparent;
   border-radius: 50%;
   text-align: center;
@@ -281,7 +278,7 @@ pre {
 
 .level-marker.current,
 .level-marker:hover {
-  border-color: rgba(255, 255, 255, 0.5);
+  border-color: rgb(255 255 255 / 50%);
 }
 
 .level-marker.solved {
@@ -292,7 +289,7 @@ pre {
 .arrow {
   float: left;
   height: 30px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(255 255 255 / 20%);
 }
 
 #level-indicator {
@@ -314,7 +311,7 @@ pre {
 
 #level-indicator:hover,
 .arrow:not(.disabled):hover {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgb(255 255 255 / 40%);
 }
 
 #labelReset {
@@ -331,12 +328,12 @@ pre {
 }
 
 .arrow.left {
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgb(255 255 255 / 20%);
   border-radius: 4px 0 0 4px;
 }
 
 .arrow.right {
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgb(255 255 255 / 20%);
   border-radius: 0 4px 4px 0;
 }
 
@@ -358,11 +355,11 @@ pre {
 }
 
 .left .triangle {
-  border-right: 11px solid rgba(255, 255, 255, 0.7);;
+  border-right: 11px solid rgb(255 255 255 / 70%);;
 }
 
 .right .triangle {
-  border-left: 11px solid rgba(255, 255, 255, 0.7);;
+  border-left: 11px solid rgb(255 255 255 / 70%);;
 }
 
 button {
@@ -376,11 +373,11 @@ button {
   line-height: 24px;
   color: #fff;
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
-  -webkit-appearance: none;
+  user-select: none;
+  user-select: none;
+  user-select: none;
+  appearance: none;
   appearance: none;
 }
 
@@ -412,7 +409,7 @@ button:not(.disabled):hover {
   line-height: 1.5em;
   text-align: center;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255 255 255 / 60%);
 }
 
 #settings {
@@ -422,9 +419,9 @@ button:not(.disabled):hover {
 .toggle {
   display: inline-block;
   padding: 1px 8px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(255 255 255 / 20%);
   border-radius: 3px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255 255 255 / 70%);
   cursor: pointer;
   user-select: none;
 }
@@ -432,7 +429,7 @@ button:not(.disabled):hover {
 #settings .tooltip {
   display: none;
   bottom: 30px;
-  left: 0px;
+  left: 0;
   width: 275px;
   max-width: 275px;
   padding: 1em;
@@ -440,7 +437,7 @@ button:not(.disabled):hover {
   z-index: 80;
 }
 
-#settings .tooltip:after {
+#settings .tooltip::after {
   top: auto;
   bottom: -12px;
   border-left: 12px solid transparent;
@@ -455,7 +452,7 @@ button:not(.disabled):hover {
 
 #settings h4 {
   margin: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255 255 255 / 80%);
 }
 
 #board {
@@ -500,30 +497,30 @@ button:not(.disabled):hover {
 }
 
 .frog.bounceOutUp {
-  -webkit-animation-delay: .6s;
-  -moz-animation-delay: .6s;
-  -ms-animation-delay: .6s;
+  animation-delay: .6s;
+  animation-delay: .6s;
+  animation-delay: .6s;
   animation-delay: .6s;
 }
 
 .frog .bg.bounce {
-  -webkit-animation-duration: 2s;
-  -moz-animation-duration: 2s;
-  -ms-animation-duration: 2s;
+  animation-duration: 2s;
+  animation-duration: 2s;
+  animation-duration: 2s;
   animation-duration: 2s;
 }
 
 .frog.yellow .bg.bounce {
-  -webkit-animation-delay: .3s;
-  -moz-animation-delay: .3s;
-  -ms-animation-delay: .3s;
+  animation-delay: .3s;
+  animation-delay: .3s;
+  animation-delay: .3s;
   animation-delay: .3s;
 }
 
 .frog.red .bg.bounce {
-  -webkit-animation-delay: .6s;
-  -moz-animation-delay: .6s;
-  -ms-animation-delay: .6s;
+  animation-delay: .6s;
+  animation-delay: .6s;
+  animation-delay: .6s;
   animation-delay: .6s;
 }
 
@@ -559,6 +556,7 @@ button:not(.disabled):hover {
 .lilypad.yellow .bg {
   background-image: url("../images/lilypad-yellow.svg");
 }
+
 .lilypad.yellow.cb-friendly .bg {
   background-image: url("../images/lilypad-yellow-color-assist.svg");
 }
@@ -591,7 +589,7 @@ button:not(.disabled):hover {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (width <= 767px) {
   body {
     flex-direction: column-reverse;
     align-items: center;
@@ -629,7 +627,7 @@ button:not(.disabled):hover {
   display: block;
   padding: 10px 20px 8px;
   border-radius: 4px;
-  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .03) 5px, hsla(0, 0%, 0%, .03) 10px) hsla(0, 0%, 0%, .03);
+  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsl(0deg 0% 0% / 3%) 5px, hsl(0deg 0% 0% / 3%) 10px) hsl(0deg 0% 0% / 3%);
   margin-top: 1.5em;
   font-size: 12px;
 }
@@ -646,9 +644,9 @@ button:not(.disabled):hover {
   top: -1px;
   padding: 3px 4px 2px;
   margin-right: 4px;
-  border: solid 1px currentColor;
+  border: solid 1px currentcolor;
   border-radius: 2px;
-  color: currentColor;
+  color: currentcolor;
   content: "Sponsor";
   text-transform: uppercase;
   font-size: 11px;

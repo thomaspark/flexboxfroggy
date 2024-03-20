@@ -9,7 +9,15 @@
     "jquery": "^3.5.1"
   },
   "devDependencies": {
-    "cypress": "^13.6.6"
+    "cypress": "^13.6.6",
+    "eslint": "^8.57.0",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  },
+  "scripts": {
+    "lint:js": "eslint js/*.js",
+    "lint:css": "stylelint '**/*.css' --fix",
+    "lint": "npm run lint:js && npm run lint:css"
   },
   "author": "Thomas Park",
   "license": "MIT"
