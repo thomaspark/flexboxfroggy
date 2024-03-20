@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 LC_ALL=C
 
-
 local_branch="$(git rev-parse --abbrev-ref HEAD)"
 
 branch_prefix_types=("feature" "bugfix" "build" "chore" "ci" "docs" "style" "refactor" "perf" "test" "other")
