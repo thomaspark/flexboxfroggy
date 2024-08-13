@@ -1,6 +1,7 @@
 var docs = {
   'align-content': {
     'en': '<p>Aligns a flex container\'s lines within the flex container when there is extra space on the cross-axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
+    'bn': '<p>যদি cross-axis এ অতিরিক্ত যায়গা থাকে তাহলে flex container লাইন গুলোকে কে flex container এর ভিতরেই সারিবদ্ধ করে।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
     'af': '<p>Rig die flex houer se lyne binne die flex houer wanneer daar ekstra spasie is op die kruis-as. </p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (verstek)</code>',
     'he': '<p>יישור שורות בתוך ה-flex כשיש מקום מיותר בציר המשני.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
     'ro': '<p>Aliniază liniile unui container flex cu containerul flex cand există spațiu în plus pe axa transversală.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
@@ -49,10 +50,10 @@ var docs = {
     'mn': '<p>Хөндлөн тэнхлэгт нэмэлт зай байгаа үед flexbox-н мөрүүдийг дураараа байрлуулна.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
     'sk': '<p>Zarovná riadky kontajnera flex v rámci kontajnera flex, ak je na priečnej osi extra priestor.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
     'si': '<p>හරස් අක්‍ෂයේ අමතර ඉඩ ඇති විට flex කන්ටේනරය තුළ පේළි ඇසිරීම තීරණය කරයි.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
-    'bn': '<p>যখন ক্রস-অ্যাক্সিসে অতিরিক্ত স্থান থাকে, তখন ফ্লেক্স কন্টেইনারের লাইনগুলি ফ্লেক্স কন্টেইনারের ভিতরে সারিবদ্ধ করে।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
+    'bn': '<p>flex item গুলোকে cross axis বরাবর সারিবদ্ধ করে।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'af': '<p>Rig flex items op die kruis-as.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (verstek)</code>',
     'he': '<p>יישור פריטים ב-flex לאורך הציר המשני.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'ro': '<p>Aliniază elementele flex de-a lungul axei transversale.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
@@ -101,10 +102,10 @@ var docs = {
     'mn': '<p>Хөндлөн тэнхлэгийн дагуу flex items-г байрлуулна.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'sk': '<p>Zarovná ohybné prvky pozdĺž priečnej osi.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'si': '<p>හරස් අක්ෂය දිගේ flex අයිතම පෙළගස්වයි.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
-    'bn': '<p>ক্রস-অ্যাক্সিসে অবস্থিত বস্তুগুলি সমমূল্যে সারিবদ্ধ করে।</p> <code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'bn': '<p><code>align-items</code> এর মান না মেনে cross axis বরাবর একটি flex item কে সারিবদ্ধ করে।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'af': '<p>Rig `n flex item op die kruis-as, en oorskryf die <code>align-items</code> waarde.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'he': '<p>יישור פריט flex ספציפי לאורך הציר המשני, דורס את ההגדרה של <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'ro': '<p>Aliniază un element flex de-a lungul axei transversale, suprascriind valoarea proprietății <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -153,10 +154,10 @@ var docs = {
     'mn': '<p><code>align-items</code> утгыг дарж, flex item-г хөндлөн тэнхлэгийн дагуу байрлуулна.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'sk': '<p>Zarovná prvok flex pozdĺž krížovej osi, pričom nahradí hodnotu <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'si': '<p><code>align-items</code> හි අගය නොසලකා හැර හරස් අක්ෂය දිගේ flex අයිතමය පෙළගස්වයි.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'bn': '<p><code>align-items</code> এর মান অমান্য করে, ক্রস অ্যাক্সিসের উপর একটি ফ্লেক্স আইটেম সারিবদ্ধ করে।</p> <code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>'
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'bn': '<p>Main axis এর দিক নির্ধারন করে।</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'af': '<p>Bepaal die direksie van die hoof as.</p><code>row (verstek)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'he': '<p>מגדיר את הכיוון של הציר הראשי.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'ro': '<p>Definește direcția axei principale.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -205,10 +206,10 @@ var docs = {
     'mn': '<p>Үндсэн тэнхлэгийн чиглэлийг тодорхойлно.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'sk': '<p>Určuje smer hlavnej osi.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'si': '<p>ප්‍රධාන අක්‍ෂයේ දිශාව තීරණය කරයි.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
-    'bn': '<p>প্রধান অক্ষের দিক নির্ধারণ করে।</p><code>row (ডিফল্ট)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>'
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'bn': '<p><code>flex-direction</code> এবং <code>flex-wrap</code> এর জন্য একটি Shorthand property।</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'af': '<p>Kortskrif eienskap vir <code>flex-direction</code> en <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'he': '<p>קיצור בשביל <code>flex-direction</code> ו-<code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'ro': '<p>Scurtătura pentru <code>flex-direction</code> și <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -257,10 +258,10 @@ var docs = {
     'mn': '<p><code>flex-direction</code> болон <code>flex-wrap</code>-д зориулсан товчилсон проперти.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'sk': '<p>Skrátená vlastnosť pre <code>flex-direction</code> a <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'si': '<p><code>flex-direction</code> සහ <code>flex-wrap</code> සඳහා වන තනි ගුණාංගයකි.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
-    'bn': '<p><code>flex-direction</code> এবং <code>flex-wrap</code> এর জন্য সংক্ষিপ্ত প্রপার্টি।</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'bn': '<p>flex item গুলোকে কি একই লাইনে থাকতে বাধ্য করা হবে নাকি একাধিক লাইনে wrap করা যাবে তা নির্ধারন করে।</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'af': '<p>Spesifiseer of die flex items op `n enkele lyn geforseer is of oor meerdere lyne gevou word.</p><code>nowrap (verstek)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'he': '<p>מציין אם פריטי flex יהיו בשורה אחת או יכולים להתפרס ("להעטף" - wrap) בכמה שורות.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'ro': '<p>Specifică daca elementele flex sunt forțate pe o singură linie sau pot fi impărțit pe mai multe linii.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -309,10 +310,10 @@ var docs = {
     'mn': '<p>Flex items-г нэг мөрөнд шахах эсвэл олон мөрөнд тарааж байрлуулах уу гэдгийг заана.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'sk': '<p>Určuje, či sa položky flex musia nachádzať na jednom riadku alebo môžu byť zabalené do viacerých riadkov.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'si': '<p>flex අයිතම තනි පේළියකට හෝ පේළි කිහිපයකට ඇසිරීම තීරණය කරයි.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
-    'bn': '<p>flex আইটেমগুলি একটি সিঙ্গেল লাইনে বাধ্য করা হবে কিনা বা একাধিক লাইনে বাধ্য করা হবে কিনা তা নির্দেশ করে।</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
+    'bn': '<p>flex item গুলোকে main axis বরাবর সারিবদ্ধ করে।</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'af': '<p>Rig die flex items op die hoof as.</p><code>flex-start (verstek)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'he': '<p>יישור פריטי flex לאורך הציר הראשי.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'ro': '<p>Aliniază elementele flex de-a lungul axei principale.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
@@ -361,10 +362,10 @@ var docs = {
     'mn': '<p>Үндсэн тэнхлэгийн дагуу flex item-ийг байрлуулна.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'sk': '<p>Zarovnanie prvkov flex pozdĺž hlavnej osi.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'si': '<p>ප්‍රධාන අක්ෂය දිගේ flex අයිතම පෙළගස්වයි.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
-    'bn': '<p>মূল অক্ষের সাথে ফ্লেক্স আইটেমগুলি সারিবদ্ধ করে।</p><code>flex-start (ডিফল্ট)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
+    'en': '<p>Flex item এর order (ক্রম) নির্ধারন করে।</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'af': '<p>Spesifiseer die orde van die flex item.</p><code>&lt;integer&gt; (... -1, 0 (verstek), 1, ...)</code>',
     'he': '<p>מציין את הסדר של פריט flex.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'ro': '<p>Specifică ordinea elementelor flex.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
@@ -413,6 +414,5 @@ var docs = {
     'mn': '<p>Flex item-н байрлах дарааллыг заана.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'sk': '<p>Určuje poradie položky flex.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'si': '<p>flex අයිතමයේ අනුපිළිවෙල තීරණය කරයි.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
-    'bn': '<p>ফ্লেক্স আইটেমের ক্রম নির্ধারণ করে।</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>'
   }
 };
