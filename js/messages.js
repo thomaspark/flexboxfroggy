@@ -153,7 +153,7 @@ var messages = {
     'mn': 'Flexbox Froggy is created by',
     'sk': 'Flexbox Froggy vytvoril',
     'si': 'Flexbox මැඬියා නිර්මාණය කළේ',
-    'bn': 'Flexbox Froggy তৈরি করেছেন',
+    'bn': 'Flexbox Froggy তৈরি করেছে',
   },
   labelLevel: {
     'en': 'Level',
@@ -205,7 +205,7 @@ var messages = {
     'mn': 'Үе',
     'sk': 'Úroveň',
     'si': 'අභ්‍යාසය',
-    'bn': 'স্তর',
+    'bn': 'লেভেল',
   },
   labelOf: {
     'en': 'of',
@@ -309,7 +309,7 @@ var messages = {
     'mn': 'Flexbox Froggy - CSS flexbox-г сурах тоглоом',
     'sk': 'Flexbox Froggy - Hra na učenie CSS flexbox',
     'si': 'Flexbox මැඬියා - CSS flexbox ඉගෙනීමේ ක්‍රීඩාවක්',
-    'bn': 'Flexbox Froggy - CSS flexbox শেখার জন্য একটি খেলা',
+    'bn': 'Flexbox Froggy - CSS flexbox শেখার একটি গেইম',
   },
   labelReset: {
     'en': 'Reset',
@@ -413,7 +413,7 @@ var messages = {
     'mn': 'Та тоглоомыг дахин эхлүүлэхдээ итгэлтэй байна уу?\n\nТаны хадгалсан ахиц дэвшил алдагдаж, тоглоомын эхлэл рүү очих болно.',
     'sk': 'Určite chcete resetovať hru?\n\nVáš uložený postup sa stratí a budete poslaní na začiatok hry.',
     'si': 'ඔබට ක්‍රීඩාව නැවත මුල සිට කිරීමට අවශ්‍ය බව විශ්වාසද?\n\nඔබගේ සුරැකි ප්‍රගතිය නැති වී ඔබව ක්‍රීඩාවේ ආරම්භයට යවනු ඇත.',
-    'bn': 'আপনি কি খেলাটি রিসেট করতে চান?\n\nআপনার সংরক্ষিত অগ্রগতি হারিয়ে যাবে এবং আপনাকে খেলার শুরুতে পাঠানো হবে।',
+    'bn': 'আপনি কি নিশ্চিত গেইমটি রিসেট করার ব্যপারে?\n\nআপনার সেইভ করা অংশ হারিয়ে যাবে এবং আপনাকে গেইমের একদম শুরুতে পাঠানো হবে।',
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
@@ -449,7 +449,7 @@ var messages = {
     'mn': 'CSS grid-г сурмаар байна уу? Тоглох',
     'sk': 'Chcete sa naučiť mriežku CSS? Zahrajte si',
     'si': 'CSS grid ඉගෙන ගැනීමට අවශ්‍යද? මෙතනින් යන්න',
-    'bn': 'CSS গ্রিড শেখতে চান? খেলুন',
+    'bn': 'CSS grid শিখতে চান?তাহলে খেলুন',
   },
   labelLanguage: {
     'en': 'Language',
@@ -651,7 +651,7 @@ var messages = {
     'th': 'มือใหม่',
     'mn': 'Амархан',
     'sk': 'Začiatočník',
-    'bn': 'শুরুকারী'
+    'bn': 'বিগিনার'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -681,7 +681,7 @@ var messages = {
     'th': 'ระดับกลาง - ไม่มีคำใบ้',
     'mn': 'Дунд - No Directions',
     'sk': 'Stredne pokročilý - bez pokynov',
-    'bn': 'মাঝারি - কোন নির্দেশনা নেই'
+    'bn': 'মাঝারি স্তর - কোন দিক নির্দেশনা নেই'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
@@ -711,6 +711,6 @@ var messages = {
     'th': 'เชี่ยวชาญ - ไม่มีคำใบ้ & สุ่มเลเวล',
     'mn': 'Хэцүү - No Directions & Дурын үеүүд',
     'sk': 'Expert - žiadne pokyny a náhodné úrovne',
-    'bn': 'বিশেষজ্ঞ - কোন নির্দেশনা নেই এবং এলোমেলো স্তর'
+    'bn': 'অভিজ্ঞ - কোন দিক নির্দেশনা নেই এবং স্তর গুলো হবে এলোমেলো'
   }
 };
