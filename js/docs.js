@@ -365,7 +365,7 @@ var docs = {
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
-    'en': '<p>Flex item এর order (ক্রম) নির্ধারন করে।</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
+    'bn': '<p>Flex item এর order (ক্রম) নির্ধারন করে।</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'af': '<p>Spesifiseer die orde van die flex item.</p><code>&lt;integer&gt; (... -1, 0 (verstek), 1, ...)</code>',
     'he': '<p>מציין את הסדר של פריט flex.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'ro': '<p>Specifică ordinea elementelor flex.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
