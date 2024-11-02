@@ -358,18 +358,18 @@ var game = {
 
           var getDefaultPropVal = (pValue) => {
             if (pValue == '<integer>')
-              return '0'
+              return '0';
             else if (pValue == '<flex-direction>')
-              return 'row nowrap'
+              return 'row nowrap';
 
             return pValue;
-          }
+          };
 
           $('#instructions .tooltip code').on('click', function(event) {
-            var pName = text
+            var pName = text;
             var pValue = event.target.textContent.split(' ')[0];
             pValue = getDefaultPropVal(pValue);
-            game.writeCSS(pName, pValue)
+            game.writeCSS(pName, pValue);
 
             game.check();
           });
