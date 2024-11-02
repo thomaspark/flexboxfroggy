@@ -586,7 +586,7 @@ button:not(.disabled):hover {
 ::view-transition-old(--frog14),
 ::view-transition-new(--frog14),
 ::view-transition-old(--frog15),
-::view-transition-new(--frog15), {
+::view-transition-new(--frog15) {
   height: 100%;
 }
 
