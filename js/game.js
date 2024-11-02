@@ -432,12 +432,7 @@ var game = {
         correct = false;
       }
     });
-
     if (correct) {
-      if (!code.hasClass('correct')) {
-        game.audio.correct.play();
-      }
-
       code.addClass('correct');
 
       if (game.solved.indexOf(level.name) === -1) {
