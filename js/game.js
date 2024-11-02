@@ -432,6 +432,7 @@ var game = {
         correct = false;
       }
     });
+    
     if (correct) {
       code.addClass('correct');
 
