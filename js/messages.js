@@ -416,7 +416,7 @@ var messages = {
     'bn': 'আপনি কি নিশ্চিত গেইমটি রিসেট করার ব্যপারে?\n\nআপনার সেইভ করা অংশ হারিয়ে যাবে এবং আপনাকে গেইমের একদম শুরুতে পাঠানো হবে।',
   },
   gridGarden: {
-    'en': 'Want to learn CSS grid? Play',
+    'en': 'Want to learn more CSS? Play',
     'af': 'Wil jy CSS grid leer? Speel',
     'gj':'શું તમે CSS Grid શીખવા ઈચ્છો છો ? ચાલો રમવા..!',
     'he': 'רוצה ללמוד CSS grid? שחק',
