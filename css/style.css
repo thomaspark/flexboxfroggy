@@ -497,6 +497,99 @@ button:not(.disabled):hover {
   overflow: hidden;
 }
 
+.frog:nth-child(1) {
+  view-transition-name: --frog1;
+}
+
+.frog:nth-child(2) {
+  view-transition-name: --frog2;
+}
+
+.frog:nth-child(3) {
+  view-transition-name: --frog3;
+}
+
+.frog:nth-child(4) {
+  view-transition-name: --frog4;
+}
+
+.frog:nth-child(5) {
+  view-transition-name: --frog5;
+}
+
+.frog:nth-child(6) {
+  view-transition-name: --frog6;
+}
+
+.frog:nth-child(7) {
+  view-transition-name: --frog7;
+}
+
+.frog:nth-child(8) {
+  view-transition-name: --frog8;
+}
+
+.frog:nth-child(9) {
+  view-transition-name: --frog9;
+}
+
+.frog:nth-child(10) {
+  view-transition-name: --frog10;
+}
+
+.frog:nth-child(11) {
+  view-transition-name: --frog11;
+}
+
+.frog:nth-child(12) {
+  view-transition-name: --frog12;
+}
+
+.frog:nth-child(13) {
+  view-transition-name: --frog13;
+}
+
+.frog:nth-child(14) {
+  view-transition-name: --frog14;
+}
+
+.frog:nth-child(15) {
+  view-transition-name: --frog15;
+}
+
+::view-transition-old(--frog1),
+::view-transition-new(--frog1),
+::view-transition-old(--frog2),
+::view-transition-new(--frog2),
+::view-transition-old(--frog3),
+::view-transition-new(--frog3),
+::view-transition-old(--frog4),
+::view-transition-new(--frog4),
+::view-transition-old(--frog5),
+::view-transition-new(--frog5),
+::view-transition-old(--frog6),
+::view-transition-new(--frog6),
+::view-transition-old(--frog7),
+::view-transition-new(--frog7),
+::view-transition-old(--frog8),
+::view-transition-new(--frog8),
+::view-transition-old(--frog9),
+::view-transition-new(--frog9),
+::view-transition-old(--frog10),
+::view-transition-new(--frog10),
+::view-transition-old(--frog11),
+::view-transition-new(--frog11),
+::view-transition-old(--frog12),
+::view-transition-new(--frog12),
+::view-transition-old(--frog13),
+::view-transition-new(--frog13),
+::view-transition-old(--frog14),
+::view-transition-new(--frog14),
+::view-transition-old(--frog15),
+::view-transition-new(--frog15), {
+  height: 100%;
+}
+
 .frog.bounceOutUp {
   -webkit-animation-delay: .6s;
   -moz-animation-delay: .6s;
