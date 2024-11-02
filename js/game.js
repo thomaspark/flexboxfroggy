@@ -408,7 +408,6 @@ var game = {
     var lilypads = {};
     var frogs = {};
     var correct = true;
-    let code = $('#code');
 
     $('.frog').each(function() {
       var position = $(this).position();
@@ -434,24 +433,15 @@ var game = {
     });
 
     if (correct) {
-      if (!code.hasClass('correct')) {
-        game.audio.correct.play();
-      }
-
-      code.addClass('correct');
-
-      if (game.solved.indexOf(level.name) === -1) {
+      if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
       }
 
-      if (game.solved.length > game.max) {
-        game.max = game.solved.length;
-      }
-
       $('[data-level=' + game.level + ']').addClass('solved');
-      $('#next').removeClass().addClass('animated animation');
+      $('#next').removeClass('disabled').addClass('animated animation');
     } else {
-      code.removeClass('correct');
+      game.changed = true;
+      $('#next').removeClass('animated animation').addClass('disabled');
     }
   },
 
