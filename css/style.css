@@ -164,11 +164,9 @@ a:hover {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 10%;
+  bottom: 0.5rem;
   padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.8);
   font-family: 'Fredoka One', cursive;
-  font-size: 18px;
 }
 
 .games a img {
