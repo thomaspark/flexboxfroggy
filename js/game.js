@@ -5,7 +5,6 @@ var game = {
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
-  user: localStorage.user || '',
   changed: false,
   clickedCode: null,
 
@@ -24,11 +23,6 @@ var game = {
     $('#share').hide();
     $('#language').val(game.language);
     $('input[value="' + game.colorblind + '"]', '#colorblind').prop('checked', true);
-
-    if (!localStorage.user) {
-      game.user = '' + (new Date()).getTime() + Math.random().toString(36).slice(1);
-      localStorage.setItem('user', game.user);
-    }
 
     this.setHandlers();
     this.loadMenu();
