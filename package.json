@@ -5,9 +5,9 @@
   "main": "game.js",
   "dependencies": {
     "animate.css": "^3.4.0",
-    "flexboxfroggy": "file:",
     "jquery": "^3.5.1"
   },
+  "devDependencies": {},
   "author": "Thomas Park",
   "license": "MIT"
 }
