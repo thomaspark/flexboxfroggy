@@ -53,6 +53,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Macedonian by [David Timovski](https://github.com/davidtimovski)
 * Malayalam by [Agney Menon](https://github.com/BoyWithSilverWings)
 * Mongolian by [Turuu](https://github.com/TuruuDo)
+* Nepali by [Kamal Ale Magar](https://github.com/KamalAle12)
 * Polish by [eLGi](https://github.com/eLGi)
 * Portuguese by [Marcus Tenório](https://github.com/mvtenorio)
 * Romanian by [Vlad](https://github.com/pckltr)
@@ -68,7 +69,6 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Turkish by [Uğur Korfalı](https://github.com/kel-sakal-biyik)
 * Ukrainian by [sHa](https://github.com/shadoll)
 * Vietnamese by [Kingsten Banh](https://github.com/kingstenbanh)
-* Nepali by [Kamal Ale Magar](https://github.com/KamalAle12)
 
 Don't see your language on the list? Contribute a translation! Fork the [repo](https://github.com/thomaspark/flexboxfroggy/), add your translations, and submit a pull request.
 
