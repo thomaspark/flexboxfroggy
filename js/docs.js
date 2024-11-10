@@ -50,6 +50,7 @@ var docs = {
     'mn': '<p>Хөндлөн тэнхлэгт нэмэлт зай байгаа үед flexbox-н мөрүүдийг дураараа байрлуулна.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
     'sk': '<p>Zarovná riadky kontajnera flex v rámci kontajnera flex, ak je na priečnej osi extra priestor.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
     'si': '<p>හරස් අක්‍ෂයේ අමතර ඉඩ ඇති විට flex කන්ටේනරය තුළ පේළි ඇසිරීම තීරණය කරයි.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
+    'np': '<p>फ्लेक्स कन्टेनरमा थप ठाउँ हुँदा फ्लेक्स कन्टेनरको रेखाहरूलाई क्रस-एक्सिसमा मिलाउनको लागि प्रयोग गरिन्छ।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
@@ -102,6 +103,7 @@ var docs = {
     'mn': '<p>Хөндлөн тэнхлэгийн дагуу flex items-г байрлуулна.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'sk': '<p>Zarovná ohybné prvky pozdĺž priečnej osi.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'si': '<p>හරස් අක්ෂය දිගේ flex අයිතම පෙළගස්වයි.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
+    'np': '<p>फ्लेक्स आइटमहरूलाई क्रस-एक्सिसमा मिलाउँछ।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -154,6 +156,7 @@ var docs = {
     'mn': '<p><code>align-items</code> утгыг дарж, flex item-г хөндлөн тэнхлэгийн дагуу байрлуулна.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'sk': '<p>Zarovná prvok flex pozdĺž krížovej osi, pričom nahradí hodnotu <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'si': '<p><code>align-items</code> හි අගය නොසලකා හැර හරස් අක්ෂය දිගේ flex අයිතමය පෙළගස්වයි.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'np': '<p>फ्लेक्स आइटमलाई क्रस-एक्सिसमा मिलाउँछ, <code>align-items</code> को मानलाई ओभरराइड गर्दै।</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
   },
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -206,6 +209,7 @@ var docs = {
     'mn': '<p>Үндсэн тэнхлэгийн чиглэлийг тодорхойлно.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'sk': '<p>Určuje smer hlavnej osi.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'si': '<p>ප්‍රධාන අක්‍ෂයේ දිශාව තීරණය කරයි.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'np': '<p>मुख्य अक्षको दिशा परिभाषित गर्छ।</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -258,6 +262,7 @@ var docs = {
     'mn': '<p><code>flex-direction</code> болон <code>flex-wrap</code>-д зориулсан товчилсон проперти.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'sk': '<p>Skrátená vlastnosť pre <code>flex-direction</code> a <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'si': '<p><code>flex-direction</code> සහ <code>flex-wrap</code> සඳහා වන තනි ගුණාංගයකි.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'np': '<p><code>flex-direction</code> र <code>flex-wrap</code> को लागि शॉर्टह्यान्ड प्रोपर्टी।</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -310,6 +315,7 @@ var docs = {
     'mn': '<p>Flex items-г нэг мөрөнд шахах эсвэл олон мөрөнд тарааж байрлуулах уу гэдгийг заана.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'sk': '<p>Určuje, či sa položky flex musia nachádzať na jednom riadku alebo môžu byť zabalené do viacerých riadkov.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'si': '<p>flex අයිතම තනි පේළියකට හෝ පේළි කිහිපයකට ඇසිරීම තීරණය කරයි.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'np': '<p>फ्लेक्स आइटमहरूलाई एउटै लाइनमा बाध्य पार्ने वा धेरै लाइनहरूमा र्‍याप गर्न मिल्ने हो वा होइन भनेर निर्दिष्ट गर्दछ।</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
@@ -362,6 +368,7 @@ var docs = {
     'mn': '<p>Үндсэн тэнхлэгийн дагуу flex item-ийг байрлуулна.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'sk': '<p>Zarovnanie prvkov flex pozdĺž hlavnej osi.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'si': '<p>ප්‍රධාන අක්ෂය දිගේ flex අයිතම පෙළගස්වයි.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
+    'np': '<p>फ्लेक्स आइटमहरूलाई मुख्य अक्षमा मिलाउँछ।</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
@@ -414,5 +421,6 @@ var docs = {
     'mn': '<p>Flex item-н байрлах дарааллыг заана.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'sk': '<p>Určuje poradie položky flex.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'si': '<p>flex අයිතමයේ අනුපිළිවෙල තීරණය කරයි.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
+    'np': '<p>फ्लेक्स आइटमको क्रम निर्दिष्ट गर्दछ।</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
   }
 };

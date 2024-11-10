@@ -30,7 +30,7 @@ var messages = {
     'sv': 'Svenska',
     'uk': 'Українська',
     'hi': 'हिंदी',
-    'gj' : 'ગુજરાતી',
+    'gj': 'ગુજરાતી',
     'nl': 'Nederlands',
     'ta': 'தமிழ்',
     'te': 'తెలుగు',
@@ -50,6 +50,7 @@ var messages = {
     'sk': 'Slovenčina',
     'si': 'සිංහල',
     'bn': 'বাংলা',
+    'np': 'नेपाली',
   },
   next: {
     'en': 'Next',
@@ -102,6 +103,7 @@ var messages = {
     'sk': 'Pokračovať',
     'si': 'ඊළඟ',
     'bn': 'পরবর্তী',
+    'np': 'अर्को',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -154,6 +156,7 @@ var messages = {
     'sk': 'Flexbox Froggy vytvoril',
     'si': 'Flexbox මැඬියා නිර්මාණය කළේ',
     'bn': 'Flexbox Froggy তৈরি করেছে',
+    'np': 'Flexbox Froggy को निर्माता',
   },
   labelLevel: {
     'en': 'Level',
@@ -206,6 +209,7 @@ var messages = {
     'sk': 'Úroveň',
     'si': 'අභ්‍යාසය',
     'bn': 'লেভেল',
+    'np': 'स्तर',
   },
   labelOf: {
     'en': 'of',
@@ -255,9 +259,10 @@ var messages = {
     'gl': 'de',
     'th': '/',
     'mn': '/',
-    'sk':'z',
+    'sk': 'z',
     'si': '/',
     'bn': '/',
+    'np': '/',
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -310,6 +315,7 @@ var messages = {
     'sk': 'Flexbox Froggy - Hra na učenie CSS flexbox',
     'si': 'Flexbox මැඬියා - CSS flexbox ඉගෙනීමේ ක්‍රීඩාවක්',
     'bn': 'Flexbox Froggy - CSS flexbox শেখার একটি গেইম',
+    'np': 'Flexbox Froggy - CSS Flexbox सिक्नको लागि एउटा खेल',
   },
   labelReset: {
     'en': 'Reset',
@@ -362,6 +368,7 @@ var messages = {
     'sk': 'Reštart',
     'si': 'නැවත මුල සිට',
     'bn': 'রিসেট',
+    'np': 'रीसेट',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -414,11 +421,12 @@ var messages = {
     'sk': 'Určite chcete resetovať hru?\n\nVáš uložený postup sa stratí a budete poslaní na začiatok hry.',
     'si': 'ඔබට ක්‍රීඩාව නැවත මුල සිට කිරීමට අවශ්‍ය බව විශ්වාසද?\n\nඔබගේ සුරැකි ප්‍රගතිය නැති වී ඔබව ක්‍රීඩාවේ ආරම්භයට යවනු ඇත.',
     'bn': 'আপনি কি নিশ্চিত গেইমটি রিসেট করার ব্যপারে?\n\nআপনার সেইভ করা অংশ হারিয়ে যাবে এবং আপনাকে গেইমের একদম শুরুতে পাঠানো হবে।',
+    'np': 'के तपाईं पक्का हुनुहुन्छ कि तपाईं खेल रिसेट गर्न चाहनुहुन्छ?\n\nतपाईंको बचत गरिएको प्रगति हराउनेछ र तपाईंलाई खेलको सुरुआतमा पठाइनेछ।',
   },
   gridGarden: {
     'en': 'Want to learn more CSS? Play',
     'af': 'Wil jy CSS grid leer? Speel',
-    'gj':'શું તમે CSS Grid શીખવા ઈચ્છો છો ? ચાલો રમવા..!',
+    'gj': 'શું તમે CSS Grid શીખવા ઈચ્છો છો ? ચાલો રમવા..!',
     'he': 'רוצה ללמוד CSS grid? שחק',
     'bs': 'Želiš naučiti CSS grid? Igraj',
     'hr': 'Želiš li naučiti CSS grid? Igraj',
@@ -450,6 +458,7 @@ var messages = {
     'sk': 'Chcete sa naučiť mriežku CSS? Zahrajte si',
     'si': 'CSS grid ඉගෙන ගැනීමට අවශ්‍යද? මෙතනින් යන්න',
     'bn': 'CSS grid শিখতে চান?তাহলে খেলুন',
+    'np': 'अझ बढी CSS सिक्न चाहनुहुन्छ? खेल्नुहोस्',
   },
   labelLanguage: {
     'en': 'Language',
@@ -480,7 +489,8 @@ var messages = {
     'th': 'ภาษา',
     'mn': 'Хэл',
     'sk': 'Jazyk',
-    'bn': 'ভাষা'
+    'bn': 'ভাষা',
+    'np': 'भाषा',
   },
   labelSettings: {
     'en': 'Settings',
@@ -509,7 +519,8 @@ var messages = {
     'th': 'การตั้งค่า',
     'mn': 'Тохиргоо',
     'sk': 'Nastavenia',
-    'bn': 'সেটিংস'
+    'bn': 'সেটিংস',
+    'np': 'सेटिङ',
   },
   labelDifficulty: {
     'en': 'Difficulty',
@@ -539,7 +550,8 @@ var messages = {
     'th': 'ความยาก',
     'mn': 'Хүндрэл',
     'sk': 'Obtiažnosť',
-    'bn': 'কঠিনতা'
+    'bn': 'কঠিনতা',
+    'np': 'कठिनाई',
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
@@ -567,7 +579,8 @@ var messages = {
     'th': 'โหมดตาบอดสี',
     'mn': 'Colorblind Mode',
     'sk': 'Režim pre farboslepých',
-    'bn': 'কালারব্লাইন্ড মোড'
+    'bn': 'কালারব্লাইন্ড মোড',
+    'np': 'रङ्ग अन्धता मोड',
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -594,7 +607,8 @@ var messages = {
     'th': 'ปิด',
     'mn': 'Унтраах',
     'sk': 'Vypnutie',
-    'bn': 'বন্ধ'
+    'bn': 'বন্ধ',
+    'np': 'बन्द',
   },
   labelColorblindOn: {
     'en': 'On',
@@ -621,7 +635,8 @@ var messages = {
     'th': 'เปิด',
     'mn': 'Асаах',
     'sk': 'Zapnutie',
-    'bn': 'চালু'
+    'bn': 'চালু',
+    'np': 'चालु',
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
@@ -651,7 +666,8 @@ var messages = {
     'th': 'มือใหม่',
     'mn': 'Амархан',
     'sk': 'Začiatočník',
-    'bn': 'বিগিনার'
+    'bn': 'বিগিনার',
+    'np': 'सुरुआतकर्ता',
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -681,12 +697,13 @@ var messages = {
     'th': 'ระดับกลาง - ไม่มีคำใบ้',
     'mn': 'Дунд - No Directions',
     'sk': 'Stredne pokročilý - bez pokynov',
-    'bn': 'মাঝারি স্তর - কোন দিক নির্দেশনা নেই'
+    'bn': 'মাঝারি স্তর - কোন দিক নির্দেশনা নেই',
+    'np': 'मध्यम स्तर - कुनै निर्देशन छैन',
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
     'af': 'Kenner - Geen direksies & willekeurige vlakke',
-    'gj':'મુશ્કેલ - કોઈ દિશા વિના અને રેન્ડમ',
+    'gj': 'મુશ્કેલ - કોઈ દિશા વિના અને રેન્ડમ',
     'he': 'קשה - בלי הכוונה ובשלבים רנדומלים',
     'bs': 'Expert - Bez pomoći i nasumični nivoi',
     'hr': 'Expert - Bez pomoći i nasumični nivoi',
@@ -711,6 +728,7 @@ var messages = {
     'th': 'เชี่ยวชาญ - ไม่มีคำใบ้ & สุ่มเลเวล',
     'mn': 'Хэцүү - No Directions & Дурын үеүүд',
     'sk': 'Expert - žiadne pokyny a náhodné úrovne',
-    'bn': 'অভিজ্ঞ - কোন দিক নির্দেশনা নেই এবং স্তর গুলো হবে এলোমেলো'
+    'bn': 'অভিজ্ঞ - কোন দিক নির্দেশনা নেই এবং স্তর গুলো হবে এলোমেলো',
+    'np': 'विशेषज्ञ - कुनै निर्देशन छैन र यादृच्छिक स्तरहरू',
   }
 };
