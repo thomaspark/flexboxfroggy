@@ -78,8 +78,6 @@
         </p>
       </div>
 
-      <div class="bsa-custom"></div>
-
       <div class="credits">
         <span id="labelFooter" class="translate">Flexbox Froggy is created by</span>
         <a href="https://codepip.com">Codepip</a> •
@@ -217,21 +215,34 @@
     }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- BuySellAds -->
-    <script type="text/javascript" src="//m.servedby-buysellads.com/monetization.custom.js"></script>
+    <script src="//m.servedby-buysellads.com/monetization.js"></script>
     <script>
-    (function() {
-      if (typeof _bsa !== 'undefined' && _bsa) {
-        _bsa.init('custom', 'CK7D427U', 'placement:flexboxfroggycom', {
-          target: '.bsa-custom',
-          template:
-    `
-    <div class="native-ad">
-      <a href="##statlink##"><span class="sponsor">Sponsor</span> ##company## — ##description##</a>
+      (function () {
+        if (typeof _bsa !== 'undefined' && _bsa) {
+          _bsa.init(
+            'custom',
+            'CW7I5KQM',
+            'placement:flexboxfroggycom-icon-bar',
+            {
+              target: '#iconBarJs',
+              template: `
+    <div class="iconBarFlex">
+      <a href="##statlink##" class="iconBarLink" rel="sponsored noopener" target="_blank" title="##company## — ##tagline##">
+        <div class="iconBarImage" style="background-color: ##backgroundColor##;">
+          <img height="30" width="30" src="##image##" alt="##company## logo">
+        </div>
+        <div class="iconBarText">
+          <div class="iconBarTagline">##companyTagline##</div>
+          <div class="iconBarDescription">##description##</div>
+        </div>
+      </a>
+      <a href="##ad_via_link##" class="iconBarVia" rel="sponsored noopener" target="_blank">ads via BuySellAds</a>
     </div>
-    `
-        });
-      }
-    })();
+        `,
+            }
+          );
+        }
+      })();
     </script>
   </body>
 </html>
