@@ -46,7 +46,7 @@ var game = {
       $('.arrow, #next').addClass('disabled');
 
       setTimeout(function() {
-        if (game.level >= levels.length - 1) {
+        if (Object.keys(game.answers).length >= levels.length - 1) {
           game.win();
         } else {
           game.next();
@@ -200,7 +200,11 @@ var game = {
 
   next: function() {
     if (this.difficulty === "hard") {
-      this.level = Math.floor(Math.random()* levels.length)
+      var level = levels[this.level];
+      while (game.answers[level.name]) {
+        this.level = Math.floor(Math.random() * levels.length);
+        level = levels[this.level];
+      }
     } else {
       this.level++
     }
