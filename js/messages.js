@@ -51,6 +51,7 @@ var messages = {
     'si': 'සිංහල',
     'bn': 'বাংলা',
     'np': 'नेपाली',
+    'my': 'မြန်မာ', // Burmese translation for 'Burmese'
   },
   next: {
     'en': 'Next',
@@ -104,6 +105,7 @@ var messages = {
     'si': 'ඊළඟ',
     'bn': 'পরবর্তী',
     'np': 'अर्को',
+    'my': 'နောက်တစ်ခု', // Burmese translation for 'Next'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -157,6 +159,7 @@ var messages = {
     'si': 'Flexbox මැඬියා නිර්මාණය කළේ',
     'bn': 'Flexbox Froggy তৈরি করেছে',
     'np': 'Flexbox Froggy को निर्माता',
+    'my': 'Flexbox Froggy ကို ဖန်တီးခဲ့သည်',
   },
   labelLevel: {
     'en': 'Level',
@@ -210,6 +213,7 @@ var messages = {
     'si': 'අභ්‍යාසය',
     'bn': 'লেভেল',
     'np': 'स्तर',
+    'my': 'အဆင့်', // Burmese translation for 'Level'
   },
   labelOf: {
     'en': 'of',
@@ -263,6 +267,7 @@ var messages = {
     'si': '/',
     'bn': '/',
     'np': '/',
+    'my': '၏', // Burmese translation for 'of'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -316,6 +321,7 @@ var messages = {
     'si': 'Flexbox මැඬියා - CSS flexbox ඉගෙනීමේ ක්‍රීඩාවක්',
     'bn': 'Flexbox Froggy - CSS flexbox শেখার একটি গেইম',
     'np': 'Flexbox Froggy - CSS Flexbox सिक्नको लागि एउटा खेल',
+    'my': 'Flexbox Froggy - CSS flexbox သင်ယူရန် ဂိမ်းတစ်ခု', // Burmese translation for 'Flexbox Froggy - A game for learning CSS flexbox'
   },
   labelReset: {
     'en': 'Reset',
@@ -369,6 +375,7 @@ var messages = {
     'si': 'නැවත මුල සිට',
     'bn': 'রিসেট',
     'np': 'रीसेट',
+    'my': 'ပြန်လည်စတင်ရန်', // Burmese translation for 'Reset'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -422,6 +429,7 @@ var messages = {
     'si': 'ඔබට ක්‍රීඩාව නැවත මුල සිට කිරීමට අවශ්‍ය බව විශ්වාසද?\n\nඔබගේ සුරැකි ප්‍රගතිය නැති වී ඔබව ක්‍රීඩාවේ ආරම්භයට යවනු ඇත.',
     'bn': 'আপনি কি নিশ্চিত গেইমটি রিসেট করার ব্যপারে?\n\nআপনার সেইভ করা অংশ হারিয়ে যাবে এবং আপনাকে গেইমের একদম শুরুতে পাঠানো হবে।',
     'np': 'के तपाईं पक्का हुनुहुन्छ कि तपाईं खेल रिसेट गर्न चाहनुहुन्छ?\n\nतपाईंको बचत गरिएको प्रगति हराउनेछ र तपाईंलाई खेलको सुरुआतमा पठाइनेछ।',
+    'my': 'သင်ဂိမ်းကို ပြန်လည်စတင်လိုပါသလား?\n\nသင့်အဆင့်မြှင့်တင်မှုများ ပျောက်ကွယ်သွားပြီး ဂိမ်းအစမှာ ပြန်လည်စတင်ရမည်။', // Burmese translation for 'Are you sure you want to reset the game?'
   },
   gridGarden: {
     'en': 'Want to learn more CSS? Play',
@@ -459,6 +467,7 @@ var messages = {
     'si': 'CSS grid ඉගෙන ගැනීමට අවශ්‍යද? මෙතනින් යන්න',
     'bn': 'CSS grid শিখতে চান?তাহলে খেলুন',
     'np': 'अझ बढी CSS सिक्न चाहनुहुन्छ? खेल्नुहोस्',
+    'my': 'CSS Grid ပိုမိုသိရှိလိုပါသလား? ကစားပါ', // Burmese translation for 'Want to learn more CSS? Play'
   },
   labelLanguage: {
     'en': 'Language',
@@ -491,6 +500,7 @@ var messages = {
     'sk': 'Jazyk',
     'bn': 'ভাষা',
     'np': 'भाषा',
+    'my': 'ဘာသာစကား', // Burmese translation for 'Language'
   },
   labelSettings: {
     'en': 'Settings',
@@ -521,6 +531,7 @@ var messages = {
     'sk': 'Nastavenia',
     'bn': 'সেটিংস',
     'np': 'सेटिङ',
+    'my': 'ဆက်တင်များ', // Burmese translation for 'Settings'
   },
   labelDifficulty: {
     'en': 'Difficulty',
@@ -552,6 +563,7 @@ var messages = {
     'sk': 'Obtiažnosť',
     'bn': 'কঠিনতা',
     'np': 'कठिनाई',
+    'my': 'အဆင့်', // Burmese translation for 'Difficulty'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
@@ -581,6 +593,7 @@ var messages = {
     'sk': 'Režim pre farboslepých',
     'bn': 'কালারব্লাইন্ড মোড',
     'np': 'रङ्ग अन्धता मोड',
+    'my': 'အရောင်မှောင်မိုက်မှု မုဒ်', // Burmese translation for 'Colorblind Mode'
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -609,6 +622,7 @@ var messages = {
     'sk': 'Vypnutie',
     'bn': 'বন্ধ',
     'np': 'बन्द',
+    'my': 'ပိတ်ထားသည်', // Burmese translation for 'Off'
   },
   labelColorblindOn: {
     'en': 'On',
@@ -637,6 +651,7 @@ var messages = {
     'sk': 'Zapnutie',
     'bn': 'চালু',
     'np': 'चालु',
+    'my': 'ဖွင့်ထားသည်', // Burmese translation for 'On'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
@@ -668,6 +683,7 @@ var messages = {
     'sk': 'Začiatočník',
     'bn': 'বিগিনার',
     'np': 'सुरुआतकर्ता',
+    'my': 'စတင်သူ', // Burmese translation for 'Beginner'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -699,6 +715,7 @@ var messages = {
     'sk': 'Stredne pokročilý - bez pokynov',
     'bn': 'মাঝারি স্তর - কোন দিক নির্দেশনা নেই',
     'np': 'मध्यम स्तर - कुनै निर्देशन छैन',
+    'my': 'အလယ်အလတ် - လမ်းညွှန်ချက်မရှိ', // Burmese translation for 'Intermediate - No Directions'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
@@ -730,5 +747,6 @@ var messages = {
     'sk': 'Expert - žiadne pokyny a náhodné úrovne',
     'bn': 'অভিজ্ঞ - কোন দিক নির্দেশনা নেই এবং স্তর গুলো হবে এলোমেলো',
     'np': 'विशेषज्ञ - कुनै निर्देशन छैन र यादृच्छिक स्तरहरू',
+    'my': 'ကျွမ်းကျင်သူ - လမ်းညွှန်ချက်မရှိ & အဆင့်များကို ရွေးချယ်ထားသည်', // Burmese translation for 'Expert - No Directions & Random Levels'
   }
 };
