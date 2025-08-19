@@ -52,6 +52,7 @@ var messages = {
     'bn': 'বাংলা',
     'np': 'नेपाली',
     'my': 'မြန်မာ',
+    'yo': 'Yoruba',
   },
   next: {
     'en': 'Next',
@@ -106,6 +107,7 @@ var messages = {
     'bn': 'পরবর্তী',
     'np': 'अर्को',
     'my': 'နောက်တစ်ခု',
+    'yo': 'Ìpele tó kàn',
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -160,6 +162,7 @@ var messages = {
     'bn': 'Flexbox Froggy তৈরি করেছে',
     'np': 'Flexbox Froggy को निर्माता',
     'my': 'Flexbox Froggy ကို ဖန်တီးခဲ့သည်',
+    'yo': 'Àwọn tó dá ẹ̀dá Flexbox Froggy ní',
   },
   labelLevel: {
     'en': 'Level',
@@ -214,6 +217,7 @@ var messages = {
     'bn': 'লেভেল',
     'np': 'स्तर',
     'my': 'အဆင့်',
+    'yo': 'Ìpẹ̀lẹ̀'
   },
   labelOf: {
     'en': 'of',
@@ -268,6 +272,7 @@ var messages = {
     'bn': '/',
     'np': '/',
     'my': '၏',
+    'yo': 'tí'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -322,6 +327,7 @@ var messages = {
     'bn': 'Flexbox Froggy - CSS flexbox শেখার একটি গেইম',
     'np': 'Flexbox Froggy - CSS Flexbox सिक्नको लागि एउटा खेल',
     'my': 'Flexbox Froggy - CSS flexbox သင်ယူရန် ဂိမ်းတစ်ခု',
+    'yo': 'Flexbox Froggy - Eré tí ẹ̀yàń lè fi kọ́ ẹ̀kọ́ flexbox CSS'
   },
   labelReset: {
     'en': 'Reset',
@@ -376,6 +382,7 @@ var messages = {
     'bn': 'রিসেট',
     'np': 'रीसेट',
     'my': 'ပြန်လည်စတင်ရန်',
+    'yo': 'Tún sílẹ̀'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -430,6 +437,7 @@ var messages = {
     'bn': 'আপনি কি নিশ্চিত গেইমটি রিসেট করার ব্যপারে?\n\nআপনার সেইভ করা অংশ হারিয়ে যাবে এবং আপনাকে গেইমের একদম শুরুতে পাঠানো হবে।',
     'np': 'के तपाईं पक्का हुनुहुन्छ कि तपाईं खेल रिसेट गर्न चाहनुहुन्छ?\n\nतपाईंको बचत गरिएको प्रगति हराउनेछ र तपाईंलाई खेलको सुरुआतमा पठाइनेछ।',
     'my': 'သင်ဂိမ်းကို ပြန်လည်စတင်လိုပါသလား?\n\nသင့်အဆင့်မြှင့်တင်မှုများ ပျောက်ကွယ်သွားပြီး ဂိမ်းအစမှာ ပြန်လည်စတင်ရမည်။',
+    'yo': 'Ṣé o dájú pé o fẹ́ tún ìṣeré náà ṣe?\n\nGbogbo ìtẹ̀sí ìṣeré rẹ̀ tí a fipamọ́ yóò sọnù, a ó sì rán ọ lọ sí ìbẹ̀rẹ̀ ìṣeré.',
   },
   gridGarden: {
     'en': 'Want to learn more CSS? Play',
@@ -468,6 +476,7 @@ var messages = {
     'bn': 'CSS grid শিখতে চান?তাহলে খেলুন',
     'np': 'अझ बढी CSS सिक्न चाहनुहुन्छ? खेल्नुहोस्',
     'my': 'CSS Grid ပိုမိုသိရှိလိုပါသလား? ကစားပါ',
+    'yo': 'Ṣé o fẹ́ láti ní ìmọ̀ síwaju CSS? Ṣeré',
   },
   labelLanguage: {
     'en': 'Language',
@@ -501,6 +510,7 @@ var messages = {
     'bn': 'ভাষা',
     'np': 'भाषा',
     'my': 'ဘာသာစကား',
+    'yo': 'Èdè',
   },
   labelSettings: {
     'en': 'Settings',
@@ -532,6 +542,7 @@ var messages = {
     'bn': 'সেটিংস',
     'np': 'सेटिङ',
     'my': 'ဆက်တင်များ',
+    'yo': 'Ètò'
   },
   labelDifficulty: {
     'en': 'Difficulty',
@@ -564,6 +575,7 @@ var messages = {
     'bn': 'কঠিনতা',
     'np': 'कठिनाई',
     'my': 'အဆင့်',
+    'yo': 'Ìṣòro'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
@@ -594,6 +606,7 @@ var messages = {
     'bn': 'কালারব্লাইন্ড মোড',
     'np': 'रङ्ग अन्धता मोड',
     'my': 'အရောင်မှောင်မိုက်မှု မုဒ်',
+    'yo': 'Ìpo fún àwọn tí kò rí àwọ̀ dáadáa'
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -623,7 +636,8 @@ var messages = {
     'bn': 'বন্ধ',
     'np': 'बन्द',
     'my': 'ပိတ်ထားသည်',
-  },
+    'yo': 'Paà',
+ },
   labelColorblindOn: {
     'en': 'On',
     'af': 'Aan',
@@ -652,6 +666,7 @@ var messages = {
     'bn': 'চালু',
     'np': 'चालु',
     'my': 'ဖွင့်ထားသည်',
+    'yo': 'Tán'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
@@ -684,6 +699,7 @@ var messages = {
     'bn': 'বিগিনার',
     'np': 'सुरुआतकर्ता',
     'my': 'စတင်သူ',
+    'yo': 'Alákọ̀bẹrẹ',
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -716,6 +732,7 @@ var messages = {
     'bn': 'মাঝারি স্তর - কোন দিক নির্দেশনা নেই',
     'np': 'मध्यम स्तर - कुनै निर्देशन छैन',
     'my': 'အလယ်အလတ် - လမ်းညွှန်ချက်မရှိ',
+    'yo': 'Agbédẹ́méjì - Kò sí àwọn ìtọnísọ́na'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
@@ -748,5 +765,6 @@ var messages = {
     'bn': 'অভিজ্ঞ - কোন দিক নির্দেশনা নেই এবং স্তর গুলো হবে এলোমেলো',
     'np': 'विशेषज्ञ - कुनै निर्देशन छैन र यादृच्छिक स्तरहरू',
     'my': 'ကျွမ်းကျင်သူ - လမ်းညွှန်ချက်မရှိ & အဆင့်များကို ရွေးချယ်ထားသည်',
+    'yo': 'Onímọ̀ràn - Kò sí ìtọ́sọ́nà & ìpẹ̀lẹ̀ laílẹ́tò'
   }
 };
