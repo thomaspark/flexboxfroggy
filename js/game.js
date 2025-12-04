@@ -254,74 +254,84 @@ var game = {
   },
 
   loadLevel: function(level) {
-    $('#editor').show();
-    $('#share').hide();
-    $('#background, #pond').removeClass('wrap').attr('style', '').empty();
-    $('#levelsWrapper').hide();
-    $('.level-marker').removeClass('current').eq(this.level).addClass('current');
-    $('#level-counter .current').text(this.level + 1);
-    $('#before').text(level.before);
-    $('#after').text(level.after);
-    $('#next').removeClass('animated animation').addClass('disabled');
+  $('#editor').show();
+  $('#share').hide();
+  $('#background, #pond').removeClass('wrap').attr('style', '').empty();
+  $('#levelsWrapper').hide();
+  $('.level-marker').removeClass('current').eq(this.level).addClass('current');
+  $('#level-counter .current').text(this.level + 1);
+  $('#before').text(level.before);
+  $('#after').text(level.after);
+  $('#next').removeClass('animated animation').addClass('disabled');
 
-    var instructions = level.instructions[game.language] || level.instructions.en;
-    $('#instructions').html(instructions);
+  // 🔹 NEW: trigger board "pop" animation on each level load
+  var board = document.getElementById('board');
+  if (board) {
+    board.classList.remove('level-change');       // reset if still on
+    // force reflow so re-adding the class retriggers animation
+    void board.offsetWidth;
+    board.classList.add('level-change');
+  }
 
-    $('.arrow.disabled').removeClass('disabled');
+  var instructions = level.instructions[game.language] || level.instructions.en;
+  $('#instructions').html(instructions);
 
-    if (this.level === 0) {
-      $('.arrow.left').addClass('disabled');
+  $('.arrow.disabled').removeClass('disabled');
+
+  if (this.level === 0) {
+    $('.arrow.left').addClass('disabled');
+  }
+
+  if (this.level === levels.length - 1) {
+    $('.arrow.right').addClass('disabled');
+  }
+
+  var answer = game.answers[level.name];
+  $('#code').val(answer).focus();
+
+  this.loadDocs();
+
+  var lines = Object.keys(level.style).length;
+  $('#code').height(20 * lines).data("lines", lines);
+
+  var string = level.board;
+  var markup = '';
+  var colors = {
+    'g': 'green',
+    'r': 'red',
+    'y': 'yellow'
+  };
+
+  for (var i = 0; i < string.length; i++) {
+    var c = string.charAt(i);
+    var color = colors[c];
+
+    var lilypad = $('<div/>').addClass('lilypad ' + color + (this.colorblind == 'true' ? ' cb-friendly' : '')).data('color', color);
+    var frog = $('<div/>').addClass('frog ' + color + (this.colorblind == 'true' ? ' cb-friendly' : '')).data('color', color);
+
+    $('<div/>').addClass('bg').css(game.transform()).appendTo(lilypad);
+    $('<div/>').addClass('bg animated pulse infinite').appendTo(frog);
+
+    $('#background').append(lilypad);
+    $('#pond').append(frog);
+  }
+
+  var classes = level.classes;
+
+  if (classes) {
+    for (var rule in classes) {
+      $(rule).addClass(classes[rule]);
     }
+  }
 
-    if (this.level === levels.length - 1) {
-      $('.arrow.right').addClass('disabled');
-    }
+  var selector = level.selector || '';
+  $('#background ' + selector).css(level.style);
 
-    var answer = game.answers[level.name];
-    $('#code').val(answer).focus();
+  game.changed = false;
+  game.applyStyles();
+  game.check();
+},
 
-    this.loadDocs();
-
-    var lines = Object.keys(level.style).length;
-    $('#code').height(20 * lines).data("lines", lines);
-
-    var string = level.board;
-    var markup = '';
-    var colors = {
-      'g': 'green',
-      'r': 'red',
-      'y': 'yellow'
-    };
-
-    for (var i = 0; i < string.length; i++) {
-      var c = string.charAt(i);
-      var color = colors[c];
-
-      var lilypad = $('<div/>').addClass('lilypad ' + color + (this.colorblind == 'true' ? ' cb-friendly' : '')).data('color', color);
-      var frog = $('<div/>').addClass('frog ' + color + (this.colorblind == 'true' ? ' cb-friendly' : '')).data('color', color);
-
-      $('<div/>').addClass('bg').css(game.transform()).appendTo(lilypad);
-      $('<div/>').addClass('bg animated pulse infinite').appendTo(frog);
-
-      $('#background').append(lilypad);
-      $('#pond').append(frog);
-    }
-
-    var classes = level.classes;
-
-    if (classes) {
-      for (var rule in classes) {
-        $(rule).addClass(classes[rule]);
-      }
-    }
-
-    var selector = level.selector || '';
-    $('#background ' + selector).css(level.style);
-
-    game.changed = false;
-    game.applyStyles();
-    game.check();
-  },
 
   loadDocs: function() {
     $('#instructions code').each(function() {
