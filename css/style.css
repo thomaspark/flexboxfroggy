@@ -363,32 +363,13 @@ pre {
   border-left: 11px solid rgba(255, 255, 255, 0.7);;
 }
 
-button {
-  display: inline-block;
-  padding: 0.4em 0.8em;
-  background-color: #D11606;
-  border: none;
-  border-radius: 4px;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-appearance: none;
-  appearance: none;
-}
+
 
 button:active {
   outline: none;
 }
 
-button:not(.disabled):hover {
-  background-color: #F12D22;
-}
+
 
 #next {
   position: absolute;
@@ -586,7 +567,7 @@ button:not(.disabled):hover {
 ::view-transition-old(--frog14),
 ::view-transition-new(--frog14),
 ::view-transition-old(--frog15),
-::view-transition-new(--frog15), {
+::view-transition-new(--frog15){
   height: 100%;
 }
 
@@ -746,5 +727,91 @@ button:not(.disabled):hover {
   letter-spacing: 1px;
   font-weight: 600;
   line-height: 1;
+}
+
+
+
+
+/* 1️⃣ MODERN BUTTON STYLING */
+button {
+  display: inline-block;
+  padding: 0.5em 1.1em;
+  background-color: #D11606;
+  border: none;
+  border-radius: 8px; /* increased roundness */
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+
+  transition: 
+      background-color 0.2s ease,
+      transform 0.15s ease,
+      box-shadow 0.2s ease;
+}
+
+button:not(.disabled):hover {
+  background-color: #F12D22;
+  transform: translateY(-2px); /* lift effect */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+button:not(.disabled):active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+
+/* 2️⃣ SMOOTH FROG MOVEMENT ANIMATIONS */
+.frog {
+  transition: 
+      transform 0.35s ease,
+      top 0.35s ease,
+      left 0.35s ease;
+}
+
+
+/* 3️⃣ NICER CODE EDITOR BOX */
+#css {
+  background-color: #f2f2f2 !important;
+  border-radius: 12px !important;
+  border: 1px solid #ccc !important;
+  padding: 15px 15px 15px 40px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+#code {
+  background-color: #ffffff !important;
+  border-radius: 6px !important;
+  padding: 8px !important;
+  border: 1px solid #dcdcdc !important;
+  font-family: "Fira Code", "Source Code Pro", monospace;
+  font-size: 15px !important;
+  line-height: 1.4;
+}
+
+.line-numbers {
+  background-color: #b5b5b5 !important;
+  color: #eee !important;
+  border-radius: 8px 0 0 8px;
+}
+
+/* 4️⃣ SMALL NICE TOUCH: HOVER EFFECT FOR LEVEL MARKERS */
+.level-marker:hover {
+  transform: scale(1.12);
+  transition: 0.2s ease;
+}
+/* 5️⃣ Subtle hover glow for lilypads */
+.lilypad:hover .bg {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+  filter: brightness(1.1);
+}
+
+
+#editor {
+  border-radius: 10px;
+  overflow: hidden;
 }
 

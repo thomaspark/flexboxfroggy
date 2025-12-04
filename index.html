@@ -22,6 +22,8 @@
   <body>
     <section id="sidebar">
       <div class="header">
+        <button id="themeToggle">Dark Mode</button>
+
         <div>
           <h1 class="title">Flexbox Froggy</h1>
         </div>
@@ -225,6 +227,16 @@
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=916849395036923";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+  const btn = document.getElementById("themeToggle");
+  btn.onclick = () => {
+    document.body.classList.toggle("dark");
+    btn.textContent = document.body.classList.contains("dark") 
+      ? "Light Mode" 
+      : "Dark Mode";
+  };
+</script>
+
   </body>
 </html>
 
