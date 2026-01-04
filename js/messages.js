@@ -53,6 +53,7 @@ var messages = {
     'np': 'नेपाली',
     'my': 'မြန်မာ',
     'yo': 'Yoruba',
+    'no': 'Norsk'
   },
   next: {
     'en': 'Next',
@@ -108,6 +109,7 @@ var messages = {
     'np': 'अर्को',
     'my': 'နောက်တစ်ခု',
     'yo': 'Ìpele tó kàn',
+    'no': 'Neste'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -163,6 +165,7 @@ var messages = {
     'np': 'Flexbox Froggy को निर्माता',
     'my': 'Flexbox Froggy ကို ဖန်တီးခဲ့သည်',
     'yo': 'Àwọn tó dá ẹ̀dá Flexbox Froggy ní',
+    'no': 'Flexbox Froggy er laget av',
   },
   labelLevel: {
     'en': 'Level',
@@ -217,7 +220,8 @@ var messages = {
     'bn': 'লেভেল',
     'np': 'स्तर',
     'my': 'အဆင့်',
-    'yo': 'Ìpẹ̀lẹ̀'
+    'yo': 'Ìpẹ̀lẹ̀',
+    'no': 'Nivå'
   },
   labelOf: {
     'en': 'of',
@@ -272,7 +276,8 @@ var messages = {
     'bn': '/',
     'np': '/',
     'my': '၏',
-    'yo': 'tí'
+    'yo': 'tí',
+    'no': 'av'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -327,7 +332,8 @@ var messages = {
     'bn': 'Flexbox Froggy - CSS flexbox শেখার একটি গেইম',
     'np': 'Flexbox Froggy - CSS Flexbox सिक्नको लागि एउटा खेल',
     'my': 'Flexbox Froggy - CSS flexbox သင်ယူရန် ဂိမ်းတစ်ခု',
-    'yo': 'Flexbox Froggy - Eré tí ẹ̀yàń lè fi kọ́ ẹ̀kọ́ flexbox CSS'
+    'yo': 'Flexbox Froggy - Eré tí ẹ̀yàń lè fi kọ́ ẹ̀kọ́ flexbox CSS',
+    'no': 'Flexbox Froggy - Et spill for å lære CSS flexbox'
   },
   labelReset: {
     'en': 'Reset',
@@ -383,6 +389,7 @@ var messages = {
     'np': 'रीसेट',
     'my': 'ပြန်လည်စတင်ရန်',
     'yo': 'Tún sílẹ̀'
+    , 'no': 'Tilbakestill'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -438,6 +445,7 @@ var messages = {
     'np': 'के तपाईं पक्का हुनुहुन्छ कि तपाईं खेल रिसेट गर्न चाहनुहुन्छ?\n\nतपाईंको बचत गरिएको प्रगति हराउनेछ र तपाईंलाई खेलको सुरुआतमा पठाइनेछ।',
     'my': 'သင်ဂိမ်းကို ပြန်လည်စတင်လိုပါသလား?\n\nသင့်အဆင့်မြှင့်တင်မှုများ ပျောက်ကွယ်သွားပြီး ဂိမ်းအစမှာ ပြန်လည်စတင်ရမည်။',
     'yo': 'Ṣé o dájú pé o fẹ́ tún ìṣeré náà ṣe?\n\nGbogbo ìtẹ̀sí ìṣeré rẹ̀ tí a fipamọ́ yóò sọnù, a ó sì rán ọ lọ sí ìbẹ̀rẹ̀ ìṣeré.',
+    'no': 'Er du sikker på at du vil tilbakestille spillet?\n\nDin lagrede fremgang vil gå tapt og du blir sendt til starten av spillet.'
   },
   gridGarden: {
     'en': 'Want to learn more CSS? Play',
@@ -477,6 +485,7 @@ var messages = {
     'np': 'अझ बढी CSS सिक्न चाहनुहुन्छ? खेल्नुहोस्',
     'my': 'CSS Grid ပိုမိုသိရှိလိုပါသလား? ကစားပါ',
     'yo': 'Ṣé o fẹ́ láti ní ìmọ̀ síwaju CSS? Ṣeré',
+    'no': 'Vil du lære CSS grid? Spill'
   },
   labelLanguage: {
     'en': 'Language',
@@ -511,6 +520,7 @@ var messages = {
     'np': 'भाषा',
     'my': 'ဘာသာစကား',
     'yo': 'Èdè',
+    'no': 'Språk'
   },
   labelSettings: {
     'en': 'Settings',
@@ -542,7 +552,8 @@ var messages = {
     'bn': 'সেটিংস',
     'np': 'सेटिङ',
     'my': 'ဆက်တင်များ',
-    'yo': 'Ètò'
+    'yo': 'Ètò',
+    'no': 'Innstillinger'
   },
   labelDifficulty: {
     'en': 'Difficulty',
@@ -575,7 +586,8 @@ var messages = {
     'bn': 'কঠিনতা',
     'np': 'कठिनाई',
     'my': 'အဆင့်',
-    'yo': 'Ìṣòro'
+    'yo': 'Ìṣòro',
+    'no': 'Vanskelighetsgrad'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
@@ -606,7 +618,8 @@ var messages = {
     'bn': 'কালারব্লাইন্ড মোড',
     'np': 'रङ्ग अन्धता मोड',
     'my': 'အရောင်မှောင်မိုက်မှု မုဒ်',
-    'yo': 'Ìpo fún àwọn tí kò rí àwọ̀ dáadáa'
+    'yo': 'Ìpo fún àwọn tí kò rí àwọ̀ dáadáa',
+    'no': 'Fargeblind-modus'
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -637,7 +650,8 @@ var messages = {
     'np': 'बन्द',
     'my': 'ပိတ်ထားသည်',
     'yo': 'Paà',
- },
+    'no': 'Av'
+  },
   labelColorblindOn: {
     'en': 'On',
     'af': 'Aan',
@@ -666,7 +680,8 @@ var messages = {
     'bn': 'চালু',
     'np': 'चालु',
     'my': 'ဖွင့်ထားသည်',
-    'yo': 'Tán'
+    'yo': 'Tán',
+    'no': 'På'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
@@ -700,6 +715,7 @@ var messages = {
     'np': 'सुरुआतकर्ता',
     'my': 'စတင်သူ',
     'yo': 'Alákọ̀bẹrẹ',
+    'no': 'Nybegynner'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -732,7 +748,8 @@ var messages = {
     'bn': 'মাঝারি স্তর - কোন দিক নির্দেশনা নেই',
     'np': 'मध्यम स्तर - कुनै निर्देशन छैन',
     'my': 'အလယ်အလတ် - လမ်းညွှန်ချက်မရှိ',
-    'yo': 'Agbédẹ́méjì - Kò sí àwọn ìtọnísọ́na'
+    'yo': 'Agbédẹ́méjì - Kò sí àwọn ìtọnísọ́na',
+    'no': 'Middels - Ingen hint'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
@@ -765,6 +782,7 @@ var messages = {
     'bn': 'অভিজ্ঞ - কোন দিক নির্দেশনা নেই এবং স্তর গুলো হবে এলোমেলো',
     'np': 'विशेषज्ञ - कुनै निर्देशन छैन र यादृच्छिक स्तरहरू',
     'my': 'ကျွမ်းကျင်သူ - လမ်းညွှန်ချက်မရှိ & အဆင့်များကို ရွေးချယ်ထားသည်',
-    'yo': 'Onímọ̀ràn - Kò sí ìtọ́sọ́nà & ìpẹ̀lẹ̀ laílẹ́tò'
+    'yo': 'Onímọ̀ràn - Kò sí ìtọ́sọ́nà & ìpẹ̀lẹ̀ laílẹ́tò',
+    'no': 'Ekspert - Ingen hint & Tilfeldige nivåer'
   }
 };

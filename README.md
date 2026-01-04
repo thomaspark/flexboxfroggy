@@ -71,6 +71,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Ukrainian by [sHa](https://github.com/shadoll)
 * Vietnamese by [Kingsten Banh](https://github.com/kingstenbanh)
 * Yoruba by [Oluwafisayomi Balogun](https://github.com/oluwafisayomi-balogun)
+* Norwegian by [Melroy Dsouza](https://github.com/dsouzamelroy2007)
 
 Don't see your language on the list? Contribute a translation! Fork the [repo](https://github.com/thomaspark/flexboxfroggy/), add your translations, and submit a pull request.
 
