@@ -494,7 +494,7 @@ var messages = {
     'my': 'CSS Grid ပိုမိုသိရှိလိုပါသလား? ကစားပါ',
     'yo': 'Ṣé o fẹ́ láti ní ìmọ̀ síwaju CSS? Ṣeré',
     'no': 'Vil du lære CSS grid? Spill',
-    'ka': 'გინდათ სხვა CSS-საკითხების შესწავლა? იხილეთ'
+    'ka': 'გსურთ CSS-ის სხვა საკითხების შესწავლა? ითამაშეთ'
   },
   labelLanguage: {
     'en': 'Language',
