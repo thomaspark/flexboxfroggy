@@ -440,7 +440,7 @@ var levels = [
       'my': '<p>ကွင်းဆက်များအတွက် အခန်းအနားများရှိသော လိပ်ပြာများကို ပြန်လည်ဖြတ်သန်းရန် ဗျာဂူများကို ပြန်လည်ဖြတ်သန်းရန် လိုအပ်သည်။ <code>justify-content</code> နှင့် <code>align-items</code> ကို ပေါင်းစပ်၍ အသုံးပြုပါ။</p>',
       'yo': '<p>Àwọn ọ̀pọ̀lọ nílò láti kọjá adágún lẹ́ẹ̀kansi, ìgbà yìí sí fún àwọn ewé ọdàn wọn tí ó ní àyè púpọ̀ yí ká wọn. Lo apapọ̀ ti <code>justify-content</code> àti <code>align-items</code>.</p>',
       'no': '<p>Froskene må krysse dammen igjen, denne gangen for å få noen vannliljer med god plass rundt dem. Bruk en kombinasjon av <code>justify-content</code> og <code>align-items</code>.</p>',
-      'ka': '<p>The frogs need to cross the pond again, this time for some lilypads with plenty of space around them. Use a combination of <code>justify-content</code> and <code>align-items</code>.</p>',
+      'ka': '<p>ბაყაყებმა კიდევ ერთხელ უნდა გადასერონ გუბურა; ამჯერად თითოეულ დუმფარას გარს ცარიელი სივრცე აკრავს. გამოიყენეთ <code>justify-content</code> და <code>align-items</code> თვისებები კომბინირებულად.</p>',
     },
     board: 'gyr',
     style: { 'justify-content': 'space-around', 'align-items': 'flex-end' },
