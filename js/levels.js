@@ -376,7 +376,7 @@ var levels = [
       'my': '<p>အခု <code>justify-content</code> နဲ့ <code>align-items</code> ကိုပေါင်းစပ်ပြီး ဗျာဂူကို ရေကန်ရဲ့အလယ်အလတ်ကို ဦးတည်ပါ။</p>',
       'yo': '<p>Kọ́ àwọn ọ̀pọ̀lọ lọ sí àárín adágún pẹ̀lú apapọ̀ ti <code>justify-content</code> ati <code>align-items</code>.</p>',
       'no': '<p>Led frosken til midten av dammen ved å bruke en kombinasjon av <code>justify-content</code> og <code>align-items</code>.</p>',
-      'ka': '<p>Lead the frog to the center of the pond using a combination of <code>justify-content</code> and <code>align-items</code>.</p>',
+      'ka': '<p>მიიყვანეთ ბაყაყი გუბურის ცენტრამდე <code>justify-content</code> და <code>align-items</code> თვისებების კომბინაციით.</p>',
     },
     board: 'g',
     style: { 'justify-content': 'center', 'align-items': 'center' },
