@@ -248,7 +248,7 @@ var levels = [
       'my': '<p>ယခုလီလီပက်စ်များကအနားကမ်းခြေသို့ပြောင်းရွှေ့သွားပြီး၊ ၎င်းတို့အကြားအကွာအဝေးကိုတိုးမြှင့်ခဲ့သည်။ <code>justify-content</code> ကိုအသုံးပြုပါ။ ယခုလီလီပက်စ်များသည်၎င်းတို့အကြားတူညီသောအကွာအဝေးရှိသည်။</p>',
       'yo': '<p>Nísinsin yìí àwọn ewé ọdàn tó wà lórí etí ti sáré lọ sí ẹ̀gbẹ́ adágún, tí ó ń pọ̀ sí àyè tó wà láàárín wọn. Lo <code>justify-content</code>. Ìgbà yìí, àwọn ewé ọdàn ní àyè tó dọ́gba láàárín wọn.</p>',
       'no': '<p>Nå har vannliljebladene på kantene drevet mot kysten, noe som øker avstanden mellom dem. Bruk <code>justify-content</code>. Denne gangen har vannliljebladene lik avstand mellom seg.</p>',
-      'ka': '<p>Now the lilypads on the edges have drifted to the shore, increasing the space between them. Use <code>justify-content</code>. This time, the lilypads have equal spacing between them.</p>',
+      'ka': '<p>ახლა განაპირა დუმფარას ფოთლები გაირიყნენ ნაპირებზე, რამაც მათ შორის არსებული სივრცის გაზრდა გამოიწვია. გამოიყენეთ <code>justify-content</code> თვისება. ამჯერად, ცარიელი სივრცე ფოთლებს შორისაა თანაბრად განაწილებული.</p>',
     },
     board: 'gyr',
     style: { 'justify-content': 'space-between' },
