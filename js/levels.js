@@ -696,7 +696,7 @@ var levels = [
       'my': '<p>ကွင်းဆက်အတိုင်း <code>flex-direction</code> နှင့် <code>justify-content</code> ကို အသုံးပြု၍ ငါးငါးများကို သူတို့ရဲ့ လိပ်ပြာများကို ရှာဖွေရာတွင် ကူညီပါ။</p><p>Flex direction ကို column ဖြစ်သောအခါ <code>justify-content</code> သည် တိုင်းတာမှုကို တည်ဆောက်ပြီး <code>align-items</code> သည် အလယ်တွင် တည်ဆောက်သည်။</p>',
       'yo': '<p>Ṣe iranlọwọ fún àwọn ọ̀pọ̀lọ láti wá àwọn ewé ọdàn wọn nípasẹ̀ lílo <code>flex-direction</code> àti <code>justify-content</code>.</p><p>Ṣàkíyèsí pé nígbà tí flex direction jẹ́ ọ̀wọn kan, <code>justify-content</code> yí padà sí inaro àti <code>align-items</code> sí petele.</p>',
       'no': '<p>Hjelp froskene med å finne vannliljebladene sine ved hjelp av <code>flex-direction</code> og <code>justify-content</code>.</p><p>Legg merke til at når fleksretningen er en kolonne, endres <code>justify-content</code> til vertikal og <code>align-items</code> til horisontal.</p>',
-      'ka': '<p>Help the frogs find their lilypads using <code>flex-direction</code> and <code>justify-content</code>.</p><p>Notice that when the flex direction is a column, <code>justify-content</code> changes to the vertical and <code>align-items</code> to the horizontal.</p>',
+      'ka': '<p>დაეხმარეთ ბაყაყებს მათთვის განკუთვნილი დუმფარების პოვნაში <code>flex-direction</code> და <code>justify-content</code> თვისებების გამოყენებით.</p><p>გაითვალისწინეთ, რომ როდესაც განლაგების მიმართულებად განსაზღვრულია სვეტი (column), <code>justify-content</code> თვისება ვერტიკალურ განლაგებას აკონტროლებს, ხოლო <code>align-items</code> — ჰორიზონტალურს.</p>',
     },
     board: 'gyr',
     style: { 'flex-direction': 'column', 'justify-content': 'flex-end' },
