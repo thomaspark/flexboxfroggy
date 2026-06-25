@@ -824,7 +824,7 @@ var levels = [
       'my': '<p>ကွင်းဆက်အတိုင်း <code>flex-direction</code>, <code>justify-content</code>, နှင့် <code>align-items</code> ကို အသုံးပြု၍ ကန့်ကန့်သိမ်းသိမ်းများကို သူတို့ရဲ့ လိပ်ပြာပေါ်သို့ ရောက်ရှိစေပါ။</p>',
       'yo': '<p>Ṣe iranlọwọ fún àwọn ọ̀pọ̀lọ láti wá àwọn ewé ọdàn wọn nípasẹ̀ lílo <code>flex-direction</code>, <code>justify-content</code>, àti <code>align-items</code>.</p>',
       'no': '<p>Hjelp froskene med å finne vannliljebladene sine ved hjelp av <code>flex-direction</code>, <code>justify-content</code> og <code>align-items</code>.</p>',
-      'ka': '<p>Help the frogs find their lilypads using <code>flex-direction</code>, <code>justify-content</code>, and <code>align-items</code>.</p>',
+      'ka': '<p>დაეხმარეთ ბაყაყებს მათთვის განკუთვნილი დუმფარების პოვნაში <code>flex-direction</code>, <code>justify-content</code> და <code>align-items</code> თვისებების გამოყენებით.</p>',
     },
     board: 'gyr',
     style: { 'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end' },
