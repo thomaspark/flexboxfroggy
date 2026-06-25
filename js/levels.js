@@ -1085,7 +1085,7 @@ var levels = [
       'my': '<p>ကွင်းဆက် <code>order</code> နှင့် <code>align-self</code> ကို သုံးပြီး ကန်ထရိုက်များကို သူတို့ရဲ့ ရည်မှန်းချက်များသို့ ဦးတည်စေပါ။</p>',
       'yo': '<p>Darapọ̀ <code>order</code> pẹ̀lú <code>align-self</code> láti ṣe iranlọwọ fún àwọn ọ̀pọ̀lọ sí àwọn ibi wọn.</p>',
       'no': '<p>Kombiner <code>order</code> med <code>align-self</code> for å hjelpe froskene til destinasjonene sine.</p>',
-      'ka': '<p>Combine <code>order</code> with <code>align-self</code> to help the frogs to their destinations.</p>',
+      'ka': '<p>დაეხმარეთ ბაყაყებს დანიშნულების ადგილამდე მისვლაში <code>order</code> და <code>align-self</code> თვისებების კომბინირებით.</p>',
     },
     board: 'ygygg',
     selector: '> .yellow',
