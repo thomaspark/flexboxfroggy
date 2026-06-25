@@ -1020,7 +1020,7 @@ var levels = [
       'my': '<p>တစ်ခုချင်းစီအတွက် သုံးနိုင်သော အခြားသော ပရိုပတ်တီတစ်ခုမှာ <code>align-self</code> ဖြစ်သည်။ ဤပရိုပတ်တီသည် <code>align-items</code> နှင့် တူညီသော တန်ဖိုးများကို လက်ခံပြီး အထူးအရာဝတ္ထုအတွက် ၎င်း၏ တန်ဖိုးကို သတ်မှတ်နိုင်သည်။</p>',
       'yo': '<p>Ohun-ini mìíràn tí o lè lo sí àwọn ohun kọọkan jẹ́ <code>align-self</code>. Ohun-ini yìí ń gba àwọn iye kan náà gẹ́gẹ́ bí <code>align-items</code> àti iye rẹ fún ohun kan pàtó.</p>',
       'no': '<p>En annen egenskap du kan bruke på individuelle elementer er <code>align-self</code>. Denne egenskapen godtar de samme verdiene som <code>align-items</code> og dens verdi for det spesifikke elementet.</p>',
-      'ka': '<p>Another property you can apply to individual items is <code>align-self</code>. This property accepts the same values as <code>align-items</code> and its value for the specific item.</p>',
+      'ka': '<p>კიდევ ერთი თვისება, რომელიც ცალკეულ ობიექტებს შეგიძლიათ მიანიჭოთ, არის <code>align-self</code>. ეს თვისება იმავე მნიშვნელობებს იღებს, რასაც <code>align-items</code> და იმავე პრინციპით ზემოქმედებს, ოღონდ ცალკეულ ობიექტზე.</p>',
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
