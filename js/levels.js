@@ -954,7 +954,7 @@ var levels = [
       'my': '<p>အနီရောင် ဗျာဂူကို သူ့ရဲ့ လီလီပက်ဒ်သို့ ပို့ရန် <code>order</code> ပရိုပတ်တီကို အသုံးပြုပါ။</p>',
       'yo': '<p>Lo ohun ini <code>order</code> láti fi Ọ̀pọ̀lọ àwọ̀ pupa sí ewé ọdàn rẹ.</p>',
       'no': '<p>Bruk <code>order</code>-egenskapen for å sende den røde frosken til vannliljebladet hans.</p>',
-      'ka': '<p>Use the <code>order</code> property to send the red frog to his lilypad.</p>',
+      'ka': '<p>გამოიყენეთ <code>order</code> თვისება, რათა წითელი ბაყაყი მისთვის განკუთვნილ დუმფარამდე მიიყვანოთ.</p>',
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
