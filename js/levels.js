@@ -760,7 +760,7 @@ var levels = [
       'my': '<p>ကွင်းလေးများကို <code>flex-direction</code> နှင့် <code>justify-content</code> ကို အသုံးပြု၍ ကွင်းလေးများကို ရှာဖွေပါ။</p>',
       'yo': '<p>Ṣe iranlọwọ fún àwọn ọ̀pọ̀lọ láti wá àwọn ewé ọdàn wọn nípasẹ̀ lílo <code>flex-direction</code> àti <code>justify-content</code>.</p>',
       'no': '<p>Hjelp froskene med å finne vannliljebladene sine ved hjelp av <code>flex-direction</code> og <code>justify-content</code>.</p>',
-      'ka': '<p>Help the frogs find their lilypads using <code>flex-direction</code> and <code>justify-content</code>.</p>',
+      'ka': '<p>დაეხმარეთ ბაყაყებს მათთვის განკუთვნილი დუმფარების პოვნაში <code>flex-direction</code> და <code>justify-content</code> თვისებების გამოყენებით.</p>',
     },
     board: 'gyr',
     style: { 'flex-direction': 'column-reverse', 'justify-content': 'space-between' },
