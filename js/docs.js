@@ -168,7 +168,7 @@ var docs = {
     'my': '<p><code>align-items</code> တန်ဖိုးကို တစ်ခုခြားပြီး flex item တစ်ခုစီကို cross axis အတိုင်းတန်းညီစေသည်။</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'yo': '<p>Ṣe dẹ́édé flex item pọ̀ mọ́ cross axis láti bọ́rí iye. <code>align-items</code> </p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'no': '<p>Justerer et flekselement langs tverraksen, og overstyrer verdien <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'ka': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'ka': '<p>განალაგებს ცალკეულ Flex-ელემენტს განივი ღერძის გასწვრივ და გადაფარავს <code>align-items</code> თვისების მნიშვნელობას.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
   },   
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
