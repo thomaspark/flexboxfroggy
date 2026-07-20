@@ -282,7 +282,7 @@ var docs = {
     'my': '<p><code>flex-direction</code> နှင့် flex-wrap ကို အတိုချုံးရေးသားနိုင်သော property ဖြစ်သည်။ <code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code></p>',
     'yo': '<p>Ohun ini olowo kukuru fun <code>flex-direction</code> ati <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'no': '<p>Shorthand-egenskap for <code>flex-direction</code> og <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
-    'ka': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'ka': '<p>შემოკლებული თვისება, რომელიც აერთიანებს <code>flex-direction</code>-სა და <code>flex-wrap</code>-ს.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
