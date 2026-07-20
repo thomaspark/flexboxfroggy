@@ -111,7 +111,7 @@ var docs = {
     'my': '<p>flex items များကို cross axis အတိုင်းတန်းညီအောင်လုပ်သည်။</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'yo': '<p>Se deede flex items po mo cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'no': '<p>Justerer fleksible elementer langs tverraksen.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (standard)</code>',
-    'ka': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
+    'ka': '<p>განალაგებს Flex-ელემენტებს განივი ღერძის გასწვრივ.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (ნაგულისხმევი)</code>',
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
