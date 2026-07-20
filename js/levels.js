@@ -1470,7 +1470,7 @@ var levels = [
       'my': '<p>ကွင်းကွင်းကလေးတွေ ပွဲလေးကျင်းပြီးပြီ၊ အိမ်ပြန်ချိန်ဖြစ်လာပါပြီ။ <code>flex-direction</code> နဲ့ <code>align-content</code> ကို တွဲဖက်သုံးပြီး ကွင်းကွင်းကလေးတွေကို သူတို့ရဲ့ လီလီပက်များဆီ သွားစေပါ။</p>',  
       'yo': '<p>Àwọn ọ̀pọ̀lọ ti ṣe ayẹyẹ, ṣùgbọ́n ó tó àkókò láti lọ sí ilé. Lo àpamọ̀ kan ti <code>flex-direction</code> àti <code>align-content</code> láti mú wọ́n lọ sí àwọn ewé ọdàn wọn.</p>',
       'no': '<p>Nå har strømmen samlet vannliljebladene nederst. Bruk <code>align-content</code> til å lede froskene dit.</p>',
-      'ka': '<p>The frogs have had a party, but it is time to go home. Use a combination of <code>flex-direction</code> and <code>align-content</code> to get them to their lilypads.</p>',
+      'ka': '<p>ბაყაყებმა წვეულება მოაწყვეს, მაგრამ ახლა მათი შინ დაბრუნების დროა. გამოიყენეთ <code>flex-direction</code> და <code>align-content</code> თვისებები კომბინირებულად, რათა ისინი მათთვის განკუთვნილ დუმფარებამდე მიიყვანოთ.</p>',
     },
     board: 'rgggyrgggyrgggy',
     classes: { '#pond, #background': 'wrap' },
