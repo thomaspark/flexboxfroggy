@@ -1214,7 +1214,7 @@ var levels = [
       'my': '<p>ဤကြက်ကလေးများကို <code>flex-direction</code> နှင့် <code>flex-wrap</code> ကိုပေါင်းစပ်၍ သုံးတန်းအလျားလိုက်စီရင်ရန် ကူညီပါ။</p>',
       'yo': '<p>Ràn awon ọmọ-ogun ọ̀pọ̀lọ yìí lọ́wọ́ láti ṣe àwọn ọ̀wọn tí ó lẹ́tọ̀ mẹ́ta nípasẹ̀ apapọ̀ <code>flex-direction</code> ati <code>flex-wrap</code>.</p>',
       'no': '<p>Hjelp denne hæren av frosker med å danne tre ordnede kolonner ved å bruke en kombinasjon av <code>flex-direction</code> og <code>flex-wrap</code>.</p>',
-      'ka': '<p>Help this army of frogs form three orderly columns using a combination of <code>flex-direction</code> and <code>flex-wrap</code>.</p>',
+      'ka': '<p>დაეხმარეთ ბაყაყების ამ რაზმს, მწყობრად განლაგდნენ სამ ვერტიკალურ ხაზში; გამოიყენეთ <code>flex-direction</code> და <code>flex-wrap</code> თვისებები.</p>',
     },
     board: 'gggggrrrrryyyyy',
     style: { 'flex-direction': 'column', 'flex-wrap': 'wrap' },
