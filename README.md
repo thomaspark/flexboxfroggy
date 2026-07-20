@@ -39,6 +39,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 * Finnish by [Minna N.](https://github.com/minna-xD)
 * French by [Karl Thibault](https://github.com/Notuom)
 * Galician by [Pilar Mera](https://github.com/decrecementofeliz)
+* Georgian by [Dato Kadaria](https://github.com/davidkadaria)
 * German by [Thorsten Frommen](https://github.com/tfrommen)
 * Greek by [lmintmate](https://github.com/lmintmate)
 * Gujarati by [Harshhh](https://github.com/ozaharsh95)

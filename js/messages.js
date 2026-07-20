@@ -53,7 +53,8 @@ var messages = {
     'np': 'नेपाली',
     'my': 'မြန်မာ',
     'yo': 'Yoruba',
-    'no': 'Norsk'
+    'no': 'Norsk',
+    'ka': 'ქართული'
   },
   next: {
     'en': 'Next',
@@ -109,7 +110,8 @@ var messages = {
     'np': 'अर्को',
     'my': 'နောက်တစ်ခု',
     'yo': 'Ìpele tó kàn',
-    'no': 'Neste'
+    'no': 'Neste',
+    'ka': 'შემდეგი'
   },
   labelFooter: {
     'en': 'Flexbox Froggy is created by',
@@ -166,6 +168,7 @@ var messages = {
     'my': 'Flexbox Froggy ကို ဖန်တီးခဲ့သည်',
     'yo': 'Àwọn tó dá ẹ̀dá Flexbox Froggy ní',
     'no': 'Flexbox Froggy er laget av',
+    'ka': 'Flexbox Froggy-ის შემქმნელია'
   },
   labelLevel: {
     'en': 'Level',
@@ -221,7 +224,8 @@ var messages = {
     'np': 'स्तर',
     'my': 'အဆင့်',
     'yo': 'Ìpẹ̀lẹ̀',
-    'no': 'Nivå'
+    'no': 'Nivå',
+    'ka': 'დონე'
   },
   labelOf: {
     'en': 'of',
@@ -277,7 +281,8 @@ var messages = {
     'np': '/',
     'my': '၏',
     'yo': 'tí',
-    'no': 'av'
+    'no': 'av',
+    'ka': '/'
   },
   title: {
     'en': 'Flexbox Froggy - A game for learning CSS flexbox',
@@ -333,7 +338,8 @@ var messages = {
     'np': 'Flexbox Froggy - CSS Flexbox सिक्नको लागि एउटा खेल',
     'my': 'Flexbox Froggy - CSS flexbox သင်ယူရန် ဂိမ်းတစ်ခု',
     'yo': 'Flexbox Froggy - Eré tí ẹ̀yàń lè fi kọ́ ẹ̀kọ́ flexbox CSS',
-    'no': 'Flexbox Froggy - Et spill for å lære CSS flexbox'
+    'no': 'Flexbox Froggy - Et spill for å lære CSS flexbox',
+    'ka': 'Flexbox Froggy - თამაში CSS flexbox-ის შესასწავლად'
   },
   labelReset: {
     'en': 'Reset',
@@ -388,8 +394,9 @@ var messages = {
     'bn': 'রিসেট',
     'np': 'रीसेट',
     'my': 'ပြန်လည်စတင်ရန်',
-    'yo': 'Tún sílẹ̀'
-    , 'no': 'Tilbakestill'
+    'yo': 'Tún sílẹ̀',
+    'no': 'Tilbakestill',
+    'ka': 'გადატვირთვა'
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -445,7 +452,8 @@ var messages = {
     'np': 'के तपाईं पक्का हुनुहुन्छ कि तपाईं खेल रिसेट गर्न चाहनुहुन्छ?\n\nतपाईंको बचत गरिएको प्रगति हराउनेछ र तपाईंलाई खेलको सुरुआतमा पठाइनेछ।',
     'my': 'သင်ဂိမ်းကို ပြန်လည်စတင်လိုပါသလား?\n\nသင့်အဆင့်မြှင့်တင်မှုများ ပျောက်ကွယ်သွားပြီး ဂိမ်းအစမှာ ပြန်လည်စတင်ရမည်။',
     'yo': 'Ṣé o dájú pé o fẹ́ tún ìṣeré náà ṣe?\n\nGbogbo ìtẹ̀sí ìṣeré rẹ̀ tí a fipamọ́ yóò sọnù, a ó sì rán ọ lọ sí ìbẹ̀rẹ̀ ìṣeré.',
-    'no': 'Er du sikker på at du vil tilbakestille spillet?\n\nDin lagrede fremgang vil gå tapt og du blir sendt til starten av spillet.'
+    'no': 'Er du sikker på at du vil tilbakestille spillet?\n\nDin lagrede fremgang vil gå tapt og du blir sendt til starten av spillet.',
+    'ka': 'დარწმუნებული ხართ, რომ თამაშის გადატვირთვა გინდათ?\n\nმთელი თქვენი პროგრესი გაქრება და თამაშის საწყის წერტილს დაუბრუნდებით.'
   },
   gridGarden: {
     'en': 'Want to learn more CSS? Play',
@@ -485,7 +493,8 @@ var messages = {
     'np': 'अझ बढी CSS सिक्न चाहनुहुन्छ? खेल्नुहोस्',
     'my': 'CSS Grid ပိုမိုသိရှိလိုပါသလား? ကစားပါ',
     'yo': 'Ṣé o fẹ́ láti ní ìmọ̀ síwaju CSS? Ṣeré',
-    'no': 'Vil du lære CSS grid? Spill'
+    'no': 'Vil du lære CSS grid? Spill',
+    'ka': 'გსურთ CSS-ის სხვა საკითხების შესწავლა? ითამაშეთ'
   },
   labelLanguage: {
     'en': 'Language',
@@ -520,7 +529,8 @@ var messages = {
     'np': 'भाषा',
     'my': 'ဘာသာစကား',
     'yo': 'Èdè',
-    'no': 'Språk'
+    'no': 'Språk',
+    'ka': 'ენა'
   },
   labelSettings: {
     'en': 'Settings',
@@ -553,7 +563,8 @@ var messages = {
     'np': 'सेटिङ',
     'my': 'ဆက်တင်များ',
     'yo': 'Ètò',
-    'no': 'Innstillinger'
+    'no': 'Innstillinger',
+    'ka': 'პარამეტრები'
   },
   labelDifficulty: {
     'en': 'Difficulty',
@@ -587,7 +598,8 @@ var messages = {
     'np': 'कठिनाई',
     'my': 'အဆင့်',
     'yo': 'Ìṣòro',
-    'no': 'Vanskelighetsgrad'
+    'no': 'Vanskelighetsgrad',
+    'ka': 'სირთულის დონე'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
@@ -619,7 +631,8 @@ var messages = {
     'np': 'रङ्ग अन्धता मोड',
     'my': 'အရောင်မှောင်မိုက်မှု မုဒ်',
     'yo': 'Ìpo fún àwọn tí kò rí àwọ̀ dáadáa',
-    'no': 'Fargeblind-modus'
+    'no': 'Fargeblind-modus',
+    'ka': 'დალტონიზმის რეჟიმი'
   },
   labelColorblindOff: {
     'en': 'Off',
@@ -650,7 +663,8 @@ var messages = {
     'np': 'बन्द',
     'my': 'ပိတ်ထားသည်',
     'yo': 'Paà',
-    'no': 'Av'
+    'no': 'Av',
+    'ka': 'გამორთული'
   },
   labelColorblindOn: {
     'en': 'On',
@@ -681,7 +695,8 @@ var messages = {
     'np': 'चालु',
     'my': 'ဖွင့်ထားသည်',
     'yo': 'Tán',
-    'no': 'På'
+    'no': 'På',
+    'ka': 'ჩართული'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
@@ -715,7 +730,8 @@ var messages = {
     'np': 'सुरुआतकर्ता',
     'my': 'စတင်သူ',
     'yo': 'Alákọ̀bẹrẹ',
-    'no': 'Nybegynner'
+    'no': 'Nybegynner',
+    'ka': 'დამწყები'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
@@ -749,7 +765,8 @@ var messages = {
     'np': 'मध्यम स्तर - कुनै निर्देशन छैन',
     'my': 'အလယ်အလတ် - လမ်းညွှန်ချက်မရှိ',
     'yo': 'Agbédẹ́méjì - Kò sí àwọn ìtọnísọ́na',
-    'no': 'Middels - Ingen hint'
+    'no': 'Middels - Ingen hint',
+    'ka': 'საშუალო - არანაირი მინიშნებები'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
@@ -783,6 +800,7 @@ var messages = {
     'np': 'विशेषज्ञ - कुनै निर्देशन छैन र यादृच्छिक स्तरहरू',
     'my': 'ကျွမ်းကျင်သူ - လမ်းညွှန်ချက်မရှိ & အဆင့်များကို ရွေးချယ်ထားသည်',
     'yo': 'Onímọ̀ràn - Kò sí ìtọ́sọ́nà & ìpẹ̀lẹ̀ laílẹ́tò',
-    'no': 'Ekspert - Ingen hint & Tilfeldige nivåer'
+    'no': 'Ekspert - Ingen hint & Tilfeldige nivåer',
+    'ka': 'ექსპერტი - არანაირი მინიშნებები & არათანმიმდევრული დონეები'
   }
 };
