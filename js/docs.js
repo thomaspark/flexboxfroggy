@@ -453,6 +453,6 @@ var docs = {
     'my': '<p>flex item ၏ အစဥ်အတိုင်းကို သတ်မှတ်ပေးသည်။</p><code>&lt;integer&gt; (... -1, 0 (မူရင်း), 1, ...)</code>',
     'yo': '<p>Ṣe pàtó ìbẹ̀rẹ̀ tàbí ìparí flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'no': '<p>Angir rekkefølgen på flekselementet.</p><code>&lt;integer&gt; (... -1, 0 (standard), 1, ...)</code>',
-    'ka': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
+    'ka': '<p>განსაზღვრავს ცალკეული Flex-ელემენტის რიგითობას.</p><code>&lt;integer&gt; (... -1, 0 (ნაგულისხმევი), 1, ...)</code>',
   }
 };
