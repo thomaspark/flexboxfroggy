@@ -54,7 +54,7 @@ var docs = {
     'my': '<p>flex container ၏လိုင်းများကို cross-axis ပေါ်တွင် နေရာပိုရှိသောအခါ အတွင်း၌တန်းညီအောင်လုပ်သည်။</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
     'yo': '<p>Ṣe dẹ́édé ìlà àpòlo flex nínú àpòlo flex tí àyè púpọ̀ bá wà ní cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
     'no': '<p>Justerer linjene til en fleksibel beholder innenfor fleksibel beholderen når det er ekstra plass på tverraksen.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (standard)</code>',
-    'ka': '<p>Aligns a flex container\'s lines within the flex container when there is extra space on the cross-axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
+    'ka': '<p>განალაგებს Flex-კონტეინერის ხაზებს კონტეინერის შიგნით, განივ ღერძზე დამატებითი ცარიელი სივრცის არსებობის შემთხვევაში.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (ნაგულისხმევი)</code>',
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
