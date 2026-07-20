@@ -339,7 +339,7 @@ var docs = {
     'my': '<p>flex items များကို တစ်ချက်တည်းတန်းစီစေမည်လား၊ များသောတန်းများအဖြစ် ပြန်ပက်စေမည်လား ဆိုသည်ကို သတ်မှတ်သည်။</p><code>nowrap (မူရင်း)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'yo': '<p>Ṣe pàtó bóyá flex items gbọ́dọ̀ dúró sí orí ìlà kan ṣoṣo tàbí pé wọ́n lè yípo lórí ọ̀pọ̀ ìlà.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'no': '<p>Spesifiserer om fleksible elementer tvinges på én linje eller kan brytes på flere linjer.</p><code>nowrap (standard)</code> <code>wrap</code> <code>wrap-reverse</code>',
-    'ka': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'ka': '<p>განსაზღვრავს, Flex-ელემენტები ერთ ხაზზე თავსდებიან თუ შესაძლებელია მათი რამდენიმე ხაზზე გადანაწილება.</p><code>nowrap (ნაგულისხმევი)</code> <code>wrap</code> <code>wrap-reverse</code>',
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
