@@ -1405,7 +1405,7 @@ var levels = [
       'np': '<p>अब धाराले लिलीप्याडहरू तल थुप्रिएका छन्। भ्यागुताहरूसँग जानका लागि <code>align-content</code> प्रयोग गर्नुहोस्।</p>',
       'my': '<p>ယခုလက်ရှိတွင် လိပ်ပတ်များကို အောက်ခြေတွင်စုစည်းထားသည်။ <code>align-content</code> ကို အသုံးပြု၍ ဗျာဂုတ်များကို အထဲသို့ ဦးတည်ပါ။</p>',
       'yo': '<p>Báyìí ṣiṣan omi ti ṣàjọpọ̀ àwọn ewé ọdàn ní isàlẹ̀. Lo <code>align-content</code> láti darí àwọn ọ̀pọ̀lọ níbẹ̀.</p>',
-      'ka': '<p>Now the current has bunched the lilypads at the bottom. Use <code>align-content</code> to guide the frogs there.</p>',
+      'ka': '<p>ახლა დინებამ დუმფარები გუბურის სამხრეთით გარიყა. გამოიყენეთ <code>align-content</code> თვისება, რათა ბაყაყები იქამდე მიიყვანოთ.</p>',
     },
     board: 'ggggggggggggggg',
     classes: { '#pond, #background': 'wrap' },
