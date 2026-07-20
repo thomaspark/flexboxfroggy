@@ -225,7 +225,7 @@ var docs = {
     'my': '<p>main axis ၏ ဦးတည်ရာလမ်းကြောင်းကို သတ်မှတ်သည်။</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'yo': '<p>Sàlàyé ìtòsọ́nà main axis.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'no': '<p>Definerer retningen til hovedaksen.</p><code>row (standard)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
-    'ka': '<p>Defines the direction of the main axis.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'ka': '<p>განსაზღვრავს ძირითადი ღერძის მიმართულებას.</p><code>row (ნაგულისხმევი)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
