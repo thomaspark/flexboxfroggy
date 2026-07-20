@@ -396,7 +396,7 @@ var docs = {
     'my': '<p>flex items များကို main axis အတိုင်း တန်းညီအောင်လုပ်သည်။</p><code>flex-start (မူရင်း)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'yo': '<p>Ṣe deede àwọn flex items pẹ̀lú main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'no': '<p>Justerer fleksible elementer langs hovedaksen.</p><code>flex-start (standard)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
-    'ka': '<p>Aligns flex items along the main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
+    'ka': '<p>განალაგებს Flex-ელემენტებს ძირითადი ღერძის გასწვრივ.</p><code>flex-start (ნაგულისხმევი)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
