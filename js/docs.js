@@ -54,6 +54,7 @@ var docs = {
     'my': '<p>flex container ၏လိုင်းများကို cross-axis ပေါ်တွင် နေရာပိုရှိသောအခါ အတွင်း၌တန်းညီအောင်လုပ်သည်။</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
     'yo': '<p>Ṣe dẹ́édé ìlà àpòlo flex nínú àpòlo flex tí àyè púpọ̀ bá wà ní cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
     'no': '<p>Justerer linjene til en fleksibel beholder innenfor fleksibel beholderen når det er ekstra plass på tverraksen.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (standard)</code>',
+    'hy': '<p>Հավասարեցնում է flex կոնտեյների տողերը, երբ խաչաձև առանցքի (cross-axis) վրա ազատ տեղ կա։</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch (default)</code>',
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
@@ -110,6 +111,7 @@ var docs = {
     'my': '<p>flex items များကို cross axis အတိုင်းတန်းညီအောင်လုပ်သည်။</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'yo': '<p>Se deede flex items po mo cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
     'no': '<p>Justerer fleksible elementer langs tverraksen.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (standard)</code>',
+    'hy': '<p>Հավասարեցնում է flex տարրերը խաչաձև առանցքի (cross axis) երկայնքով։</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch (default)</code>',
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
@@ -166,6 +168,7 @@ var docs = {
     'my': '<p><code>align-items</code> တန်ဖိုးကို တစ်ခုခြားပြီး flex item တစ်ခုစီကို cross axis အတိုင်းတန်းညီစေသည်။</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'yo': '<p>Ṣe dẹ́édé flex item pọ̀ mọ́ cross axis láti bọ́rí iye. <code>align-items</code> </p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'no': '<p>Justerer et flekselement langs tverraksen, og overstyrer verdien <code>align-items</code>.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
+    'hy': '<p>Հավասարեցնում է մեկ flex տարր խաչաձև առանցքի երկայնքով՝ չեղարկելով <code>align-items</code> արժեքը։</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
   },   
   'flex-direction': {
     'en': '<p>Defines the direction of the main axis.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
@@ -222,6 +225,7 @@ var docs = {
     'my': '<p>main axis ၏ ဦးတည်ရာလမ်းကြောင်းကို သတ်မှတ်သည်။</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'yo': '<p>Sàlàyé ìtòsọ́nà main axis.</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
     'no': '<p>Definerer retningen til hovedaksen.</p><code>row (standard)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
+    'hy': '<p>Սահմանում է հիմնական առանցքի (main axis) ուղղությունը։</p><code>row (default)</code> <code>row-reverse</code> <code>column</code> <code>column-reverse</code>',
   },
   'flex-flow': {
     'en': '<p>Shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
@@ -278,6 +282,7 @@ var docs = {
     'my': '<p><code>flex-direction</code> နှင့် flex-wrap ကို အတိုချုံးရေးသားနိုင်သော property ဖြစ်သည်။ <code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code></p>',
     'yo': '<p>Ohun ini olowo kukuru fun <code>flex-direction</code> ati <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'no': '<p>Shorthand-egenskap for <code>flex-direction</code> og <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
+    'hy': '<p>Կարճ գրելաձև <code>flex-direction</code> և <code>flex-wrap</code> հատկությունների համար։</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -334,6 +339,7 @@ var docs = {
     'my': '<p>flex items များကို တစ်ချက်တည်းတန်းစီစေမည်လား၊ များသောတန်းများအဖြစ် ပြန်ပက်စေမည်လား ဆိုသည်ကို သတ်မှတ်သည်။</p><code>nowrap (မူရင်း)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'yo': '<p>Ṣe pàtó bóyá flex items gbọ́dọ̀ dúró sí orí ìlà kan ṣoṣo tàbí pé wọ́n lè yípo lórí ọ̀pọ̀ ìlà.</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
     'no': '<p>Spesifiserer om fleksible elementer tvinges på én linje eller kan brytes på flere linjer.</p><code>nowrap (standard)</code> <code>wrap</code> <code>wrap-reverse</code>',
+    'hy': '<p>Սահմանում է, թե արդյոք flex տարրերը պարտադրվում են մեկ տողի վրա, թե կարող են փաթաթվել բազմաթիվ տողերի։</p><code>nowrap (default)</code> <code>wrap</code> <code>wrap-reverse</code>',
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
@@ -390,6 +396,7 @@ var docs = {
     'my': '<p>flex items များကို main axis အတိုင်း တန်းညီအောင်လုပ်သည်။</p><code>flex-start (မူရင်း)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'yo': '<p>Ṣe deede àwọn flex items pẹ̀lú main axis.</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
     'no': '<p>Justerer fleksible elementer langs hovedaksen.</p><code>flex-start (standard)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
+    'hy': '<p>Հավասարեցնում է flex տարրերը հիմնական առանցքի (main axis) երկայնքով։</p><code>flex-start (default)</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code>',
   },
   'order': {
     'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
@@ -446,5 +453,6 @@ var docs = {
     'my': '<p>flex item ၏ အစဥ်အတိုင်းကို သတ်မှတ်ပေးသည်။</p><code>&lt;integer&gt; (... -1, 0 (မူရင်း), 1, ...)</code>',
     'yo': '<p>Ṣe pàtó ìbẹ̀rẹ̀ tàbí ìparí flex item.</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
     'no': '<p>Angir rekkefølgen på flekselementet.</p><code>&lt;integer&gt; (... -1, 0 (standard), 1, ...)</code>',
+    'hy': '<p>Սահմանում է flex տարրի կարգը։</p><code>&lt;integer&gt; (... -1, 0 (default), 1, ...)</code>',
   }
 };
