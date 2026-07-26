@@ -21,6 +21,7 @@ My gratitude to these contributors for localizing Flexbox Froggy. This is what o
 
 * Afrikaans by [Andrea Zonnekus](https://github.com/andreazonnekus)
 * Arabic by [Mahmoud Al-Omoush](https://github.com/m7modg97)
+* Armenian by [zynx](https://github.com/zynx-ctrl)
 * Azerbaijani by [jalalbmnf](https://github.com/jalalbmnf)
 * Bengali by [Ayemun Hossain](https://github.com/AyemunHossain)
 * Bosnian by [Haris Hamzić](https://github.com/hamzic2019)
