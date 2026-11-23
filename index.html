@@ -1,32 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Flexwind Froggy — Learn Tailwind CSS Flexbox</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Learn Tailwind CSS flexbox utilities by guiding frogs to their lilypads in Flexwind Froggy, a free interactive game.">
-    <meta name="robots" content="index, follow">
-    <meta name="google-site-verification" content="Jbh7HIeoHvgiAuwe9nD53O5_tF1a8_z-v2lvQLq8lro">
-    <link rel="canonical" href="https://flexwindfroggy.com/">
-    <meta name="theme-color" content="#4caf50">
-    <meta property="og:url"           content="https://flexwindfroggy.com/">
-    <meta property="og:type"          content="website">
-    <meta property="og:title"         content="Flexwind Froggy — Learn Tailwind CSS Flexbox">
-    <meta property="og:description"   content="Learn Tailwind CSS flexbox utilities by guiding frogs to their lilypads in a free interactive game.">
-    <meta property="og:image"         content="https://flexwindfroggy.com/images/screenshot.png">
-    <meta property="og:image:alt"     content="Flexwind Froggy Tailwind CSS flexbox game">
-    <meta property="fb:app_id"        content="916849395036923">
-    <meta name="twitter:card"         content="summary_large_image">
-    <meta name="twitter:url"          content="https://flexwindfroggy.com/">
-    <meta name="twitter:title"        content="Flexwind Froggy — Learn Tailwind CSS Flexbox">
-    <meta name="twitter:description"  content="Learn Tailwind CSS flexbox utilities by guiding frogs to their lilypads in a free interactive game.">
-    <meta name="twitter:image"        content="https://flexwindfroggy.com/images/screenshot.png">
-    <meta name="twitter:image:alt"    content="Flexwind Froggy Tailwind CSS flexbox game">
-    <meta name="google-adsense-account" content="ca-pub-5896187408169408">
-    <link rel="icon" href="./favicon.ico?v=1" type="image/x-icon">    
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=PT+Sans&family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script type="application/ld+json">
+
+<head>
+  <meta charset="utf-8">
+  <title>Flexwind Froggy — Learn Tailwind CSS Flexbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Learn Tailwind CSS flexbox utilities by guiding frogs to their lilypads in Flexwind Froggy, a free interactive game.">
+  <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="Jbh7HIeoHvgiAuwe9nD53O5_tF1a8_z-v2lvQLq8lro">
+  <link rel="canonical" href="https://flexwindfroggy.com/">
+  <meta name="theme-color" content="#4caf50">
+  <meta property="og:url" content="https://flexwindfroggy.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Flexwind Froggy — Learn Tailwind CSS Flexbox">
+  <meta property="og:description"
+    content="Learn Tailwind CSS flexbox utilities by guiding frogs to their lilypads in a free interactive game.">
+  <meta property="og:image" content="https://flexwindfroggy.com/images/screenshot.png">
+  <meta property="og:image:alt" content="Flexwind Froggy Tailwind CSS flexbox game">
+  <meta property="fb:app_id" content="916849395036923">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://flexwindfroggy.com/">
+  <meta name="twitter:title" content="Flexwind Froggy — Learn Tailwind CSS Flexbox">
+  <meta name="twitter:description"
+    content="Learn Tailwind CSS flexbox utilities by guiding frogs to their lilypads in a free interactive game.">
+  <meta name="twitter:image" content="https://flexwindfroggy.com/images/screenshot.png">
+  <meta name="twitter:image:alt" content="Flexwind Froggy Tailwind CSS flexbox game">
+  <meta name="google-adsense-account" content="ca-pub-5896187408169408">
+  <link rel="icon" href="./favicon.ico?v=1" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=PT+Sans&family=Source+Code+Pro&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
@@ -49,172 +54,182 @@
         }
       }
     </script>
-  </head>
-  <body>
-    <section id="sidebar">
-      <div class="header">
-        <div>
-          <h1 class="title">Flexwind Froggy</h1>
-        </div>
-        <div id="level-counter">
-          <span class="arrow left">
-            <span class="triangle"></span>
-          </span>
-          <span id="level-indicator">
-            <span id="labelLevel" class="translate">Level</span>
-            <span class="current">1</span>
-            <span id="labelOf" class="translate">of</span>
-            <span class="total">1</span>
-            <span class="caret">▾</span>
-          </span>
-          <span class="arrow right">
-            <span class="triangle"></span>
-          </span>
-          <div id="levelsWrapper" class="tooltip">
-            <div id="levels"></div>
-            <div id="labelReset" class="translate">Reset</div>
-          </div>
-        </div>
-      </div>
-      <p id="instructions"></p>
-      <div id="editor">
-        <div id="tailwind">
-          <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</div>
-          <pre id="before"></pre>
-          <textarea id="code" rows="1" wrap="off" autofocus autocapitalize="none" spellcheck="false"></textarea>
-          <pre id="after"></pre>
-        </div>
-        <button id="learn" class="translate">Learn more</button>
-        <button id="next" class="translate">Next</button>
-      </div>
+</head>
 
-      <section id="completion-card" aria-labelledby="completionTitle" hidden>
-        <h2 id="completionTitle" class="translate">Support Flexwind Froggy</h2>
-        <div id="completionMessage" class="translate">
-          <p>Enjoyed learning Tailwind CSS Flexbox? Help me keep Flexwind Froggy alive and free for everyone! 🐸💚</p>
-          <p>Your donations help cover hosting costs, maintenance, and future improvements so everyone can keep enjoying the game for free.</p>
-          <p>Every little bit helps, thank you so much for your support!</p>
-        </div>
-        <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-        <script>
-          if (window.kofiwidget2) {
-            kofiwidget2.init("Buy me a coffee", "#1f5768", "N4B72B60M7");
-            kofiwidget2.draw();
-          }
-        </script>
-      </section>
-
-      <div class="credits">
-        <span id="labelFooter" class="translate">Flexwind Froggy is an independent fork by Manuel Font • <a href="learn/direction.html">Learn Tailwind Flexbox</a> • <a href="https://github.com/ManuelFont" target="_blank" rel="noopener noreferrer">GitHub</a> • <a href="https://www.linkedin.com/in/manuel-font-/" target="_blank" rel="noopener noreferrer">LinkedIn</a> • <a href="privacy.html">Privacy Policy</a></span>
-        <span id="settings">
-          <span id="labelSettings" class="toggle translate">Settings</span>
-          <span class="tooltip">
-            <section>
-              <h4 id="labelLanguage" class="translate">Language</h4>
-              <select id="language">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-              </select>
-            </section>
-            <section>
-              <h4 id="labelDifficulty" class="translate">Difficulty</h4>
-              <form id="difficulty">
-                <div>
-                  <input type="radio" name="difficulty" id="difficultyEasy" value="easy" checked>
-                  <label id="labelDifficultyEasy" for="difficultyEasy" class="translate">Beginner</label>
-                </div>
-                <div>
-                  <input type="radio" name="difficulty" id="difficultyMedium" value="medium">
-                  <label id="labelDifficultyMedium" for="difficultyMedium" class="translate">Intermediate - No Directions</label>
-                </div>
-                <div>
-                  <input type="radio" name="difficulty" id="difficultyHard" value="hard">
-                  <label id="labelDifficultyHard" for="difficultyHard" class="translate">Expert - No Directions &amp; Random Levels</label>
-                </div>
-              </form>
-            </section>
-            <section>
-              <h4 id="labelColorblind" class="translate">Colorblind Mode</h4>
-              <form id="colorblind">
-                <div>
-                  <div>
-                    <input type="radio" name="colorblind" id="colorblindOff" value="false" checked>
-                    <label id="labelColorblindOff" for="colorblindOff" class="translate">Off</label>
-                  </div>
-                  <div>
-                    <input type="radio" name="colorblind" id="colorblindOn" value="true">
-                    <label id="labelColorblindOn" for="colorblindOn" class="translate">On</label>
-                  </div>
-              </form>
-            </section>
-          </span>
+<body>
+  <section id="sidebar">
+    <div class="header">
+      <div>
+        <h1 class="title">Flexwind Froggy</h1>
+      </div>
+      <div id="level-counter">
+        <span class="arrow left">
+          <span class="triangle"></span>
         </span>
-      </div>
-      <div class="credits" style="margin-bottom: 1rem;">
-        <span id="labelAttribution" class="translate">Original <a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">Flexbox Froggy</a> and artwork by Thomas Park · <a href="LICENSE">MIT License</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>.</span>
-      </div>
-    </section>
-    <section id="view">
-      <div id="board">
-        <div id="pond">
+        <span id="level-indicator">
+          <span id="labelLevel" class="translate">Level</span>
+          <span class="current">1</span>
+          <span id="labelOf" class="translate">of</span>
+          <span class="total">1</span>
+          <span class="caret">▾</span>
+        </span>
+        <span class="arrow right">
+          <span class="triangle"></span>
+        </span>
+        <div id="levelsWrapper" class="tooltip">
+          <div id="levels"></div>
+          <div id="labelReset" class="translate">Reset</div>
         </div>
-        <div id="background">
-        </div>
       </div>
+    </div>
+    <p id="instructions"></p>
+    <div id="editor">
+      <div id="tailwind">
+        <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</div>
+        <pre id="before"></pre>
+        <textarea id="code" rows="1" wrap="off" autofocus autocapitalize="none" spellcheck="false"></textarea>
+        <pre id="after"></pre>
+      </div>
+      <button id="learn" class="translate">Learn more</button>
+      <button id="next" class="translate">Next</button>
+    </div>
+
+    <section id="completion-card" aria-labelledby="completionTitle" hidden>
+      <h2 id="completionTitle" class="translate">Support Flexwind Froggy</h2>
+      <div id="completionMessage" class="translate">
+        <p>Enjoyed learning Tailwind CSS Flexbox? Help me keep Flexwind Froggy alive and free for everyone! 🐸💚</p>
+        <p>Your donations help cover hosting costs, maintenance, and future improvements so everyone can keep enjoying the game for free.</p>
+        <p>Every little bit helps, thank you so much for your support!</p>
+      </div>
+      <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+      <script>
+        if (window.kofiwidget2) {
+          kofiwidget2.init("Buy me a coffee", "#1f5768", "N4B72B60M7");
+          kofiwidget2.draw();
+        }
+      </script>
     </section>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="js/levels.js"></script>
-    <script src="js/docs.js"></script>
-    <script src="js/messages.js"></script>
-    <script src="js/translator.js"></script>
-    <script src="js/tailwind-utilities.js"></script>
-    <script src="js/game.js"></script>
-    <script>
-      // Keep analytics off the game's initial rendering path.
-      (function () {
-        function loadScript(src, options, onload) {
-          var script = document.createElement("script");
-          script.async = true;
-          script.src = src;
 
-          if (options && options.crossOrigin) {
-            script.crossOrigin = options.crossOrigin;
-          }
+    <div class="credits">
+      <span id="labelFooter" class="translate">Flexwind Froggy is an independent fork by Manuel Font • <a
+          href="learn/direction.html">Learn Tailwind Flexbox</a> • <a href="https://github.com/ManuelFont"
+          target="_blank" rel="noopener noreferrer">GitHub</a> • <a href="https://www.linkedin.com/in/manuel-font-/"
+          target="_blank" rel="noopener noreferrer">LinkedIn</a> • <a href="privacy.html">Privacy Policy</a></span>
+      <span id="settings">
+        <span id="labelSettings" class="toggle translate">Settings</span>
+        <span class="tooltip">
+          <section>
+            <h4 id="labelLanguage" class="translate">Language</h4>
+            <select id="language">
+              <option value="en">English</option>
+              <option value="es">Español</option>
+            </select>
+          </section>
+          <section>
+            <h4 id="labelDifficulty" class="translate">Difficulty</h4>
+            <form id="difficulty">
+              <div>
+                <input type="radio" name="difficulty" id="difficultyEasy" value="easy" checked>
+                <label id="labelDifficultyEasy" for="difficultyEasy" class="translate">Beginner</label>
+              </div>
+              <div>
+                <input type="radio" name="difficulty" id="difficultyMedium" value="medium">
+                <label id="labelDifficultyMedium" for="difficultyMedium" class="translate">Intermediate - No
+                  Directions</label>
+              </div>
+              <div>
+                <input type="radio" name="difficulty" id="difficultyHard" value="hard">
+                <label id="labelDifficultyHard" for="difficultyHard" class="translate">Expert - No Directions &amp;
+                  Random Levels</label>
+              </div>
+            </form>
+          </section>
+          <section>
+            <h4 id="labelColorblind" class="translate">Colorblind Mode</h4>
+            <form id="colorblind">
+              <div>
+                <div>
+                  <input type="radio" name="colorblind" id="colorblindOff" value="false" checked>
+                  <label id="labelColorblindOff" for="colorblindOff" class="translate">Off</label>
+                </div>
+                <div>
+                  <input type="radio" name="colorblind" id="colorblindOn" value="true">
+                  <label id="labelColorblindOn" for="colorblindOn" class="translate">On</label>
+                </div>
+            </form>
+          </section>
+        </span>
+      </span>
+    </div>
+    <div class="credits" style="margin-bottom: 1rem;">
+      <span id="labelAttribution" class="translate">Original <a href="https://flexboxfroggy.com/" target="_blank"
+          rel="noopener noreferrer">Flexbox Froggy</a> and artwork by Thomas Park · <a href="LICENSE">MIT License</a> ·
+        <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY
+          3.0</a>.</span>
+    </div>
+  </section>
+  <section id="view">
+    <div id="board">
+      <div id="pond">
+      </div>
+      <div id="background">
+      </div>
+    </div>
+  </section>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="js/levels.js"></script>
+  <script src="js/docs.js"></script>
+  <script src="js/messages.js"></script>
+  <script src="js/translator.js"></script>
+  <script src="js/tailwind-utilities.js"></script>
+  <script src="js/game.js"></script>
+  <script>
+    // Keep analytics off the game's initial rendering path.
+    (function () {
+      function loadScript(src, options, onload) {
+        var script = document.createElement("script");
+        script.async = true;
+        script.src = src;
 
-          if (onload) {
-            script.onload = onload;
-          }
-
-          document.head.appendChild(script);
+        if (options && options.crossOrigin) {
+          script.crossOrigin = options.crossOrigin;
         }
 
-        function loadThirdParties() {
-          window.dataLayer = window.dataLayer || [];
-          window.gtag = function () {
-            window.dataLayer.push(arguments);
-          };
-          window.gtag("js", new Date());
-          window.gtag("config", "G-H137ZNPZ1Q");
-
-          loadScript(
-            "https://www.googletagmanager.com/gtag/js?id=G-H137ZNPZ1Q",
-          );
+        if (onload) {
+          script.onload = onload;
         }
 
-        function scheduleThirdParties() {
-          if ("requestIdleCallback" in window) {
-            window.requestIdleCallback(loadThirdParties, { timeout: 2000 });
-          } else {
-            window.setTimeout(loadThirdParties, 1);
-          }
-        }
+        document.head.appendChild(script);
+      }
 
-        if (document.readyState === "complete") {
-          scheduleThirdParties();
+      function loadThirdParties() {
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () {
+          window.dataLayer.push(arguments);
+        };
+        window.gtag("js", new Date());
+        window.gtag("config", "G-H137ZNPZ1Q");
+
+        loadScript(
+          "https://www.googletagmanager.com/gtag/js?id=G-H137ZNPZ1Q",
+        );
+      }
+
+      function scheduleThirdParties() {
+        if ("requestIdleCallback" in window) {
+          window.requestIdleCallback(loadThirdParties, { timeout: 2000 });
         } else {
-          window.addEventListener("load", scheduleThirdParties, { once: true });
+          window.setTimeout(loadThirdParties, 1);
         }
-      })();
-    </script>
-  </body>
+      }
+
+      if (document.readyState === "complete") {
+        scheduleThirdParties();
+      } else {
+        window.addEventListener("load", scheduleThirdParties, { once: true });
+      }
+    })();
+  </script>
+</body>
+
 </html>
