@@ -11,6 +11,18 @@ var messages = {
     en: "Learn more",
     es: "Aprende más",
   },
+  completionTitle: {
+    en: "Support Flexwind Froggy",
+    es: "Apoya a Flexwind Froggy",
+  },
+  completionMessage: {
+    en: "<p>Enjoyed learning Tailwind CSS Flexbox? Help me keep Flexwind Froggy alive and free for everyone! 🐸💚</p>" +
+      "<p>Your donations help cover hosting costs, maintenance, and future improvements so everyone can keep enjoying the game for free.</p>" +
+      "<p>Every little bit helps, thank you so much for your support!</p>",
+    es: "<p>¿Te gustó aprender Flexbox con Tailwind CSS? ¡Ayúdame a mantener Flexwind Froggy activo y gratuito para todos! 🐸💚</p>" +
+      "<p>Tus donaciones ayudan a cubrir el alojamiento, el mantenimiento y las mejoras futuras para que todos puedan seguir disfrutando del juego gratis.</p>" +
+      "<p>Cada aporte cuenta. ¡Muchas gracias por tu apoyo!</p>",
+  },
   labelFooter: {
     en: 'Flexwind Froggy is an independent fork by Manuel Font • <a href="https://github.com/ManuelFont" target="_blank" rel="noopener noreferrer">GitHub</a> • <a href="https://www.linkedin.com/in/manuel-font-/" target="_blank" rel="noopener noreferrer">LinkedIn</a> • <a href="privacy.html">Privacy Policy</a>',
     es: 'Flexwind Froggy es un fork independiente de Manuel Font • <a href="https://github.com/ManuelFont" target="_blank" rel="noopener noreferrer">GitHub</a> • <a href="https://www.linkedin.com/in/manuel-font-/" target="_blank" rel="noopener noreferrer">LinkedIn</a> • <a href="privacy.html">Política de privacidad</a>',
